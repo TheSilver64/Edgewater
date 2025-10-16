@@ -8,6 +8,7 @@ This is for VSCode terminal to see Tweego, test with tweego -v in terminal.
 If this doesn't work, change the tweego command to the directory of tweego.exe on system.
 
 To build manually in terminal:
+
         tweego -o index.html passages/
 
         or
