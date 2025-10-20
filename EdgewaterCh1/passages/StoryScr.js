@@ -41,16 +41,16 @@ function get_flag(key) {
 /*--end--*/
 
 /*--code for text crawl--*/
-var textWaitTime = 20; // wait time in ms for each character to appear
+window.textWaitTime = 20; // wait time in ms for each character to appear
 
 // helper function to add delays between characters
-function sleep(ms) {
+window.sleep = function (ms) {
     return new Promise(resolve => setTimeout(resolve, ms));
 }
 
 // used to produce a text crawl effect for a given string of text, 
 // output to an html element with the given id (e.g. <p id=example></p>)
-async function textCrawl(id, text) {
+window.textCrawl = async function (id, text) {
     let s = text;
     for(i = 0; i <= s.length; i++) {
         await sleep(textWaitTime);

@@ -1,0 +1,3 @@
+:: aLonelyRide
+<p id="textId"></p>
+<<=window.textCrawl("textid", "this is sample text for testing purposes")>>
