@@ -1,0 +1,41 @@
+:: Noise
+
+<<=window.textCrawl("textid",
+"Winona spots a gap between the comforter and sheets. 
+She wiggles in and nestles against the pillows. 
+She sighs in satisfaction."
+)>>
+
+<<=window.textCrawl("textid",
+"“Mom said I could stay up for your story!” She says."
+)>>
+
+<<=window.textCrawl("textid",
+“What?!” You leap out of bed. 
+“That’s not fair, you’ve already had your bedtime story! 
+It’s time for mine now!” 
+)>>
+
+<<timed 3s>>
+<<=window.textCrawl("textid",
+"“What’s all this noise?” "
+)>>
+<</timed>>
+
+<<timed 3s>>
+<<=window.textCrawl("textid",
+"Your mother stands in the bedroom doorway, 
+silhouetted by the hallway light behind her. 
+Her long black hair is wrapped carefully around her head in a braided bun. 
+She’s wearing a shimmery silk nightgown. 
+Despite its looseness it does little to hide her large pregnant belly. "
+)>>
+<</timed>>
+
+[[Mom, Winny’s not supposed to be in here! -> SomethingTonight]]
+
+<<timed 3s>>
+<<=window.textCrawl("textid",
+
+)>>
+<</timed>>

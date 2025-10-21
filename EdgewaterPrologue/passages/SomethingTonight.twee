@@ -1,0 +1,29 @@
+:: SomethingTonight
+
+<<=window.textCrawl("textid",
+"You protest, gesturing at your sister. She grins triumphantly from the middle of your bed. "
+)>>
+
+<<=window.textCrawl("textid",
+"Your mother makes her way across the room, one hand cupping her belly as she sways awkwardly. 
+She lowers herself carefully onto the edge of your bed, sighing with the effort. 
+She looks tired. But she smiles as she looks between you and Winona."
+)>>
+
+<<timed 5s>>
+<<=window.textCrawl("textid",
+"“Actually, we’re doing something different tonight.”"
+)>>
+<</timed>>
+
+<<=window.textCrawl("textid",
+"Your frustration deflates into curiosity."
+)>>
+
+[[What do you mean? -> TellStory]]
+
+<<timed 3s>>
+<<=window.textCrawl("textid",
+""
+)>>
+<</timed>>

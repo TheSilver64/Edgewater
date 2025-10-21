@@ -1,0 +1,11 @@
+:: Story2
+
+<<=window.textCrawl("textid",
+"You take a deep breath and make a decision. “Tell me about our people.”"
+)>>
+
+<<timed 3s>>
+<<=window.textCrawl("textid",
+""
+)>>
+<</timed>>

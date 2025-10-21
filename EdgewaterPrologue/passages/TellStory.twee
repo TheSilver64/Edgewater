@@ -1,0 +1,44 @@
+:: TellStory
+
+<<=window.textCrawl("textid",
+"“Tonight I want to tell you one of my stories. 
+My grandmother told it to me when I was a little girl, and now I’m passing it on to you. Both of you.”"
+)>>
+
+<<=window.textCrawl("textid",
+"Winona squirms with excitement. “Is it one of the stories of your family?! The, the–”
+She scrunches up her face, trying to remember. “The Muh-nee?!”"
+)>>
+
+<<=window.textCrawl("textid",
+"Your mother reaches over and gently touches Winona’s nose. 
+“The ‘Menominee’, Winny. Say it with me: ‘Muh-naa-muh-nee’.”"
+)>>
+
+<<=window.textCrawl("textid",
+"“Muh-naa-muh-nee,” Winona repeats carefully, 
+her tongue working around the unfamiliar syllables."
+)>>
+
+<<=window.textCrawl("textid",
+"“Good,” your mother says. 
+“That’s the name we were given by others, but we call ourselves Mamaceqtaw.”"
+)>>
+
+<<=window.textCrawl("textid",
+"“Mama-ceh-talk?” Winona sounds out,"
+)>>
+
+<<=window.textCrawl("textid",
+"“Mamaceqtaw. We are the Kiash Matchitiwuk–the ancient ones. 
+We have lived in this region for centuries, and our stories are our history. 
+I will share one with you tonight.”"
+)>>
+
+[[History? -> History]]
+
+<<timed 3s>>
+<<=window.textCrawl("textid",
+""
+)>>
+<</timed>>
