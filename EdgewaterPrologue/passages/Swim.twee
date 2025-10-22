@@ -1,0 +1,30 @@
+::Swim
+
+ <<=window.textCrawl("textid",
+" You swim towards it.
+"
+)>>
+
+<<=window.textCrawl("textid",
+"The silver floats in the water. It's a nightgown - your mother's nightgown! 
+She drifts, her back turned to you. Her hair fans outwards in the water.
+"
+)>>
+
+<<=window.textCrawl("textid",
+"You finally reach her.
+"
+)>>
+
+<<=window.textCrawl("textid",
+"“Mom!” your words garble.
+"
+)>>
+
+<<=window.textCrawl("textid",
+"You grab her shoulders and turn her around. 
+The bloated face of a corpse stares back at you. Her eyes are milky white, unseeing.
+"
+)>>
+
+[[You scream -> aLonelyRide]]
