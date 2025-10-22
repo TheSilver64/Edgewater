@@ -1,4 +1,6 @@
 :: WinonaC
-She smiles. “NOOOOOO!” She yells.
+<<=window.textCrawl("textid", 
+"She smiles. “NOOOOOO!” She yells."
+)>>
 
 [[It’s past your bedtime! Weren’t you already tucked in? -> Noise]]

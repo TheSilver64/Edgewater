@@ -1,5 +1,6 @@
 :: WinonaB
-She flattens herself onto the covers, crushing your legs. “There, it’s all fixed!”
-
+<<=window.textCrawl("textid", 
+"She flattens herself onto the covers, crushing your legs. “There, it’s all fixed!”"
+)>>
 
 [[Off, Winny! Go! You’re supposed to be in bed! -> Noise]]

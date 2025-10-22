@@ -64,9 +64,3 @@ Both are true. Both are important.” She looks at you, and her dark brown eyes 
 
 [[Land and Connection -> Story1]]
 [[People and Survival -> Story2]]
-
-<<timed 3s>>
-<<=window.textCrawl("textid",
-""
-)>>
-<</timed>>

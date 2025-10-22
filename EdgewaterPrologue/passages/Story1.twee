@@ -1,11 +1,81 @@
 :: Story1
 
+update_flag("Story", 0);
+
 <<=window.textCrawl("textid",
-"You take a deep breath and make a decision. “Tell me about the land.”"
+"You take a deep breath and make a decision. “Tell me about the land.” you say, holding your chin up high."
+)>>
+
+<<=window.textCrawl("textid",
+"“Alright,” your mother smiles. She runs her fingers through Winona's hair, parting it down the middle."
+)>>
+
+<<=window.textCrawl("textid",
+"“This is a real story, and it took place right here in Edgewater. Right there across the lake.”"
+)>>
+
+<<=window.textCrawl("textid",
+"You turn to look out the bay window. In the moonlight, you can just make out the dark shape of the island. “On Chapel Island?” You say."
+)>>
+
+<<=window.textCrawl("textid",
+"Your mother pauses, "
+)>>
+
+<<timed 2s>>
+<<=window.textCrawl("textid",
+"“yes…” she says carefully, “Although it wasn’t always called that. We called it Spirit Rock.”"
+)>>
+<</timed>>
+
+<<=window.textCrawl("textid",
+"You cross your arms. “Spirit Rock? Like there were actually spirits there?”"
+)>>
+
+<<=window.textCrawl("textid",
+"“You’re getting ahead of me. Listen and let me tell you the story of how we found Spirit Rock, and how we lost it.” "
+)>>
+
+<<=window.textCrawl("textid",
+"You sit back in bed, still skeptical. But you’re willing to listen."
+)>>
+
+<<=window.textCrawl("textid",
+"Your mother’s fingers weave the sections of Winona’s hair, a repetitive, soothing pattern that matches the cadence of her voice. 
+The night settles around you–the stridulation of the crickets, the gentle lapping of the lake against the reeds, and the creaks and groans of the bones of the old lakeside house."
+)>>
+
+<<=window.textCrawl("textid",
+"Your mother speaks softly: 
+“Long ago, an elder told three warriors that if they walked a great distance along the Wolf River to a sacred lake, the Great Spirit would grant them their most wanted wish.”"
+)>>
+
+<<=window.textCrawl("textid",
+"Winona chirps, “If I could have my wish granted, I would want a unicorn that could  teleport me anywhere!"
+)>>
+
+<<=window.textCrawl("textid",
+"“Winny, don’t be stupid! Unicorns aren’t real!” You berate her."
+)>>
+
+<<=window.textCrawl("textid",
+"Your mother laughs. “Ok, Mr. Skeptic. 
+That's how my grandmother told it to me, and that's how it's been told for generations. 
+It is as real to us as the moon or the forest.” Your mother has finished Winona’s braids. 
+She ties them with an elastic."
+)>>
+
+<<=window.textCrawl("textid",
+"“All done."
 )>>
 
 <<timed 3s>>
 <<=window.textCrawl("textid",
-""
+"A breeze picks up. The curtains float up, swaying in the cool night draft. 
+You let the scent of lakewater and the surrounding forest–red oak, white pine, black cherry–waft over you. 
+Your eyelids become heavy. The comforter weighs upon you. "
 )>>
 <</timed>>
+
+<<type 20ms>>\
+You drift off into a peaceful sleep, dreaming of men emerging out of [[stone and earth]]…

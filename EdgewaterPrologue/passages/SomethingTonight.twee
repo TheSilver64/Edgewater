@@ -20,10 +20,4 @@ She looks tired. But she smiles as she looks between you and Winona."
 "Your frustration deflates into curiosity."
 )>>
 
-[[What do you mean? -> TellStory]]
-
-<<timed 3s>>
-<<=window.textCrawl("textid",
-""
-)>>
-<</timed>>
+[["What do you mean?" -> TellStory]]

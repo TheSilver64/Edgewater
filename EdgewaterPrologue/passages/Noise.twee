@@ -32,10 +32,4 @@ Despite its looseness it does little to hide her large pregnant belly. "
 )>>
 <</timed>>
 
-[[Mom, Winny’s not supposed to be in here! -> SomethingTonight]]
-
-<<timed 3s>>
-<<=window.textCrawl("textid",
-
-)>>
-<</timed>>
+[["Mom, Winny’s not supposed to be in here!" -> SomethingTonight]]

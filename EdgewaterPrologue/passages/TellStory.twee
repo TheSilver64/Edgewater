@@ -36,9 +36,3 @@ I will share one with you tonight.”"
 )>>
 
 [[History? -> History]]
-
-<<timed 3s>>
-<<=window.textCrawl("textid",
-""
-)>>
-<</timed>>

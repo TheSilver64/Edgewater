@@ -58,3 +58,11 @@ window.textCrawlSlow = async function (id, text) {
     }
 }
 /*--end--*/
+
+/*
+<<timed 3s>>
+<<=window.textCrawl("textid",
+""
+)>>
+<</timed>>
+*/

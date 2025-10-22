@@ -1,7 +1,9 @@
 :: Story2
 
+update_flag("Story", 1);
+
 <<=window.textCrawl("textid",
-"You take a deep breath and make a decision. “Tell me about our people.”"
+"You take a deep breath and make a decision. “Tell me about our people.” you say, holding your chin up high."
 )>>
 
 <<timed 3s>>
