@@ -1,0 +1,131 @@
+:: ch0-Intro
+Summer 1990. A tranquil lake, the water nearly still. It laps gently at the shore, reflecting the full moon and stars. The entire Milky Way is visible, shining deep into the lake so it becomes a silver soup–a melted bowl of starlight, glowing from the very bottom. 
+
+In the center of the lake an island shoots up. Its cliffs plunge vertically into the water. Trees rise from the top of the island, their dark silhouettes like sentinels in the night. 
+
+Crickets and bullfrogs thicken the air. A pulsing, breathing rhythm.
+
+A quaint blue house sits closely by the shore. 
+
+[[Continue->ch0-BedroomP0]]
+
+:: ch0-BedroomP0
+Moonlight streams in from the open bay windows, illuminating your bedroom. It’s cozy, with glow-in-dark stars tacked haphazardly on the ceiling and walls covered with science posters. Your bookshelf is filled with model planes, bones, and rocks of various sizes. 
+
+You lie propped up in bed, a hardcover book in your lap. Your comforter is draped around your legs – the perfect cocoon. The perfect night. But you’re not satisfied. You tap your fingers on the book’s cover and wiggle your toes.
+
+What’s taking her so long?
+
+Your bedroom door bangs open. 
+
+<<winona "MOVE OVER, ARTY!">>
+
+[[Continue->ch0-BedroomP1]]
+
+:: ch0-BedroomP1
+As if shot from a pinball machine, a small figure bounds into the room. Her long hair flies like it was struck by electricity. She’s wearing her Teenage Mutant Ninja Turtles pajamas– your hand-me-downs. Her bare feet slap against the hardwood floor as she barrels towards you. 
+
+She launches herself at your bed. You yelp.
+
+She hits the comforter, creating a crater in the carefully arranged folds. She bounces twice on the mattress, then flops down directly across your legs. 
+
+You snap the book shut, scowling.
+
+[["You're not allowed in here!"]->CH0-BedroomP3-0]
+[["You're wrinkling the covers!"]->CH0-BedroomP3-1]
+[["STTOOOP!"]->CH0-BedroomP3-2]
+
+:: ch0-BedroomP3-0
+<<arthur "You're not allowed in here!">>
+
+Winona pouts. 
+
+<<winona "Liar! Then why is Mom allowed in here?">>
+
+Your roll your eyes at her. <<arthur "Mom is an ADULT, dummy. She doesn’t count.">>
+
+[[Continue->ch0-BedroomP4]]
+
+:: ch0-BedroomP3-1
+<<arthur "You’re wrinkling the covers!">>
+
+Winona flattens herself onto the covers, crushing your legs. <<winona "There, it's all fixed!">>
+
+<<arthur "Off, Winny! Go! You’re supposed to be in bed!">>
+
+[[Continue->ch0-BedroomP4]]
+
+:: ch0-BedroomP3-2
+<<arthur "STTOOOP!">>
+
+Winona smiles. <<winona "NOOOOOO!">> She yells.
+
+<<arthur "It’s past your bedtime! Weren’t you already tucked in?">>
+
+[[Continue->ch0-BedroomP4]]
+
+:: ch0-BedroomP4
+Winona spots a gap between the comforter and sheets. She wiggles in and nestles against the pillows. She sighs in satisfaction.
+
+<<winona "Mom said I could stay up for your story!">> She says.
+
+<<arthur "What?!">> You leap out of bed. <<arthur "That’s not fair, you’ve already had your bedtime story! It’s time for mine now!">>
+
+<<namid "What’s all this noise?">>
+
+[[Continue->ch0-BedroomP5]]
+
+:: ch0-BedroomP5
+Your mother stands in the bedroom doorway, silhouetted by the hallway light behind her. Her long black hair is wrapped carefully around her head in a braided bun. She’s wearing a shimmery silk nightgown. Despite its looseness it does little to hide her large pregnant belly. 
+
+<<arthur "Mom, Winny’s not supposed to be in here!">> You protest, gesturing at your sister. She grins triumphantly from the middle of your bed. 
+
+Your mother makes her way across the room, one hand cupping her belly as she sways awkwardly. She lowers herself carefully onto the edge of your bed, sighing with the effort. She looks tired. But she smiles as she looks between you and Winona.
+
+<<namid "Actually, we’re doing something different tonight.">>
+
+Your frustration deflates into curiosity. <<arthur "What do you mean?">>
+
+<<namid "Tonight I want to tell you one of my stories. My grandmother told it to me when I was a little girl, and now I’m passing it on to you. Both of you.">>
+
+Winona squirms with excitement. <<winona "Is it one of the stories of your family?! The, the–">> She scrunches up her face, trying to remember. <<winona "The Muh-nee?!">>
+
+Your mother reaches over and gently touches Winona’s nose. <<namid "The ‘Menominee’, Winny. Say it with me: ‘Muh-naa-muh-nee’.">>
+
+<<winona "Muh-naa-muh-nee,">> Winona repeats carefully, her tongue working around the unfamiliar syllables.
+
+<<namid "Good,">> your mother says. <<namid "That’s the name we were given by others, but we call ourselves Mamaceqtaw.">>
+
+<<winona "Mama-ceh-talk?">> Winona sounds out.
+
+<<namid "Mamaceqtaw. We are the Kiash Matchitiwuk–the ancient ones. We have lived in this region for centuries, and our stories are our history. I will share one with you tonight.">>
+
+Your eyebrows arch. History? History is made of science, not stories. But you settle back to listen.
+
+[[Continue->ch0-BedroomP6]]
+
+:: ch0-BedroomP7
+<<namid "Come over here,">> your mother says to Winona, patting the space between her legs. She holds up a brush with several colorful hairbands tied around the handle. <<namid "Let me braid your hair while I tell it to you.">>
+
+Winona hesitates, fear flashing across her face for a moment–the fear of the pain of tangles.
+
+<<namid "Now,">> Your mother's voice reaches a warning tone.
+
+With reluctance, Winona gets up and rounds the side of the bed, feet plodding dramatically. She sits down on the floor in front of your mother. 
+
+Your mother lifts Winona’s long hair and begins to brush it with slow, gentle strokes. The routine calms your sister. Having gotten over the initial fear of pain, she relaxes, leaning back into your mother’s touch like a cat being stroked. Her fidgeting ceases. 
+
+Your mother’s hands move through Winona’s hair with practiced ease, and you watch her calloused hands, mesmerized by their assuring motion. <<namid "Before I tell you the stories,">> she says, <<namid "I need you to understand something." | "Our people have many stories. Some are about creation. Some are about the animals and plants and spirits that live in the forest, air, water, and earth. Some are about our heroes and ancestors. And some…">> she pauses, parting Winona’s hair, <<namid "are about why we are still here. About why we survive.">>
+
+<<namid "Tonight, I am going to give you a choice. There are two stories I could tell you. Both are important. Both are true, but they are different truths, and I think you should choose which one you need to hear.">>
+
+<<winona "Me, ME!">> Winona attempts to yank her head around, but your mother’s hands keep her firmly in place. <<winona "I want to choose!">>
+
+<<namid "No Winny, tonight Arthur gets to choose. After all, we are in his bedroom,">> your mother gives you an apologetic smile, and your chest puffs out in vindication. Yes, this is your room. 
+
+<<namid "One story is about the land and our connection to it, and one story is about our people and our survival. Both are true. Both are important.">> She looks at you, and her dark brown eyes catch the moonlight, shining almost like amber. <<namid "So Arthur, which story do you want to hear tonight? Which truth do you need?">>
+
+[[Land and Connection]->ch00]
+[[People and Survival]->ch01]
+
+
