@@ -17,3 +17,11 @@
 .redText{
     color:darkred
 }
+
+.base64image {
+  width: 256px;
+  height: 256px;
+  /* Base64 image truncated for example */
+  /* See Twee file for full version. */
+  background-image: url('data:image/png;base64...');
+}
