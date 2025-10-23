@@ -1,6 +1,6 @@
 :: Story1
 
-update_flag("Story", 0);
+<<update_flag("Story", 0)>>
 
 <<=window.textCrawl("textid",
 "You take a deep breath and make a decision. “Tell me about the land.” you say, holding your chin up high."

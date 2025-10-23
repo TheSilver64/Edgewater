@@ -1,3 +1,14 @@
 :: aLonelyRide
 <p id="textId"></p>
 <<=window.textCrawl("textid", "this is sample text for testing purposes")>>
+
+<<if getFlag("prologue_choice") = 0>>
+
+<<textCrawl("textid", "Serene. Solitary.")>>
+
+<<if getFlag("prologue_choice") = 1>>
+
+<<textCrawl("textid", "Safe. Dry.")>>
+
+<</if>>
+
