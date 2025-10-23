@@ -1,0 +1,6 @@
+:: WinonaC
+<<type 20ms>>\ 
+"She smiles. “NOOOOOO!” She yells."
+
+[[It’s past your bedtime! Weren’t you already tucked in? -> Noise]]
+\<</type>>

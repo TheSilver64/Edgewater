@@ -1,4 +1,5 @@
-{
+
+/*{
     // See https://go.microsoft.com/fwlink/?LinkId=733558
     // for the documentation about the tasks.json format
     "version": "2.0.0",
@@ -7,11 +8,32 @@
             "label": "Tweego",
             "type": "shell",
             "isBackground": true,
-            "command": "tweego -w -o index.html source",
+            "command": "tweego -w -o index.html source EdgewaterPrologue EdgewaterCh1",
             "group": {
                 "kind": "build",
                 "isDefault": true
             }
         }
     ]
+}*/
+
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Tweego",
+      "type": "shell",
+      "command": "C:\\Tweego\\tweego.exe",
+      "args": [
+        "-o",
+        "index.html",
+        "source/Title/", "source/EdgewaterPrologue/", "source/EdgewaterCh1/"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": []
+    }
+  ]
 }
