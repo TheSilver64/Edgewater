@@ -3,6 +3,7 @@
 <<update_flag("Story", 0)>>
 
 <<type 20ms>>\
+<span style="font-family:Story Font">
 "You take a deep breath and make a decision. “Tell me about the land.” you say, holding your chin up high."
 
 "“Alright,” your mother smiles. She runs her fingers through Winona's hair, parting it down the middle."
@@ -42,4 +43,5 @@ You let the scent of lakewater and the surrounding forest–red oak, white pine,
 Your eyelids become heavy. The comforter weighs upon you. "
 
 You drift off into a peaceful sleep, dreaming of men emerging out of [[stone and earth]]…
+</span>
 \<</type>>

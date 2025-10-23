@@ -1,6 +1,7 @@
 ::Swim
 
 <<type 20ms>>\
+<span style="font-family:Scary Font">
 You swim towards it.
 
 The silver floats in the water. It's a nightgown - your mother's nightgown! 
@@ -14,4 +15,5 @@ You grab her shoulders and turn her around.
 The bloated face of a corpse stares back at you. Her eyes are milky white, unseeing.
 
 [[You scream -> aLonelyRide]]
+</span>
 \<</type>>

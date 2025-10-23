@@ -1,6 +1,7 @@
 :: Noise
 
 <<type 20ms>>\
+<span style="font-family:Story Font">
 "Winona spots a gap between the comforter and sheets. 
 She wiggles in and nestles against the pillows. 
 She sighs in satisfaction."
@@ -18,4 +19,5 @@ Her long black hair is wrapped carefully around her head in a braided bun. Sheâ€
 Despite its looseness it does little to hide her large pregnant belly. "
 
 [["Mom, Winnyâ€™s not supposed to be in here!" -> SomethingTonight]]
+</span>
 \<</type>>

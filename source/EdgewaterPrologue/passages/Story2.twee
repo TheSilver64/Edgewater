@@ -2,6 +2,7 @@
 
 <<update_flag("Story", 1)>>
 <<type 20ms>>\
+<span style="font-family:Story Font">
 You take a deep breath and make a decision. “Tell me about our people.” you say, holding your chin up high.
 
 “This is a real story, and it took place right here in Edgewater. Right here on this lake.”
@@ -58,6 +59,7 @@ Thump. You stand at the lakeshore, looking outwards. The water is as still as gl
 Thump. As if a pebble was dropped, a ring of ripples expands.  
 Thump. The ripples get larger and larger. Thump. The ripples swell into waves.
 
+<span style="font-family:Scary Font">
 You stumble back. With each thump, the water rises. It  sloshes around your feet. 
 You strain in place, but your feet are stuck in mud. You cannot move.
 
@@ -67,6 +69,8 @@ With one last thump, the water surges, and you are now completely submerged in s
 Everything is black and cold. Panic climbs up your throat, but you cannot scream.  The lake suffocates.
 
 Then, out of the darkness, a light grows, silver like moonlight. You flail.
+</span>
 
 [[Swim]]
+</span>
 \<</type>>

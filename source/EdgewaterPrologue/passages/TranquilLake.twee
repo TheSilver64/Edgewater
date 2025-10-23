@@ -2,7 +2,8 @@
 <<audio "windStreetVillage" play>>
 <p id="textId"></p>
 <<type 20ms>>\
-<span style="font-family:Story Font">Summer 1990. A tranquil lake, the water nearly still.
+<span style="font-family:Story Font">
+Summer 1990. A tranquil lake, the water nearly still.
 It laps gently at the shore, reflecting the full moon and stars.
 The entire Milky Way is visible, shining deep into the lake
 so it becomes a silver soup–a melted bowl of starlight, glowing from the very bottom.

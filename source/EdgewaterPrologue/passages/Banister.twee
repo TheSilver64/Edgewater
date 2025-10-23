@@ -1,6 +1,7 @@
 :: Banister
 
 <<type 20ms>>\
+<span style="font-family:Scary Font">
 "You peek through the banister."
 
 "The door opens. A figure shuffles through, bent over. It gasps with each movement. 
@@ -14,4 +15,5 @@ Finally it pulls. The front door flies open. The wind howls. "
 "You blink, looking at the figure in the open doorway again. "
 
 [[“Mom…?” -> Lightning]] you say, voice small.
+</span>
 \<</type>>

@@ -1,6 +1,7 @@
 :: TellStory
 
 <<type 20ms>>\
+<span style="font-family:Story Font">
 “Tonight I want to tell you one of my stories. 
 My grandmother told it to me when I was a little girl, and now I’m passing it on to you. Both of you.”
 
@@ -22,4 +23,5 @@ We have lived in this region for centuries, and our stories are our history.
 I will share one with you tonight.”
 
 [[History? -> History]]
+</span>
 \<</type>>
