@@ -1,0 +1,49 @@
+/* Font Definitions for Use in Story */
+
+
+
+/* Story Font */
+@font-face {
+  font-family: "Story Font";
+  src: url("../fonts/typewcond_regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Story Font";
+  src: url("../fonts/typewcond_bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Story Font";
+  src: url("../fonts/typewcond_demi.woff") format("woff");
+  font-weight: 600; 
+  font-style: normal;
+}
+
+/* Scary Font */
+@font-face {
+  font-family: "Scary Font";
+  src: url("../fonts/kingthings_trypewriter_2.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Super Scary Font*/
+@font-face {
+  font-family: "Super Scary Font";
+  src: url("../fonts/shards.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Title Font */
+@font-face {
+  font-family: "Title Font";
+  src: url("../fonts/witchwoode_regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
