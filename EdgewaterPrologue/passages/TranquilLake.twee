@@ -1,67 +1,43 @@
 :: TranquilLake
 <p id="textId"></p>
 <<type 20ms>>\
-"Summer 1990. A tranquil lake, the water nearly still.
+Summer 1990. A tranquil lake, the water nearly still.
 It laps gently at the shore, reflecting the full moon and stars.
 The entire Milky Way is visible, shining deep into the lake
-so it becomes a silver soup–a melted bowl of starlight, glowing from the very bottom."
-\<</type>>
+so it becomes a silver soup–a melted bowl of starlight, glowing from the very bottom.
 
-<<timed 3s>>
-<<type 20ms>>\
-"In the center of the lake an island shoots up.
+In the center of the lake an island shoots up.
 Its cliffs plunge vertically into the water.
-Trees rise from the top of the island, their dark silhouettes like sentinels in the night."
-\<</type>>
-<</timed>>
+Trees rise from the top of the island, their dark silhouettes like sentinels in the night.
 
-<<type 20ms>>\
-"Crickets and bullfrogs thicken the air. A pulsing, breathing rhythm.
-A quaint blue house sits closely by the shore."
-\<</type>>
+Crickets and bullfrogs thicken the air. A pulsing, breathing rhythm.
+A quaint blue house sits closely by the shore.
 
-<<type 20ms>>\
-"Moonlight streams in from the open bay windows, illuminating your bedroom.
+Moonlight streams in from the open bay windows, illuminating your bedroom.
 It’s cozy, with glow-in-dark stars tacked haphazardly on the ceiling and walls covered with science posters.
-Your bookshelf is filled with model planes, bones, and rocks of various sizes."
-\<</type>>
+Your bookshelf is filled with model planes, bones, and rocks of various sizes.
 
-<<timed 3s>>
-<<type 20ms>>\
-"You lie propped up in bed, a hardcover book in your lap.
+You lie propped up in bed, a hardcover book in your lap.
 Your comforter is draped around your legs – the perfect cocoon. The perfect night.
 But you’re not satisfied. You tap your fingers on the book’s cover and wiggle your toes.
-What’s taking her so long?"
-\<</type>>
-<</timed>>
+What’s taking her so long?
 
-<<timed 1s>>
-<<type 20ms>>\
-"Your bedroom door bangs open. 
-“MOVE OVER, ARTY!” "
-\<</type>>
-<</timed>>
+Your bedroom door bangs open. 
+“MOVE OVER, ARTY!”
 
-<<type 20ms>>\
-"As if shot from a pinball machine, a small figure bounds into the room.
+As if shot from a pinball machine, a small figure bounds into the room.
 Her long hair flies like it was struck by electricity.
 She’s wearing her Teenage Mutant Ninja Turtles pajamas– your hand-me-downs.
-Her bare feet slap against the hardwood floor as she barrels towards you."
-\<</type>>
+Her bare feet slap against the hardwood floor as she barrels towards you.
 
-<<type 20ms>>\
-"She launches herself at your bed. You yelp."
-\<</type>>
+She launches herself at your bed. You yelp.
 
-<<type 20ms>>\
-"She hits the comforter, creating a crater in the carefully arranged folds.
-She bounces twice on the mattress, then flops down directly across your legs."
-\<</type>>
+She hits the comforter, creating a crater in the carefully arranged folds.
+She bounces twice on the mattress, then flops down directly across your legs.
 
-<<type 20ms>>\
-"You snap the book shut, scowling."
-\<</type>>
+You snap the book shut, scowling.
 
 [[You’re not allowed in here! -> WinonaA]]
 [[You’re wrinkling the covers -> WinonaB]]
 [[STTOOOP! -> WinonaC]]
+\<</type>>

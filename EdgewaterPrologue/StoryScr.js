@@ -13,11 +13,21 @@ const storyFlagsPro = new Map([
 ])
 
 // Updates a specified flag key to a given value
+/*
 function update_flag(key, value) {
     story_flags.set(key, value);
 }
+    */
+update_flag(key, value) = new function(){
+    story_flags.set(key, value);
+}
 // Gets the value of a specified flag key
+/*
 function get_flag(key) {
+    return story_flags.get(key);
+}
+    */
+get_flag(key) = new function(){
     return story_flags.get(key);
 }
 /*--end--*/

@@ -2,27 +2,16 @@
 
 <<type 20ms>>\
 "You peek through the banister."
-\<</type>>
 
-<<type 20ms>>\
 "The door opens. A figure shuffles through, bent over. It gasps with each movement. 
 A drip, drip, drip. Something sticky trails behind. "
-\<</type>>
 
-<<type 20ms>>\
 "It scrabbles for the front door, hand clawing at the knob. 
 Finally it pulls. The front door flies open. The wind howls. "
-\<</type>>
 
-<<type 20ms>>\
 "Your father bursts through the bedroom door. “Namid, please–” he’s sobbing. "
-\<</type>>
 
-<<type 20ms>>\
 "You blink, looking at the figure in the open doorway again. "
-\<</type>>
 
-[[“Mom…?” -> Lightning]]
-<<type 20ms>>\
-" you say, voice small."
+[[“Mom…?” -> Lightning]] you say, voice small.
 \<</type>>

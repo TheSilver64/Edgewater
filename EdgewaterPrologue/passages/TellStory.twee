@@ -1,38 +1,25 @@
 :: TellStory
 
 <<type 20ms>>\
-"“Tonight I want to tell you one of my stories. 
-My grandmother told it to me when I was a little girl, and now I’m passing it on to you. Both of you.”"
-\<</type>>
+“Tonight I want to tell you one of my stories. 
+My grandmother told it to me when I was a little girl, and now I’m passing it on to you. Both of you.”
 
-<<type 20ms>>\
 "Winona squirms with excitement. “Is it one of the stories of your family?! The, the–”
 She scrunches up her face, trying to remember. “The Muh-nee?!”"
-\<</type>>
 
-<<type 20ms>>\
 "Your mother reaches over and gently touches Winona’s nose. 
 “The ‘Menominee’, Winny. Say it with me: ‘Muh-naa-muh-nee’.”"
-\<</type>>
 
-<<type 20ms>>\
-"“Muh-naa-muh-nee,” Winona repeats carefully, 
-her tongue working around the unfamiliar syllables."
-\<</type>>
+“Muh-naa-muh-nee,” Winona repeats carefully, her tongue working around the unfamiliar syllables.
 
-<<type 20ms>>\
-"“Good,” your mother says. 
-“That’s the name we were given by others, but we call ourselves Mamaceqtaw.”"
-\<</type>>
+“Good,” your mother says. 
+“That’s the name we were given by others, but we call ourselves Mamaceqtaw.”
 
-<<type 20ms>>\
-"“Mama-ceh-talk?” Winona sounds out,"
-\<</type>>
+“Mama-ceh-talk?” Winona sounds out,
 
-<<type 20ms>>\
-"“Mamaceqtaw. We are the Kiash Matchitiwuk–the ancient ones. 
+“Mamaceqtaw. We are the Kiash Matchitiwuk–the ancient ones. 
 We have lived in this region for centuries, and our stories are our history. 
-I will share one with you tonight.”"
-\<</type>>
+I will share one with you tonight.”
 
 [[History? -> History]]
+\<</type>>

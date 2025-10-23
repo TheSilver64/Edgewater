@@ -1,30 +1,17 @@
 ::Swim
 
- <<type 20ms>>\
-" You swim towards it.
-"
-\<</type>>
-
 <<type 20ms>>\
-"The silver floats in the water. It's a nightgown - your mother's nightgown! 
+You swim towards it.
+
+The silver floats in the water. It's a nightgown - your mother's nightgown! 
 She drifts, her back turned to you. Her hair fans outwards in the water.
-"
-\<</type>>
 
-<<type 20ms>>\
-"You finally reach her.
-"
-\<</type>>
+You finally reach her.
 
-<<type 20ms>>\
-"“Mom!” your words garble.
-"
-\<</type>>
+“Mom!” your words garble.
 
-<<type 20ms>>\
-"You grab her shoulders and turn her around. 
+You grab her shoulders and turn her around. 
 The bloated face of a corpse stares back at you. Her eyes are milky white, unseeing.
-"
-\<</type>>
 
 [[You scream -> aLonelyRide]]
+\<</type>>

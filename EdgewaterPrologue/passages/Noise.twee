@@ -4,32 +4,18 @@
 "Winona spots a gap between the comforter and sheets. 
 She wiggles in and nestles against the pillows. 
 She sighs in satisfaction."
-\<</type>>
 
-<<type 20ms>>\
 "“Mom said I could stay up for your story!” She says."
-\<</type>>
 
-<<type 20ms>>\
 “What?!” You leap out of bed. 
 “That’s not fair, you’ve already had your bedtime story! 
 It’s time for mine now!” 
-\<</type>>
 
-<<timed 3s>>
-<<type 20ms>>\
 "“What’s all this noise?” "
-\<</type>>
-<</timed>>
 
-<<timed 3s>>
-<<type 20ms>>\
-"Your mother stands in the bedroom doorway, 
-silhouetted by the hallway light behind her. 
-Her long black hair is wrapped carefully around her head in a braided bun. 
-She’s wearing a shimmery silk nightgown. 
+Your mother stands in the bedroom doorway, silhouetted by the hallway light behind her. 
+Her long black hair is wrapped carefully around her head in a braided bun. She’s wearing a shimmery silk nightgown. 
 Despite its looseness it does little to hide her large pregnant belly. "
-\<</type>>
-<</timed>>
 
 [["Mom, Winny’s not supposed to be in here!" -> SomethingTonight]]
+\<</type>>

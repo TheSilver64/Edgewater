@@ -2,22 +2,14 @@
 
 <<type 20ms>>\
 "You protest, gesturing at your sister. She grins triumphantly from the middle of your bed. "
-\<</type>>
 
-<<type 20ms>>\
 "Your mother makes her way across the room, one hand cupping her belly as she sways awkwardly. 
 She lowers herself carefully onto the edge of your bed, sighing with the effort. 
 She looks tired. But she smiles as she looks between you and Winona."
-\<</type>>
 
-<<timed 5s>>
-<<type 20ms>>\
 "“Actually, we’re doing something different tonight.”"
-\<</type>>
-<</timed>>
 
-<<type 20ms>>\
 "Your frustration deflates into curiosity."
-\<</type>>
 
 [["What do you mean?" -> TellStory]]
+\<</type>>

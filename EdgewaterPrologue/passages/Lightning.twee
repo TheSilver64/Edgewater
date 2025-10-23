@@ -1,20 +1,14 @@
 :: Lightning
 
 <<type 20ms>>\
-"Lightning flashes, illuminating everything. You realize now why you didn’t recognize her before. 
-She stares at you with wide, bloodshot eyes. Like she’s a deer staring down the barrel of a rifle. "
-\<</type>>
+Lightning flashes, illuminating everything. You realize now why you didn’t recognize her before. 
+She stares at you with wide, bloodshot eyes. Like she’s a deer staring down the barrel of a rifle.
 
-<<type 20ms>>\
-"Her silver nightgown is drenched in blood. "
-\<</type>>
+Her silver nightgown is drenched in blood.
 
-<<type 20ms>>\
-"Thunder shakes the house–the door slams–"
-\<</type>>
+Thunder shakes the house–the door slams–
 
-<<type 20ms>>\
-"And she’s gone."
-\<</type>>
+And she’s gone.
 
 [[Wake up... -> aLonelyRide]]
+\<</type>>
