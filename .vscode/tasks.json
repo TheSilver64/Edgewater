@@ -27,7 +27,7 @@
       "args": [
         "-o",
         "index.html",
-        "source/Title/", "source/EdgewaterPrologue/", "source/EdgewaterCh1/"
+        "source/Title/", "source/EdgewaterPrologue/", "source/EdgewaterCh1/", "source/css"
       ],
       "group": {
         "kind": "build",
