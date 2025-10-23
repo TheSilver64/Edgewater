@@ -15,3 +15,6 @@ Edgewater
 :: Start
 <div class=title>Edgewater</div>
 [[New Game->TranquilLake]]
+
+:: StoryInit
+<<cacheaudio "windStreetVillage" "SFX/285592-Wind-Street-Village-Breeze-Calm-Gently_Ringing_Chimes.mp3">>
