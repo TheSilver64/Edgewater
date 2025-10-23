@@ -41,6 +41,7 @@ function get_flag(key) {
 /*--end--*/
 
 /*--code for text crawl--*/
+/*
 window.textWaitTime = 20; // wait time in ms for each character to appear
 
 // helper function to add delays between characters
@@ -57,4 +58,5 @@ window.textCrawl = async function (id, text) {
         document.getElementById(id).innerHTML = s.slice(0, i);
     }
 }
+    */
 /*--end--*/

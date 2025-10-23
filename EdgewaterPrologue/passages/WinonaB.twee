@@ -1,6 +1,6 @@
 :: WinonaB
-<<=window.textCrawl("textid", 
+<<type 20ms>>\ 
 "She flattens herself onto the covers, crushing your legs. “There, it’s all fixed!”"
-)>>
+\<</type>>
 
 [[Off, Winny! Go! You’re supposed to be in bed! -> Noise]]

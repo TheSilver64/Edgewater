@@ -1,7 +1,7 @@
 :: WinonaA
 
-<<=window.textCrawl("textid", 
+<<type 20ms>>\ 
 "Liar! Then why is Mom allowed in here?"
-)>>
+\<</type>>
 
 [[You roll your eyes at her. “Mom is an ADULT, dummy. She doesn’t count. -> Noise]]

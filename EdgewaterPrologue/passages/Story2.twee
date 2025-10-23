@@ -2,17 +2,17 @@
 
 <<update_flag("Story", 1)>>
 
-<<=window.textCrawl("textid",
+<<type 20ms>>\
 "You take a deep breath and make a decision. “Tell me about our people.” you say, holding your chin up high."
-)>>
+\<</type>>
 
-<<=window.textCrawl("textid",
+<<type 20ms>>\
 "“This is a real story, and it took place right here in Edgewater. Right here on this lake.”
 Your mother’s fingers weave the sections of Winona’s hair, a repetitive, soothing pattern that matches the cadence of her voice. The night settles around you–the stridulation of the crickets, the gentle lapping of the lake against the reeds, and the creaks and groans of the bones of the old lakeside house. 
 "
-)>>
+\<</type>>
 
-<<=window.textCrawl("textid",
+<<type 20ms>>\
 "Your mother speaks softly, 
 “Our people lived on these shores for generations, protecting the island. 
 They lived peacefully for many years. However, one day white settlers came to fight them and take their land. 
@@ -20,14 +20,14 @@ To escape them, a woman took her child on her back and ran down to the lake to h
 The men were camped by the shore of the lake, and she could get nothing to eat. 
 At night she would nurse her baby to keep it from crying, and during the day she kept only their mouths above the water to prevent the men from finding them.”
 "
-)>>
+\<</type>>
 
-<<=window.textCrawl("textid",
+<<type 20ms>>\
 "Winona's head bobs with excitement. “She had a baby, didn’t she, Mommy? Like the baby in your tummy!”
 "
-)>>
+\<</type>>
 
-<<=window.textCrawl("textid",
+<<type 20ms>>\
 "“Yes,” your mother replies, finishing one of Winona’s braids and moving on to the next. “Just like the baby I will soon have. But soon her milk dried up and she was unable to feed her baby. 
 The baby would soon start to cry. One night, the Great Spirit came to her and told her to go out of the water and among the white men to eat. The Great Spirit made sure that the soldiers wouldn't see her. 
 She got out of the water and went to the place where the white men were eating. She sat down and ate with them and the men didn't see her. 
@@ -35,108 +35,108 @@ When she was finished eating, she went outside and found a dead deer by the door
 When the drum was completed, the men danced and sang. If the people were faithful to the drum, they would survive and their Spirit Rock would be protected. 
 From that point forward, those who follow the Dream Drum are protected. That is why the island still remains untouched to this day.”
 "
-)>>
+\<</type>>
 
-<<=window.textCrawl("textid",
+<<type 20ms>>\
 "You scoff. “Drums can’t protect people. They just make noise.”
 "
-)>>
+\<</type>>
 
-<<=window.textCrawl("textid",
+<<type 20ms>>\
 "Your mother shakes her head, laughing. “Always the skeptic, aren’t you? What if I told you if you listen real carefully, on a night just like this, you can still hear the beat?”
 "
-)>>
+\<</type>>
 
-<<=window.textCrawl("textid",
+<<type 20ms>>\
 "Your mother taps Winona's shoulder. Her hair is now braided. Winona leaps to her feet and rushes over to the window. She pulls at  the latch, but her little fingers are too weak.
 "
-)>>
+\<</type>>
 
-<<=window.textCrawl("textid",
+<<type 20ms>>\
 "“C’mon stupid window, move-!” Winona grits her teeth.
 "
-)>>
+\<</type>>
 
-<<=window.textCrawl("textid",
+<<type 20ms>>\
 "“Here, let me help you.” Your mother gets up slowly, holding her belly as she does so. 
 She undoes the latch and the window slides open. A cool breeze fills the room and the curtains sway.
 "
-)>>
+\<</type>>
 
-<<=window.textCrawl("textid",
+<<type 20ms>>\
 "“Now listen,” she says.
 "
-)>>
+\<</type>>
 
-<<=window.textCrawl("textid",
+<<type 20ms>>\
 "“That’s because your ears aren’t trained. Come here, both of you.” Your mother beckons.
 "
-)>>
+\<</type>>
 
-<<=window.textCrawl("textid",
+<<type 20ms>>\
 "You slide out of bed to join your sister and mother by the window. Your mother pulls you in close. 
 She cups the back of your neck and guides your head so your ear rests on her belly.
 "
-)>>
+\<</type>>
 
-<<=window.textCrawl("textid",
+<<type 20ms>>\
 "“Now listen again.” She says.
 "
-)>>
+\<</type>>
 
-<<=window.textCrawl("textid",
+<<type 20ms>>\
 "You close your eyes. Deep within, you hear a steady thump.
 "
-)>>
+\<</type>>
 
-<<=window.textCrawl("textid",
+<<type 20ms>>\
 "“That’s the baby, isn’t it, Mommy?!” Winona says.
 "
-)>>
+\<</type>>
 
-<<=window.textCrawl("textid",
+<<type 20ms>>\
 "Your mother smiles. “Yes, that's the baby's heart. Hear how strong it is already? 
 It thumps to the same beat as the Dream Drum, keeping our Spirit Rock alive.”
 "
-)>>
+\<</type>>
 
-<<=window.textCrawl("textid",
+<<type 20ms>>\
 "You close your eyes again. Your mother’s belly is warm. You listen.Thump, thump, thump. 
 The beats resonate outward, reverberating. Primal. The beat of the universe.
 "
-)>>
+\<</type>>
 
-<<=window.textCrawl("textid",
+<<type 20ms>>\
 "Thump. You stand at the lakeshore, looking outwards. The water is as still as glass.
 "
-)>>
+\<</type>>
 
-<<=window.textCrawl("textid",
+<<type 20ms>>\
 "Thump. As if a pebble was dropped, a ring of ripples expands.  
 Thump. The ripples get larger and larger. Thump. The ripples swell into waves.
 "
-)>>
+\<</type>>
 
-<<=window.textCrawl("textid",
+<<type 20ms>>\
 "You stumble back. With each thump, the water rises. It  sloshes around your feet. 
 You strain in place, but your feet are stuck in mud. You cannot move.
 "
-)>>
+\<</type>>
 
-<<=window.textCrawl("textid",
+<<type 20ms>>\
 "The water is now to your knees. Your thighs. Your chest. Your shoulders. You cry, but there’s nothing you can do.
 "
-)>>
+\<</type>>
 
-<<=window.textCrawl("textid",
+<<type 20ms>>\
 "With one last thump, the water surges, and you are now completely submerged in silence. 
 Everything is black and cold. Panic climbs up your throat, but you cannot scream.  The lake suffocates.
 "
-)>>
+\<</type>>
 
-<<=window.textCrawl("textid",
+<<type 20ms>>\
 "Then, out of the darkness, a light grows, silver like moonlight. You flail.
 "
-)>>
+\<</type>>
 
 [[Swim]]

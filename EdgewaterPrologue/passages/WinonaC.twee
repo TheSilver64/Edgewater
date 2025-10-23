@@ -1,6 +1,6 @@
 :: WinonaC
-<<=window.textCrawl("textid", 
+<<type 20ms>>\ 
 "She smiles. “NOOOOOO!” She yells."
-)>>
+\<</type>>
 
 [[It’s past your bedtime! Weren’t you already tucked in? -> Noise]]

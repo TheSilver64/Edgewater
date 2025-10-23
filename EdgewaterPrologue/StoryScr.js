@@ -23,6 +23,7 @@ function get_flag(key) {
 /*--end--*/
 
 /*--code for text crawl--*/
+/*
 window.textWaitTime = 20; // wait time in ms for each character to appear
 window.urgentTextWaitTime = 5; // Shorter wait time for urgency effect in text
 window.slowTextWaitTime = 30; // A... slow... typewriter...
@@ -57,6 +58,7 @@ window.textCrawlSlow = async function (id, text) {
         document.getElementById(id).innerHTML = s.slice(0, i);
     }
 }
+    */
 /*--end--*/
 
 /*

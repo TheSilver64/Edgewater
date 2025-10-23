@@ -1,20 +1,20 @@
 :: Lightning
 
-<<=window.textCrawl("textid",
+<<type 20ms>>\
 "Lightning flashes, illuminating everything. You realize now why you didn’t recognize her before. 
 She stares at you with wide, bloodshot eyes. Like she’s a deer staring down the barrel of a rifle. "
-)>>
+\<</type>>
 
-<<=window.textCrawl("textid",
+<<type 20ms>>\
 "Her silver nightgown is drenched in blood. "
-)>>
+\<</type>>
 
-<<=window.textCrawl("textid",
+<<type 20ms>>\
 "Thunder shakes the house–the door slams–"
-)>>
+\<</type>>
 
-<<=window.textCrawl("textid",
+<<type 20ms>>\
 "And she’s gone."
-)>>
+\<</type>>
 
 [[Wake up... -> aLonelyRide]]

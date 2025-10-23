@@ -1,66 +1,66 @@
 :: History
 
-<<=window.textCrawl("textid",
-"“Come over here,” your mother says to Winona, patting the space between her legs. 
+<<type 20ms>>\
+“Come over here,” your mother says to Winona, patting the space between her legs. 
 She holds up a brush with several colorful hairbands tied around the handle. 
-“Let me braid your hair while I tell it to you.”"
-)>>
+“Let me braid your hair while I tell it to you.”
+\<</type>>
 
-<<=window.textCrawl("textid",
-"Winona hesitates, fear flashing across her face for a moment–the fear of the pain of tangles."
-)>>
+<<type 20ms>>\
+Winona hesitates, fear flashing across her face for a moment–the fear of the pain of tangles.
+\<</type>>
 
 <<timed 3s>>
-<<=window.textCrawlFast("textid",
-"“Now,”"
-)>>
+<<type 10ms>>\
+“Now,”
+\<</type>>
 <</timed>>
 
-<<=window.textCrawl("textid",
+<<type 20ms>>\
 " Namid’s voice reaches a warning tone."
-)>>
+\<</type>>
 
-<<=window.textCrawlSlow("textid",
+<<type 30ms>>\
 "With reluctance, Winona gets up and rounds the side of the bed, feet plodding dramatically.
 She sits down on the floor in front of your mother. "
-)>>
+\<</type>>
 
-<<=window.textCrawl("textid",
+<<type 20ms>>\
 "Your mother’s hands move through Winona’s hair with practiced ease, and you watch her calloused hands, mesmerized by their assuring motion. 
 “Before I tell you the stories,” she says, “I need you to understand something. 
 Our people have many stories. Some are about creation. 
 Some are about the animals and plants and spirits that live in the forest, air, water, and earth. 
 Some are about our heroes and ancestors. And some…” she pauses, parting Winona’s hair, "
-)>>
+\<</type>>
 
-<<=window.textCrawl("textid",
+<<type 20ms>>\
 <span class = "goldText">“are about why we are still here. About why we survive.”</span>
-)>>
+\<</type>>
 
-<<=window.textCrawl("textid",
+<<type 20ms>>\
 "“Tonight, I am going to give you a <span class = "goldText">choice</span>. 
 There are two stories I could tell you. 
 Both are important. Both are true, but they are different truths, and I think you should choose which one you need to hear.”"
-)>>
+\<</type>>
 
-<<=window.textCrawl("textid",
+<<type 20ms>>\
 "“Me, ME!” Winona attempts to yank her head around, but your mother’s hands keep her firmly in place. “I want to choose!”"
-)>>
+\<</type>>
 
-<<=window.textCrawl("textid",
+<<type 20ms>>\
 ""
-)>>
+\<</type>>
 
-<<=window.textCrawl("textid",
+<<type 20ms>>\
 "“No Winny, tonight Arthur gets to choose. After all, we are in his bedroom,” 
 your mother gives you an apologetic smile, and your chest puffs out in vindication. Yes, this is your room. "
-)>>
+\<</type>>
 
-<<=window.textCrawl("textid",
+<<type 20ms>>\
 "“One story is about the land and our connection to it, and one story is about our people and our survival. 
 Both are true. Both are important.” She looks at you, and her dark brown eyes catch the moonlight, shining almost like amber. 
 “So Arthur, which story do you want to hear tonight? Which truth do you need?”"
-)>>
+\<</type>>
 
 [[Land and Connection -> Story1]]
 [[People and Survival -> Story2]]
