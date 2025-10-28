@@ -4,6 +4,12 @@ Edgewater
 {
         "ifid": "870F3F28-CCF3-4D9B-B02B-76B959414843"
 }
+
+:: StoryIncludes
+<script>console.log("StoryIncludes inline script ran");</script>
+<script src="source/js/StoryScr.js"></script>
+<link rel="stylesheet" href="css/fonts.css">
+
 :: StoryCaption
 <<button "Map">>
     <<script>>

@@ -1,0 +1,9 @@
+:: Ch1Pg1A
+
+<<type 20ms>>\
+You bring a leather-bound book–your mother’s herbalism notebook–and thumb through it as the sun rises on the campus residential area.
+
+[[<span class = "goldText">A medicine for poor sleep.</span> -> Ch1Pg2A_PoorSleep]]
+[[<span class = "goldText">A medicine for focus and memory enhancement.</span> -> Ch1Pg2A_Focus]]
+[[<span class = "goldText">A poison.</span> -> Ch1Pg2A_Poison]]
+\<</type>>

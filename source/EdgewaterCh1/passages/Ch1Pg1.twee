@@ -1,0 +1,31 @@
+:: Ch1Pg1
+
+<<run>>
+if (get_flag("prologue_choice") == 0){
+    $proTextType = "Serene. Solitary.";
+}
+if (get_flag("prologue_choice") == 1){
+    $proTextType = "Safe. Dry.";
+}
+<</run>>
+
+<<type 20ms>>\
+$proTextType
+\<</type>>
+
+<<timed 5s>>
+<<type 20ms>>\
+You wake just before dawn, breathing quickly. You stop thrashing, realizing you’re awake. You hold very still for some time, enjoying the silence after the storm. 
+You are back in your dorm, on the top bunk. Morning light peeks through the cracks in the blinds. Outside, birds chirp. Inside, your roommate snores.  
+
+You wipe the cold sweat from your brow and check your phone. 7:35 A.M. You lay back down and try closing your eyes again.
+
+...
+
+But you can’t stay here forever. You have a day to prepare for.
+
+[[Take a walk to clear your head. -> Ch1Pg2A]]
+[[Take a shower. -> Ch1Pg2B]]
+\<</type>>
+<</timed>>
+

@@ -1,5 +1,13 @@
 :: TranquilLake
 <<audio "windStreetVillage" play>>
+
+<<scary>> FONT MACRO TEST<</scary>>
+
+
+
+[[Debug goto Ch1 -> Ch1Pg1]]
+[[Debug goto after Winona Response, this intro is long -> Noise]]
+
 <img src="Images/Ch0.png" alt="BayWindow" width="500" height="600">
 <<type 20ms>>\
 <span style="font-family:Story Font">Summer 1990. A tranquil lake, the water nearly still.
@@ -24,7 +32,7 @@ But you’re not satisfied. You tap your fingers on the book’s cover and wiggl
 What’s taking her so long?
 
 Your bedroom door bangs open. 
-“MOVE OVER, ARTY!”
+<<winona>>“MOVE OVER, ARTY!”<</winona>>
 
 As if shot from a pinball machine, a small figure bounds into the room.
 Her long hair flies like it was struck by electricity.

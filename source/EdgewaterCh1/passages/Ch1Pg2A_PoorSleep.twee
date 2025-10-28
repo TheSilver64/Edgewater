@@ -1,0 +1,25 @@
+:: Ch1Pg2A_PoorSleep
+
+<<type 20ms>>\
+“This would have been very helpful last night ... mother always said it stopped you from dreaming the night you took it, and if you used it too much, you stopped dreaming even when you didn’t use it.”
+\<</type>>
+
+<<timed 7s>>
+<<type 20ms>>\
+Maybe that wouldn’t be so bad ... 
+
+\<</type>>
+<</timed>>
+
+<<timed 11s>>
+<<type 20ms>>\
+Alas, the ingredients don’t grow here. I know they’re not unique to Edgewater, but they certainly won’t be in this city.
+\<</type>>
+<</timed>>
+
+<<timed 20s>>
+<<type 20ms>>\
+“Most of mother’s stories did not withstand scrutiny. Drums, spirits ... how are you supposed to reason that out? Where are the proofs? 
+“These sketches of plants, diagrammed, illustrated in a level of detail finer than most anatomy textbooks - their scientific accuracy makes them feel concrete. Real, tangible. Even just thumbing through the pages settles your mind and grounds you in the waking world.
+\<</type>>
+<</timed>>
