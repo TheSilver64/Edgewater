@@ -1,6 +1,6 @@
 :: Story1
 
-<<update_flag("Story", 0)>>
+<<= window.update_flag("prologue_choice", 1)>>
 
 <<type 20ms>>\
 <span style="font-family:Story Font">

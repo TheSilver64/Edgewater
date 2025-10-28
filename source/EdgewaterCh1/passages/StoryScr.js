@@ -4,7 +4,7 @@
 /*--code for story flags--*/
 // Map containing story flags. 0 is the default value, 
 // so flags are tripped to be 1 or 2 to avoid possible bugs
-const story_flags = new Map([
+window.story_flags = new Map([
     // prologue
     ["prologue_choice", 0],  // determines which nightmare player gets: 1 or 2 (used in ch1)
     // ch1
@@ -31,11 +31,12 @@ const story_flags = new Map([
 ]);
 
 // Updates a specified flag key to a given value
-function update_flag(key, value) {
+window.update_flag = function (key, value) {
     story_flags.set(key, value);
+    return '';
 }
 // Gets the value of a specified flag key
-function get_flag(key) {
+window.get_flag = function (key) {
     return story_flags.get(key);
 }
 /*--end--*/

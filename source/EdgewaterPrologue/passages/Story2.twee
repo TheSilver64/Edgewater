@@ -1,6 +1,6 @@
 :: Story2
 
-<<update_flag("Story", 1)>>
+<<= window.update_flag("prologue_choice", 2)>>
 <<type 20ms>>\
 <span style="font-family:Story Font">
 You take a deep breath and make a decision. “Tell me about our people.” you say, holding your chin up high.
