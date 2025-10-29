@@ -1,4 +1,5 @@
-:: Ch1Pg1
+:: aLonelyRide
+
 
 <<type 20ms>>
 You wake just before dawn. Your breath comes in sharp, quick gasps. You stop thrashing once you realize where you are. 
@@ -13,11 +14,17 @@ It only reminds you that you’re awake again, too early again, for the same rea
 You take a deep breath and recall the bench beneath the oak trees where you sometimes sit and read your mathematics textbooks. The metal would be cold to the touch, especially in these early autumn mornings when the frost hasn’t quite been burned off by the light of the day. The black has chipped in places where countless students have sat, revealing the bench’s bare metal bones. 
 You imagine yourself lying across that bench, cocooned beneath a canopy of oak and maple trees–you’re currently working through Michael Sipser’s Introduction to the Theory of Computation. Even on a crisp early autumn day such as this one, leaves would fall like loose strands of hair, occasionally landing next to you. You’d pick one up and trace its veins as your mind ruminates over your textbook. 
 <</type>>
+
 <<if window.get_flag("prologue_choice") == 1>>
-<<type 20ms>> "Serene. Solitary." <</type>>
+<<type 20ms>>/\ 
+"Serene. Solitary." 
+<</type>>
 <<elseif window.get_flag("prologue_choice") == 2>>
-<<type 20ms>> "Safe. Dry." <</type>>
+<<type 20ms>> /
+"Safe. Dry." 
+\<</type>>
 <</if>>
+
 <<type 20ms>>
 The memory comforts you. You’d have to visit the bench sometime today. Courage courses through you. 
 
@@ -27,7 +34,7 @@ You swing your legs over the edge of the bunk and climb down gingerly. Your room
 
 
 What should you do?
-<</type>>
 
 [[Take a walk. Clear your head. Let the morning chill burn away the remnants of sleep. -> Ch1Pg2A]]
 [[Shower. Wash it all away. Let the controlled, warm, steady stream of the tap replace the dark liquid of your nightmares. -> Ch1Pg2B]]
+<</type>>

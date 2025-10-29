@@ -1,0 +1,21 @@
+:: Ch1Pg2A2
+
+<<type 20ms>>
+The pages fall open to a section you've read a hundred times.
+
+Asarum canadense. Canadian Snakeroot.
+
+The root system spreads across the page, branching and dividing–all fractal in their shape. Comforting in their familiarity, in their repeating, infinitesimal pattern. 
+“A medicine for treating coughs and stomach problems,” you read aloud. You’re not sure if this is what you need right now. You’re in excellent health, minus your sleep deprivation.
+Another page.
+<</type>>
+
+<<window.update_flag(herb2, 1)>>
+
+<<if window.get_flag("herb1") == 0>>
+<<type 20ms>> [[A medicine for poor sleep. -> Ch1Pg2A1]] <</type>>
+<<if window.get_flag("herb3") == 0>>
+<<type 20ms>> [[A poison. -> Ch1Pg2A3]] <</type>>
+<<else>>
+<<type 20ms>> [[The last breath of a nightly gale runs through the trees, ruffling the pages of the notebook until it flips it entirely shut. -> Ch1Pg3]] <</type>>
+<</if>>

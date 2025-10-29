@@ -24,6 +24,14 @@ Edgewater
 <<cacheaudio "nightmareA" "source\sound\nightmare a.mp3">>
 <<cacheaudio "nightmareB" "source\sound\nightmare b.mp3">>
 
+<<cacheaudio "morning" "source\sound\chapter_1_morning_soundscape.mp3">>
+<<cacheaudio "walkingA" "source\sound\chapter_1_walking.mp3">>
+<<cacheaudio "cemetery" "source\sound\chapter_1_cemetery.mp3">>
+<<cacheaudio "shower" "source\sound\chapter_1_shower.mp3">>
+<<cacheaudio "piano" "source\sound\piano_motif_a.mp3">>
+<<cacheaudio "classroom" "source\sound\chapter_1_classroom.mp3">>
+
+
 :: StoryStylesheet [stylesheet]
 @import url("css/fonts.css"); 
 
@@ -170,7 +178,3 @@ Edgewater
         }
     });
 })();
-
-:: Start
-<div class="title">Edgewater</div>
-[[Start Story->aLonelyRide]]
