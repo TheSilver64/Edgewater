@@ -1,19 +1,21 @@
 :: Banister
 
 <<type 20ms>>\
-<span style="font-family:Scary Font">
-"You peek through the banister."
+<span class="dialogue">
+You peek through the banister.
 
-"The door opens. A figure shuffles through, bent over. It gasps with each movement. 
-A drip, drip, drip. Something sticky trails behind. "
+The door opens. A figure shuffles through, bent over. It gasps with each movement. 
+A drip, drip, drip. Something sticky trails behind. 
 
-"It scrabbles for the front door, hand clawing at the knob. 
-Finally it pulls. The front door flies open. The wind howls. "
+It scrabbles for the front door, hand clawing at the knob. 
+Finally it pulls. The front door flies open. The wind howls. 
 
-"Your father bursts through the bedroom door. “Namid, please–” he’s sobbing. "
+Your father bursts through the bedroom door. 
 
-"You blink, looking at the figure in the open doorway again. "
+<span class="scary"><span class="silas">“Namid, please–”</span> he’s sobbing.</span>
 
-[[“Mom…?” -> Lightning]] you say, voice small.
+You blink, looking at the figure in the open doorway again. 
+
+<span class="scary"><span class="arthur">[[“Mom…?” -> Lightning]]</span> you say, voice small.</span>
 </span>
 \<</type>>

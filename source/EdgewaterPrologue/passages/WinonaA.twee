@@ -1,9 +1,11 @@
 :: WinonaA
 
 <<type 20ms>>\ 
-<span style="font-family:Story Font">
-"Liar! Then why is Mom allowed in here?"
+<span class="dialogue">
+Winona pouts. <span class="winona">“Liar! Then why is Mom allowed in here?”</span>
 
-[[You roll your eyes at her. “Mom is an ADULT, dummy. She doesn’t count. -> Noise]]
+You roll your eyes at her.
+
+<span class="arthur">[[“Mom is an ADULT, dummy. She doesn’t count.” -> Noise]]</span>
 </span>
 \<</type>>

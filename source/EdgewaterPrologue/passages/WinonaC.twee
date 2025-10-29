@@ -1,8 +1,8 @@
 :: WinonaC
 <<type 20ms>>\ 
-<span style="font-family:Story Font">
-"She smiles. “NOOOOOO!” She yells."
+<span class="dialogue">
+Winona pouts, then smiles. <span class="winona">“NOOOOOO!”</span> She yells.
 
-[[It’s past your bedtime! Weren’t you already tucked in? -> Noise]]
+[[“It’s past your bedtime! Weren’t you already tucked in?” -> Noise]]
 </span>
 \<</type>>

@@ -1,0 +1,39 @@
+::Thump
+<<audio "prologueAmbience" stop>>
+<<audio "nightmareB" stop>>
+<<audio "nightmareB" play>>
+<<repeat 344s>>
+<<audio "nightmareB" stop>>
+<<audio "nightmareB" play>>
+<</repeat>>
+<<type 20ms>>\
+<span class="dialogue">
+<span class="super-scary">Thump.</span> 
+
+You stand at the lakeshore, looking outwards. The water is as still as glass.
+
+<span class="super-scary">Thump.</span>  
+
+As if a pebble was dropped, a ring of ripples expands.  
+
+<span class="super-scary">Thump.</span>  
+
+The ripples get larger and larger. 
+
+<span class="super-scary">Thump.</span> 
+
+The ripples swell into waves.
+
+You stumble back. With each thump, the water rises. It  sloshes around your feet. 
+You strain in place, but your feet are stuck in mud. You cannot move.
+
+The water is now to your knees. Your thighs. Your chest. Your shoulders. You cry, but there’s nothing you can do.
+
+With one last thump, the water surges, and you are now completely submerged in silence. 
+Everything is black and cold. Panic climbs up your throat, but you cannot scream. The lake suffocates.
+
+Then, out of the darkness, a light grows, silver like moonlight. You flail.
+
+[[Swim]]
+</span>
+\<</type>>

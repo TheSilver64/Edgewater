@@ -1,38 +1,44 @@
 :: History
 
 <<type 20ms>>\
-<span style="font-family:Story Font">
-“Come over here,” your mother says to Winona, patting the space between her legs. 
+<span class="dialogue">
+<span class="arthur">(“History is made of science, not stories.”)</span> But you settle back to listen.
+
+<span class="namid">“Come over here,”</span> your mother says to Winona, patting the space between her legs. 
 She holds up a brush with several colorful hairbands tied around the handle. 
-“Let me braid your hair while I tell it to you.”
+<span class="namid">“Let me braid your hair while I tell it to you.”</span>
 
 Winona hesitates, fear flashing across her face for a moment–the fear of the pain of tangles.
 
-“Now,” Namid’s voice reaches a warning tone.
+<span class="namid">“Now,”</span> Namid’s voice reaches a warning tone.
 
 With reluctance, Winona gets up and rounds the side of the bed, feet plodding dramatically.
 She sits down on the floor in front of your mother.
 
+Your mother lifts Winona’s long hair and begins to brush it with slow, gentle strokes. 
+The routine calms your sister. Having gotten over the initial fear of pain, she relaxes, 
+leaning back into your mother’s touch like a cat being stroked. Her fidgeting ceases.
+
 Your mother’s hands move through Winona’s hair with practiced ease, and you watch her calloused hands, mesmerized by their assuring motion. 
-“Before I tell you the stories,” she says, “I need you to understand something. 
+<span class="namid">“Before I tell you the stories,”</span> she says, <span class="namid">“I need you to understand something. 
 Our people have many stories. Some are about creation. 
 Some are about the animals and plants and spirits that live in the forest, air, water, and earth. 
-Some are about our heroes and ancestors. And some…” she pauses, parting Winona’s hair,
+Some are about our heroes and ancestors. And some…”</span> she pauses, parting Winona’s hair,
 
-<span class = "goldText">“are about why we are still here. About why we survive.”</span>
+<span class="goldText">“are about why we are still here. About why we survive.”</span>
 
-“Tonight, I am going to give you a <span class = "goldText">choice</span>. 
+<span class="namid">“Tonight, I am going to give you a <span class = "goldText">choice</span>. 
 There are two stories I could tell you. 
-Both are important. Both are true, but they are different truths, and I think you should choose which one you need to hear.”
+Both are important. Both are true, but they are different truths, and I think you should choose which one you need to hear.”</span>
 
-“Me, ME!” Winona attempts to yank her head around, but your mother’s hands keep her firmly in place. “I want to choose!”
+<span class="winona">“Me, ME!”</span> Winona attempts to yank her head around, but your mother’s hands keep her firmly in place. <span class="winona">“I want to choose!”</span>
 
-“No Winny, tonight Arthur gets to choose. After all, we are in his bedroom,” 
+<span class="namid">“No Winny, tonight Arthur gets to choose. After all, we are in his bedroom,”</span> 
 your mother gives you an apologetic smile, and your chest puffs out in vindication. Yes, this is your room.
 
-“One story is about the land and our connection to it, and one story is about our people and our survival. 
+<span class="namid">“One story is about the land and our connection to it, and one story is about our people and our survival. 
 Both are true. Both are important.” She looks at you, and her dark brown eyes catch the moonlight, shining almost like amber. 
-“So Arthur, which story do you want to hear tonight? Which truth do you need?”
+“So Arthur, which story do you want to hear tonight? Which truth do you need?”</span>
 
 [[Land and Connection -> Story1]]
 [[People and Survival -> Story2]]

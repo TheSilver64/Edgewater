@@ -1,11 +1,11 @@
 :: Lightning
 
 <<type 20ms>>\
-<span style="font-family:Scary Font">
+<span class="dialogue">
 Lightning flashes, illuminating everything. You realize now why you didn’t recognize her before. 
 She stares at you with wide, bloodshot eyes. Like she’s a deer staring down the barrel of a rifle.
 
-Her silver nightgown is drenched in blood.
+Her silver nightgown is drenched in <span class="scary">blood.</span>
 
 Thunder shakes the house–the door slams–
 

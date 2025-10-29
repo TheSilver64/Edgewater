@@ -9,12 +9,27 @@
 :: StoryTitle
 Edgewater
 
+:: StoryCaption
+<<button "Map">>
+    <<script>>
+    Dialog.setup("Map");
+    Dialog.wiki(Story.get("Map").processText());
+    Dialog.open();
+    <</script>>
+<</button>>
+
+:: StoryInit
+/* <<cacheaudio "windStreetVillage" "SFX/285592-Wind-Street-Village-Breeze-Calm-Gently_Ringing_Chimes.mp3">> */
+<<cacheaudio "prologueAmbience" "source\sound\prologue_ambience.mp3">>
+<<cacheaudio "nightmareA" "source\sound\nightmare a.mp3">>
+<<cacheaudio "nightmareB" "source\sound\nightmare b.mp3">>
+
 :: StoryStylesheet [stylesheet]
 @import url("css/fonts.css"); 
 
 /* === dialogue styles === */
 .dialogue {
-        font-family: "Story Font", "EB Garamond". "Times New Roman", serif;
+        font-family: "Story Font";
         font-size: 1em;
         line-height: normal;
 }

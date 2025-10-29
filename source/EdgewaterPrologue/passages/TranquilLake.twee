@@ -1,32 +1,43 @@
 :: TranquilLake
-<<audio "windStreetVillage" play>>
-<p id="textId"></p>
+<<audio "prologueAmbience" stop>>
+<<audio "prologueAmbience" play>>
+<<repeat 76s>>
+<<audio "prologueAmbience" stop>>
+<<audio "prologueAmbience" play>>
+<</repeat>>
+<center>
+<img src="Images/intro.png" height="432px" width="540px">
+</center>
 <<type 20ms>>\
+<<<<<<< HEAD
 [[GOTO Ch1 -> Ch1Pg1]]
 <span style="font-family:Story Font">
 Summer 1990. A tranquil lake, the water nearly still.
 It laps gently at the shore, reflecting the full moon and stars.
 The entire Milky Way is visible, shining deep into the lake
 so it becomes a silver soup–a melted bowl of starlight, glowing from the very bottom.
+=======
+<span class="dialogue">
+Summer 1990. A tranquil lake, the water nearly still. 
+It laps gently at the shore, reflecting the full moon and stars. 
+The entire Milky Way is visible, shining deep into the lake so it becomes a silver soup–a melted bowl of starlight, 
+glowing from the very bottom. 
+>>>>>>> ac14a634f4a9dea6e4cafaaf05948be3e1836021
 
-In the center of the lake an island shoots up.
-Its cliffs plunge vertically into the water.
-Trees rise from the top of the island, their dark silhouettes like sentinels in the night.
+In the center of the lake an island shoots up. Its cliffs plunge vertically into the water. 
+Trees rise from the top of the island, their dark silhouettes like sentinels in the night. 
 
-Crickets and bullfrogs thicken the air. A pulsing, breathing rhythm.
-A quaint blue house sits closely by the shore.
+Crickets and bullfrogs thicken the air. A pulsing, breathing rhythm. A quaint blue house sits closely by the shore. 
+Moonlight streams in from the open bay windows, illuminating your bedroom. 
+It’s cozy, with glow-in-dark stars tacked haphazardly on the ceiling and walls covered with science posters. 
+Your bookshelf is filled with model planes, bones, and rocks of various sizes. 
+You lie propped up in bed, a hardcover book in your lap. Your comforter is draped around your legs – the perfect cocoon. 
+The perfect night. But you’re not satisfied. You tap your fingers on the book’s cover and wiggle your toes.
 
-Moonlight streams in from the open bay windows, illuminating your bedroom.
-It’s cozy, with glow-in-dark stars tacked haphazardly on the ceiling and walls covered with science posters.
-Your bookshelf is filled with model planes, bones, and rocks of various sizes.
-
-You lie propped up in bed, a hardcover book in your lap.
-Your comforter is draped around your legs – the perfect cocoon. The perfect night.
-But you’re not satisfied. You tap your fingers on the book’s cover and wiggle your toes.
 What’s taking her so long?
 
 Your bedroom door bangs open. 
-“MOVE OVER, ARTY!”
+<span class="winona">“MOVE OVER, ARTY!”</span>
 
 As if shot from a pinball machine, a small figure bounds into the room.
 Her long hair flies like it was struck by electricity.
@@ -40,8 +51,8 @@ She bounces twice on the mattress, then flops down directly across your legs.
 
 You snap the book shut, scowling.
 
-[[You’re not allowed in here! -> WinonaA]]
-[[You’re wrinkling the covers -> WinonaB]]
-[[STTOOOP! -> WinonaC]]
+<span class="arthur">[[“You’re not allowed in here!” -> WinonaA]]
+[[“You’re wrinkling the covers!” -> WinonaB]]
+[[“STTOOOP!” -> WinonaC]]</span>
 </span>
 \<</type>>

@@ -1,23 +1,23 @@
 :: Noise
 
 <<type 20ms>>\
-<span style="font-family:Story Font">
-"Winona spots a gap between the comforter and sheets. 
+<span class="dialogue">
+Winona spots a gap between the comforter and sheets. 
 She wiggles in and nestles against the pillows. 
-She sighs in satisfaction."
+She sighs in satisfaction.
 
-"“Mom said I could stay up for your story!” She says."
+<span class="winona">“Mom said I could stay up for your story!” </span> She says.
 
-“What?!” You leap out of bed. 
-“That’s not fair, you’ve already had your bedtime story! 
-It’s time for mine now!” 
+<span class="arthur">“What?!”</span> You leap out of bed. 
+<span class="arthur">“That’s not fair, you’ve already had your bedtime story! 
+It’s time for mine now!”</span>
 
-"“What’s all this noise?” "
+<span class="namid">“What’s all this noise?”</span>
 
 Your mother stands in the bedroom doorway, silhouetted by the hallway light behind her. 
 Her long black hair is wrapped carefully around her head in a braided bun. She’s wearing a shimmery silk nightgown. 
-Despite its looseness it does little to hide her large pregnant belly. "
+Despite its looseness it does little to hide her large pregnant belly.
 
-[["Mom, Winny’s not supposed to be in here!" -> SomethingTonight]]
+<span class="arthur">[[“Mom, Winny’s not supposed to be in here!” -> SomethingTonight]]</span>
 </span>
 \<</type>>

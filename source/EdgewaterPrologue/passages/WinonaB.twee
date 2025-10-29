@@ -1,8 +1,8 @@
 :: WinonaB
 <<type 20ms>>\ 
-<span style="font-family:Story Font">
-"She flattens herself onto the covers, crushing your legs. “There, it’s all fixed!”"
+<span class="dialogue">
+Winona pouts. She flattens herself onto the covers, crushing your legs. <span class="winona">“There, it’s all fixed!”</span>
 
-[[Off, Winny! Go! You’re supposed to be in bed! -> Noise]]
+<span class="arthur">[[“Off, Winny! Go! You’re supposed to be in bed!” -> Noise]]</span>
 </span>
 \<</type>>
