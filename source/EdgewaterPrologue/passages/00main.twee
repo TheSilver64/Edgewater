@@ -19,7 +19,7 @@ Edgewater
 <</button>>
 
 :: StoryInit
-<<cacheaudio "windStreetVillage" "SFX/285592-Wind-Street-Village-Breeze-Calm-Gently_Ringing_Chimes.mp3">>
+/* <<cacheaudio "windStreetVillage" "SFX/285592-Wind-Street-Village-Breeze-Calm-Gently_Ringing_Chimes.mp3">> */
 <<cacheaudio "prologueAmbience" "source\sound\prologue_ambience.mp3">>
 <<cacheaudio "nightmareA" "source\sound\nightmare a.mp3">>
 <<cacheaudio "nightmareB" "source\sound\nightmare b.mp3">>
