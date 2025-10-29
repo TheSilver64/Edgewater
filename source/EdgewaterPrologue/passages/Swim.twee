@@ -1,7 +1,7 @@
 ::Swim
 
 <<type 20ms>>\
-<span style="font-family:Scary Font">
+<span class="dialogue">
 You swim towards it.
 
 The silver floats in the water. It's a nightgown - your mother's nightgown! 
@@ -9,10 +9,10 @@ She drifts, her back turned to you. Her hair fans outwards in the water.
 
 You finally reach her.
 
-“Mom!” your words garble.
+<span class="scary">“Mom!”</span> your words garble.
 
 You grab her shoulders and turn her around. 
-The bloated face of a corpse stares back at you. Her eyes are milky white, unseeing.
+<span class="super-scary">The bloated face of a corpse stares back at you. Her eyes are milky white, unseeing.</span>
 
 [[You scream -> aLonelyRide]]
 </span>

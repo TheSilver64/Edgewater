@@ -1,17 +1,17 @@
 :: SomethingTonight
 
 <<type 20ms>>\
-<span style="font-family:Story Font">
-"You protest, gesturing at your sister. She grins triumphantly from the middle of your bed. "
+<span class="dialogue">
+You protest, gesturing at your sister. She grins triumphantly from the middle of your bed.
 
-"Your mother makes her way across the room, one hand cupping her belly as she sways awkwardly. 
+Your mother makes her way across the room, one hand cupping her belly as she sways awkwardly. 
 She lowers herself carefully onto the edge of your bed, sighing with the effort. 
-She looks tired. But she smiles as she looks between you and Winona."
+She looks tired. But she smiles as she looks between you and Winona.
 
-"“Actually, we’re doing something different tonight.”"
+<span class="namid">“Actually, we’re doing something different tonight.”</span>
 
-"Your frustration deflates into curiosity."
+Your frustration deflates into curiosity.
 
-[["What do you mean?" -> TellStory]]
+<span class="arthur">[["What do you mean?" -> TellStory]]</span>
 </span>
 \<</type>>
