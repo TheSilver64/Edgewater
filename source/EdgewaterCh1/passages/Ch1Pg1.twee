@@ -1,5 +1,4 @@
-:: aLonelyRide
-
+:: Ch1Pg1
 
 <<type 20ms>>
 You wake just before dawn. Your breath comes in sharp, quick gasps. You stop thrashing once you realize where you are. 
@@ -16,11 +15,11 @@ You imagine yourself lying across that bench, cocooned beneath a canopy of oak a
 <</type>>
 
 <<if window.get_flag("prologue_choice") == 1>>
-<<type 20ms>>/\ 
+<<type 20ms>>\
 "Serene. Solitary." 
-<</type>>
+\<</type>>
 <<elseif window.get_flag("prologue_choice") == 2>>
-<<type 20ms>> /
+<<type 20ms>>\
 "Safe. Dry." 
 \<</type>>
 <</if>>

@@ -27,10 +27,10 @@ window.story_flags = new Map([
     ["explore_outside", 0], // 1: forest, 2: garden, 3: lakeside
     // ch6
     // Act 1 Epilogue
-    ["who_you_call", 0] // 1:Olivia, 2: Isaac, 3: Rachel
+    ["who_you_call", 0], // 1:Olivia, 2: Isaac, 3: Rachel
     // Book pages
-    ["herb1", 0]
-    ["herb2", 0]
+    ["herb1", 0],
+    ["herb2", 0],
     ["herb3", 0]
 ]);
 
