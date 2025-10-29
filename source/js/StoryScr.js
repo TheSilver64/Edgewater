@@ -100,6 +100,10 @@ window.story_flags = new Map([
     // ch6
     // Act 1 Epilogue
     ["who_you_call", 0] // 1:Olivia, 2: Isaac, 3: Rachel
+
+    ["herb1", 0],
+    ["herb2", 0],
+    ["herb3", 0]
 ]);
 
 // Updates a specified flag key to a given value

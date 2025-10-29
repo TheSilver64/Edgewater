@@ -1,6 +1,7 @@
 :: Ch1Pg2B1
 
 <<type 20ms>>
+<span class="dialogue">
 A simple pattern. You start with a single vertical line, then split it at the top into two branches. Each branch splits again. And again.
 
 Split ends upon split ends upon split ends. 
@@ -13,5 +14,6 @@ What pattern will create order out of your mind’s chaos?
 [[Fractal trees. -> Ch1Pg2B1]]
 [[Sierpinski triangles. -> Ch1Pg2B2]]
 [[Dragon curves. -> Ch1Pg2B3]]
-[[Let the ever-erasing canvas of tiles win. -> Ch1Pg3]]
+[[Let the ever-erasing canvas of tiles win. -> Ch1Pg2BEnd]]
+</span>
 <</type>>

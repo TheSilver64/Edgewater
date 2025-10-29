@@ -1,23 +1,17 @@
 :: Ch1Pg2B
 
 <<type 20ms>>
+<span class="dialogue">
 You open the closet and remove your shower caddy, which contains only the bare essentials: 3-in-1 shampoo/conditioner/body wash, a sliver of a soap bar, and a razor you haven’t used in days. You grab a towel from the hook on the door, slip on your foam flip-flops, and slip out of the room. Their dull slap against the linoleum echoes down the empty hallway.
 
 Dorm Showers
 
 The rectangular fluorescent panels hum overhead, casting away the night in a harsh white. The showers are blissfully empty, a luxury only afforded to an insomniac up at the crack of dawn. Yet the open, reflective space still feels too vulnerable. You find a stall and yank the curtains shut before you finally strip. 
-
-<</type>>
 <<audio "shower" play>>
-
-<<type 20ms>>
 You turn the shower knob–the ancient pipes shudder and groan, protesting their duty, but then the water flows. Steady. Controlled. The SHHSHHSHH courses like blood across a flushed cheek, filling the stall and reverberating across the shower room. It revives the tomb of tile into a womb, steaming rising as the water heats. You step under the stream.
 The water hits your shoulders. You close your eyes and face the showerhead, taking slow, deep breaths. Let it wash away the nightmare. Let the warm tap replace the dark liquid that filled your lungs and dripped down while you slept.
 The rushing swells.
-<</type>>
-
 <<audio "shower" play>>
-<<type 20ms>>
 It plunges into a <span class="superScary">SPLASH.</span>
 
 Then a dribble. <span class="scary">choking, rattling dribble.</span>
@@ -33,4 +27,5 @@ What pattern will create order out of your mind’s chaos?
 [[Fractal trees. -> Ch1Pg2B1]]
 [[Sierpinski triangles. -> Ch1Pg2B2]]
 [[Dragon curves. -> Ch1Pg2B3]]
+</span>
 <</type>>

@@ -1,25 +1,27 @@
 :: Ch1Pg2A1
 
 <<type 20ms>>
+<span class="dialogue">
 The pages fall open to a section you've read a hundred times.
 
 Humulus lupulus. Hops.
 
 Your mother's sketch shows the plant in meticulous detail. The cone-like flowers, the consuming vines, the serrated leaves–all fractal in their shape. 
-"A medicine for poor sleep," you read aloud. It would have been very helpful last night.
+<span class="arthur">"A medicine for poor sleep,"</span> you read aloud. It would have been very helpful last night.
 Your finger traces the annotation. Your mother always said it stopped you from dreaming the night you took it, and if you used it too much, you stopped dreaming even when you didn’t use it. Maybe never dream again. 
 You close your eyes. Maybe that wouldn't be so bad.
 But then you open them again, looking at the careful diagrams. The ingredients don't grow here. They're not unique to Edgewater, but they certainly won't be in this city.
 You turn the page.
+</span>
 <</type>>
-
-<<window.update_flag(herb1, 1)>>
-
+<<run window.update_flag("herb1", 1)>>
 <<if window.get_flag("herb2") == 0>>
-<<type 20ms>> [[A medicine for treating coughs and stomach problems. -> Ch1Pg2A2]] <</type>>
+<<type 20ms>><span class="dialogue"> [[A medicine for treating coughs and stomach problems. -> Ch1Pg2A2]] </span><</type>>
+<</if>>
 <<if window.get_flag("herb3") == 0>>
-<<type 20ms>> [[A poison. -> Ch1Pg2A3]] <</type>>
-<<else>>
-<<type 20ms>> [[The last breath of a nightly gale runs through the trees, ruffling the pages of the notebook until it flips it entirely shut. -> Ch1Pg3]] <</type>>
+<<type 20ms>> <span class="dialogue">[[A poison. -> Ch1Pg2A3]] </span><</type>>
+<</if>>
+<<if window.get_flag("herb1") == 1 && window.get_flag("herb2") == 1 && window.get_flag("herb3") == 1>>
+<<type 20ms>> <span class="dialogue">[[The last breath of a nightly gale runs through the trees, ruffling the pages of the notebook until it flips it entirely shut. -> Ch1Pg3]] </span><</type>>
 <</if>>
 
