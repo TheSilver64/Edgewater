@@ -1,5 +1,9 @@
 :: Story2
-
+<<audio "nightmareB" stop>>
+<<repeat 394s>>
+<<audio "prologueAmbience" stop>>
+<<audio "prologueAmbience" play>>
+<</repeat>>
 <<= window.update_flag("prologue_choice", 2)>>
 <<type 20ms>>\
 <span class="dialogue">

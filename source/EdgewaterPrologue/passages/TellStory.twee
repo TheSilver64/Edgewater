@@ -1,5 +1,8 @@
 :: TellStory
-
+<<repeat 394s>>
+<<audio "prologueAmbience" stop>>
+<<audio "prologueAmbience" play>>
+<</repeat>>
 <<type 20ms>>\
 <span class="dialogue">
 <span class="namid">“Tonight I want to tell you one of my stories. 

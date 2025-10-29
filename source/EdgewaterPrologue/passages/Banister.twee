@@ -1,5 +1,8 @@
 :: Banister
-
+<<repeat 344s>>
+<<audio "nightmareA" stop>>
+<<audio "nightmareA" play>>
+<</repeat>>
 <<type 20ms>>\
 <span class="dialogue">
 You peek through the banister.

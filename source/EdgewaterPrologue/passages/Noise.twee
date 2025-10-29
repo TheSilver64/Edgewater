@@ -1,5 +1,8 @@
 :: Noise
-
+<<repeat 394s>>
+<<audio "prologueAmbience" stop>>
+<<audio "prologueAmbience" play>>
+<</repeat>>
 <<type 20ms>>\
 <span class="dialogue">
 Winona spots a gap between the comforter and sheets. 

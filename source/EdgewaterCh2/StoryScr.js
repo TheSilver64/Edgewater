@@ -37,6 +37,7 @@ window.story_flags = new Map([
 // Updates a specified flag key to a given value
 window.update_flag = function (key, value) {
     story_flags.set(key, value);
+    return ""; // so we don't see '[undefined]' in the passages
 }
 // Gets the value of a specified flag key
 window.get_flag = function (key) {

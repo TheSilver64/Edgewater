@@ -2,7 +2,7 @@
 <<audio "prologueAmbience" stop>>
 <<audio "nightmareB" stop>>
 <<audio "nightmareB" play>>
-<<repeat 344s>>
+<<repeat 123s>>
 <<audio "nightmareB" stop>>
 <<audio "nightmareB" play>>
 <</repeat>>

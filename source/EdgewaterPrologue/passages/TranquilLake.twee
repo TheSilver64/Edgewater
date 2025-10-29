@@ -1,7 +1,7 @@
 :: TranquilLake
 <<audio "prologueAmbience" stop>>
 <<audio "prologueAmbience" play>>
-<<repeat 76s>>
+<<repeat 394s>>
 <<audio "prologueAmbience" stop>>
 <<audio "prologueAmbience" play>>
 <</repeat>>

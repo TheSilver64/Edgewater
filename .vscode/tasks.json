@@ -23,7 +23,7 @@
     {
       "label": "Tweego",
       "type": "shell",
-      "command": "C:\\Tweego\\tweego.exe",
+      "command": "Tweego",
       "args": [
         "-o",
         "index.html",

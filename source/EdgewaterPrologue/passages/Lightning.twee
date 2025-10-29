@@ -1,5 +1,8 @@
 :: Lightning
-
+<<repeat 344s>>
+<<audio "nightmareA" stop>>
+<<audio "nightmareA" play>>
+<</repeat>>
 <<type 20ms>>\
 <span class="dialogue">
 Lightning flashes, illuminating everything. You realize now why you didn’t recognize her before. 

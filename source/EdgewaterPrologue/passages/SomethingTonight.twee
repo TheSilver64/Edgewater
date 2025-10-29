@@ -1,5 +1,8 @@
 :: SomethingTonight
-
+<<repeat 394s>>
+<<audio "prologueAmbience" stop>>
+<<audio "prologueAmbience" play>>
+<</repeat>>
 <<type 20ms>>\
 <span class="dialogue">
 You protest, gesturing at your sister. She grins triumphantly from the middle of your bed.
