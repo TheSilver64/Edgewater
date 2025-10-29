@@ -1,0 +1,76 @@
+:: Ch2Pg2A
+<<type 20ms>>
+<span class="dialogue">
+Your feet carry you across the grass toward the red-haired woman and her companion.
+She notices you approaching and her expression shifts into recognition, followed by a sad smile. 
+"Arthur?" Her voice is gentle. "I'm Olivia Hepburn. You probably don't remember me. The last time we met was under... similar unfortunate circumstances."
+You swallow hard as you suddenly remember where you’ve seen her before.
+
+<span class="arthur">“My mother's funeral,”</span> you say, words like sludge in your mouth. <span class="arthur">“I remember you. You played with my sister. Thank you for distracting her during…”</span> you trail off. During what? During one of the worst days of your life? <span class="arthur">“Thank you for that.”</span>
+
+Olivia's expression softens further. "It was the least I could do." She glances back at the departing elderly couple hobbling across the lawn. Disgust flickers across her face. "And I'm so sorry about Harold and Martha. There's no excuse for what they said. We're family, for Christ's sake. They should behave themselves."
+She lets out a frustrated sigh. 
+"Even convincing them to come took some effort," she continues. “If it weren’t for their reputation… I really am truly sorry for your loss, Arthur. I wish I'd known him better, wish they hadn't kept me from knowing you all." She pauses, then gestures to the man beside her. "Right, I don't believe you've met my father?"
+The older man extends his hand. "Colin Hepburn. Good to meet you, Arthur… even if the circumstances aren’t the best.” Though I wish it were under better circumstances."
+You take his hand and shake it, noting his firm, practiced grip. 
+
+<span class="arthur">“Likewise,”</span> you manage. The word feels hollow. 
+
+Olivia's demeanor shifts slightly. She holds her shoulders back with seriousness, the posture of someone with official business to conduct. "There's actually something important I need to discuss with you, Arthur. I'm the sheriff here in Edgewater now, and I'm the one handling your father's case."
+Sheriff. You remember her as barely older than you, playing paper dolls with your sister. Now she wears authority like a second skin.
+"When we examined the scene," she continues carefully, "we found his will in the same room as... as his body. You were designated as the executor."
+</span>
+<</type>>
+<<if window.get_flag("learned_executor") == 0>>
+<<run window.update_flag("learned_executor", 1)>>
+<<type 20ms>>
+<span class="dialogue">
+The words take a moment to land. Executor. You.
+"Me? I didn't think we were that close. Not since I moved away.”
+Olivia shrugs. "I suppose since you're the oldest son, he figured you'd be the best choice for it. If he had other reasons..." She pauses. "Well. We can't ask him now."
+Why you? Why not Winona?
+"The reading of the will is set for tomorrow night after the mayoral debate."
+Colin nods, interjecting smoothly, "I'm one of the candidates. Hope I can count on your support."
+You manage something like a smirk. "I think I saw your name on a sign while driving in.” You don’t actually remember him at all. “I'll see what I can do."
+It's an empty promise. You have no intention of staying in Edgewater longer than necessary. But Colin seems satisfied with the response.
+Before you can ask them anything else, Harold's voice booms across the cemetery: "Olivia! We're leaving!"
+Olivia grimaces, then reaches out and gives your arm a gentle squeeze, pressing a business card into your hand.
+"Here's my number. If you need an ally, or even just a shoulder to cry on..." She holds your gaze. "Please don't hesitate to reach out. I mean it."
+Then she's gone, swept away by family obligation. Colin gives you a final nod before following.
+You stand there, business card in hand, watching them go. The cardstock is heavy, professional. Sheriff Olivia Hepburn. A phone number and address. 
+Around you, the funeral crowd continues to thin. But there are still more who you could still approach. That’s if you can stomach more conversation.
+</span>
+<</type>>
+
+<<elseif window.get_flag("learned_executor") == 1 || window.get_flag("learned_executor") == 2>>
+<<run window.update_flag("learned_executor", window.get_flag("learned_executor")+1)>>
+<<type 20ms>>
+<span class="dialogue">
+“So I’ve heard. Any idea when we’ll be reading the will?”
+“Right now, the plan is to hold the reading tomorrow night, after the mayoral debate.” 
+Colin nods, interjecting smoothly, "I'm one of the candidates. Hope I can count on your support."
+You manage something like a smirk. "I think I saw your name on a sign while driving in.” You don’t actually remember him at all. “I'll see what I can do."
+It's an empty promise. You have no intention of staying in Edgewater longer than necessary. But Colin seems satisfied with the response.
+Before you can ask them anything else, Harold's voice booms across the cemetery: "Olivia! We're leaving!"
+Olivia grimaces, then reaches out and gives your arm a gentle squeeze, pressing a business card into your hand.
+"Here's my number. If you need an ally, or even just a shoulder to cry on..." She holds your gaze. "Please don't hesitate to reach out. I mean it."
+Then she's gone, swept away by family obligation. Colin gives you a final nod before following.
+You stand there, business card in hand, watching them go. The cardstock is heavy, professional. Sheriff Olivia Hepburn. A phone number and address. 
+</span>
+<</type>>
+<</if>>
+
+<<if window.get_flag("learned_executor") == 2>>
+<<type 20ms>>
+<span class="dialogue">
+Around you, the funeral crowd continues to thin. But there are still more who you could still approach. That’s if you can stomach more conversation.
+</span>
+<</type>>
+
+<<elseif window.get_flag("learned_executor") == 3>>
+<<type 20ms>>
+<span class="dialogue">
+[[Departure -> Ch2PgDeparture]]
+</span>
+<</type>>
+<</if>>
