@@ -23,10 +23,11 @@
     {
       "label": "Tweego",
       "type": "shell",
-      "command": "tweego",
+      "command": "C:\\Tweego\\tweego.exe",
       "args": [
         "-o",
         "index.html",
+        "source/js",
         "source/Title/", "source/EdgewaterPrologue/", "source/EdgewaterCh1/", "source/css"
       ],
       "group": {

@@ -2,6 +2,7 @@
 <<audio "windStreetVillage" play>>
 <p id="textId"></p>
 <<type 20ms>>\
+[[GOTO Ch1 -> Ch1Pg1]]
 <span style="font-family:Story Font">
 Summer 1990. A tranquil lake, the water nearly still.
 It laps gently at the shore, reflecting the full moon and stars.

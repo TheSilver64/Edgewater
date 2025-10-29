@@ -6,7 +6,7 @@
 // so flags are tripped to be 1 or 2 to avoid possible bugs
 window.story_flags = new Map([
     // prologue
-    ["prologue_choice", 0],  // determines which nightmare player gets: 1 or 2 (used in ch1)
+    ["prologue_choice", 1],  // determines which nightmare player gets: 1 or 2 (used in ch1)
     // ch1
     ["calm_down_method", 0], // how the player calmed down: 1 or 2
     // ch2

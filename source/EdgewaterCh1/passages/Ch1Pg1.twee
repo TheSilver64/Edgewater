@@ -1,0 +1,33 @@
+:: Ch1Pg1
+
+<<type 20ms>>
+You wake just before dawn. Your breath comes in sharp, quick gasps. You stop thrashing once you realize where you are. 
+You’re back in your dorm. The top bunk creaks beneath your weight. You still your limbs, and the creaking ceases. 
+
+The vestiges of morning light creep through the cracks in the blinds. Outside, birds chirp. Inside your roommate snores. 
+You hold still for a very long time, waiting for your heart to slow its hammering. The nightmare clings to you like cobwebs… water, blood? You can’t quite remember but also can’t quite forget. 
+
+You wipe cold sweat from your forehead. Your hand trembles slightly as you flip your digital clock around to face you: 6:35 A.M. You lay back down and try closing your eyes again–but the morning chorus of birds and rattling snores of your roommate build into a cacophony, expunging all remnants of the night. 
+It only reminds you that you’re awake again, too early again, for the same reasons. Again.
+
+You take a deep breath and recall the bench beneath the oak trees where you sometimes sit and read your mathematics textbooks. The metal would be cold to the touch, especially in these early autumn mornings when the frost hasn’t quite been burned off by the light of the day. The black has chipped in places where countless students have sat, revealing the bench’s bare metal bones. 
+You imagine yourself lying across that bench, cocooned beneath a canopy of oak and maple trees–you’re currently working through Michael Sipser’s Introduction to the Theory of Computation. Even on a crisp early autumn day such as this one, leaves would fall like loose strands of hair, occasionally landing next to you. You’d pick one up and trace its veins as your mind ruminates over your textbook. 
+<</type>>
+<<if window.get_flag("prologue_choice") == 1>>
+<<type 20ms>> "Serene. Solitary." <</type>>
+<<elseif window.get_flag("prologue_choice") == 2>>
+<<type 20ms>> "Safe. Dry." <</type>>
+<</if>>
+<<type 20ms>>
+The memory comforts you. You’d have to visit the bench sometime today. Courage courses through you. 
+
+You’re up, and there’s nothing you can do about it but brace for the day ahead. You can’t stay here forever, suspended in the limbo of inaction between nightmare and morning, like a sleep paralysis victim. You have a day to prepare for. 
+
+You swing your legs over the edge of the bunk and climb down gingerly. Your roommate doesn’t stir. You stand in the middle of your cramped dorm room. It’s utilitarian–your only belongings in sight being the textbooks on your desk, a worn leather-bound notebook, and a laptop displaying a screensaver of an infinite zoom pattern–the Barnsley fern. 
+
+
+What should you do?
+<</type>>
+
+[[Take a walk. Clear your head. Let the morning chill burn away the remnants of sleep. -> Ch1Pg2A]]
+[[Shower. Wash it all away. Let the controlled, warm, steady stream of the tap replace the dark liquid of your nightmares. -> Ch1Pg2B]]
