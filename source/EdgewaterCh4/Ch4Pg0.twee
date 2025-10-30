@@ -1,0 +1,12 @@
+:: Ch4Pg0
+<<audio "pianoA" stop>>
+<<audio "pianoC" stop>>
+<span class="dialogue">
+<div class=chTitle>Chapter Four</div>
+<center>
+<img src="Images/ch4.png" height="432px" width="540px">
+</center>
+<<type 20ms>>\
+<div class=chStart>[[The House->Ch4Pg1]]</div>
+\<</type>>
+</span>

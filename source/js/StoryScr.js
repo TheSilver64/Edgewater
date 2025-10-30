@@ -89,12 +89,15 @@ window.story_flags = new Map([
     // ch3
     ["sibling_convo", 0], //1 is Winona, 2 is Dove (used in ch4)
     // ch4 (basement and dove's rooms end the chapter)
-    ["explored_room", 0], // 0 false, 1 true
+    ["explored_livingroom", 0], // 0 false, 1 true
     ["explored_kitchen", 0],
-    ["explored_hallway", 0],
-    ["explored_livingroom", 0],
+    ["explored_entryway", 0],
     ["explored_parents_room", 0],
+    ["explored_doves_room", 0],
+    ["explored_room", 0],
+    ["explored_winona_room", 0],
     ["explored_bathroom", 0],
+    ["explored_basement", 0],
     // ch5
     ["explore_outside", 0], // 1: forest, 2: garden, 3: lakeside
     // ch6
