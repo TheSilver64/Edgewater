@@ -36,6 +36,11 @@ Edgewater
 
 <<cacheaudio "seizure" "source/sound/seizure.mp3">>
 
+<<cacheaudio "teaserMorningAmbience" "source/sound/teaser_morning_ambience.mp3">>
+<<cacheaudio "tvNeutral" "source/sound/tv_neutral.mp3">>
+<<cacheaudio "tvScary" "source/sound/tv_scary.mp3">>
+<<cacheaudio "lighter" "source/sound/lighting_cigarette.mp3">>
+
 :: StoryStylesheet [stylesheet]
 @import url("css/fonts.css"); 
 

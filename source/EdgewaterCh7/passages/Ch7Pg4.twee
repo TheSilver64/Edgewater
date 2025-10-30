@@ -1,0 +1,7 @@
+:: Ch7Pg4
+<span class="dialogue">
+<div class=chTitle>To Be Continued...</div>
+<<type 20ms>>\
+<div class=chStart>[[Main Menue->Start]]</div>
+\<</type>>
+</span>
