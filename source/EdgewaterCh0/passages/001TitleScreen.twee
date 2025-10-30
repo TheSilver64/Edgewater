@@ -1,8 +1,13 @@
 
 :: Start
 <<audio "pianoC" stop>>
-<center><img src="Images/thmb_with_txt.png" height="432px" width="540px"></center>
+<<audio "pianoC" play>>
+<<repeat 108s>>
+<<audio "pianoC" stop>>
+<<audio "pianoC" play>>
+<</repeat>>
+<center><img src="Images/thmb_no_txt.png" height="432px" width="540px"></center>
 <<type 20ms>><span class="dialogue"><div class=chStart>[[New Game->chapterHead]]</div>
 </span>
-\<</type>>
+<</type>>
 
