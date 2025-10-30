@@ -38,6 +38,8 @@ Edgewater
 <<cacheaudio "chimes" "source/sound/chimes.mp3">>
 <<cacheaudio "pianoC" "source/sound/piano motif combined.mp3">>
 
+<<cacheaudio "houseRoomTone" "source/sound/house_room_tone.mp3">>
+
 <<cacheaudio "seizure" "source/sound/seizure.mp3">>
 
 <<cacheaudio "teaserMorningAmbience" "source/sound/teaser_morning_ambience.mp3">>
