@@ -1,0 +1,120 @@
+:: Ch2Pg2B
+<<nobr>>
+<<repeat 448s>>
+<<audio "ambiencePositive" stop>>
+<<audio "ambiencePositive" play>>
+<</repeat>>
+<<run window.update_flag("ashford_convo_funeral", 1)>>
+<</nobr>>
+<<type 20ms>>
+<span class="dialogue">
+You angle toward the man you recognize from the campaign signs. Better to face the political machinery head-on. 
+
+The man notices your approach and offers a beaming smile. His brilliant white teeth gleam with the calibration of a man used to being in front of the camera. 
+
+<span class="isaac">"You must be Silas's son, right?"</span> he says, shaking your hand eagerly. <span class="isaac">"I’m Isaac. Isaac Ashford. And this is my daughter, Rhona."</span>
+
+The woman beside him steps forward. Her dull brown hair is pulled back into a low ponytail but her eyes scan him sharply, cataloging everything. <span class="rhona">“Good to meet you, Arthur,”</span> she says, shaking your hand.
+
+<span class="arthur">"Not the greatest of circumstances,"</span> you reply, <span class="arthur">"but likewise."</span>
+
+Isaac's expression becomes somber. <span class="isaac">"I'm terribly sorry about what happened with your father. We used to be close when we were boys, running around and getting into trouble. The usual kid stuff."</span> His eyes grow distant for a moment, reaching into the past. <span class="isaac">"And while we had our differences, I still considered him a friend. Even with how he’d been recently, I never thought he’d…”</span>
+
+The sentence dies in the air between you. Words no one wants to utter at a funeral. As if not naming it makes it less real. 
+
+“Know their names.” 
+
+You say nothing, letting the uncomfortable silence acknowledge what your words fail to. Suddenly you feel as cowardly as your father. 
+
+Isaac clears his throat, <span class="isaac">"As much as I wish we had more time to mourn properly, there's plenty of work that needs doing. Between my campaign and your responsibilities with the will—"</span>
+</span><</type>>
+<<if window.get_flag("learned_executor") == 0>>
+<<run window.update_flag("learned_executor", window.get_flag("learned_executor")+1)>><<type 20ms>><span class="dialogue">
+<span class="arthur">"The will?"</span> The question escapes before you can stop it. <span class="arthur">“What about the will?”</span>
+
+Isaac's eyebrows raise slightly. <span class="isaac">"No one's told you yet? It seems you’ve been designated as the executor of your father's estate."</span>
+
+Rhona adds, her voice matter-of-fact, <span class="rhona">"They found his will when they found his body. It specifically names you. Probably chose you because you're the oldest child."</span>
+
+Oldest child. Not the closest. Not most capable. Just first. The mathematics of inheritance.
+
+<span class="arthur">"Right,"</span> you manage.
+
+Isaac nods sympathetically. <span class="isaac">"I know it's a lot to take on. These things are never simple, and with the mayoral election happening..."</span> He glances at Rhona, something unspoken passing between them. <span class="isaac">"Well. Let's just say emotions are running high in Edgewater right now. The Hepburns and Ashfords have always had their tensions, but politics has a way of making everything more complicated."</span>
+
+<span class="isaac">"Anyway,"</span> Isaac continues, <span class="isaac">"I hate to cut this short, but we need to get back and prepare for tomorrow's debate. I'd love to see you there—and afterward, we're holding a small fundraising gathering. Nothing too formal. It would give us a chance to catch up properly, talk about your father when he was young. Before everything got so..."</span>
+
+<span class="arthur">"Complicated?"</span> you offer.
+
+<span class="isaac">"Yes. Exactly."</span> Isaac's smile is rueful. <span class="isaac">"Will you come?"</span>
+
+You find yourself nodding. <span class="arthur">"I'll see what I can do."</span>
+
+It's noncommittal, but Isaac seems satisfied. He beams, clapping you on the shoulder. <span class="isaac">"Great. I'll see you then. And Arthur?”</span> his expression turns serious. <span class="isaac">“I know you and your father had your difficulties. But he was a good man once. Try to remember that, when the will reading gets messy. And it will get messy."</span>
+
+There's a warning in those words. Is it out of kindness? 
+
+Isaac reaches into his suit jacket and produces a business card, pressing it into your hand. Gold embossed letters read: ISAAC ASFORD–Edgewater Mayor Candidate and Public Servant. 
+
+<span class="isaac">"Here's my number. Give me a call if you need anything—or just come to the debate. And the fundraiser. We'll talk more then."</span>
+
+Then the Ashfords are moving away, leaving you standing on the cemetery grass.
+
+Around you, the funeral crowd continues to thin. But there are still more who you could still approach. That’s if you can stomach more conversation.
+</span><</type>>
+<<elseif window.get_flag("learned_executor") == 1 || window.get_flag("learned_executor") == 2>>
+<<run window.update_flag("learned_executor", window.get_flag("learned_executor")+1)>><<type 20ms>><span class="dialogue">
+<span class="arthur">“Right. Being the eldest means I’m the one to handle the will.”</span>
+
+Isaac nods sympathetically. <span class="isaac">"I know it's a lot to take on. These things are never simple, and with the mayoral election happening..."</span> He glances at Rhona, something unspoken passing between them. <span class="isaac">"Well. Let's just say emotions are running high in Edgewater right now. The Hepburns and Ashfords have always had their tensions, but politics has a way of making everything more complicated."</span>
+
+<span class="isaac">"Anyway,"</span> Isaac continues, <span class="isaac">"I hate to cut this short, but we need to get back and prepare for tomorrow's debate. I'd love to see you there—and afterward, we're holding a small fundraising gathering. Nothing too formal. It would give us a chance to catch up properly, talk about your father when he was young. Before everything got so..."</span>
+
+<span class="arthur">"Complicated?"</span> you offer.
+
+<span class="isaac">"Yes. Exactly."</span> Isaac's smile is rueful. <span class="isaac">"Will you come?"</span>
+
+You find yourself nodding. <span class="arthur">"I'll see what I can do."</span>
+
+It's noncommittal, but Isaac seems satisfied. He beams, clapping you on the shoulder. <span class="isaac">"Great. I'll see you then. And Arthur?”</span> his expression turns serious. <span class="isaac">“I know you and your father had your difficulties. But he was a good man once. Try to remember that, when the will reading gets messy. And it will get messy."</span>
+
+There's a warning in those words. Is it out of kindness? 
+
+Isaac reaches into his suit jacket and produces a business card, pressing it into your hand. Gold embossed letters read: ISAAC ASFORD–Edgewater Mayor Candidate and Public Servant. 
+
+<span class="isaac">"Here's my number. Give me a call if you need anything—or just come to the debate. And the fundraiser. We'll talk more then."</span>
+
+Then the Ashfords are moving away, leaving you standing on the cemetery grass.
+</span><</type>><</if>><<nobr>>
+<<if window.get_flag("learned_executor") == 2>>
+<<type 20ms>>
+<span class="dialogue">
+Around you, the funeral crowd continues to thin. But there are still more who you could still approach. That’s if you can stomach more conversation.
+</span>
+<</type>>
+<</if>>
+
+<<if window.get_flag("hepburn_convo_funeral") == 0>>
+<<type 20ms>>
+<span class="dialogue">
+[[Talk to the familiar woman and the older man -> Ch2Pg2A]]
+</span>
+<</type>>
+<</if>>
+
+<<if window.get_flag("wyatt_convo_funeral") == 0>>
+<<type 20ms>>
+<span class="dialogue">
+[[Talk to the older woman by herself. -> Ch2Pg2C]]
+</span>
+<</type>>
+<</if>>
+
+<<if window.get_flag("learned_executor") == 3>>
+<<type 20ms>>
+<span class="dialogue">
+[[Departure -> Ch2Pg3]]
+</span>
+<</type>>
+<</if>>
+<</nobr>>

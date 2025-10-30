@@ -1,0 +1,10 @@
+::chapterHead
+<span class="dialogue">
+<div class=chTitle>Prologue</div>
+<center>
+<img src="Images/intro.png" height="432px" width="540px">
+</center>
+<<type 20ms>>\
+<div class=chStart>[[Summer 1990->TranquilLake]]</div>
+\<</type>>
+</span>

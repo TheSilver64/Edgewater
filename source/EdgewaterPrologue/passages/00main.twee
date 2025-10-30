@@ -31,6 +31,7 @@ Edgewater
 <<cacheaudio "pianoA" "source/sound/piano motif a.mp3">>
 <<cacheaudio "classroom" "source/sound/chapter_1_classroom.mp3">>
 
+<<cacheaudio "pianoB" "source/sound/piano motif b.mp3">>
 <<cacheaudio "ambiencePositive" "source/sound/ambience positive.mp3">>
 
 :: StoryStylesheet [stylesheet]

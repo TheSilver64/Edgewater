@@ -1,5 +1,9 @@
 
 :: Start
 <div class=title>Edgewater</div>
-<center>[[New Game->TranquilLake]]</center>
+<<type 20ms>>\
+<span class="dialogue">
+<center>[[New Game->chapterHead]]</center>
+</span>
+\<</type>>
 
