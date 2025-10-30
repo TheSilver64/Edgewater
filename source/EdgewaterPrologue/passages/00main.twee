@@ -34,6 +34,8 @@ Edgewater
 <<cacheaudio "pianoB" "source/sound/piano motif b.mp3">>
 <<cacheaudio "ambiencePositive" "source/sound/ambience positive.mp3">>
 
+<<cacheaudio "seizure" "source/sound/seizure.mp3">>
+
 :: StoryStylesheet [stylesheet]
 @import url("css/fonts.css"); 
 

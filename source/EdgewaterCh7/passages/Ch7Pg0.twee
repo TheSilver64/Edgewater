@@ -1,0 +1,10 @@
+:: Ch7Pg0
+<span class="dialogue">
+<div class=chTitle>Chapter Seven</div>
+<center>
+<img src="Images/act1finale.png" height="432px" width="540px">
+</center>
+<<type 20ms>>\
+<div class=chStart>[[The Morning After->Ch7Pg1]]</div>
+\<</type>>
+</span>
