@@ -28,7 +28,8 @@
         "-o",
         "index.html",
         "source/js",
-        "source/Title/", "source/EdgewaterPrologue/", "source/EdgewaterCh1/", "source/EdgewaterCh2/", "source/EdgewaterCh3/", "source/EdgewaterCh6/", "source/EdgewaterCh7/" , "source/css"
+        "source/Title/", "source/EdgewaterPrologue/", "source/EdgewaterCh1/", "source/EdgewaterCh2/", "source/EdgewaterCh3/", "source/EdgewaterCh6/", "source/EdgewaterCh7/" , "source/EdgewaterCredits/", 
+        "source/css"
       ],
       "group": {
         "kind": "build",
