@@ -1,5 +1,11 @@
 :: Ch2Pg1
-
+<<audio "ambiencePositive" stop>>
+<<audio "pianoB" stop>>
+<<audio "pianoB" play>>
+<<repeat 120s>>
+<<audio "pianoB" stop>>
+<<audio "pianoB" play>>
+<</repeat>>
 <<type 20ms>>
 <span class="dialogue">
 The winding highway stretches before you. You hold the steering wheel at ten and two, your grip so tight your knuckles blanch white. 

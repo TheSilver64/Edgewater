@@ -1,13 +1,11 @@
 :: TranquilLake
+<<audio "pianoB" stop>>
 <<audio "prologueAmbience" stop>>
 <<audio "prologueAmbience" play>>
 <<repeat 394s>>
 <<audio "prologueAmbience" stop>>
 <<audio "prologueAmbience" play>>
 <</repeat>>
-<center>
-<img src="Images/intro.png" height="432px" width="540px">
-</center>
 <<type 20ms>>\
 <span class="dialogue">
 Summer 1990. A tranquil lake, the water nearly still. 

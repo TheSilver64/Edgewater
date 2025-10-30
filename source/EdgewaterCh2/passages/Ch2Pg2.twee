@@ -1,8 +1,15 @@
 :: Ch2Pg2
+<<audio "pianoB" stop>>
+<<audio "ambiencePositive" stop>>
+<<audio "ambiencePositive" play>>
+<<repeat 448s>>
+<<audio "ambiencePositive" stop>>
+<<audio "ambiencePositive" play>>
+<</repeat>>
 <<type 20ms>>
 <span class="dialogue">
 The funeral
-<<audio "ambiencePositive" play>>
+
 The back road to the cemetery winds through scattered houses, each set back from the pavement with enough distance respectable of rural privacy. Yard signs sprout from the grass, obnoxious in their bold reds and blues. For a moment the outside world shines through: election season.
 But the names are familiar, seared into your mind like the memories of nightmares: 
 <span class="scary"> Hepburn. Ashford. </span>
@@ -22,17 +29,17 @@ You scan the assembled mourners, looking for Winona's dark hair, for Dove's–bu
 It doesn’t take long before the pastor arrives. He opens his Bible, and the funeral begins in earnest. 
 You stand at the front as the sole family representative. Your jaw aches from clenching it. Around you, the others shift and murmur. You catch fragments of conversation, whispers at just the right volume to betray their lack of private intent:
 
-span class="scary"> "—alcoholic–" </span>
-span class="scary"> "—always was weak—" </span>
-span class="scary"> "—coward's way out—" </span>
+<span class="scary"> "—alcoholic–" </span>
+<span class="scary"> "—always was weak—" </span>
+<span class="scary"> "—coward's way out—" </span>
 
 Your fingernails dig into your palms.
-The pastor's voice drones on: "...and so we commit Silas Hepburn to the earth, returning dust to dust."
+The pastor's voice drones on: <span class="npc">"...and so we commit Silas Hepburn to the earth, returning dust to dust."</span>
 Dust to dust. Ashes to ashes. The energy of life breaking down into matter. The conservation of mass. Nothing is truly destroyed, only transformed.
 Morbidly, you wonder what your father has transformed into. Are the signs of death branded on his body? Or is he drained and marinated in preservatives, their poison eventually seeping from his casket into the barren earth? 
-Behind you, an old man's voice cuts through your thoughts: "Fitting end for a drunk, wouldn't you say?"
+Behind you, an old man's voice cuts through your thoughts: <span class="npc">"Fitting end for a drunk, wouldn't you say?"</span>
 You whip around. A trio of well-dressed elderly people stand off to the side, watching the pastor’s speech with disdain. 
-An old woman from the group sniffs. “In the end, dying like the weak failure of a son he was,” her reedy voice drips with satisfaction. 
+An old woman from the group sniffs. <span class="npc">“In the end, dying like the weak failure of a son he was,”</span> her reedy voice drips with satisfaction. 
 Behind the two of them, a second man, middle-aged instead of elderly, shifts in place uncomfortably. 
 Unbelievable. 
 The service ends. People disperse, forming small clusters. Maybe one of these attendees knows what the rest of your family is up to. But the thought of approaching anyone makes your skin crawl.

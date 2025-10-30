@@ -7,9 +7,6 @@
 <<audio "morning" stop>>
 <<audio "morning" play>>
 <</repeat>>
-<center>
-<img src="Images/ch1.png" height="432px" width="540px">
-</center>
 <<type 20ms>>
 <span class="dialogue">
 You wake just before dawn. Your breath comes in sharp, quick gasps. You stop thrashing once you realize where you are. 
