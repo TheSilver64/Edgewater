@@ -1,13 +1,8 @@
 
 :: Start
-<<audio "piano motif combined" stop>>
-<div class=title>Edgewater</div>
-<<type 20ms>>\
-<span class="dialogue">
-<center>[[New Game->chapterHead]]</center>
-<center>
-<img src="Images/thmb_no_txt.png" height="432px" width="540px">
-</center>
+<<audio "pianoC" stop>>
+<center><img src="Images/thmb_with_txt.png" height="432px" width="540px"></center>
+<<type 20ms>><span class="dialogue"><div class=chStart>[[New Game->chapterHead]]</div>
 </span>
 \<</type>>
 
