@@ -1,0 +1,32 @@
+:: TellStory
+<<repeat 394s>>
+<<audio "prologueAmbience" stop>>
+<<audio "prologueAmbience" play>>
+<</repeat>>
+<<type 20ms>>\
+<span class="dialogue">
+<span class="namid">“Tonight I want to tell you one of my stories. 
+My grandmother told it to me when I was a little girl, and now I’m passing it on to you. Both of you.”</span>
+
+Winona squirms with excitement. <span class="winona">“Is it one of the stories of your family?! The, the–”</span>
+She scrunches up her face, trying to remember. <span class="winona">“The Muh-nee?!”</span>
+
+Your mother reaches over and gently touches Winona’s nose. 
+<span class="namid">“The ‘Menominee’, Winny. Say it with me: ‘Muh-naa-muh-nee’.”</span>
+
+<span class="winona">“Muh-naa-muh-nee,”</span> Winona repeats carefully, her tongue working around the unfamiliar syllables.
+
+<span class="namid">“Good,”</span> your mother says. 
+<span class="namid">“That’s the name we were given by others, but we call ourselves Mamaceqtaw.”</span>
+
+<span class="winona">“Mama-ceh-talk?”</span> Winona sounds out,
+
+<span class="namid">“Mamaceqtaw. We are the Kiash Matchitiwuk–the ancient ones. 
+We have lived in this region for centuries, and our stories are our history. 
+I will share one with you tonight.”</span>
+
+Your eyebrows arch.
+
+<span class="arthur">[[“History?” -> History]]</span>
+</span>
+\<</type>>
