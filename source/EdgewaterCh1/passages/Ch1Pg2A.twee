@@ -8,8 +8,8 @@ You reach for the leather-bound book on your desk. Your mother’s herbalism not
 
 <<type 20ms>>
 <span class="dialogue">
-University of Michigan Campus
-<<audio "walkingA" play>>
+University of Michigan Campus <<audio "morning" stop>><<audio "walkingA" stop>><<audio "walkingA" play>>
+
 Your footsteps crunch on the gravel path that winds between dormitories and academic buildings, the solitary sound echoing amongst the structures. The sun hasn’t fully risen, leaving the sky an unripened shade of twilight blue. Instead of turning west towards your coveted bench, you turn east. You need solitude greater than what the living, slumbering campus can provide. You need the solitude of the dead.
 The walk to Forest Hill Cemetery takes fifteen minutes. You follow the sidewalk as it curves away from campus, past the last of the residential buildings.
 The cemetery gates are wrought iron. They stand fastened shut–it’s not quite daylight hours yet–but you slip through the generous gap beneath without hesitation. You’ve been here enough times that the groundskeeper recognizes you now.
@@ -17,8 +17,8 @@ The cemetery gates are wrought iron. They stand fastened shut–it’s not quite
 <</type>>
 <<type 20ms>>
 <span class="dialogue">
-Forest Hill Cemetery 
-<<audio "cemetery" play>>
+Forest Hill Cemetery <<audio "walkingA" stop>><<audio "cemetery" stop>><<audio "cemetery" play>><<repeat 133s>><<audio "cemetery" stop>><<audio "cemetery" play>><</repeat>>
+
 The headstones of the newest graves almost sparkle in the dew, still sharp-faced and legible in their inscriptions and in the minds of the living. But you prefer the older sections, where the names have worn into abstraction by weather and time, the monuments reclaimed by moss and lichen. 
 
 Beneath you, the dead slumber. Above you, ancient gnarled oak trees line the walkways. Their branches reach across to form tunnels of red, orange, and gold leaves–their colors of decay muted by the hazy gray and blue shards of the sky. It’s as if the cemetery is holding its breath, waiting for the sun to bring color back to the world. Your breath mists in the air, betraying the life in your lungs.

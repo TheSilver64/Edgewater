@@ -1,5 +1,8 @@
 :: History
-
+<<repeat 394s>>
+<<audio "prologueAmbience" stop>>
+<<audio "prologueAmbience" play>>
+<</repeat>>
 <<type 20ms>>\
 <span class="dialogue">
 <span class="arthur">(“History is made of science, not stories.”)</span> But you settle back to listen.

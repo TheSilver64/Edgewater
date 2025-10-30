@@ -3,6 +3,7 @@
 <<type 20ms>>
 <span class="dialogue">
 Mathematics Classroom, 8:05 AM.
+<<audio "classroom" stop>>
 <<audio "classroom" play>>
 Class is in session. The lecture hall is amphitheater-style, tiered seating rising up from the front where Professor Chen stands before a massive chalkboard. She's mid-sentence, discussing the historical context of fractal mathematics, when you enter through the side door and take your place at the board.
 You’re a little late–you spent too long getting ready. While you may have not slept well last night, you do not disappoint. 
@@ -24,7 +25,9 @@ Your cellphone vibrates in your pocket. Uncommon among college students, who rel
 You pause, chalk hovering. You don’t get many messages. 
 You pause, chalk hovering. You don't get many calls. Your hand snakes to your pocket, pulling out the phone while Professor Chen continues her lecture about Mandelbrot's time at IBM.
 The screen lights up: Winona - 3 missed calls, 1 text message
-<<audio "nightmareB" play>>
+</span>
+<</type>>
+<<type 20ms>><span class="dialogue"><<audio "classroom" stop>><<audio "nightmareB" stop>><<audio "nightmareB" play>>
 Your heart drops into your stomach. The preview of her text is visible: <span class="winona">"Arty, I need to talk to you. It's urgent. Please call me back."</span>
 Your sister. Winona. You haven't spoken to her in years–not since you left Edgewater. Even if your brain wants to delay responding to her, it would have to confront the pit in your gut.
 Every instinct in your body screams at you to call her back immediately.
@@ -35,7 +38,8 @@ The words feel foreign in your mouth. Family. Matter. Urgent.
 Professor Chen knows you well enough by now. Arthur Hepburn doesn't step away from mathematics without good reason. She nods, holding her palm out expectantly. You give her chalk and she dismisses you with a small gesture. 
 As you leave, you see her turn back to the board. She continues writing around your drawing of the Mandelbrot set, preserving the pattern you've created.
 The door closes behind you with a soft click.
-
+</span>
+<</type>><<type 20ms>><span class="dialogue"><<audio "nightmareB" stop>>
 
 The Bench
 
@@ -51,7 +55,7 @@ She answers immediately.
 <span class="winona">"Hey,"</span> she says. Her voice is exactly as you remember it, but threaded with something else. Something strained.
 <span class="arthur">"Hey,"</span> you reply.
 There's a pause. You search for words. What’s the right thing to say after years of silence?
-[[<span class="arthur">“How have you been, Winnie?”</span> -> Ch1Pg3A]]
+<span class="arthur">[[“How have you been, Winnie?” -> Ch1Pg3A]]</span>
 [[Say nothing. -> Ch1Pg3B]]
 </span>
 <</type>>

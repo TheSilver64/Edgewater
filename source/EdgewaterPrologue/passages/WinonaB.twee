@@ -1,4 +1,8 @@
 :: WinonaB
+<<repeat 394s>>
+<<audio "prologueAmbience" stop>>
+<<audio "prologueAmbience" play>>
+<</repeat>>
 <<type 20ms>>\ 
 <span class="dialogue">
 Winona pouts. She flattens herself onto the covers, crushing your legs. <span class="winona">“There, it’s all fixed!”</span>

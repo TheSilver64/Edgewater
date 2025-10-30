@@ -1,5 +1,8 @@
 ::Swim
-
+<<repeat 123s>>
+<<audio "nightmareB" stop>>
+<<audio "nightmareB" play>>
+<</repeat>>
 <<type 20ms>>\
 <span class="dialogue">
 You swim towards it.
