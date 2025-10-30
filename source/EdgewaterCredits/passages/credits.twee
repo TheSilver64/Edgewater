@@ -1,0 +1,30 @@
+:: credits
+
+<<type 20ms>>
+<span class="dialogue">
+<<audio "pianoA" stop>><<audio "pianoA" play>><<repeat 108s>><<audio "pianoA" stop>><<audio "pianoA" play>><</repeat>>
+If you enjoyed this prototype, follow our itch page for updates.
+
+Ruben Reynoso (@ruben): creator; narrative designer; lead sound designer; assistant programmer
+
+Virginia Carrion (mess.a.lina): composer; lead sound designer
+
+Raincloud: lead programmer
+
+Brittany Hale (@TheSilver64): lead programmer
+
+thatguynm: illustrator
+
+scooter: illustrator
+
+Trent Hutchinson: game writer
+
+Brain ‘MKCyborg’ Renadette: game writer
+
+Gumbo Masterer: game writer
+
+Elijah Jeffery: game writer
+
+<div class=chStart>[[Main Menu->Start]]</div>
+</span>
+<</type>>

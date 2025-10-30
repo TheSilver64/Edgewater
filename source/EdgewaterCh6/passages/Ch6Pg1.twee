@@ -1,0 +1,31 @@
+:: Ch6Pg1
+<<audio "nightmareA" stop>>
+<<audio "nightmareA" play>>
+<<repeat 448s>>
+<<audio "nightmareA" stop>>
+<<audio "nightmareA" play>>
+<</repeat>>
+<<type 20ms>>
+<span class="dialogue">
+The scream tears through the house like a knife through silk.
+
+You bolt upright in bed. <span class="arthur">“Mom?”</span> you gasp. For a single disorienting moment as you look out upon your childhood room, you’re six again.
+
+But then it comes once more–a high, keening wail that raises every hair on your body. A cry not of pain, but of panic.
+<span class="scary">“DOVE!”</span> 
+
+It’s Winona. You’re thrust back into your adult body, on the other side of the veil. No longer caught between sleep and waking, past and present. You’re firmly in the now.
+
+Your feet hit the floor. You careen through the dark hallway, old floorboards groaning beneath your weight. Your shoulder clips the doorframe as you round the corner too fast. But you ignore the pain and keep moving. 
+
+Light spills from the attic stairs–harsh, almost clinically white. Winona’s voice pierces from above.
+
+<span class="winona">“Dove, baby, please–”</span> she’s sobbing, <span class="winona">“please, not again–!”</span>
+
+You take the attic stairs three at a time. 
+
+You stop cold in the doorway. 
+
+[[The Sight->Ch6Pg2]]
+</span>
+<</type>>
