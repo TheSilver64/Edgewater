@@ -27,9 +27,9 @@
       "args": [
         "-o",
         "index.html",
-        "source/js",
-        "source/Title/", "source/EdgewaterPrologue/", "source/EdgewaterCh1/", "source/EdgewaterCh2/", "source/EdgewaterCh3/", "source/EdgewaterCh4/", "source/EdgewaterCh5/", "source/EdgewaterCh6/", "source/EdgewaterCh7/" , "source/EdgewaterCredits/", 
-        "source/css"
+        "src/source/js",
+        "src/source/EdgewaterCh0/", "src/source/EdgewaterCh1/", "src/source/EdgewaterCh2/", "src/source/EdgewaterCh3/", "src/source/EdgewaterCh4/", "src/source/EdgewaterCh5/", "src/source/EdgewaterCh6/", "src/source/EdgewaterCh7/" , "src/source/EdgewaterCredits/", 
+        "src/source/css"
       ],
       "group": {
         "kind": "build",
