@@ -1,13 +1,11 @@
 :: Ch0Pg9A
-<<repeat 344s>>
-<<audio "nightmareA" stop>>
-<<audio "nightmareA" play>>
-<</repeat>>
-<<type 40ms>>\
 <span class="dialogue">
-The door opens. A figure shuffles through, bent over. It gasps with each movement. 
-
-<<type 60ms>>\<span class="super scary">A drip, drip, drip.</span>\<</type>> Something sticky trails behind. 
+<<type 80ms>>\
+The door opens. A figure shuffles through, bent over. It gasps with each movement.\<</type>><<type 500ms>><span class="super scary">
+...
+...
+...
+A drip, drip, drip.</span>\<</type>> <<type 80ms>>\Something sticky trails behind. 
 
 It scrabbles for the front door, hand clawing at the knob. Finally it pulls. The front door flies open. The wind howls. 
 
@@ -15,8 +13,8 @@ Your father bursts through the bedroom door.
 
 <span class="scary"><span class="silas">“Namid, please–”</span></span> he’s sobbing.
 
-You blink, looking at the figure in the open doorway again. 
+You blink, looking at the figure in the open doorway again.<</type>> 
 
-<span class="scary"><span class="arthur">[[“Mom…?” -> Ch0Pg10A]]</span></span> you say, voice small.
-</span>
-\<</type>>
+<<type 200ms>><span class="scary"><span class="arthur">[[“Mom…?” -> Ch0Pg10A]]</span></span> you say, voice small.<</type>>
+
+ 

@@ -1,10 +1,4 @@
 :: Ch0Pg1
-<<audio "ambiencePrologue" stop>>
-<<audio "ambiencePrologue" play>>
-<<repeat 394s>>
-<<audio "ambiencePrologue" stop>>
-<<audio "ambiencePrologue" play>>
-<</repeat>>
 <<type 30ms>>\
 <span class="dialogue">
 Moonlight streams in from the open bay windows, illuminating your bedroom. It’s cozy, with glow-in-dark stars tacked haphazardly on the ceiling and walls covered with science posters. Your bookshelf is filled with model planes, bones, and rocks of various sizes. 

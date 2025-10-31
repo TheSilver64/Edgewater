@@ -1,10 +1,4 @@
 :: Ch0Pg0
-<<audio "ambiencePrologue" stop>>
-<<audio "ambiencePrologue" play>>
-<<repeat 394s>>
-<<audio "ambiencePrologue" stop>>
-<<audio "ambiencePrologue" play>>
-<</repeat>>
 <<type 30ms>>\
 <span class="dialogue">
 Summer 1990.

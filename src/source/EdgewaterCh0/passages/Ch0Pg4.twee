@@ -1,8 +1,4 @@
 :: Ch0Pg4
-<<repeat 394s>>
-<<audio "prologueAmbience" stop>>
-<<audio "prologueAmbience" play>>
-<</repeat>>
 <<type 30ms>>\
 <span class="dialogue">
 You protest, gesturing at your sister. She grins triumphantly from the middle of your bed.

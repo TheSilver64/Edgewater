@@ -1,9 +1,5 @@
 :: Ch0Pg9B
-<<repeat 123s>>
-<<audio "nightmareB" stop>>
-<<audio "nightmareB" play>>
-<</repeat>>
-<<type 40ms>>\
+<<type 60ms>>\
 <span class="dialogue">
 The silver floats in the water. It's a nightgown - your mother's nightgown! She drifts, her back turned to you. Her hair fans outwards in the water.
 
@@ -13,7 +9,8 @@ You finally reach her.
 
 You grab her shoulders and turn her around. 
 
-<<type 50ms>>\The bloated face of a <span class="super-scary">corpse</span> stares back at you. Her eyes are milky white, unseeing.\<</type>>
+
+<<type 80ms>>\The bloated face of a <span class="super-scary">corpse</span> stares back at you. Her eyes are milky white, unseeing.\<</type>>
 
 [[You scream. -> Ch1Pg0]]
 </span>

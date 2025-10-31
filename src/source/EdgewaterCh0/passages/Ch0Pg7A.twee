@@ -1,9 +1,4 @@
 :: Ch0Pg7A
-<<audio "nightmareA" stop>>
-<<repeat 394s>>
-<<audio "prologueAmbience" stop>>
-<<audio "prologueAmbience" play>>
-<</repeat>>
 <<= window.update_flag("prologue_choice", 1)>>
 <<type 30ms>>\
 <span class="dialogue">

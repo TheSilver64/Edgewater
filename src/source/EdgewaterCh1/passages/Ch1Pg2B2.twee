@@ -1,5 +1,5 @@
 :: Ch1Pg2B2
-<<repeat 108s>><<audio "pianoA" stop>><<audio "pianoA" play>><</repeat>>
+<<audio "pianoA" stop>>
 <<type 30ms>>
 <span class="dialogue">
 You've always preferred drawing these by removing from a filled surface rather than coloring it in. You recall the black scratchboard paper of your youth–paper which you snuck away from Winona’s craft supplies.  You would meticulously scrape away at the surface, revealing the iridescent pattern like carving a statue from stone. Even here, in condensation, you can work backwards.

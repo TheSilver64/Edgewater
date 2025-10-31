@@ -1,15 +1,11 @@
 :: Ch0Pg10A
-<<repeat 344s>>
-<<audio "nightmareA" stop>>
-<<audio "nightmareA" play>>
-<</repeat>>
-<<type 40ms>>\
+<<type 80ms>>\
 <span class="dialogue">
 Lightning flashes, illuminating everything. You realize now why you didn’t recognize her before. 
 
 She stares at you with wide, bloodshot eyes. Like she’s a deer staring down the barrel of a rifle.
 
-Her silver nightgown is drenched in <<type 70ms>>\<span class="super scary">BLOOD.</span>\<</type>>
+Her silver nightgown is drenched in <<type 100ms>>\<span class="super scary">BLOOD.</span>\<</type>>
 
 Thunder shakes the house–the door slams–
 

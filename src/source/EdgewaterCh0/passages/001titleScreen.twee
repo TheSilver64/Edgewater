@@ -1,8 +1,38 @@
 
 :: Start
-<center><h1 style="font-family:'Title Font'; font-size:5em; color:#fff; margin-top:20px;">Edgewater</h1>
-<img src="Images/thmb_no_txt.png" height="432px" width="540px">
-<<type 80ms>><span class="dialogue"><div class=chStart>[[New Game->chapterHead]]</div>
+<<timed 1s>>
+<span class="fade-in">
+<div id="disclaimerText" style="color:#5C0F0F; text-align:center; margin-top:200px; font-family:'Scary Font'; font-size:2em;">
+  This game is intended for mature audiences.
+</div>
 </span>
-<</type>></center>
+<</timed>>
 
+<<timed 4s>>
+<span class="fade-in">
+<center>
+<div class='dialogue' style="font-size:1.25em">[[Acknowledge->TitleScreen]]</div>
+</center>
+</span>
+<</timed>>
+
+:: TitleScreen
+<<audio "pianoC" play loop>>
+
+<<timed 5s>>
+<span class="fade-in" style="animation-duration:5s">
+  <div class="title" style="margin:20px 0 0 0; padding:0; text-align:center; position:relative; z-index:2;">Edgewater</div>
+</span>
+<</timed>>
+
+<<timed 8s>>
+<span class="fade-in">
+  <img id="titleImg" src="Images/thmb_no_txt.png" style="display:block; margin:-20px auto 0 auto; width:810px; height:648px; position:relative; z-index:1;">
+</span>
+<</timed>>
+
+<<timed 10s>>
+<span class="fade-in">
+  <div class="chStart" style="margin:-10px auto 0 auto; text-align:center;">[[Start->002chapterHead]]</div>
+</span>
+<</timed>>

@@ -1,10 +1,4 @@
 :: Ch1Pg2A4
-<<audio "classroom" stop>>
-<<audio "nightmareB" stop>>
-<<repeat 133s>>
-<<audio "cemetery" stop>>
-<<audio "cemetery" play>>
-<</repeat>>
 <<type 30ms>>
 <span class="dialogue">
 You lean back against the granite bench, the notebook resting in your lap. The stone is cold enough to seep through your jacket, but you don't mind. 

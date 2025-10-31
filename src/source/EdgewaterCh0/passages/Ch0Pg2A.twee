@@ -1,8 +1,4 @@
 :: Ch0Pg2A
-<<repeat 394s>>
-<<audio "prologueAmbience" stop>>
-<<audio "prologueAmbience" play>>
-<</repeat>>
 <<type 30ms>>\ 
 <span class="dialogue">
 Winona pouts. <span class="winona">“Liar! Then why is Mom allowed in here?”</span>

@@ -17,68 +17,126 @@
 Edgewater
 
 :: StoryCaption
-<<button "Map">>
-    <<script>>
-    Dialog.setup("Map");
-    Dialog.wiki(Story.get("Map").processText());
-    Dialog.open();
-    <</script>>
-<</button>>
-
+<div class="story-caption-container">
+    <img src="Images/thmb_no_txt.png" class="story-thumb">
+</div>
+    
 :: StoryInit
 /* prologue */
-<<cacheaudio "ambiencePrologue" "source/sound/prologue_ambi.mp3">>
-<<cacheaudio "nightmareA" "source/sound/nightmare_a.mp3">>
-<<cacheaudio "nightmareB" "source/sound/nightmare_b.mp3">>
+<<cacheaudio "ambiencePrologue" "src/source/sound/prologue_ambi.mp3">>
+<<cacheaudio "nightmareA" "src/source/sound/nightmare_a.mp3">>
+<<cacheaudio "nightmareB" "src/source/sound/nightmare_b.mp3">>
 
 /* chapter 1 */
-<<cacheaudio "morning" "source/sound/ch1_morning.mp3">>
-<<cacheaudio "walking" "source/sound/ch1_walking.mp3">>
-<<cacheaudio "cemetery" "source/sound/ch1_cemetery.mp3">>
-<<cacheaudio "shower" "source/sound/ch1_shower.mp3">>
-<<cacheaudio "pianoA" "source/sound/piano_a.mp3">>
-<<cacheaudio "classroom" "source/sound/ch1_classroom.mp3">>
+<<cacheaudio "morning" "src/source/sound/ch1_morning.mp3">>
+<<cacheaudio "walking" "src/source/sound/ch1_walking.mp3">>
+<<cacheaudio "cemetery" "src/source/sound/ch1_cemetery.mp3">>
+<<cacheaudio "shower" "src/source/sound/ch1_shower.mp3">>
+<<cacheaudio "pianoA" "src/source/sound/piano_a.mp3">>
+<<cacheaudio "classroom" "src/source/sound/ch1_classroom.mp3">>
 /*<<cacheaudio "nightmareB" "source/sound/nightmare_b.mp3">>*/
 
 /* chapter 2 */
-<<cacheaudio "pianoB" "source/sound/piano_b.mp3">>
-<<cacheaudio "ambiencePositive" "source/sound/ambi_pos.mp3">>
+<<cacheaudio "pianoB" "src/source/sound/piano_b.mp3">>
+<<cacheaudio "ambiencePositive" "src/source/sound/ambi_pos.mp3">>
 
 /* chapter 3 */
-<<cacheaudio "doorbell" "source/sound/doorbell.mp3">>
-<<cacheaudio "chimes" "source/sound/chimes.mp3">>
-<<cacheaudio "lighter" "source/sound/lighting_cig.mp3">>
+<<cacheaudio "doorbell" "src/source/sound/doorbell.mp3">>
+<<cacheaudio "chimes" "src/source/sound/chimes.mp3">>
+<<cacheaudio "lighter" "src/source/sound/lighting_cig.mp3">>
 /*<<cacheaudio "pianoA" "source/sound/piano_a.mp3">>*/
-<<cacheaudio "pianoC" "source/sound/piano_combined.mp3">>
+<<cacheaudio "pianoC" "src/source/sound/piano_combined.mp3">>
 
 /* chapter 4 */
-<<cacheaudio "houseRoomTone" "source/sound/ch4_house.mp3">>
-<<cacheaudio "entrywayMemory" "source/sound/entryway_memory.mp3">>
+<<cacheaudio "houseRoomTone" "src/source/sound/ch4_house.mp3">>
+<<cacheaudio "entrywayMemory" "src/source/sound/entryway_memory.mp3">>
 /*<<cacheaudio "chimes" "source/sound/chimes.mp3">>*/
 /*<<cacheaudio "pianoC" "source/sound/piano_combined.mp3">>*/
-<<cacheaudio "bathroomDrip" "source/sound/bathroom_drip.mp3">>
-<<cacheaudio "ambienceBasement" "source/sound/basement_ambi.mp3">>
+<<cacheaudio "bathroomDrip" "src/source/sound/bathroom_drip.mp3">>
+<<cacheaudio "ambienceBasement" "src/source/sound/basement_ambi.mp3">>
 /*<<cacheaudio "nightmareA" "source/sound/nightmare_a.mp3">>*/
 
 /* chapter 5 */
-<<cacheaudio "ambienceChap5" "source/sound/ch5_ambi.mp3">>
-<<cacheaudio "forest" "source/sound/forest.mp3">>
-<<cacheaudio "treehouseMemory" "source/sound/treehouse_memory.mp3">>
-<<cacheaudio "wolfHowl" "source/sound/wolf_howl.mp3">>
-<<cacheaudio "motherMemory" "source/sound/treehouseMemory.mp3">>
-<<cacheaudio "ambienceNeg" "source/sound/ambi_neg.mp3">>
+<<cacheaudio "ambienceChap5" "src/source/sound/ch5_ambi.mp3">>
+<<cacheaudio "forest" "src/source/sound/forest.mp3">>
+<<cacheaudio "treehouseMemory" "src/source/sound/treehouse_memory.mp3">>
+<<cacheaudio "wolfHowl" "src/source/sound/wolf_howl.mp3">>
+<<cacheaudio "motherMemory" "src/source/sound/treehouseMemory.mp3">>
+<<cacheaudio "ambienceNeg" "src/source/sound/ambi_neg.mp3">>
 
 /* chapter 6 */
 /*<<cacheaudio "nightmareA" "source/sound/nightmare_a.mp3">>*/
-<<cacheaudio "seizure" "source/sound/seizure.mp3">>
+<<cacheaudio "seizure" "src/source/sound/seizure.mp3">>
 
 /* chapter 7 */
-<<cacheaudio "teaserAmbience" "source/sound/teaser_ambience.mp3">>
-<<cacheaudio "tvNeutral" "source/sound/tv_neutral.mp3">>
-<<cacheaudio "tvScary" "source/sound/tv_scary.mp3">>
+<<cacheaudio "teaserAmbience" "src/source/sound/teaser_ambience.mp3">>
+<<cacheaudio "tvNeutral" "src/source/sound/tv_neutral.mp3">>
+<<cacheaudio "tvScary" "src/source/sound/tv_scary.mp3">>
 /*<<cacheaudio "lighter" "source/sound/lighting_cigarette.mp3">>*/
 
 :: StoryStylesheet [stylesheet]
+/* fade in animation */
+.fade-in {
+    opacity: 1;
+    animation-name: fadeInOpacity;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-duration: 2.5s; /* change duration to make fade longer */
+}
+
+@keyframes fadeInOpacity {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+body {
+    background-color: #000000 ;
+    color: #ffffff
+}
+
+
+/* === Body styles === */
+body {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+/* === Story Caption Container & Thumbnail === */
+.story-caption-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.story-thumb {
+    width: 270px;
+    height: 216px;
+    object-fit: cover;
+    border: 1px solid white;
+    box-sizing: border-box;
+}
+
+/* === UI button style (for Map) === */
+#menu ul li button.ui-button {
+    width: 100%;               /* same width as built-in menu buttons */
+    padding: 4px 0;
+    margin: 0;
+    font-family: 'Story Font Demi', sans-serif;
+    font-weight: 600;
+    font-size: 1em;
+    background-color: #39f;     /* SugarCube next-passage blue */
+    border: 1px solid white;
+    color: #fff;
+    cursor: pointer;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+#menu ul li button.ui-button:hover {
+    background-color: #6cf;
+}
+
 /* Story Fonts */
 @font-face {
   font-family: "Story Font";
@@ -250,6 +308,32 @@ Edgewater
 .npc      { --hover: #CCCCCC66; color: #CCCCCC; }
 
 :: Story JavaScript
+<<script>>
+// Ensure Map button appears inside SugarCube menu
+// Inject Map button into the UI bar body
+$(document).on(':passagerender', function () {
+    const uiBarBody = document.querySelector("#ui-bar-body");
+    if (!uiBarBody) return;
+
+    // Avoid duplicates
+    if (document.getElementById("map-button")) return;
+
+    // Create Map button
+    const mapBtn = document.createElement("button");
+    mapBtn.id = "map-button";
+    mapBtn.textContent = "Map";
+    mapBtn.className = "ui-button";   // uses the same styling as built-in UI buttons
+    mapBtn.onclick = openMap;
+
+    // Insert before Restart link
+    const restartLink = Array.from(uiBarBody.children).find(el => el.textContent.includes("Restart"));
+    if (restartLink) {
+        uiBarBody.insertBefore(mapBtn, restartLink);
+    } else {
+        uiBarBody.appendChild(mapBtn);
+    }
+});
+<</script>>
 <<script>>
 /* === character dialogue macros === */
 

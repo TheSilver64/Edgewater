@@ -1,8 +1,4 @@
 :: Ch0Pg5
-<<repeat 394s>>
-<<audio "prologueAmbience" stop>>
-<<audio "prologueAmbience" play>>
-<</repeat>>
 <<type 30ms>>\
 <span class="dialogue">
 <span class="namid">“Tonight I want to tell you one of my stories. My grandmother told it to me when I was a little girl, and now I’m passing it on to you. Both of you.”</span>

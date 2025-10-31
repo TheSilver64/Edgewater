@@ -1,10 +1,4 @@
 :: Ch1Pg2A3
-<<audio "classroom" stop>>
-<<audio "nightmareB" stop>>
-<<repeat 133s>>
-<<audio "cemetery" stop>>
-<<audio "cemetery" play>>
-<</repeat>>
 <<type 30ms>>
 <span class="dialogue">
 The pages fall open to a section you've read a hundred times.

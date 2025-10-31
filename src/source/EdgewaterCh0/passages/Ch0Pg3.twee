@@ -1,8 +1,4 @@
 :: Ch0Pg3
-<<repeat 394s>>
-<<audio "prologueAmbience" stop>>
-<<audio "prologueAmbience" play>>
-<</repeat>>
 <<type 30ms>>\
 <span class="dialogue">
 Winona spots a gap between the comforter and sheets. She wiggles in and nestles against the pillows. She sighs in satisfaction.

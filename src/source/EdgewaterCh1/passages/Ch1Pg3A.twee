@@ -1,7 +1,7 @@
 :: Ch1Pg3A
 
 <<type 30ms>>
-<span class="dialogue">
+<span class="dialogue"><<audio "nightmareB.mp3" play>>
 The old nickname comes easily, muscle memory of childhood.
 
 <span class="winona">"Fine, thanks."</span> Her voice cracks slightly. <span class="winona">"Miss you."</span>

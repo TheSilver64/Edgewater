@@ -1,7 +1,7 @@
 :: Ch1Pg0
 <<audio "nightmareA" stop>>
 <<audio "nightmareB" stop>>
-<<audio "morning" stop>>
+<<audio "morning" play loop>>
 <span class="dialogue">
 <div class=chTitle>Chapter One</div>
 <center>

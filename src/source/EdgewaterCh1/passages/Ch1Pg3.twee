@@ -1,8 +1,7 @@
 :: Ch1Pg3
 <<type 30ms>>
 <div class=chStart>Mathematics Classroom, 8:05 AM.</div>
-<<audio "classroom" stop>>
-<<audio "classroom" play>>
+<<audio "classroom" play loop>>
 <span class="dialogue">
 Class is in session. The lecture hall is amphitheater-style, tiered seating rising up from the front where Professor Chen stands before a massive chalkboard. She's mid-sentence, discussing the historical context of fractal mathematics, when you enter through the side door and take your place at the board.
 
@@ -34,9 +33,8 @@ Your cellphone vibrates in your pocket. Uncommon among college students, who rel
 
 You pause, chalk hovering. You don't get many calls. Your hand snakes to your pocket, pulling out the phone while Professor Chen continues her lecture about Mandelbrot's time at IBM.
 
-The screen lights up: Winona - 3 missed calls, 1 text message
-</span><</type>>
-<<type 30ms>><span class="dialogue"><<audio "classroom" stop>><<audio "nightmareB" stop>><<audio "nightmareB" play>>
+The screen lights up: Winona - 3 missed calls, 1 text message <</type>>
+<<type 30ms>><span class="dialogue"><<audio "classroom" stop>><<audio "nightmareB" play loop>>
 Your heart drops into your stomach. The preview of her text is visible: <span class="winona">Arty, I need to talk to you. It's urgent. Please call me back.</span>
 
 Your sister. Winona. You haven't spoken to her in years–not since you left Edgewater. Even if your brain wants to delay responding to her, it would have to confront the pit in your gut.

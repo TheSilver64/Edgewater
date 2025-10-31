@@ -1,5 +1,4 @@
 :: Ch1Pg2B
-<<audio "morning" stop>>
 <<type 30ms>>
 <span class="dialogue">
 You open the closet and remove your shower caddy, which contains only the bare essentials: 3-in-1 shampoo/conditioner/body wash, a sliver of a soap bar, and a razor you haven’t used in days. You grab a towel from the hook on the door, slip on your foam flip-flops, and slip out of the room. Their dull slap against the linoleum echoes down the empty hallway.
@@ -11,7 +10,7 @@ You open the closet and remove your shower caddy, which contains only the bare e
 <span class="dialogue">
 The rectangular fluorescent panels hum overhead, casting away the night in a harsh white. The showers are blissfully empty, a luxury only afforded to an insomniac up at the crack of dawn. Yet the open, reflective space still feels too vulnerable. You find a stall and yank the curtains shut before you finally strip. 
 </span><</type>>
-<<audio "shower" stop>><<audio "shower" play>>
+<<audio "morning" stop>><<audio "shower" play loop>>
 <<type 30ms>><span class="dialogue">
 You turn the shower knob–the ancient pipes shudder and groan, protesting their duty, but then the water flows. Steady. Controlled. The SHHSHHSHH courses like blood across a flushed cheek, filling the stall and reverberating across the shower room. It revives the tomb of tile into a womb, steaming rising as the water heats. You step under the stream.
 
@@ -19,12 +18,12 @@ The water hits your shoulders. You close your eyes and face the showerhead, taki
 
 The rushing swells.
 </span><</type>>
-<<audio "pianoA" stop>><<audio "pianoA" play>><<repeat 108s>><<audio "pianoA" stop>><<audio "pianoA" play>><</repeat>>
 <<type 30ms>><span class="dialogue">
 It plunges into a <span class="super-scary">SPLASH.</span>
 
 Then a dribble. <span class="scary">a choking, rattling dribble.</span>
 
+<<audio "shower" stop>> <<audio "pianoA" play>>
 Your stomach lurches. You gag, stumbling forward, your hand slamming against the tile wall. The water pours down the ends of your hair as you dry heave, shaking. 
 
 The tiles are cold against your palm. Solid. Real. 

@@ -1,8 +1,4 @@
 :: Ch0Pg2C
-<<repeat 394s>>
-<<audio "prologueAmbience" stop>>
-<<audio "prologueAmbience" play>>
-<</repeat>>
 <<type 30ms>>\ 
 <span class="dialogue">
 Winona pouts, then smiles. <span class="winona">“NOOOOOO!”</span> She yells.
