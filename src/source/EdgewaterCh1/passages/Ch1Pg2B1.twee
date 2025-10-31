@@ -1,19 +1,24 @@
 :: Ch1Pg2B1
 <<repeat 108s>><<audio "pianoA" stop>><<audio "pianoA" play>><</repeat>>
-<<type 20ms>>
+<<type 30ms>>
 <span class="dialogue">
 A simple pattern. You start with a single vertical line, then split it at the top into two branches. Each branch splits again. And again.
 
 Split ends upon split ends upon split ends. 
+
 You draw quickly, your finger steadied and sure against the condensation, The pattern grows upward, branching, multiplying, fanning across the geometric cross-sections of the tile. But you can always trace it back through the divisions and bifurcations… back to the first stem before it splits into two, as if the pattern is going down into a funnel of one pure line rather than branching out infinitely.
+
 There. The chaos collapses into singularity. The infinite becomes finite. Your breathing slows.
+
 You lean back and watch as the shower's steam slowly erases your work, the branches disappearing from the smallest twigs inward, folding back down to nothing. 
+
 Your canvas is empty again. 
 
-What pattern will create order out of your mind’s chaos?
+Which pattern will create order out of your mind’s chaos?
+
 [[Fractal trees. -> Ch1Pg2B1]]
 [[Sierpinski triangles. -> Ch1Pg2B2]]
 [[Dragon curves. -> Ch1Pg2B3]]
-[[Let the ever-erasing canvas of tiles win. -> Ch1Pg2BEnd]]
+[[Let the condesnation consume. -> Ch1Pg2BEnd]]
 </span>
 <</type>>

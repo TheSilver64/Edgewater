@@ -1,6 +1,6 @@
 :: Ch1Pg3A
 
-<<type 20ms>>
+<<type 30ms>>
 <span class="dialogue">
 The old nickname comes easily, muscle memory of childhood.
 
@@ -13,15 +13,17 @@ Your throat tightens. <span class="arthur">"I miss you too. How's... how's Dove?
 <span class="arthur">“How’s Dad doing?”</span>
 
 You hear her take a shaky breath. <span class="winona">"Listen, Arty, I..."</span>
+
 She trails off.
 
 You grip the phone tighter. <span class="arthur">"What is it?"</span>
 
 The silence stretches. You can hear her breathing on the other end. 
+
 <span class="winona">“Come back home.”</span>
 <center>
 <span class="scary">“He’s dead.”</span>
 </center>
-[[Next chapter -> Ch2Pg0]]
+[[Chapter Two -> Ch2Pg0]]
 </span>
 <</type>>

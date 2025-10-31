@@ -1,8 +1,8 @@
 :: Ch0Pg7B
 <<audio "nightmareB" stop>>
 <<repeat 394s>>
-<<audio "prologueAmbience" stop>>
-<<audio "prologueAmbience" play>>
+<<audio "ambiencePrologue" stop>>
+<<audio "ambiencePrologue" play>>
 <</repeat>>
 <<= window.update_flag("prologue_choice", 2)>>
 <<type 30ms>>\

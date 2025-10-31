@@ -1,28 +1,28 @@
 :: Ch0Pg8B
-<<audio "prologueAmbience" stop>>
+<<audio "ambiencePrologue" stop>>
 <<audio "nightmareB" stop>>
 <<audio "nightmareB" play>>
 <<repeat 123s>>
 <<audio "nightmareB" stop>>
 <<audio "nightmareB" play>>
 <</repeat>>
-<<type 40ms>>\
+<<type 70ms>>\
 <span class="dialogue">
-<span class="super-scary">Thump.</span> 
+<span class="super-scary">Thump.</span>\<</type>> 
 
-You stand at the lakeshore, looking outwards. The water is as still as glass.
+<span class="dialogue"><<type 60ms>>\You stand at the lakeshore, looking outwards. The water is as still as glass.\<</type>></span>
 
-<span class="super-scary">Thump.</span>  
+<<type 80ms>>\<span class="super-scary">Thump.</span>\<</type>> 
 
-As if a pebble was dropped, a ring of ripples expands.  
+<span class="dialogue"><<type 50ms>>As if a pebble was dropped, a ring of ripples expands.\<</type>> </span> 
 
-<span class="super-scary">Thump.</span>  
+<<type 90ms>>\<span class="super-scary">Thump.</span>\<</type>>    
 
-The ripples get larger and larger. 
+<span class="dialogue"><<type 40ms>>The ripples get larger and larger.<</type>>  </span>
 
-<span class="super-scary">Thump.</span> 
+<<type 100ms>><span class="super-scary">Thump.</span><</type>>   
 
-The ripples swell into waves.
+<span class="dialogue"><<type 40ms>>The ripples swell into waves.
 
 You stumble back. With each thump, the water rises. It  sloshes around your feet. You strain in place, but your feet are stuck in mud. You cannot move.
 
@@ -30,8 +30,7 @@ The water is now to your knees. Your thighs. Your chest. Your shoulders. You cry
 
 With one last thump, the water surges, and you are now completely submerged in silence. Everything is black and cold. Panic climbs up your throat, but you cannot scream. The lake suffocates.
 
-Then, out of the darkness, a light grows, silver like moonlight. You flail.
+Then, out of the darkness, a light grows, silver like moonlight. You flail. </span>
 
-[[Swim towards it.->Ch09B]]
-</span>
+[[Swim towards it.->Ch0Pg9B]]
 \<</type>>

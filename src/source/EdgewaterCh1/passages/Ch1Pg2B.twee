@@ -1,31 +1,42 @@
 :: Ch1Pg2B
 <<audio "morning" stop>>
-<<type 20ms>>
+<<type 30ms>>
 <span class="dialogue">
 You open the closet and remove your shower caddy, which contains only the bare essentials: 3-in-1 shampoo/conditioner/body wash, a sliver of a soap bar, and a razor you haven’t used in days. You grab a towel from the hook on the door, slip on your foam flip-flops, and slip out of the room. Their dull slap against the linoleum echoes down the empty hallway.
 
-Dorm Showers
-
+</span>
+<</type>>
+<<type 30ms>>
+<div class=chStart>Dorm Showers.</div>
+<span class="dialogue">
 The rectangular fluorescent panels hum overhead, casting away the night in a harsh white. The showers are blissfully empty, a luxury only afforded to an insomniac up at the crack of dawn. Yet the open, reflective space still feels too vulnerable. You find a stall and yank the curtains shut before you finally strip. 
-</span><</type>><<type 20ms>><span class="dialogue">
+</span><</type>>
 <<audio "shower" stop>><<audio "shower" play>>
+<<type 30ms>><span class="dialogue">
 You turn the shower knob–the ancient pipes shudder and groan, protesting their duty, but then the water flows. Steady. Controlled. The SHHSHHSHH courses like blood across a flushed cheek, filling the stall and reverberating across the shower room. It revives the tomb of tile into a womb, steaming rising as the water heats. You step under the stream.
+
 The water hits your shoulders. You close your eyes and face the showerhead, taking slow, deep breaths. Let it wash away the nightmare. Let the warm tap replace the dark liquid that filled your lungs and dripped down while you slept.
+
 The rushing swells.
-</span><</type>><<type 20ms>><span class="dialogue">
+</span><</type>>
 <<audio "pianoA" stop>><<audio "pianoA" play>><<repeat 108s>><<audio "pianoA" stop>><<audio "pianoA" play>><</repeat>>
+<<type 30ms>><span class="dialogue">
 It plunges into a <span class="super-scary">SPLASH.</span>
 
-Then a dribble. <span class="scary">choking, rattling dribble.</span>
+Then a dribble. <span class="scary">a choking, rattling dribble.</span>
+
 Your stomach lurches. You gag, stumbling forward, your hand slamming against the tile wall. The water pours down the ends of your hair as you dry heave, shaking. 
 
 The tiles are cold against your palm. Solid. Real. 
 
 You steady yourself against the wall, pressing your forehead to the slick surface. The tremors leave your body through the tile, draining into the grout, into the drywall, into the very foundation of the building to the earth below. 
+
 You straighten and study the tiles. The condensation has left a thick film, turning the whole wall into a single canvas. 
+
 With your index finger, you begin to draw.
 
-What pattern will create order out of your mind’s chaos?
+Which pattern will create order out of your mind’s chaos?
+
 [[Fractal trees. -> Ch1Pg2B1]]
 [[Sierpinski triangles. -> Ch1Pg2B2]]
 [[Dragon curves. -> Ch1Pg2B3]]

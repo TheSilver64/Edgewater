@@ -1,20 +1,28 @@
 :: Ch1Pg2B2
 <<repeat 108s>><<audio "pianoA" stop>><<audio "pianoA" play>><</repeat>>
-<<type 20ms>>
+<<type 30ms>>
 <span class="dialogue">
 You've always preferred drawing these by removing from a filled surface rather than coloring it in. You recall the black scratchboard paper of your youth–paper which you snuck away from Winona’s craft supplies.  You would meticulously scrape away at the surface, revealing the iridescent pattern like carving a statue from stone. Even here, in condensation, you can work backwards.
+
 You drag your palm across a section of tile, cutting a broad triangle out of the fog. Then, this time with more care, you wipe away a smaller inverted triangle at its center. Within each of the three remaining triangles, you remove another inverted triangle. And again. Refinement after refinement.
+
 Triangles within triangles within triangles
+
 Your hand moves with mechanical precision. Your lines are impressively straight for your medium, molding an unmistakable pattern. The repetition is soothing. Predictable. Each iteration follows inevitably from the last, emerging from one, which emerged from nothing. 
+
 Order built from chaos. Your breathing slows.
+
 You step back and watch as the shower's steam slowly erases your work. The smallest triangles fill in first, smoothing out like a headstone against time. The pattern collapses against the condensation’s entropy… growing fuzzy and faint, until it’s just one triangle. 
+
 Then nothing. 
+
 Your canvas is empty again. 
 
-What pattern will create order out of your mind’s chaos?
+Which pattern will create order out of your mind’s chaos?
+
 [[Fractal trees. -> Ch1Pg2B1]]
 [[Sierpinski triangles. -> Ch1Pg2B2]]
 [[Dragon curves. -> Ch1Pg2B3]]
-[[Let the ever-erasing canvas of tiles win. -> Ch1Pg2BEnd]]
+[[Let the condesnation consume. -> Ch1Pg2BEnd]]
 </span>
 <</type>>
