@@ -1,0 +1,12 @@
+:: creditsPg0
+
+source/EdgewaterCh1/passages/Ch1Pg2B.twee
+<span class="dialogue">
+<div class=chTitle>Thank you for playing Edgewater.</div>
+<center>
+<img src="Images/ch2.png" height="432px" width="540px">
+</center>
+<<type 20ms>>\
+<div class=chStart>[[CREDITS->credits]]</div>
+\<</type>>
+</span>

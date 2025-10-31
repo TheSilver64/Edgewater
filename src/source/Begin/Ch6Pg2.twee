@@ -1,0 +1,30 @@
+:: Ch6Pg2
+<<audio "seizure" stop>>
+<<audio "seizure" play>>
+<<repeat 152s>>
+<<audio "seizure" stop>>
+<<audio "seizure" play>>
+<</repeat>>
+<<type 20ms>>
+<span class="dialogue">
+Dove writhes on the bed. Her small body convulses with violent, erratic jerks–as if she’s been electrocuted. Her back arches, spine bending like a drawn bow. She twitches back, back, back–then snaps inward, arms drawn in. Her fingers curl in rigid claws. Her legs kick and spasm, tangled in the twisted sheets.
+
+<span class="super-scary">THUMP THUMP THUMP</span>
+
+Her head slams back against the headboard with each convulsion. The dreamcatchers overhead swing wildly, their shadows dancing like demons across the walls. The wind chimes clatter in discordant chaos. 
+
+<span class="super-scary">THUMP THUMP THUMP THUMP THUMP THUMP THUMP THUMP THUMP</span>
+
+Winona is at Dove’s side, trying to hold her steady. She dodges her thrashing limbs. Her voice trembles: <span class="winona">“Not again, not again, not again–”</span>
+
+<span class="super-scary">THUMP THUMP THUMP THUMP THUMP THUMP THUMP THUMP THUMP THUMP THUMP THUMP THUMP THUMP THUMP THUMP THUMP THUMP THUMP THUMP THUMPTHUMPTHUMPTHUMPTHUMPTHUMPTHUMPTHUMPTHUMPTHUMPTHUMPTHUMPTHUMPTHUMP</span>
+
+Dove’s eyes have rolled back in her skull. Her jaw is clenched so tight you can hear her teeth grind together. A line of <span class="super-scary">blood</span> beads at the corner of her corner of her mouth, then gushes down her chin.  
+
+<span class="arthur">“Oh god–”</span> your whole body is numb. <span class="arthur">“Oh, god, Dove–”</span>
+
+<span class="winona">“DON’T JUST STAND THERE!!!”</span> Winona screams. Tears stream down her cheeks. <span class="winona">“Her medication! Bathroom! Medicine cabinet–the white bottle–HURRY!”</span>
+
+[[You run.->Ch6Pg3]]
+</span>
+<</type>>

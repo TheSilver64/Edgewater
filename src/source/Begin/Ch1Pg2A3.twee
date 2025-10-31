@@ -1,0 +1,28 @@
+:: Ch1Pg2A3
+<<audio "classroom" stop>>
+<<audio "nightmareB" stop>>
+<<repeat 133s>>
+<<audio "cemetery" stop>>
+<<audio "cemetery" play>>
+<</repeat>>
+<<type 20ms>>
+<span class="dialogue">
+The pages fall open to a section you've read a hundred times.
+
+Apocynum cannabinum. Indian hemp.
+
+This one gives you pause. Your mother's notes are more cautious here.
+<span class="arthur">“A medicine, unless you prepare it wrong. Or right, depending on your point of view.”</span> Good for rats and other pests. Your campus does a good job of keeping this campus clean though. You shouldn’t need that unless you ever decide to move back…
+You flip to another page.
+</span>
+<</type>>
+<<run window.update_flag("herb3", 1)>>
+<<if window.get_flag("herb1") == 0>>
+<<type 20ms>><span class="dialogue"> [[A medicine for poor sleep. -> Ch1Pg2A1]] </span><</type>>
+<</if>>
+<<if window.get_flag("herb2") == 0>>
+<<type 20ms>><span class="dialogue"> [[A medicine for treating coughs and stomach problems. -> Ch1Pg2A2]] </span><</type>>
+<</if>>
+<<if window.get_flag("herb1") == 1 && window.get_flag("herb2") == 1 && window.get_flag("herb3") == 1>>
+<<type 20ms>><span class="dialogue"> [[The last breath of a nightly gale runs through the trees, ruffling the pages of the notebook until it flips it entirely shut. -> Ch1Pg3]] </span><</type>>
+<</if>>

@@ -1,0 +1,26 @@
+:: Ch6Pg4
+<<audio "seizure" stop>>
+<<audio "seizure" play>>
+<<repeat 152s>>
+<<audio "seizure" stop>>
+<<audio "seizure" play>>
+<</repeat>>
+<<type 20ms>>
+<span class="dialogue">
+You reach the attic. The convulsions have worsened–her small body is jackknifing so violently that Winona can barely keep her from falling off the bed. Foam flecks the corners of Dove’s mouth, mixing with the blood into a gurgling, frothy flood. It’s drenching the front of her nightgown, dyeing it deep, sticky black.
+
+Her lips have turned <span class="scary">blue.</span>
+
+<span class="winona">“Give them to me!”</span> Winona snatches the pills and water from your hands. 
+
+But Dove’s jaw is locked shut. Winona tries to pry it open with her fingers. <span class="winona">“Come on, baby, come on–”</span> she manages to open her mouth just a crack–
+
+Dove’s jaw clenches, and her teeth sink into Winona’s thumb. 
+
+<span class="winona">“FUCK!”</span> Winona jerks back, but she doesn’t let go. Her thumb oozes and a single rivulet of blood flows down, mixing with Dove’s. She grits her teeth. She wedges her index finger on the upper teeth, and together with her torn thumb forces her mouth open. 
+
+Dove’s jaw opens just wide enough–and Winona shoves two tablets past Dove’s teeth. She tips water after them. Most of the water dribbles down Dove’s chin, but some goes down with the pills. 
+
+<span class="winona">[[“Swallow, please swallow–”->Ch6Pg5]]</span>
+</span>
+<</type>>

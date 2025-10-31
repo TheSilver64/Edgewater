@@ -1,0 +1,20 @@
+:: SomethingTonight
+<<repeat 394s>>
+<<audio "prologueAmbience" stop>>
+<<audio "prologueAmbience" play>>
+<</repeat>>
+<<type 20ms>>\
+<span class="dialogue">
+You protest, gesturing at your sister. She grins triumphantly from the middle of your bed.
+
+Your mother makes her way across the room, one hand cupping her belly as she sways awkwardly. 
+She lowers herself carefully onto the edge of your bed, sighing with the effort. 
+She looks tired. But she smiles as she looks between you and Winona.
+
+<span class="namid">“Actually, we’re doing something different tonight.”</span>
+
+Your frustration deflates into curiosity.
+
+<span class="arthur">[["What do you mean?" -> TellStory]]</span>
+</span>
+\<</type>>

@@ -1,0 +1,99 @@
+:: Ch0Pg7A
+<<audio "nightmareA" stop>>
+<<repeat 394s>>
+<<audio "prologueAmbience" stop>>
+<<audio "prologueAmbience" play>>
+<</repeat>>
+<<= window.update_flag("prologue_choice", 1)>>
+
+<<type 20ms>>\
+<span class="dialogue">
+You take a deep breath and make a decision. <span class="arthur">“Tell me about the land.”</span> you say, holding your chin up high.
+
+<span class="namid">“Alright,”</span> your mother smiles. She runs her fingers through Winona's hair, parting it down the middle.
+
+<span class="namid">“This is a real story, and it took place right here in Edgewater. Right there across the lake.”</span>
+
+You turn to look out the bay window. In the moonlight, you can just make out the dark shape of the island. <span class="arthur">“On Chapel Island?”</span> You say.
+
+Your mother pauses,<span class="namid">“yes…”</span> she says carefully, <span class="namid">“Although it wasn’t always called that. We called it Spirit Rock.”</span>
+
+You cross your arms. <span class="arthur">“Spirit Rock? Like there were actually spirits there?”</span>
+
+<span class="namid">“You’re getting ahead of me. Listen and let me tell you the story of how we found Spirit Rock, and how we lost it.”</span>
+
+You sit back in bed, still skeptical. But you’re willing to listen.
+
+Your mother’s fingers weave the sections of Winona’s hair, a repetitive, soothing pattern that matches the cadence of her voice. The night settles around you–the stridulation of the crickets, the gentle lapping of the lake against the reeds, 
+and the creaks and groans of the bones of the old lakeside house.
+
+Your mother speaks softly: <span class="namid">“Long ago, an elder told three warriors that if they walked a great distance along the Wolf River to a sacred lake, 
+the Great Spirit would grant them their most wanted wish.”</span>
+
+Winona chirps, <span class="winona">“If I could have my wish granted, I would want a unicorn that could  teleport me anywhere!</span>
+
+<span class="arthur">“Winny, don’t be stupid! Unicorns aren’t real!”</span> You berate her.
+
+Winona whirls around, tugging on the braids still in her mother's hands. 
+
+<span class="winona">“Yes they are! Lizzi from school said she saw one at her dad's farm!”</span> she insists.
+
+<span class="arthur">“Well, she was lying!”</span> you say. 
+
+<span class="winona">“Lizzi doesn’t lie! She’s my best friend!”</span>
+
+Your mother turns Winona back. <span class="namid">“Shh, let me continue. The three warriors set out on their journey, and after many days reached the very shorelines of this lake. The warriors thought long and hard about their wishes. </span> 
+
+The first warrior asked, 'Oh Great Spirit, could you give me the skills to hunt better, so I can feed my big family?' The Great Spirit gladly granted his wish and sent him on  his way. 
+
+The next warrior asked, 'Oh Great Spirit, could you help me find a wife, for I have no one to give my love to?' The Great Spirit gladly granted his wish and sent him on his way.”</span>
+
+<span class="arthur">“Those are lame wishes,”</span> you say, snorting. <span class="arthur">“I would wish for something like reading minds, or having all the scientific knowledge in the world!”</span>
+
+Your mother shushes you. <span class="namid">“Now,”</span> she continues, <span class="namid">“the third warrior was greedy. He asked, 'Oh Great Spirit, could you grant me eternal life, for I want to live forever?' But such selfish pride angered the Great Spirit. In return, the Great Spirit granted his wish by turning him into an everlasting rock, Spirit Rock. This rock is the very island across the lake.” </span> Namid nods towards the window. The outline of the island is visible on the lake's horizon. 
+
+<span class="namid">“To this day, it is said that if the island crumbles away or is taken, the Menominee people will have lost their culture. That is why the island has always remained sacred to us.”</span>
+
+<span class="arthur">“That can't be real,”</span> you insist. <span class="arthur">“Humans can't turn into islands.”</span>
+
+Your mother laughs. <span class="namid">“Ok, Mr. Skeptic. That's how my grandmother told it to me, and that's how it's been told for generations. 
+It is as real to us as the moon or the forest.”</span> Your mother has finished Winona’s braids. She ties them with an elastic. 
+
+<span class="namid">“All done!”</span> Your mother pats the top of Winona’s head.
+
+Winona springs from the ground, released from her confinement. She twirls around, trying to catch a glimpse of her hair as it whips around her head. <span class="winona">“I’m free, I’m free, I’m free!”</span> she sings. 
+
+<span class="namid">“Now, now. It’s not the time to get riled up.”</span> Your mother says. Her hand is placed on her lower back as she stands. <span class="namid">“It’s getting late. I think it’s about time for bed, don’t you?”</span>
+
+<span class="winona">“But Mom, I’m not tired yet!”</span> Winona whines. 
+
+<span class="silas">“When your mother says go to bed, you listen,”</span> a stern voice says.
+
+Arthur looks up. His father is standing in the doorway, arms crossed. He’s still wearing his hospital scrubs. The lines in his face seem even deeper in the moonlight, like he’s a statue etched from stone. 
+
+Winona pouts. <span class="winona">“I want another story.”</span>
+
+He lumbers over and scoops her up. <span class="silas">“Your mom needs her rest, alright? She’s growing a baby.”</span> Winona squirms, but he holds her fast in his rough, strong hands, draping her across his back. 
+<span class="silas">“Why can’t you be like your brother? Look how obedient he is. He’s not complaining.”</span> 
+
+Your father gives you a nod of approval. You find yourself sitting up straighter in bed.
+
+Your mother gives your father a grateful glance, following him out the door. She turns around, her dress swishing around her legs as she does so. 
+
+<span class="namid">“Goodnight Arthur. Thank you for listening.”</span> She whispers.
+
+<span class="arthur">“Goodnight,”</span> you whisper back. 
+
+She slides through the door and closes it softly behind her. You’re left alone in your room, curled up in bed. 
+
+A breeze picks up. The curtains float up, swaying in the cool night draft.
+
+You let the scent of lakewater and the surrounding forest–red oak, white pine, black cherry–waft over you. 
+
+Your eyelids become heavy. The comforter weighs upon you.
+
+You drift off into a peaceful sleep, dreaming of men emerging out of stone and earth…
+
+[[You fall asleep.]->Ch0Pg7A]
+</span>
+\<</type>>

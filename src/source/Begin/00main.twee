@@ -1,0 +1,412 @@
+:: Start
+<<audio "pianoC" loop play>>
+<center><img src="Images/thmb_no_txt.png" height="432px" width="540px"></center>
+<<type 20ms>><span class="dialogue"><div class=chStart>[[New Game->chapterHead]]</div>
+</span>
+<</type>>
+
+:: StoryData
+{
+        "ifid": "0AADA008-9380-406C-9477-DF4E6CA0656D",
+	    "format": "SugarCube",
+        "format-version": "2.36.1",
+        "start": "Start"
+}
+
+:: StoryTitle
+Edgewater
+
+:: StoryCaption
+<<button "Map">>
+    <<script>>
+    Dialog.setup("Map");
+    Dialog.wiki(Story.get("Map").processText());
+    Dialog.open();
+    <</script>>
+<</button>>
+
+:: StoryInit
+/* prologue */
+<<cacheaudio "ambiencePrologue" "source/sound/prologue_ambi.mp3">>
+<<cacheaudio "nightmareA" "source/sound/nightmare_a.mp3">>
+<<cacheaudio "nightmareB" "source/sound/nightmare_b.mp3">>
+
+/* chapter 1 */
+<<cacheaudio "morning" "source/sound/ch1_morning.mp3">>
+<<cacheaudio "walking" "source/sound/ch1_walking.mp3">>
+<<cacheaudio "cemetery" "source/sound/ch1_cemetery.mp3">>
+<<cacheaudio "shower" "source/sound/ch1_shower.mp3">>
+<<cacheaudio "pianoA" "source/sound/piano_a.mp3">>
+<<cacheaudio "classroom" "source/sound/ch1_classroom.mp3">>
+/*<<cacheaudio "nightmareB" "source/sound/nightmare_b.mp3">>*/
+
+/* chapter 2 */
+<<cacheaudio "pianoB" "source/sound/piano_b.mp3">>
+<<cacheaudio "ambiencePositive" "source/sound/ambi_pos.mp3">>
+
+/* chapter 3 */
+<<cacheaudio "doorbell" "source/sound/doorbell.mp3">>
+<<cacheaudio "chimes" "source/sound/chimes.mp3">>
+<<cacheaudio "lighter" "source/sound/lighting_cig.mp3">>
+/*<<cacheaudio "pianoA" "source/sound/piano_a.mp3">>*/
+<<cacheaudio "pianoC" "source/sound/piano_combined.mp3">>
+
+/* chapter 4 */
+<<cacheaudio "houseRoomTone" "source/sound/ch4_house.mp3">>
+<<cacheaudio "entrywayMemory" "source/sound/entryway_memory.mp3">>
+/*<<cacheaudio "chimes" "source/sound/chimes.mp3">>*/
+/*<<cacheaudio "pianoC" "source/sound/piano_combined.mp3">>*/
+<<cacheaudio "bathroomDrip" "source/sound/bathroom_drip.mp3">>
+<<cacheaudio "ambienceBasement" "source/sound/basement_ambi.mp3">>
+/*<<cacheaudio "nightmareA" "source/sound/nightmare_a.mp3">>*/
+
+/* chapter 5 */
+<<cacheaudio "ambienceChap5" "source/sound/ch5_ambi.mp3">>
+<<cacheaudio "forest" "source/sound/forest.mp3">>
+<<cacheaudio "treehouseMemory" "source/sound/treehouse_memory.mp3">>
+<<cacheaudio "wolfHowl" "source/sound/wolf_howl.mp3">>
+<<cacheaudio "motherMemory" "source/sound/treehouseMemory.mp3">>
+<<cacheaudio "ambienceNeg" "source/sound/ambi_neg.mp3">>
+
+/* chapter 6 */
+/*<<cacheaudio "nightmareA" "source/sound/nightmare_a.mp3">>*/
+<<cacheaudio "seizure" "source/sound/seizure.mp3">>
+
+/* chapter 7 */
+<<cacheaudio "teaserAmbience" "source/sound/teaser_ambience.mp3">>
+<<cacheaudio "tvNeutral" "source/sound/tv_neutral.mp3">>
+<<cacheaudio "tvScary" "source/sound/tv_scary.mp3">>
+/*<<cacheaudio "lighter" "source/sound/lighting_cigarette.mp3">>*/
+
+:: StoryStylesheet [stylesheet]
+/* Story Fonts */
+@font-face {
+  font-family: "Story Font";
+  src: url("Fonts/typewcond_regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Story Font Bold";
+  src: url("Fonts/typewcond_bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Story Font Demi";
+  src: url("Fonts/typewcond_demi.woff") format("woff");
+  font-weight: 600; 
+  font-style: normal;
+}
+
+/* Scary Font */
+@font-face {
+  font-family: "Scary Font";
+  src: url("Fonts/kingthings_trypewriter_2.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Super Scary Font*/
+@font-face {
+  font-family: "Super Scary Font";
+  src: url("Fonts/shards.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Title Font */
+@font-face {
+  font-family: "Title Font";
+  src: url("Fonts/witchwoode_regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Story Font definitions */
+@font-face {
+    font-family: "Story Font";
+    src: url("Fonts/typewcond_regular.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Story Font Bold";
+    src: url("Fonts/typewcond_bold.woff") format("woff");
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Story Font Demi";
+    src: url("Fonts/typewcond_demi.woff") format("woff");
+    font-weight: 600;
+    font-style: normal;
+}
+
+/* Scary fonts */
+@font-face {
+    font-family: "Scary Font";
+    src: url("Fonts/kingthings_trypewriter_2.woff") format("woff");
+}
+@font-face {
+    font-family: "Super Scary Font";
+    src: url("Fonts/shards.woff") format("woff");
+}
+
+/* Title font */
+@font-face {
+    font-family: "Title Font";
+    src: url("Fonts/witchwoode_regular.woff") format("woff");
+}
+
+/* === Titles & Chapter Headers === */
+.title {
+    font-family: "witchwoode";
+    color: white;
+    font-size: 200px;
+    text-align: center;
+}
+.chTitle {
+    font-family: "witchwoode";
+    color: white;
+    font-size: 100px;
+    text-align: center;
+}
+.chStart {
+    font-family: "Story Font Bold";
+    color: white;
+    font-size: 50px;
+    text-align: center;
+}
+
+/* === Additional text colors === */
+.goldText {
+    color: darkgoldenrod;
+}
+.redText {
+    color: darkred;
+}
+
+/* === Dialogue styles === */
+.dialogue {
+    font-family: "Story Font";
+    font-size: 1em;
+    line-height: normal;
+}
+.dialogue span {
+    transition: all 0.25s ease;
+    text-shadow: 0 0 4px rgba(255,255,255,0.15);
+}
+
+/* === Scary text styles === */
+.scary {
+    color: #FF3333;
+    font-family: "Scary Font", monospace;
+}
+.super-scary {
+    color: #FF0000;
+    font-family: "Super Scary Font", monospace;
+    font-weight: bold;
+}
+
+/* === Supernatural glow animation === */
+@keyframes supernatural {
+    0% { text-shadow: 0 0 6px var(--hover), 0 0 12px var(--hover); }
+    50% { text-shadow: 0 0 12px var(--hover), 0 0 24px var(--hover); }
+    100% { text-shadow: 0 0 6px var(--hover), 0 0 12px var(--hover); }
+}
+.supernatural-glow,
+.scary.supernatural-glow,
+.super-scary.supernatural-glow {
+    animation: supernatural 1.5s infinite ease-in-out;
+}
+
+/* === Character colors / hover === */
+/* Hepburn Family - blue/purple (cool tones) */
+.arthur   { --hover: #4AC1CFA6; color: #2B7FAF; }
+.winona   { --hover: #4DD1CFA6; color: #8C9CFF; }
+.dove     { --hover: #A0C27D8C; color: #F3E8A3; }
+.namid    { --hover: #67B987A6; color: #67B987; }
+.silas    { --hover: #5F7DB8A6; color: #3A5A8F; }
+.olivia   { --hover: #5A4B9FA6; color: #5A4B9F; }
+.colin    { --hover: #7A8FA6A6; color: #5E708F; }
+.harold   { --hover: #5569A0A6; color: #1f3c92ff; }
+.martha   { --hover: #788CB4A6; color: #43397cff; }
+
+/* Ashford Family - golds/ambers (warm tones) */
+.rhona    { --hover: #F2A45CA6; color: #E69548; }  
+.isaac    { --hover: #FFD24CA6; color: #FFBF33; } 
+
+/* Wyatt Family - purple/magenta (warm tones) */
+.alexander{ --hover: #D17CBFA6; color: #C86EB3; } 
+.rachel   { --hover: #B7629FA6; color: #A3528F; } 
+
+/* Indigenous - green */
+.asiniiwin{ --hover: #4BB04AA6; color: #4BB04A; }
+
+/* NPCs / minor characters */
+.npc      { --hover: #CCCCCC66; color: #CCCCCC; }
+
+:: Story JavaScript
+<<script>>
+/* === character dialogue macros === */
+
+/**
+ * each line of dialogue will get a <span> with the correct class and hover glow
+ * 
+ *  usage:
+ * <<arthur "I'm sorry, Winona.|I shouldn't have abandoned you.">>
+ * splits on | to create multiple lines 
+ * 
+ * supernatural glow:
+ * <<arthur-glow "I'm sorry, Winona.|I shouldn't have abandoned you.">>
+ */
+(function() {
+    const characters = [
+        "arthur","winona","dove","namid","silas","olivia","colin","harold","martha",
+        "rhona","isaac","alexander","rachel","asiniiwin","npc"
+    ];
+    characters.forEach(name => { // character macro
+        Macro.add(name, {
+            handler: function() {
+                if(this.args.length === 0) return;
+                const lines = this.args.join(" ").split("|");
+                lines.forEach(line => {
+                    const el = document.createElement("span");
+                    el.className = name;
+                    el.textContent = line.trim();
+                    this.output.appendChild(el);
+                    this.output.appendChild(document.createElement("br"));
+                });
+            }
+        });
+        Macro.add(name + "-glow", { // supernatural glow macro
+            handler: function() {
+                if(this.args.length === 0) return;
+                const lines = this.args.join(" ").split("|");
+                lines.forEach(line => {
+                    const el = document.createElement("span");
+                    el.className = name + " supernatural-glow";
+                    el.textContent = line.trim();
+                    this.output.appendChild(el);
+                    this.output.appendChild(document.createElement("br"));
+                });
+            }
+        });
+    });
+    Macro.add("scary", { // scary text macro
+        handler: function() {
+            if(this.args.length === 0) return;
+            const lines = this.args.join(" ").split("|");
+            lines.forEach(line => {
+                const el = document.createElement("span");
+                el.className = "scary";
+                el.textContent = line.trim();
+                this.output.appendChild(el);
+                this.output.appendChild(document.createElement("br"));
+            });
+        }
+    });
+    Macro.add("superScary", { // super scary text macro
+        handler: function() {
+            if(this.args.length === 0) return;
+            const lines = this.args.join(" ").split("|");
+            lines.forEach(line => {
+                const el = document.createElement("span");
+                el.className = "super-scary supernatural-glow";
+                el.textContent = line.trim();
+                this.output.appendChild(el);
+                this.output.appendChild(document.createElement("br"));
+            });
+        }
+    });
+})();
+
+//Story Flags:
+
+/*--code for story flags--*/
+// Map containing story flags. 0 is the default value, 
+// so flags are tripped to be 1 or 2 to avoid possible bugs
+window.story_flags = new Map([
+    // prologue
+    ["prologue_choice", 1],  // determines which nightmare player gets: 1 or 2 (used in ch1)
+    // ch1
+    ["calm_down_method", 0], // how the player calmed down: 1 or 2
+    // ch2
+    ["learned_executor", 0], // 0 if player does not know, 1 if player knows
+    ["hepburn_convo_funeral", 0], // 0 if player has not talked to Hepburn family, 1 otherwise
+    ["ashford_convo_funeral", 0], // 0 if player has not talked to Ashford family, 1 otherwise
+    ["wyatt_convo_funeral", 0], // 0 if player has not talked to Wyatt family, 1 otherwise
+    // ch3
+    ["sibling_convo", 0], //1 is Winona, 2 is Dove (used in ch4)
+    // ch4 (basement and dove's rooms end the chapter)
+    ["explored_livingroom", 0], // 0 false, 1 true
+    ["explored_kitchen", 0],
+    ["explored_entryway", 0],
+    ["explored_parents_room", 0],
+    ["explored_doves_room", 0],
+    ["explored_room", 0],
+    ["explored_winona_room", 0],
+    ["explored_bathroom", 0],
+    ["explored_basement", 0],
+    // ch5
+    ["explore_outside", 0], // 1: forest, 2: garden, 3: lakeside
+    // ch6
+    // Act 1 Epilogue
+    ["who_you_call", 0] // 1:Olivia, 2: Isaac, 3: Rachel
+
+    ["herb1", 0],
+    ["herb2", 0],
+    ["herb3", 0]
+]);
+
+// Updates a specified flag key to a given value
+window.update_flag = function (key, value) {
+    story_flags.set(key, value);
+}
+// Gets the value of a specified flag key
+window.get_flag = function (key) {
+    return story_flags.get(key);
+}
+
+/* === Prologue-specific flags === */
+window.story_flags_pro = new Map([
+    ["Main_Chapter_Branch", 0],
+    ["Story", 0]
+]);
+
+/* === Text Crawl Functions === */
+window.textWaitTime = 20;
+window.urgentTextWaitTime = 5;
+window.slowTextWaitTime = 30;
+
+window.sleep = function(ms) {
+    return new Promise(resolve => setTimeout(resolve, ms));
+};
+
+window.textCrawl = async function(id, text) {
+    let s = text;
+    for (let i = 0; i <= s.length; i++) {
+        await sleep(textWaitTime);
+        document.getElementById(id).innerHTML = s.slice(0, i);
+    }
+};
+
+window.textCrawlFast = async function(id, text) {
+    let s = text;
+    for (let i = 0; i <= s.length; i++) {
+        await sleep(urgentTextWaitTime);
+        document.getElementById(id).innerHTML = s.slice(0, i);
+    }
+};
+
+window.textCrawlSlow = async function(id, text) {
+    let s = text;
+    for (let i = 0; i <= s.length; i++) {
+        await sleep(slowTextWaitTime);
+        document.getElementById(id).innerHTML = s.slice(0, i);
+    }
+};
+<</script>>

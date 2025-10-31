@@ -1,0 +1,44 @@
+:: Ch6Pg5
+<<repeat 152s>>
+<<audio "seizure" stop>>
+<<audio "seizure" play>>
+<</repeat>>
+<<type 20ms>>
+<span class="dialogue">
+The convulsions continue. <span class="scary">THUMP THUMP THUMP</span>
+
+The seconds stretch like an eternity.
+
+Then, gradually, the jerks slow. bThe rigid arc of Dove’s spine softens. Her gnarled fingers uncurl. The terrible thumping stops.
+
+And, like a marionette whose strings were severed, Dove goes limp.
+
+Silence. For a moment you don’t even hear her breath.
+
+<span class="winona">“Dove?”</span> Winona’s voice breaks. <span class="winona">“Dove, baby?”</span>
+
+A rattling gasp. Then another. Dove’s chest rises and falls in ragged, hitching breaths. 
+
+Hey eyes flutter. The whites recede as her eyes rivet back into place, revealing pupils in warm rings of amber brown. Her eyes focus. She’s back. 
+
+Winona exhales, her words tumbling out in breathy relief. <span class="winona">“Oh Dove, you’re back–”</span>
+
+<span class="super-scary">“The wolf.”</span>
+
+The words are raw, slurred together through her blood-slick lips. 
+
+<span class="winona">“Shh…”</span> Winona smooths Dove’s sweat-soaked hair back from her forehead. <span class="winona">“It’s alright, baby. You can rest. You’re okay now–”</span> she says in a gentle, soothing cadence. 
+
+<span class="dove">“No.”</span> She croaks. Dove’s hand shoots out and squeezes Winona’s wrist. Her eyes are dilated, boring directly into yours. <span class="scary">“No. He’s hunting.”</span> The words send a shiver down your spine. 
+
+<span class="super-scary">“He smells my red backpack. Running. Running through the trees. Closer and closer until–”</span> she chokes, <span class="super-scary">“he’s right behind me–”</span>
+
+She gags and vomits on herself–thin, bile-yellow liquid that reeks of stomach acid. 
+
+Winona grabs a towel from the floor and presses it to Dove’s mouth. <span class="winona">“It’s okay, it’s ok, it was just a nightmare, Dove. You don’t even have a red backpack, see?”</span>
+
+<span class="dove">“It’s NOT–!”</span> Dove’s scream strains like fingernails scraping on glass. Fresh tears cut through the layers of body fluids on her face. <span class="dove">“It’s NOT a nightmare! He’s real! The wolf is real and he’s–he’s–”</span>
+
+<span class="arthur">[[“Dove, please calm down!”->Ch6Pg6]]</span>
+</span>
+<</type>>

@@ -1,0 +1,19 @@
+:: Ch1Pg2BEnd
+<<audio "classroom" stop>>
+<<audio "nightmareB" stop>>
+<<audio "pianoA" stop>>
+<<audio "shower" stop>>
+<<audio "shower" play>>
+<<type 20ms>>
+<span class="dialogue">
+Crossing your arms over your chest, you lean against the opposite wall. Water streams down your back. The condensation reforms into a uniform gray fog. 
+Your tapestry of fractals has been unraveled. 
+The tiles are just tiles again. The patterns are gone. But your breathing has steadied. Your hands no longer shake.
+That's better.
+</span><</type>><<type 20ms>><span class="dialogue"><<audio "shower" stop>>
+You finish washing, turn off the water, and reach for your towel.
+You head back to your apartment.
+
+[[To class. -> Ch1Pg3]]
+</span>
+<</type>>

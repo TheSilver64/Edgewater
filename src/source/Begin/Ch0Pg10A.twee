@@ -1,0 +1,19 @@
+:: Lightning
+<<repeat 344s>>
+<<audio "nightmareA" stop>>
+<<audio "nightmareA" play>>
+<</repeat>>
+<<type 20ms>>\
+<span class="dialogue">
+Lightning flashes, illuminating everything. You realize now why you didn’t recognize her before. 
+She stares at you with wide, bloodshot eyes. Like she’s a deer staring down the barrel of a rifle.
+
+Her silver nightgown is drenched in <span class="scary">blood.</span>
+
+Thunder shakes the house–the door slams–
+
+And she’s gone.
+
+[[Wake up... -> Ch1Pg0]]
+</span>
+\<</type>>
