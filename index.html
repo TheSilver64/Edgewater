@@ -99,61 +99,159 @@ var LZString={_keyStr:"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz01234
 		<div id="init-loading"><div>Loading&hellip;</div></div>
 	</div>
 	<!-- UUID://0AADA008-9380-406C-9477-DF4E6CA0656D// --><tw-storydata name="Edgewater" startnode="1" creator="Tweego" creator-version="2.1.1+81d1d71" ifid="0AADA008-9380-406C-9477-DF4E6CA0656D" zoom="1" format="SugarCube" format-version="2.36.1" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">/* twine-user-stylesheet #1: "StoryStylesheet" */
-@import url("css/fonts.css"); 
-
-/* === dialogue styles === */
-.dialogue {
-        font-family: "Story Font";
-        font-size: 1em;
-        line-height: normal;
+/* Story Fonts */
+@font-face {
+  font-family: "Story Font";
+  src: url("Fonts/typewcond_regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
 }
 
-/* === scary text styles === */
+@font-face {
+  font-family: "Story Font Bold";
+  src: url("Fonts/typewcond_bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Story Font Demi";
+  src: url("Fonts/typewcond_demi.woff") format("woff");
+  font-weight: 600; 
+  font-style: normal;
+}
+
+/* Scary Font */
+@font-face {
+  font-family: "Scary Font";
+  src: url("Fonts/kingthings_trypewriter_2.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Super Scary Font*/
+@font-face {
+  font-family: "Super Scary Font";
+  src: url("Fonts/shards.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Title Font */
+@font-face {
+  font-family: "Title Font";
+  src: url("Fonts/witchwoode_regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Story Font definitions */
+@font-face {
+    font-family: "Story Font";
+    src: url("Fonts/typewcond_regular.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Story Font Bold";
+    src: url("Fonts/typewcond_bold.woff") format("woff");
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Story Font Demi";
+    src: url("Fonts/typewcond_demi.woff") format("woff");
+    font-weight: 600;
+    font-style: normal;
+}
+
+/* Scary fonts */
+@font-face {
+    font-family: "Scary Font";
+    src: url("Fonts/kingthings_trypewriter_2.woff") format("woff");
+}
+@font-face {
+    font-family: "Super Scary Font";
+    src: url("Fonts/shards.woff") format("woff");
+}
+
+/* Title font */
+@font-face {
+    font-family: "Title Font";
+    src: url("Fonts/witchwoode_regular.woff") format("woff");
+}
+
+/* === Titles & Chapter Headers === */
+.title {
+    font-family: "witchwoode";
+    color: white;
+    font-size: 200px;
+    text-align: center;
+}
+.chTitle {
+    font-family: "witchwoode";
+    color: white;
+    font-size: 100px;
+    text-align: center;
+}
+.chStart {
+    font-family: "Story Font Bold";
+    color: white;
+    font-size: 50px;
+    text-align: center;
+}
+
+/* === Additional text colors === */
+.goldText {
+    color: darkgoldenrod;
+}
+.redText {
+    color: darkred;
+}
+
+/* === Dialogue styles === */
+.dialogue {
+    font-family: "Story Font";
+    font-size: 1em;
+    line-height: normal;
+}
+.dialogue span {
+    transition: all 0.25s ease;
+    text-shadow: 0 0 4px rgba(255,255,255,0.15);
+}
+
+/* === Scary text styles === */
 .scary {
     color: #FF3333;
     font-family: "Scary Font", monospace;
 }
-
 .super-scary {
-    color: #FF0000;     
+    color: #FF0000;
     font-family: "Super Scary Font", monospace;
     font-weight: bold;
 }
 
-/* === text effects === */
-.dialogue span {
-  transition: all 0.25s ease;
-  /* subtle base glow */
-  text-shadow: 0 0 4px rgba(255,255,255,0.15);
-}
-
-/* optional supernatural glow */
+/* === Supernatural glow animation === */
 @keyframes supernatural {
-  0% { text-shadow: 0 0 6px  var(--hover), 0 0 12px  var(--hover); }
-  50% { text-shadow: 0 0 12px  var(--hover), 0 0 24px  var(--hover); }
-  100% { text-shadow: 0 0 6px  var(--hover), 0 0 12px  var(--hover); }
+    0% { text-shadow: 0 0 6px var(--hover), 0 0 12px var(--hover); }
+    50% { text-shadow: 0 0 12px var(--hover), 0 0 24px var(--hover); }
+    100% { text-shadow: 0 0 6px var(--hover), 0 0 12px var(--hover); }
 }
-
-.supernatural-glow {
-  animation: supernatural 1.5s infinite ease-in-out;
-}
-
-/* optional supernatural glow for scary text */
+.supernatural-glow,
 .scary.supernatural-glow,
 .super-scary.supernatural-glow {
     animation: supernatural 1.5s infinite ease-in-out;
 }
 
-/* === characters === */
-
+/* === Character colors / hover === */
 /* Hepburn Family - blue/purple (cool tones) */
-.arthur   { --hover: #4AC1CFA6; color: #2B7FAF; } /* royal blue */
-.winona   { --hover: #4DD1CFA6; color: #8C9CFF; } /* periwinkle */
-.dove     { --hover: #A0C27D8C; color: #F3E8A3; } /* pastel yellow */
-.namid    { --hover: #67B987A6; color: #67B987; } /* jade green */
-.silas    { --hover: #5F7DB8A6; color: #3A5A8F; } /* steel blue */
-.olivia   { --hover: #5A4B9FA6; color: #5A4B9F; } /* deeper purple */
-.colin    { --hover: #7A8FA6A6; color: #5E708F; } /* gray blue */
+.arthur   { --hover: #4AC1CFA6; color: #2B7FAF; }
+.winona   { --hover: #4DD1CFA6; color: #8C9CFF; }
+.dove     { --hover: #A0C27D8C; color: #F3E8A3; }
+.namid    { --hover: #67B987A6; color: #67B987; }
+.silas    { --hover: #5F7DB8A6; color: #3A5A8F; }
+.olivia   { --hover: #5A4B9FA6; color: #5A4B9F; }
+.colin    { --hover: #7A8FA6A6; color: #5E708F; }
 .harold   { --hover: #5569A0A6; color: #1f3c92ff; }
 .martha   { --hover: #788CB4A6; color: #43397cff; }
 
@@ -337,16 +435,12 @@ window.textCrawl = async function (id, text) {
     }
 }
     */
-/*--end--*/</script><tw-passagedata pid="1" name="Start" tags="" position="100,100" size="100,100">&lt;&lt;audio &quot;pianoC&quot; stop&gt;&gt;
-&lt;&lt;audio &quot;pianoC&quot; play&gt;&gt;
-&lt;&lt;repeat 108s&gt;&gt;
-&lt;&lt;audio &quot;pianoC&quot; stop&gt;&gt;
-&lt;&lt;audio &quot;pianoC&quot; play&gt;&gt;
-&lt;&lt;/repeat&gt;&gt;
-&lt;center&gt;&lt;img src=&quot;Images/thmb_no_txt.png&quot; height=&quot;432px&quot; width=&quot;540px&quot;&gt;&lt;/center&gt;
-&lt;&lt;type 20ms&gt;&gt;&lt;span class=&quot;dialogue&quot;&gt;&lt;div class=chStart&gt;[[New Game-&gt;chapterHead]]&lt;/div&gt;
+/*--end--*/</script><tw-passagedata pid="1" name="Start" tags="" position="100,100" size="100,100">&lt;center&gt;&lt;h1 style=&quot;font-family:&#39;Title Font&#39;; font-size:5em; color:#fff; margin-top:20px;&quot;&gt;Edgewater&lt;/h1&gt;
+&lt;img src=&quot;Images/thmb_no_txt.png&quot; height=&quot;432px&quot; width=&quot;540px&quot;&gt;
+&lt;&lt;type 80ms&gt;&gt;&lt;span class=&quot;dialogue&quot;&gt;&lt;div class=chStart&gt;[[New Game-&gt;chapterHead]]&lt;/div&gt;
 &lt;/span&gt;
-&lt;&lt;/type&gt;&gt;</tw-passagedata><tw-passagedata pid="2" name="chapterHead" tags="" position="225,100" size="100,100">&lt;span class=&quot;dialogue&quot;&gt;
+&lt;&lt;/type&gt;&gt;&lt;/center&gt;</tw-passagedata><tw-passagedata pid="2" name="chapterHead" tags="" position="225,100" size="100,100">&lt;&lt;audio &quot;ambiencePrologue&quot; loop play&gt;&gt;
+&lt;span class=&quot;dialogue&quot;&gt;
 &lt;div class=chTitle&gt;Prologue&lt;/div&gt;
 &lt;center&gt;
 &lt;img src=&quot;Images/intro.png&quot; height=&quot;432px&quot; width=&quot;540px&quot;&gt;
@@ -360,33 +454,58 @@ window.textCrawl = async function (id, text) {
     Dialog.wiki(Story.get(&quot;Map&quot;).processText());
     Dialog.open();
     &lt;&lt;/script&gt;&gt;
-&lt;&lt;/button&gt;&gt;</tw-passagedata><tw-passagedata pid="4" name="StoryInit" tags="" position="475,100" size="100,100">/* &lt;&lt;cacheaudio &quot;windStreetVillage&quot; &quot;SFX/285592-Wind-Street-Village-Breeze-Calm-Gently_Ringing_Chimes.mp3&quot;&gt;&gt; */
-&lt;&lt;cacheaudio &quot;prologueAmbience&quot; &quot;source/sound/prologue_ambience.mp3&quot;&gt;&gt;
-&lt;&lt;cacheaudio &quot;nightmareA&quot; &quot;source/sound/nightmare a.mp3&quot;&gt;&gt;
-&lt;&lt;cacheaudio &quot;nightmareB&quot; &quot;source/sound/nightmare b.mp3&quot;&gt;&gt;
+&lt;&lt;/button&gt;&gt;</tw-passagedata><tw-passagedata pid="4" name="StoryInit" tags="" position="475,100" size="100,100">/* prologue */
+&lt;&lt;cacheaudio &quot;ambiencePrologue&quot; &quot;source/sound/prologue_ambi.mp3&quot;&gt;&gt;
+&lt;&lt;cacheaudio &quot;nightmareA&quot; &quot;source/sound/nightmare_a.mp3&quot;&gt;&gt;
+&lt;&lt;cacheaudio &quot;nightmareB&quot; &quot;source/sound/nightmare_b.mp3&quot;&gt;&gt;
 
-&lt;&lt;cacheaudio &quot;morning&quot; &quot;source/sound/chapter_1_morning_soundscape.mp3&quot;&gt;&gt;
-&lt;&lt;cacheaudio &quot;walkingA&quot; &quot;source/sound/chapter_1_walking.mp3&quot;&gt;&gt;
-&lt;&lt;cacheaudio &quot;cemetery&quot; &quot;source/sound/chapter_1_cemetery.mp3&quot;&gt;&gt;
-&lt;&lt;cacheaudio &quot;shower&quot; &quot;source/sound/chapter_1_shower.mp3&quot;&gt;&gt;
-&lt;&lt;cacheaudio &quot;pianoA&quot; &quot;source/sound/piano motif a.mp3&quot;&gt;&gt;
-&lt;&lt;cacheaudio &quot;classroom&quot; &quot;source/sound/chapter_1_classroom.mp3&quot;&gt;&gt;
+/* chapter 1 */
+&lt;&lt;cacheaudio &quot;morning&quot; &quot;source/sound/ch1_morning.mp3&quot;&gt;&gt;
+&lt;&lt;cacheaudio &quot;walking&quot; &quot;source/sound/ch1_walking.mp3&quot;&gt;&gt;
+&lt;&lt;cacheaudio &quot;cemetery&quot; &quot;source/sound/ch1_cemetery.mp3&quot;&gt;&gt;
+&lt;&lt;cacheaudio &quot;shower&quot; &quot;source/sound/ch1_shower.mp3&quot;&gt;&gt;
+&lt;&lt;cacheaudio &quot;pianoA&quot; &quot;source/sound/piano_a.mp3&quot;&gt;&gt;
+&lt;&lt;cacheaudio &quot;classroom&quot; &quot;source/sound/ch1_classroom.mp3&quot;&gt;&gt;
+/*&lt;&lt;cacheaudio &quot;nightmareB&quot; &quot;source/sound/nightmare_b.mp3&quot;&gt;&gt;*/
 
-&lt;&lt;cacheaudio &quot;pianoB&quot; &quot;source/sound/piano motif b.mp3&quot;&gt;&gt;
-&lt;&lt;cacheaudio &quot;ambiencePositive&quot; &quot;source/sound/ambience positive.mp3&quot;&gt;&gt;
+/* chapter 2 */
+&lt;&lt;cacheaudio &quot;pianoB&quot; &quot;source/sound/piano_b.mp3&quot;&gt;&gt;
+&lt;&lt;cacheaudio &quot;ambiencePositive&quot; &quot;source/sound/ambi_pos.mp3&quot;&gt;&gt;
 
+/* chapter 3 */
 &lt;&lt;cacheaudio &quot;doorbell&quot; &quot;source/sound/doorbell.mp3&quot;&gt;&gt;
 &lt;&lt;cacheaudio &quot;chimes&quot; &quot;source/sound/chimes.mp3&quot;&gt;&gt;
-&lt;&lt;cacheaudio &quot;pianoC&quot; &quot;source/sound/piano motif combined.mp3&quot;&gt;&gt;
+&lt;&lt;cacheaudio &quot;lighter&quot; &quot;source/sound/lighting_cig.mp3&quot;&gt;&gt;
+/*&lt;&lt;cacheaudio &quot;pianoA&quot; &quot;source/sound/piano_a.mp3&quot;&gt;&gt;*/
+&lt;&lt;cacheaudio &quot;pianoC&quot; &quot;source/sound/piano_combined.mp3&quot;&gt;&gt;
 
-&lt;&lt;cacheaudio &quot;houseRoomTone&quot; &quot;source/sound/house_room_tone.mp3&quot;&gt;&gt;
+/* chapter 4 */
+&lt;&lt;cacheaudio &quot;houseRoomTone&quot; &quot;source/sound/ch4_house.mp3&quot;&gt;&gt;
+&lt;&lt;cacheaudio &quot;entrywayMemory&quot; &quot;source/sound/entryway_memory.mp3&quot;&gt;&gt;
+/*&lt;&lt;cacheaudio &quot;chimes&quot; &quot;source/sound/chimes.mp3&quot;&gt;&gt;*/
+/*&lt;&lt;cacheaudio &quot;pianoC&quot; &quot;source/sound/piano_combined.mp3&quot;&gt;&gt;*/
+&lt;&lt;cacheaudio &quot;bathroomDrip&quot; &quot;source/sound/bathroom_drip.mp3&quot;&gt;&gt;
+&lt;&lt;cacheaudio &quot;ambienceBasement&quot; &quot;source/sound/basement_ambi.mp3&quot;&gt;&gt;
+/*&lt;&lt;cacheaudio &quot;nightmareA&quot; &quot;source/sound/nightmare_a.mp3&quot;&gt;&gt;*/
 
+/* chapter 5 */
+&lt;&lt;cacheaudio &quot;ambienceChap5&quot; &quot;source/sound/ch5_ambi.mp3&quot;&gt;&gt;
+&lt;&lt;cacheaudio &quot;forest&quot; &quot;source/sound/forest.mp3&quot;&gt;&gt;
+&lt;&lt;cacheaudio &quot;treehouseMemory&quot; &quot;source/sound/treehouse_memory.mp3&quot;&gt;&gt;
+&lt;&lt;cacheaudio &quot;wolfHowl&quot; &quot;source/sound/wolf_howl.mp3&quot;&gt;&gt;
+&lt;&lt;cacheaudio &quot;motherMemory&quot; &quot;source/sound/treehouseMemory.mp3&quot;&gt;&gt;
+&lt;&lt;cacheaudio &quot;ambienceNeg&quot; &quot;source/sound/ambi_neg.mp3&quot;&gt;&gt;
+
+/* chapter 6 */
+/*&lt;&lt;cacheaudio &quot;nightmareA&quot; &quot;source/sound/nightmare_a.mp3&quot;&gt;&gt;*/
 &lt;&lt;cacheaudio &quot;seizure&quot; &quot;source/sound/seizure.mp3&quot;&gt;&gt;
 
-&lt;&lt;cacheaudio &quot;teaserMorningAmbience&quot; &quot;source/sound/teaser_morning_ambience.mp3&quot;&gt;&gt;
+/* chapter 7 */
+&lt;&lt;cacheaudio &quot;teaserAmbience&quot; &quot;source/sound/teaser_ambience.mp3&quot;&gt;&gt;
 &lt;&lt;cacheaudio &quot;tvNeutral&quot; &quot;source/sound/tv_neutral.mp3&quot;&gt;&gt;
 &lt;&lt;cacheaudio &quot;tvScary&quot; &quot;source/sound/tv_scary.mp3&quot;&gt;&gt;
-&lt;&lt;cacheaudio &quot;lighter&quot; &quot;source/sound/lighting_cigarette.mp3&quot;&gt;&gt;</tw-passagedata><tw-passagedata pid="5" name="Story JavaScript" tags="" position="600,100" size="100,100">/* === character dialogue macros === */
+/*&lt;&lt;cacheaudio &quot;lighter&quot; &quot;source/sound/lighting_cigarette.mp3&quot;&gt;&gt;*/</tw-passagedata><tw-passagedata pid="5" name="Story JavaScript" tags="" position="600,100" size="100,100">&lt;&lt;script&gt;&gt;
+/* === character dialogue macros === */
 
 /**
  * each line of dialogue will get a &lt;span&gt; with the correct class and hover glow
@@ -457,7 +576,94 @@ window.textCrawl = async function (id, text) {
             });
         }
     });
-})();</tw-passagedata><tw-passagedata pid="6" name="TranquilLake" tags="" position="725,100" size="100,100">&lt;&lt;audio &quot;pianoB&quot; stop&gt;&gt;
+})();
+
+//Story Flags:
+
+/*--code for story flags--*/
+// Map containing story flags. 0 is the default value, 
+// so flags are tripped to be 1 or 2 to avoid possible bugs
+window.story_flags = new Map([
+    // prologue
+    [&quot;prologue_choice&quot;, 1],  // determines which nightmare player gets: 1 or 2 (used in ch1)
+    // ch1
+    [&quot;calm_down_method&quot;, 0], // how the player calmed down: 1 or 2
+    // ch2
+    [&quot;learned_executor&quot;, 0], // 0 if player does not know, 1 if player knows
+    [&quot;hepburn_convo_funeral&quot;, 0], // 0 if player has not talked to Hepburn family, 1 otherwise
+    [&quot;ashford_convo_funeral&quot;, 0], // 0 if player has not talked to Ashford family, 1 otherwise
+    [&quot;wyatt_convo_funeral&quot;, 0], // 0 if player has not talked to Wyatt family, 1 otherwise
+    // ch3
+    [&quot;sibling_convo&quot;, 0], //1 is Winona, 2 is Dove (used in ch4)
+    // ch4 (basement and dove&#39;s rooms end the chapter)
+    [&quot;explored_livingroom&quot;, 0], // 0 false, 1 true
+    [&quot;explored_kitchen&quot;, 0],
+    [&quot;explored_entryway&quot;, 0],
+    [&quot;explored_parents_room&quot;, 0],
+    [&quot;explored_doves_room&quot;, 0],
+    [&quot;explored_room&quot;, 0],
+    [&quot;explored_winona_room&quot;, 0],
+    [&quot;explored_bathroom&quot;, 0],
+    [&quot;explored_basement&quot;, 0],
+    // ch5
+    [&quot;explore_outside&quot;, 0], // 1: forest, 2: garden, 3: lakeside
+    // ch6
+    // Act 1 Epilogue
+    [&quot;who_you_call&quot;, 0] // 1:Olivia, 2: Isaac, 3: Rachel
+
+    [&quot;herb1&quot;, 0],
+    [&quot;herb2&quot;, 0],
+    [&quot;herb3&quot;, 0]
+]);
+
+// Updates a specified flag key to a given value
+window.update_flag = function (key, value) {
+    story_flags.set(key, value);
+}
+// Gets the value of a specified flag key
+window.get_flag = function (key) {
+    return story_flags.get(key);
+}
+
+/* === Prologue-specific flags === */
+window.story_flags_pro = new Map([
+    [&quot;Main_Chapter_Branch&quot;, 0],
+    [&quot;Story&quot;, 0]
+]);
+
+/* === Text Crawl Functions === */
+window.textWaitTime = 20;
+window.urgentTextWaitTime = 5;
+window.slowTextWaitTime = 30;
+
+window.sleep = function(ms) {
+    return new Promise(resolve =&gt; setTimeout(resolve, ms));
+};
+
+window.textCrawl = async function(id, text) {
+    let s = text;
+    for (let i = 0; i &lt;= s.length; i++) {
+        await sleep(textWaitTime);
+        document.getElementById(id).innerHTML = s.slice(0, i);
+    }
+};
+
+window.textCrawlFast = async function(id, text) {
+    let s = text;
+    for (let i = 0; i &lt;= s.length; i++) {
+        await sleep(urgentTextWaitTime);
+        document.getElementById(id).innerHTML = s.slice(0, i);
+    }
+};
+
+window.textCrawlSlow = async function(id, text) {
+    let s = text;
+    for (let i = 0; i &lt;= s.length; i++) {
+        await sleep(slowTextWaitTime);
+        document.getElementById(id).innerHTML = s.slice(0, i);
+    }
+};
+&lt;&lt;/script&gt;&gt;</tw-passagedata><tw-passagedata pid="6" name="TranquilLake" tags="" position="725,100" size="100,100">&lt;&lt;audio &quot;pianoB&quot; stop&gt;&gt;
 &lt;&lt;audio &quot;prologueAmbience&quot; stop&gt;&gt;
 &lt;&lt;audio &quot;prologueAmbience&quot; play&gt;&gt;
 &lt;&lt;repeat 394s&gt;&gt;

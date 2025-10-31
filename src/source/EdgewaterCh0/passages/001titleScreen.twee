@@ -1,13 +1,8 @@
 
 :: Start
-<<audio "pianoC" stop>>
-<<audio "pianoC" play>>
-<<repeat 108s>>
-<<audio "pianoC" stop>>
-<<audio "pianoC" play>>
-<</repeat>>
-<center><img src="Images/thmb_no_txt.png" height="432px" width="540px"></center>
-<<type 20ms>><span class="dialogue"><div class=chStart>[[New Game->chapterHead]]</div>
+<center><h1 style="font-family:'Title Font'; font-size:5em; color:#fff; margin-top:20px;">Edgewater</h1>
+<img src="Images/thmb_no_txt.png" height="432px" width="540px">
+<<type 80ms>><span class="dialogue"><div class=chStart>[[New Game->chapterHead]]</div>
 </span>
-<</type>>
+<</type>></center>
 

@@ -1,0 +1,47 @@
+:: Ch0Pg0
+<<audio "pianoB" stop>>
+<<audio "prologueAmbience" stop>>
+<<audio "prologueAmbience" play>>
+<<repeat 394s>>
+<<audio "prologueAmbience" stop>>
+<<audio "prologueAmbience" play>>
+<</repeat>>
+<<type 20ms>>\
+<span class="dialogue">
+Summer 1990. A tranquil lake, the water nearly still. 
+It laps gently at the shore, reflecting the full moon and stars. 
+The entire Milky Way is visible, shining deep into the lake so it becomes a silver soup–a melted bowl of starlight, 
+glowing from the very bottom. 
+
+In the center of the lake an island shoots up. Its cliffs plunge vertically into the water. 
+Trees rise from the top of the island, their dark silhouettes like sentinels in the night. 
+
+Crickets and bullfrogs thicken the air. A pulsing, breathing rhythm. A quaint blue house sits closely by the shore. 
+Moonlight streams in from the open bay windows, illuminating your bedroom. 
+It’s cozy, with glow-in-dark stars tacked haphazardly on the ceiling and walls covered with science posters. 
+Your bookshelf is filled with model planes, bones, and rocks of various sizes. 
+You lie propped up in bed, a hardcover book in your lap. Your comforter is draped around your legs – the perfect cocoon. 
+The perfect night. But you’re not satisfied. You tap your fingers on the book’s cover and wiggle your toes.
+
+What’s taking her so long?
+
+Your bedroom door bangs open. 
+<span class="winona">“MOVE OVER, ARTY!”</span>
+
+As if shot from a pinball machine, a small figure bounds into the room.
+Her long hair flies like it was struck by electricity.
+She’s wearing her Teenage Mutant Ninja Turtles pajamas– your hand-me-downs.
+Her bare feet slap against the hardwood floor as she barrels towards you.
+
+She launches herself at your bed. You yelp.
+
+She hits the comforter, creating a crater in the carefully arranged folds.
+She bounces twice on the mattress, then flops down directly across your legs.
+
+You snap the book shut, scowling.
+
+<span class="arthur">[[“You’re not allowed in here!” -> WinonaA]]
+[[“You’re wrinkling the covers!” -> WinonaB]]
+[[“STTOOOP!” -> WinonaC]]</span>
+</span>
+\<</type>>
