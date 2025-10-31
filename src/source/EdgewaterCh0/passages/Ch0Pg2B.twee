@@ -1,12 +1,12 @@
-:: WinonaB
+:: Ch0Pg2B
 <<repeat 394s>>
 <<audio "prologueAmbience" stop>>
 <<audio "prologueAmbience" play>>
 <</repeat>>
-<<type 20ms>>\ 
+<<type 30ms>>\ 
 <span class="dialogue">
 Winona pouts. She flattens herself onto the covers, crushing your legs. <span class="winona">“There, it’s all fixed!”</span>
 
-<span class="arthur">[[“Off, Winny! Go! You’re supposed to be in bed!” -> Noise]]</span>
+<span class="arthur">[[“Off, Winny! Go! You’re supposed to be in bed!” -> Ch0Pg3]]</span>
 </span>
 \<</type>>

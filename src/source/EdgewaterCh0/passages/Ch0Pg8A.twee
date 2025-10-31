@@ -1,27 +1,23 @@
-:: stone and earth
-<<audio "prologueAmbience" stop>>
+:: Ch0Pg8A
+<<audio "ambiencePrologue" stop>>
 <<audio "nightmareA" stop>>
 <<audio "nightmareA" play>>
 <<repeat 344s>>
 <<audio "nightmareA" stop>>
 <<audio "nightmareA" play>>
 <</repeat>>
-<<type 20ms>>\
+<<type 30ms>>\
 <span class="dialogue">
-A sharp cry awakens you. You hear a thump and a thud. Your eyes fly open. 
-Your room is pitch black. The sky is obscured by brewing stormclouds. 
-They rumble, a low deep sound that penetrates the floorboards. 
-But that wasn’t the sound that woke you up–that noise is coming from downstairs.
+A sharp cry awakens you. You hear a thump and a thud. Your eyes fly open. Your room is pitch black. The sky is obscured by brewing stormclouds. They rumble, a low deep sound that penetrates the floorboards. But that wasn’t the sound that woke you up–that noise is coming from downstairs.
 
-You peel off your blankets and slip out of your room. 
-You tiptoe barefoot across down the stairs. One step at a time, quietly, delicately. 
-One wrong movement and the groans of the old house’s bones would alert your parents.
+You peel off your blankets and slip out of your room. You tiptoe barefoot across down the stairs. One step at a time, quietly, delicately. One wrong movement and the groans of the old house’s bones would alert your parents.
 
-"The sound is coming from their room at the foot of the stairs."
+The sound is coming from their room at the foot of the stairs.
 
-"Another cry–loud, piercing. In pain. Agonizing. More thumps. 
+Another cry–loud, piercing. In pain. Agonizing. More thumps. 
+
 Your father’s voice–low, angry. Then desperate, pleading.
 
-[[Peek -> Banister]]
+[[You peek through the banister. -> Ch0Pg9A]]
 </span>
 \<</type>>

@@ -3,7 +3,7 @@
 <<audio "prologueAmbience" stop>>
 <<audio "prologueAmbience" play>>
 <</repeat>>
-<<type 20ms>>\
+<<type 30ms>>\
 <span class="dialogue">
 <span class="namid">“Tonight I want to tell you one of my stories. My grandmother told it to me when I was a little girl, and now I’m passing it on to you. Both of you.”</span>
 
@@ -15,12 +15,12 @@ Your mother reaches over and gently touches Winona’s nose. <span class="namid"
 
 <span class="namid">“Good,”</span> your mother says. <span class="namid">“That’s the name we were given by others, but we call ourselves Mamaceqtaw.”</span>
 
-<span class="winona">“Mama-ceh-talk?”</span> Winona sounds out,
+<span class="winona">“Mama-ceh-talk?”</span> Winona sounds out.
 
 <span class="namid">“Mamaceqtaw. We are the Kiash Matchitiwuk–the ancient ones. We have lived in this region for centuries, and our stories are our history. I will share one with you tonight.”</span>
 
 Your eyebrows arch.
 
-<span class="arthur">[[“History?” -> History]]</span>
+<span class="arthur">[[“History?” -> Ch0Pg6]]</span>
 </span>
 \<</type>>

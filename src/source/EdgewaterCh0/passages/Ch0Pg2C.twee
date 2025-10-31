@@ -1,12 +1,12 @@
-:: WinonaC
+:: Ch0Pg2C
 <<repeat 394s>>
 <<audio "prologueAmbience" stop>>
 <<audio "prologueAmbience" play>>
 <</repeat>>
-<<type 20ms>>\ 
+<<type 30ms>>\ 
 <span class="dialogue">
 Winona pouts, then smiles. <span class="winona">“NOOOOOO!”</span> She yells.
 
-[[“It’s past your bedtime! Weren’t you already tucked in?” -> Noise]]
+<span class="arthur">[[“It’s past your bedtime! Weren’t you already tucked in?” -> Ch0Pg3]]</span>
 </span>
 \<</type>>

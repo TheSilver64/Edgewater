@@ -1,0 +1,32 @@
+:: Ch0Pg1
+<<audio "ambiencePrologue" stop>>
+<<audio "ambiencePrologue" play>>
+<<repeat 394s>>
+<<audio "ambiencePrologue" stop>>
+<<audio "ambiencePrologue" play>>
+<</repeat>>
+<<type 30ms>>\
+<span class="dialogue">
+Moonlight streams in from the open bay windows, illuminating your bedroom. It’s cozy, with glow-in-dark stars tacked haphazardly on the ceiling and walls covered with science posters. Your bookshelf is filled with model planes, bones, and rocks of various sizes. 
+
+You lie propped up in bed, a hardcover book in your lap. Your comforter is draped around your legs – the perfect cocoon. The perfect night. But you’re not satisfied. You tap your fingers on the book’s cover and wiggle your toes.
+
+What’s taking her so long?
+
+Your bedroom door bangs open. 
+
+<span class="winona">“MOVE OVER, ARTY!”</span>
+
+As if shot from a pinball machine, a small figure bounds into the room. Her long hair flies like it was struck by electricity. She’s wearing her Teenage Mutant Ninja Turtles pajamas– your hand-me-downs. Her bare feet slap against the hardwood floor as she barrels towards you.
+
+She launches herself at your bed. You yelp.
+
+She hits the comforter, creating a crater in the carefully arranged folds. She bounces twice on the mattress, then flops down directly across your legs.
+
+You snap the book shut, scowling.
+
+<span class="arthur">[[“You’re not allowed in here!” -> Ch0Pg2A]]
+[[“You’re wrinkling the covers!” -> Ch0Pg2B]]
+[[“STTOOOP!” -> Ch0Pg2C]]</span>
+</span>
+\<</type>>

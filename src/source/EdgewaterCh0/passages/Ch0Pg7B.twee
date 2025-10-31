@@ -5,7 +5,7 @@
 <<audio "prologueAmbience" play>>
 <</repeat>>
 <<= window.update_flag("prologue_choice", 2)>>
-<<type 40ms>>\
+<<type 30ms>>\
 <span class="dialogue">
 You take a deep breath and make a decision. “Tell me about our people.” you say, holding your chin up high.
 
@@ -13,48 +13,37 @@ You take a deep breath and make a decision. “Tell me about our people.” you 
 
 <span class="namid">“This is a real story, and it took place right here in Edgewater. Right here on this lake.”</span> Your mother’s fingers weave the sections of Winona’s hair, a repetitive, soothing pattern that matches the cadence of her voice. The night settles around you–the stridulation of the crickets, the gentle lapping of the lake against the reeds, and the creaks and groans of the bones of the old lakeside house. 
 
-Your mother speaks softly, <span class="namid">“Our people lived on these shores for generations, protecting the island. They lived peacefully for many years. However, one day white settlers came to fight them and take their land. </span>
+Your mother speaks softly, <span class="namid">“Our people lived on these shores for generations, protecting the island. They lived peacefully for many years. However, one day white settlers came to fight them and take their land.
 
 To escape them, a woman took her child on her back and ran down to the lake to hide in the water. She lay for four days in the water while her people were killed and she hid from the white men. The men were camped by the shore of the lake, and she could get nothing to eat. At night she would nurse her baby to keep it from crying, and during the day she kept only their mouths above the water to prevent the men from finding them.”</span>
 
 Winona's head bobs with excitement. <span class="winona">“She had a baby, didn’t she, Mommy? Like the baby in your tummy!”</span>
 
-<span class="namid">“Yes,”</span> your mother replies, finishing one of Winona’s braids and moving on to the next. 
+<span class="namid">“Yes,”</span> your mother replies, finishing one of Winona’s braids and moving on to the next. <span class="namid">“Just like the baby I will soon have. But soon her milk dried up and she was unable to feed her baby. The baby would soon start to cry. 
 
-<span class="namid">“Just like the baby I will soon have. But soon her milk dried up and she was unable to feed her baby. 
-The baby would soon start to cry. One night, the Great Spirit came to her and told her to go out of the water and among the white men to eat. 
-The Great Spirit made sure that the soldiers wouldn't see her. 
-She got out of the water and went to the place where the white men were eating. She sat down and ate with them and the men didn't see her. 
-When she was finished eating, she went outside and found a dead deer by the door. 
-She was instructed to take the deer back to her people and prepare the hide to use as a drum head. 
-When the drum was completed, the men danced and sang. 
-If the people were faithful to the drum, they would survive and their Spirit Rock would be protected. 
-From that point forward, those who follow the Dream Drum are protected. That is why the island still remains untouched to this day.” </span>
+One night, the Great Spirit came to her and told her to go out of the water and among the white men to eat. The Great Spirit made sure that the soldiers wouldn't see her. She got out of the water and went to the place where the white men were eating. She sat down and ate with them and the men didn't see her. When she was finished eating, she went outside and found a dead deer by the door. She was instructed to take the deer back to her people and prepare the hide to use as a drum head. 
+
+When the drum was completed, the men danced and sang. If the people were faithful to the drum, they would survive and their Spirit Rock would be protected. From that point forward, those who follow the Dream Drum are protected. That is why the island still remains untouched to this day.” </span>
 
 You scoff. <span class="arthur">“Drums can’t protect people. They just make noise.”</span>
 
-Your mother shakes her head, laughing. <span class="namid">“Always the skeptic, aren’t you? What if I told you if you listen real carefully, 
-on a night just like this, you can still hear the beat?”</span>
+Your mother shakes her head, laughing. <span class="namid">“Always the skeptic, aren’t you? What if I told you if you listen real carefully, on a night just like this, you can still hear the beat?”</span>
 
-Your mother taps Winona's shoulder. Her hair is now braided. Winona leaps to her feet and rushes over to the window. 
-She pulls at  the latch, but her little fingers are too weak.
+Your mother taps Winona's shoulder. Her hair is now braided. Winona leaps to her feet and rushes over to the window. She pulls at the latch, but her little fingers are too weak.
 
 <span class="winona">“C’mon stupid window, move-!”</span> Winona grits her teeth.
 
-<span class="namid">“Here, let me help you.”</span> Your mother gets up slowly, holding her belly as she does so. 
-She undoes the latch and the window slides open. A cool breeze fills the room and the curtains sway.
+<span class="namid">“Here, let me help you.”</span> Your mother gets up slowly, holding her belly as she does so. She undoes the latch and the window slides open. A cool breeze fills the room and the curtains sway.
 
 <span class="namid">“Now listen,”</span> she says.
 
-You strain your ears. The sounds of the night filter back to you: 
-gentle water lapping, bird warbles, crickets and cicadas. Far in the distance, a lone wolf howls. 
+You strain your ears. The sounds of the night filter back to you: gentle water lapping, bird warbles, crickets and cicadas. Far in the distance, a lone wolf howls. 
 
 <span class="arthur">“I don’t hear anything.”</span> You say.
 
 <span class="namid">“That’s because your ears aren’t trained. Come here, both of you.”</span> Your mother beckons.
 
-You slide out of bed to join your sister and mother by the window. Your mother pulls you in close. 
-She cups the back of your neck and guides your head so your ear rests on her belly.
+You slide out of bed to join your sister and mother by the window. Your mother pulls you in close. She cups the back of your neck and guides your head so your ear rests on her belly.
 
 <span class="namid">“Now listen again.”</span> She says.
 
@@ -62,12 +51,10 @@ You close your eyes. Deep within, you hear a steady thump.
 
 <span class="winona">“That’s the baby, isn’t it, Mommy?!”</span> Winona says.
 
-Your mother smiles. <span class="namid">“Yes, that's the baby's heart. Hear how strong it is already? 
-It thumps to the same beat as the Dream Drum, keeping our Spirit Rock alive.”</span>
+Your mother smiles. <span class="namid">“Yes, that's the baby's heart. Hear how strong it is already? It thumps to the same beat as the Dream Drum, keeping our Spirit Rock alive.”</span>
 
-You close your eyes again. Your mother’s belly is warm. You listen.Thump, thump, thump. 
-The beats resonate outward, reverberating. Primal. The beat of the universe.
+You close your eyes again. Your mother’s belly is warm. You listen.Thump, thump, thump. The beats resonate outward, reverberating. Primal. The beat of the universe.
 
-[[Thump]]
+<span class="super scary">[[Thump->Ch0Pg8B]]</span>
 </span>
 \<</type>>
