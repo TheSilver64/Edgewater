@@ -99,6 +99,10 @@ var LZString={_keyStr:"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz01234
 		<div id="init-loading"><div>Loading&hellip;</div></div>
 	</div>
 	<!-- UUID://0AADA008-9380-406C-9477-DF4E6CA0656D// --><tw-storydata name="Edgewater" startnode="1" creator="Tweego" creator-version="2.1.1+81d1d71" ifid="0AADA008-9380-406C-9477-DF4E6CA0656D" zoom="1" format="SugarCube" format-version="2.36.1" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">/* twine-user-stylesheet #1: "StoryStylesheet" */
+#menu-core {
+    display: none !important;
+}
+
 /* fade in animation */
 .fade-in {
     opacity: 1;
@@ -113,26 +117,67 @@ var LZString={_keyStr:"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz01234
     100% { opacity: 1; }
 }
 
-body {
-    background-color: #000000 ;
-    color: #ffffff
-}
-
-
-/* === Body styles === */
+/* === Body Styles === */
 body {
     background-color: #000000;
     color: #ffffff;
+    font-family: "Story Font", sans-serif;
+    overflow-y: auto; /* prevents bottom clipping */
 }
 
-/* === Story Caption Container & Thumbnail === */
+/* === Vertical Menu Styling (Table-style, equal-height rows) === */
+.story-menu-vertical {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    width: 270px;          /* uniform button width */
+    border: 1px solid white; /* outer table border */
+    border-radius: 0;
+    overflow: hidden;      /* keeps buttons flush with container */;         /* total height of menu (adjust as needed) */
+}
+
+.story-menu-vertical li {
+    flex: 1;               /* equal height for each row */
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.story-menu-vertical li button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    border: none;           /* remove individual borders */
+    border-bottom: 1px solid white; /* internal row separators */
+    background-color: transparent;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+}
+
+/* remove bottom border from last button */
+.story-menu-vertical li:last-child button {
+    border-bottom: none;
+}
+
+/* hover effect */
+.story-menu-vertical li button:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Container for story caption + menu */
 .story-caption-container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 10px;
+    gap: 10px; /* spacing between thumbnail and menu */
 }
 
+/* Thumbnail */
 .story-thumb {
     width: 270px;
     height: 216px;
@@ -141,25 +186,6 @@ body {
     box-sizing: border-box;
 }
 
-/* === UI button style (for Map) === */
-#menu ul li button.ui-button {
-    width: 100%;               /* same width as built-in menu buttons */
-    padding: 4px 0;
-    margin: 0;
-    font-family: 'Story Font Demi', sans-serif;
-    font-weight: 600;
-    font-size: 1em;
-    background-color: #39f;     /* SugarCube next-passage blue */
-    border: 1px solid white;
-    color: #fff;
-    cursor: pointer;
-    box-sizing: border-box;
-    text-align: center;
-}
-
-#menu ul li button.ui-button:hover {
-    background-color: #6cf;
-}
 
 /* Story Fonts */
 @font-face {
@@ -519,17 +545,12 @@ window.textCrawl = async function (id, text) {
 &lt;/span&gt;
 &lt;&lt;/timed&gt;&gt;
 
-&lt;&lt;timed 8s&gt;&gt;
-&lt;span class=&quot;fade-in&quot;&gt;
-  &lt;img id=&quot;titleImg&quot; src=&quot;Images/thmb_no_txt.png&quot; style=&quot;display:block; margin:-20px auto 0 auto; width:810px; height:648px; position:relative; z-index:1;&quot;&gt;
-&lt;/span&gt;
-&lt;&lt;/timed&gt;&gt;
-
 &lt;&lt;timed 10s&gt;&gt;
 &lt;span class=&quot;fade-in&quot;&gt;
   &lt;div class=&quot;chStart&quot; style=&quot;margin:-10px auto 0 auto; text-align:center;&quot;&gt;[[Start-&gt;002chapterHead]]&lt;/div&gt;
 &lt;/span&gt;
-&lt;&lt;/timed&gt;&gt;</tw-passagedata><tw-passagedata pid="3" name="002chapterHead" tags="" position="350,100" size="100,100">&lt;&lt;audio &quot;ambiencePrologue&quot; play loop&gt;&gt;
+&lt;&lt;/timed&gt;&gt;</tw-passagedata><tw-passagedata pid="3" name="002chapterHead" tags="" position="350,100" size="100,100">&lt;&lt;audio &quot;pianoC&quot; stop&gt;&gt;
+&lt;&lt;audio &quot;ambiencePrologue&quot; play loop&gt;&gt;
 &lt;span class=&quot;dialogue&quot;&gt;
 &lt;div class=chTitle&gt;Prologue&lt;/div&gt;
 &lt;center&gt;
@@ -539,7 +560,27 @@ window.textCrawl = async function (id, text) {
 &lt;div class=chStart&gt;[[Summer 1990-&gt;Ch0Pg0]]&lt;/div&gt;
 \&lt;&lt;/type&gt;&gt;
 &lt;/span&gt;</tw-passagedata><tw-passagedata pid="4" name="StoryCaption" tags="" position="475,100" size="100,100">&lt;div class=&quot;story-caption-container&quot;&gt;
-    &lt;img src=&quot;Images/thmb_no_txt.png&quot; class=&quot;story-thumb&quot;&gt;
+  &lt;img src=&quot;Images/thmb_no_txt.png&quot; class=&quot;story-thumb&quot;&gt;
+
+  &lt;ul class=&quot;story-menu-vertical&quot;&gt;
+    &lt;li&gt;
+      &lt;&lt;button &quot;Saves&quot;&gt;&gt;
+        &lt;&lt;run UI.saves()&gt;&gt;
+      &lt;&lt;/button&gt;&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;&lt;button &quot;Restart&quot;&gt;&gt;
+        &lt;&lt;run Engine.restart()&gt;&gt;
+      &lt;&lt;/button&gt;&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;&lt;button &quot;Map&quot;&gt;&gt;
+        &lt;&lt;run Dialog.setup(&quot;Map&quot;)&gt;&gt;
+        &lt;&lt;run Dialog.wiki(Story.get(&quot;Map&quot;).processText())&gt;&gt;
+        &lt;&lt;run Dialog.open()&gt;&gt;
+      &lt;&lt;/button&gt;&gt;
+    &lt;/li&gt;
+  &lt;/ul&gt;
 &lt;/div&gt;</tw-passagedata><tw-passagedata pid="5" name="StoryInit" tags="" position="600,100" size="100,100">/* prologue */
 &lt;&lt;cacheaudio &quot;ambiencePrologue&quot; &quot;src/source/sound/prologue_ambi.mp3&quot;&gt;&gt;
 &lt;&lt;cacheaudio &quot;nightmareA&quot; &quot;src/source/sound/nightmare_a.mp3&quot;&gt;&gt;
@@ -591,32 +632,13 @@ window.textCrawl = async function (id, text) {
 &lt;&lt;cacheaudio &quot;tvNeutral&quot; &quot;src/source/sound/tv_neutral.mp3&quot;&gt;&gt;
 &lt;&lt;cacheaudio &quot;tvScary&quot; &quot;src/source/sound/tv_scary.mp3&quot;&gt;&gt;
 /*&lt;&lt;cacheaudio &quot;lighter&quot; &quot;source/sound/lighting_cigarette.mp3&quot;&gt;&gt;*/</tw-passagedata><tw-passagedata pid="6" name="Story JavaScript" tags="" position="725,100" size="100,100">&lt;&lt;script&gt;&gt;
-// Ensure Map button appears inside SugarCube menu
-// Inject Map button into the UI bar body
-$(document).on(&#39;:passagerender&#39;, function () {
-    const uiBarBody = document.querySelector(&quot;#ui-bar-body&quot;);
-    if (!uiBarBody) return;
-
-    // Avoid duplicates
-    if (document.getElementById(&quot;map-button&quot;)) return;
-
-    // Create Map button
-    const mapBtn = document.createElement(&quot;button&quot;);
-    mapBtn.id = &quot;map-button&quot;;
-    mapBtn.textContent = &quot;Map&quot;;
-    mapBtn.className = &quot;ui-button&quot;;   // uses the same styling as built-in UI buttons
-    mapBtn.onclick = openMap;
-
-    // Insert before Restart link
-    const restartLink = Array.from(uiBarBody.children).find(el =&gt; el.textContent.includes(&quot;Restart&quot;));
-    if (restartLink) {
-        uiBarBody.insertBefore(mapBtn, restartLink);
-    } else {
-        uiBarBody.appendChild(mapBtn);
-    }
+// Remove the default SugarCube menu after UI fully builds
+$(document).one(&#39;:storyready&#39;, function () {
+    // Delay ensures #menu-core exists before removal
+    setTimeout(function () {
+        $(&#39;#menu, #menu-core&#39;).remove();
+    }, 100);
 });
-&lt;&lt;/script&gt;&gt;
-&lt;&lt;script&gt;&gt;
 /* === character dialogue macros === */
 
 /**
@@ -629,6 +651,8 @@ $(document).on(&#39;:passagerender&#39;, function () {
  * supernatural glow:
  * &lt;&lt;arthur-glow &quot;I&#39;m sorry, Winona.|I shouldn&#39;t have abandoned you.&quot;&gt;&gt;
  */
+// Disable default menu
+
 (function() {
     const characters = [
         &quot;arthur&quot;,&quot;winona&quot;,&quot;dove&quot;,&quot;namid&quot;,&quot;silas&quot;,&quot;olivia&quot;,&quot;colin&quot;,&quot;harold&quot;,&quot;martha&quot;,

@@ -25,12 +25,6 @@
 </span>
 <</timed>>
 
-<<timed 8s>>
-<span class="fade-in">
-  <img id="titleImg" src="Images/thmb_no_txt.png" style="display:block; margin:-20px auto 0 auto; width:810px; height:648px; position:relative; z-index:1;">
-</span>
-<</timed>>
-
 <<timed 10s>>
 <span class="fade-in">
   <div class="chStart" style="margin:-10px auto 0 auto; text-align:center;">[[Start->002chapterHead]]</div>

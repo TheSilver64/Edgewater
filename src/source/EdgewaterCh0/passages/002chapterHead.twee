@@ -1,4 +1,5 @@
 :: 002chapterHead
+<<audio "pianoC" stop>>
 <<audio "ambiencePrologue" play loop>>
 <span class="dialogue">
 <div class=chTitle>Prologue</div>

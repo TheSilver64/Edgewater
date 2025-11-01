@@ -5,22 +5,36 @@
         "format-version": "2.36.1",
         "start": "Start"
 }
-:: StoryData
-{
-        "ifid": "0AADA008-9380-406C-9477-DF4E6CA0656D",
-	    "format": "SugarCube",
-        "format-version": "2.36.1",
-        "start": "Start"
-}
 
 :: StoryTitle
 Edgewater
 
 :: StoryCaption
 <div class="story-caption-container">
-    <img src="Images/thmb_no_txt.png" class="story-thumb">
+  <img src="Images/thmb_no_txt.png" class="story-thumb">
+
+  <ul class="story-menu-vertical">
+    <li>
+      <<button "Saves">>
+        <<run UI.saves()>>
+      <</button>>
+    </li>
+    <li>
+      <<button "Restart">>
+        <<run Engine.restart()>>
+      <</button>>
+    </li>
+    <li>
+      <<button "Map">>
+        <<run Dialog.setup("Map")>>
+        <<run Dialog.wiki(Story.get("Map").processText())>>
+        <<run Dialog.open()>>
+      <</button>>
+    </li>
+  </ul>
 </div>
-    
+
+
 :: StoryInit
 /* prologue */
 <<cacheaudio "ambiencePrologue" "src/source/sound/prologue_ambi.mp3">>
@@ -75,6 +89,10 @@ Edgewater
 /*<<cacheaudio "lighter" "source/sound/lighting_cigarette.mp3">>*/
 
 :: StoryStylesheet [stylesheet]
+#menu-core {
+    display: none !important;
+}
+
 /* fade in animation */
 .fade-in {
     opacity: 1;
@@ -89,26 +107,67 @@ Edgewater
     100% { opacity: 1; }
 }
 
-body {
-    background-color: #000000 ;
-    color: #ffffff
-}
-
-
-/* === Body styles === */
+/* === Body Styles === */
 body {
     background-color: #000000;
     color: #ffffff;
+    font-family: "Story Font", sans-serif;
+    overflow-y: auto; /* prevents bottom clipping */
 }
 
-/* === Story Caption Container & Thumbnail === */
+/* === Vertical Menu Styling (Table-style, equal-height rows) === */
+.story-menu-vertical {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    width: 270px;          /* uniform button width */
+    border: 1px solid white; /* outer table border */
+    border-radius: 0;
+    overflow: hidden;      /* keeps buttons flush with container */;         /* total height of menu (adjust as needed) */
+}
+
+.story-menu-vertical li {
+    flex: 1;               /* equal height for each row */
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.story-menu-vertical li button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    border: none;           /* remove individual borders */
+    border-bottom: 1px solid white; /* internal row separators */
+    background-color: transparent;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+}
+
+/* remove bottom border from last button */
+.story-menu-vertical li:last-child button {
+    border-bottom: none;
+}
+
+/* hover effect */
+.story-menu-vertical li button:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Container for story caption + menu */
 .story-caption-container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 10px;
+    gap: 10px; /* spacing between thumbnail and menu */
 }
 
+/* Thumbnail */
 .story-thumb {
     width: 270px;
     height: 216px;
@@ -117,25 +176,6 @@ body {
     box-sizing: border-box;
 }
 
-/* === UI button style (for Map) === */
-#menu ul li button.ui-button {
-    width: 100%;               /* same width as built-in menu buttons */
-    padding: 4px 0;
-    margin: 0;
-    font-family: 'Story Font Demi', sans-serif;
-    font-weight: 600;
-    font-size: 1em;
-    background-color: #39f;     /* SugarCube next-passage blue */
-    border: 1px solid white;
-    color: #fff;
-    cursor: pointer;
-    box-sizing: border-box;
-    text-align: center;
-}
-
-#menu ul li button.ui-button:hover {
-    background-color: #6cf;
-}
 
 /* Story Fonts */
 @font-face {
@@ -309,32 +349,13 @@ body {
 
 :: Story JavaScript
 <<script>>
-// Ensure Map button appears inside SugarCube menu
-// Inject Map button into the UI bar body
-$(document).on(':passagerender', function () {
-    const uiBarBody = document.querySelector("#ui-bar-body");
-    if (!uiBarBody) return;
-
-    // Avoid duplicates
-    if (document.getElementById("map-button")) return;
-
-    // Create Map button
-    const mapBtn = document.createElement("button");
-    mapBtn.id = "map-button";
-    mapBtn.textContent = "Map";
-    mapBtn.className = "ui-button";   // uses the same styling as built-in UI buttons
-    mapBtn.onclick = openMap;
-
-    // Insert before Restart link
-    const restartLink = Array.from(uiBarBody.children).find(el => el.textContent.includes("Restart"));
-    if (restartLink) {
-        uiBarBody.insertBefore(mapBtn, restartLink);
-    } else {
-        uiBarBody.appendChild(mapBtn);
-    }
+// Remove the default SugarCube menu after UI fully builds
+$(document).one(':storyready', function () {
+    // Delay ensures #menu-core exists before removal
+    setTimeout(function () {
+        $('#menu, #menu-core').remove();
+    }, 100);
 });
-<</script>>
-<<script>>
 /* === character dialogue macros === */
 
 /**
@@ -347,6 +368,8 @@ $(document).on(':passagerender', function () {
  * supernatural glow:
  * <<arthur-glow "I'm sorry, Winona.|I shouldn't have abandoned you.">>
  */
+// Disable default menu
+
 (function() {
     const characters = [
         "arthur","winona","dove","namid","silas","olivia","colin","harold","martha",
