@@ -1,20 +1,26 @@
 :: Ch0Pg9A
+<<type 30ms>>\
 <span class="dialogue">
-<<type 80ms>>\
-The door opens. A figure shuffles through, bent over. It gasps with each movement.\<</type>><<type 500ms>><span class="super scary">
-...
-...
-...
-A drip, drip, drip.</span>\<</type>> <<type 80ms>>\Something sticky trails behind. 
+<span class="arthur">“I would wish for something like reading minds, or having all the scientific knowledge in the world!”</span>
 
-It scrabbles for the front door, hand clawing at the knob. Finally it pulls. The front door flies open. The wind howls. 
+Your mother shushes you. <span class="namid">“Now,”</span> she continues, <span class="namid">“the third warrior was greedy. He asked, 'Oh Great Spirit, could you grant me eternal life, for I want to live forever?' But such selfish pride angered the Great Spirit. In return, the Great Spirit granted his wish by turning him into an everlasting rock, Spirit Rock. This rock is the very island across the lake.”</span> Namid nods towards the window. The outline of the island is visible on the lake's horizon. 
 
-Your father bursts through the bedroom door. 
+<span class="namid">“To this day, it is said that if the island crumbles away or is taken, the Menominee people will have lost their culture. That is why the island has always remained sacred to us.”</span>
 
-<span class="scary"><span class="silas">“Namid, please–”</span></span> he’s sobbing.
+<span class="arthur">“That can't be real,”</span> you insist. <span class="arthur">“Humans can't turn into islands.”</span>
 
-You blink, looking at the figure in the open doorway again.<</type>> 
+Your mother laughs. <span class="namid">“Ok, Mr. Skeptic. That's how my grandmother told it to me, and that's how it's been told for generations. It is as real to us as the moon or the forest.”</span> Your mother has finished Winona’s braids. She ties them with an elastic. 
 
-<<type 200ms>><span class="scary"><span class="arthur">[[“Mom…?” -> Ch0Pg10A]]</span></span> you say, voice small.<</type>>
+<span class="namid">“All done!”</span> Your mother pats the top of Winona’s head. Winona springs from the ground, released from her confinement. She twirls around, trying to catch a glimpse of her hair as it whips around her head. 
 
- 
+<span class="winona">“I’m free, I’m free, I’m free!”</span> she sings. 
+
+<span class="namid">“Now, now. It’s not the time to get riled up.”</span> Your mother says. Her hand is placed on her lower back as she stands. <span class="namid">“It’s getting late. I think it’s about time for bed, don’t you?”</span>
+
+<span class="winona">“But Mom, I’m not tired yet!”</span> Winona whines. 
+
+<span class="silas">“When your mother says go to bed, you listen,”</span> a stern voice says.
+
+[[You look up.->Ch0Pg10A]]
+</span>
+<</type>>

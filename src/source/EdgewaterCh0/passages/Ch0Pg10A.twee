@@ -1,14 +1,28 @@
 :: Ch0Pg10A
-<<type 80ms>>\
+<<type 30ms>>\
 <span class="dialogue">
-Lightning flashes, illuminating everything. You realize now why you didn’t recognize her before. 
+Your father is standing in the doorway, arms crossed. He’s still wearing his hospital scrubs. The lines in his face seem even deeper in the moonlight, like he’s a statue etched from stone. 
 
-She stares at you with wide, bloodshot eyes. Like she’s a deer staring down the barrel of a rifle.
+Winona pouts. <span class="winona">“I want another story.”</span>
 
-Her silver nightgown is drenched in <<type 100ms>>\<span class="super scary">BLOOD.</span>\<</type>>
+He lumbers over and scoops her up. <span class="silas">“Your mom needs her rest, alright? She’s growing a baby.”</span> Winona squirms, but he holds her fast in his rough, strong hands, draping her across his back. <span class="silas">“Why can’t you be like your brother? Look how obedient he is. He’s not complaining.”</span> 
 
-Thunder shakes the house–the door slams–
+Your father gives you a nod of approval. You find yourself sitting up straighter in bed.
 
-And she’s [[gone.->Ch1Pg0]]
+Your mother gives your father a grateful glance, following him out the door. She turns around, her dress swishing around her legs as she does so. 
+
+<span class="namid">“Goodnight Arthur. Thank you for listening.”</span> She whispers.
+
+<span class="arthur">“Goodnight,”</span> you whisper back. 
+
+She slides through the door and closes it softly behind her. You’re left alone in your room, curled up in bed. 
+
+A breeze picks up. The curtains float up, swaying in the cool night draft.
+
+You let the scent of lakewater and the surrounding forest–red oak, white pine, black cherry–waft over you. 
+
+Your eyelids become heavy. The comforter weighs upon you.
+
+[[You drift off into a peaceful sleep->Ch0Pg11A]], dreaming of men emerging out of stone and earth…
 </span>
 \<</type>>

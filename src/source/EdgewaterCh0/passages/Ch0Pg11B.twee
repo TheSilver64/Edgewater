@@ -1,0 +1,32 @@
+:: Ch0Pg11B
+<<audio "ambiencePrologue" stop>>
+<<audio "nightmareB" play loop>>
+<<type 120ms>>\
+<span class="dialogue">
+<span class="super-scary">Thump.</span>\<</type>> 
+
+<span class="dialogue"><<type 60ms>>You stand at the lakeshore, looking outwards. The water is as still as glass.<</type>></span>
+
+<<type 140ms>>\<span class="super-scary">Thump.</span>\<</type>> 
+
+<span class="dialogue"><<type 60ms>>As if a pebble was dropped, a ring of ripples expands.\<</type>> </span> 
+
+<<type 160ms>>\<span class="super-scary">Thump.</span>\<</type>>    
+
+<span class="dialogue"><<type 60ms>>The ripples get larger and larger.<</type>>  </span>
+
+<<type 180ms>><span class="super-scary">Thump.</span><</type>>   
+
+<span class="dialogue"><<type 60ms>>The ripples swell into waves. 
+    
+You stumble back. With each thump, the water rises. It  sloshes around your feet. You strain in place, but your feet are stuck in mud. You cannot move.
+
+The water is now to your knees. Your thighs. Your chest. Your shoulders. You cry, but there’s nothing you can do.
+
+With one last thump, the water surges, and you are now completely submerged in silence. Everything is black and cold. Panic climbs up your throat, but you cannot scream. The lake suffocates.
+
+Then, out of the darkness, a light grows, silver like moonlight. You flail. 
+
+[[Swim towards it.->Ch0Pg12B]]
+\<</type>>
+</span>

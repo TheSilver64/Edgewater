@@ -1,32 +1,18 @@
 :: Ch0Pg8B
-<<audio "ambiencePrologue" stop>>
-<<audio "nightmareB" play loop>>
-<<type 120ms>>\
+<<type 30ms>>\
 <span class="dialogue">
-<span class="super-scary">Thump.</span>\<</type>> 
+Your mother speaks softly, <span class="namid">“Our people lived on these shores for generations, protecting the island. They lived peacefully for many years. However, one day white settlers came to fight them and take their land.
 
-<span class="dialogue"><<type 60ms>>\You stand at the lakeshore, looking outwards. The water is as still as glass.\<</type>></span>
+To escape them, a woman took her child on her back and ran down to the lake to hide in the water. She lay for four days in the water while her people were killed and she hid from the white men. The men were camped by the shore of the lake, and she could get nothing to eat. At night she would nurse her baby to keep it from crying, and during the day she kept only their mouths above the water to prevent the men from finding them.”</span>
 
-<<type 140ms>>\<span class="super-scary">Thump.</span>\<</type>> 
+Winona's head bobs with excitement. <span class="winona">“She had a baby, didn’t she, Mommy? Like the baby in your tummy!”</span>
 
-<span class="dialogue"><<type 60ms>>As if a pebble was dropped, a ring of ripples expands.\<</type>> </span> 
+<span class="namid">“Yes,”</span> your mother replies, finishing one of Winona’s braids and moving on to the next. <span class="namid">“Just like the baby I will soon have. But soon her milk dried up and she was unable to feed her baby. The baby would soon start to cry. 
 
-<<type 160ms>>\<span class="super-scary">Thump.</span>\<</type>>    
+One night, the Great Spirit came to her and told her to go out of the water and among the white men to eat. The Great Spirit made sure that the soldiers wouldn't see her. She got out of the water and went to the place where the white men were eating. She sat down and ate with them and the men didn't see her. When she was finished eating, she went outside and found a dead deer by the door. She was instructed to take the deer back to her people and prepare the hide to use as a drum head. 
 
-<span class="dialogue"><<type 60ms>>The ripples get larger and larger.<</type>>  </span>
+When the drum was completed, the men danced and sang. If the people were faithful to the drum, they would survive and their Spirit Rock would be protected. From that point forward, those who follow the Dream Drum are protected. That is why the island still remains untouched to this day.” </span>
 
-<<type 180ms>><span class="super-scary">Thump.</span><</type>>   
-
-<span class="dialogue"><<type 60ms>>The ripples swell into waves.
-
-You stumble back. With each thump, the water rises. It  sloshes around your feet. You strain in place, but your feet are stuck in mud. You cannot move.
-
-The water is now to your knees. Your thighs. Your chest. Your shoulders. You cry, but there’s nothing you can do.
-
-With one last thump, the water surges, and you are now completely submerged in silence. Everything is black and cold. Panic climbs up your throat, but you cannot scream. The lake suffocates.
-
-Then, out of the darkness, a light grows, silver like moonlight. You flail. 
-
-[[Swim towards it.->Ch0Pg9B]]
-\<</type>>
+You scoff. <span class="arthur">[[“Drums can’t protect people. They just make noise.”->Ch0Pg9B]]</span>
 </span>
+\<</type>>

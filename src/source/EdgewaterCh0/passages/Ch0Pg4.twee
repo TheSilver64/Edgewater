@@ -1,14 +1,20 @@
 :: Ch0Pg4
 <<type 30ms>>\
 <span class="dialogue">
-You protest, gesturing at your sister. She grins triumphantly from the middle of your bed.
+<span class="namid">“Tonight I want to tell you one of my stories. My grandmother told it to me when I was a little girl, and now I’m passing it on to you. Both of you.”</span>
 
-Your mother makes her way across the room, one hand cupping her belly as she sways awkwardly. She lowers herself carefully onto the edge of your bed, sighing with the effort. She looks tired. But she smiles as she looks between you and Winona.
+Winona squirms with excitement. <span class="winona">“Is it one of the stories of your family?! The, the–”</span> She scrunches up her face, trying to remember. <span class="winona">“The Muh-nee?!”</span>
 
-<span class="namid">“Actually, we’re doing something different tonight.”</span>
+Your mother reaches over and gently touches Winona’s nose. <span class="namid">“The ‘Menominee’, Winny. Say it with me: ‘Muh-naa-muh-nee’.”</span>
 
-Your frustration deflates into curiosity.
+<span class="winona">“Muh-naa-muh-nee,”</span> Winona repeats carefully, her tongue working around the unfamiliar syllables.
 
-<span class="arthur">[["What do you mean?" -> Ch0Pg5]]</span>
+<span class="namid">“Good,”</span> your mother says. <span class="namid">“That’s the name we were given by others, but we call ourselves Mamaceqtaw.”</span>
+
+<span class="winona">“Mama-ceh-talk?”</span> Winona sounds out.
+
+<span class="namid">“Mamaceqtaw. We are the Kiash Matchitiwuk–the ancient ones. We have lived in this region for centuries, and our stories are our history. I will share one with you tonight.”</span>
+
+Your eyebrows arch. History? History is made of science, not stories. [[But you settle back to listen.-> Ch0Pg5]]
 </span>
 \<</type>>

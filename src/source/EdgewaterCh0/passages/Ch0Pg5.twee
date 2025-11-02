@@ -1,22 +1,16 @@
 :: Ch0Pg5
 <<type 30ms>>\
 <span class="dialogue">
-<span class="namid">“Tonight I want to tell you one of my stories. My grandmother told it to me when I was a little girl, and now I’m passing it on to you. Both of you.”</span>
+<span class="namid">“Come over here,”</span> your mother says to Winona, patting the space between her legs. She holds up a brush with several colorful hairbands tied around the handle. <span class="namid">“Let me braid your hair while I tell it to you.”</span>
 
-Winona squirms with excitement. <span class="winona">“Is it one of the stories of your family?! The, the–”</span> She scrunches up her face, trying to remember. <span class="winona">“The Muh-nee?!”</span>
+Winona hesitates, fear flashing across her face for a moment–the fear of the pain of tangles.
 
-Your mother reaches over and gently touches Winona’s nose. <span class="namid">“The ‘Menominee’, Winny. Say it with me: ‘Muh-naa-muh-nee’.”</span>
+<span class="namid">“Now,”</span> Namid’s voice reaches a warning tone.
 
-<span class="winona">“Muh-naa-muh-nee,”</span> Winona repeats carefully, her tongue working around the unfamiliar syllables.
+With reluctance, Winona gets up and rounds the side of the bed, feet plodding dramatically. She sits down on the floor in front of your mother. 
 
-<span class="namid">“Good,”</span> your mother says. <span class="namid">“That’s the name we were given by others, but we call ourselves Mamaceqtaw.”</span>
+Your mother lifts Winona’s long hair and begins to brush it with slow, gentle strokes. The routine calms your sister. Having gotten over the initial fear of pain, she relaxes, leaning back into your mother’s touch like a cat being stroked. Her fidgeting ceases.
 
-<span class="winona">“Mama-ceh-talk?”</span> Winona sounds out.
-
-<span class="namid">“Mamaceqtaw. We are the Kiash Matchitiwuk–the ancient ones. We have lived in this region for centuries, and our stories are our history. I will share one with you tonight.”</span>
-
-Your eyebrows arch.
-
-<span class="arthur">[[“History?” -> Ch0Pg6]]</span>
+Your mother’s hands move through Winona’s hair with practiced ease, and [[you watch her calloused hands->Ch0Pg6]], mesmerized by their assuring motion. 
 </span>
 \<</type>>

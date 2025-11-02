@@ -1,18 +1,28 @@
 :: Ch0Pg8A
-<<audio "ambiencePrologue" stop>>
-<<audio "nightmareA" play loop>>
-<<type 70ms>>\
+<<type 30ms>>\
 <span class="dialogue">
-A sharp cry awakens you. You hear a thump and a thud. Your eyes fly open. Your room is pitch black. The sky is obscured by brewing stormclouds. They rumble, a low deep sound that penetrates the floorboards. But that wasn’t the sound that woke you up–that noise is coming from downstairs.
+Your mother’s fingers weave the sections of Winona’s hair, a repetitive, soothing pattern that matches the cadence of her voice. The night settles around you–the stridulation of the crickets, the gentle lapping of the lake against the reeds, and the creaks and groans of the bones of the old lakeside house.
 
-You peel off your blankets and slip out of your room. You tiptoe barefoot across the hallway and down the stairs. One step at a time, quietly, delicately. One wrong movement and the groans of the old house’s bones would alert your parents.
+Your mother speaks softly: <span class="namid">“Long ago, an elder told three warriors that if they walked a great distance along the Wolf River to a sacred lake, the Great Spirit would grant them their most wanted wish.”</span>
 
-The sound is coming from their room at the foot of the stairs.
+Winona chirps, <span class="winona">“If I could have my wish granted, I would want a unicorn that could teleport me anywhere!</span>
 
-Another cry–loud, piercing. In pain. Agonizing. More thumps. 
+<span class="arthur">“Winny, don’t be stupid! Unicorns aren’t real!”</span> You berate her.
 
-Your father’s voice–low, angry. Then desperate, pleading.
+Winona whirls around, tugging on the braids still in her mother's hands. 
 
-[[You peek through the banister. -> Ch0Pg9A]]
+<span class="winona">“Yes they are! Lizzi from school said she saw one at her dad's farm!”</span> she insists.
+
+<span class="arthur">“Well, she was lying!”</span> you say. 
+
+<span class="winona">“Lizzi doesn’t lie! She’s my best friend!”</span>
+
+Your mother turns Winona back. <span class="namid">“Shh, let me continue. The three warriors set out on their journey, and after many days reached the very shorelines of this lake. The warriors thought long and hard about their wishes. 
+
+The first warrior asked, 'Oh Great Spirit, could you give me the skills to hunt better, so I can feed my big family?' The Great Spirit gladly granted his wish and sent him on his way. 
+
+The next warrior asked, 'Oh Great Spirit, could you help me find a wife, for I have no one to give my love to?' The Great Spirit gladly granted his wish and sent him on his way.”</span>
+
+<span class="arthur">[[“Those are lame wishes,”->Ch0Pg9A]]</span> you say, snorting. 
 </span>
-\<</type>>
+<</type>>

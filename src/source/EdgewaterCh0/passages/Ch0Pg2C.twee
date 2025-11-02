@@ -3,6 +3,19 @@
 <span class="dialogue">
 Winona pouts, then smiles. <span class="winona">“NOOOOOO!”</span> She yells.
 
-<span class="arthur">[[“It’s past your bedtime! Weren’t you already tucked in?” -> Ch0Pg3]]</span>
+<span class="arthur">“It’s past your bedtime! Weren’t you already tucked in?”</span>
+
+Winona spots a gap between the comforter and sheets. She wiggles in and nestles against the pillows. She sighs in satisfaction.
+
+<span class="winona">“Mom said I could stay up for your story!” </span> She says.
+
+<span class="arthur">“What?!”</span> You leap out of bed. <span class="arthur">“That’s not fair, you’ve already had your bedtime story! It’s time for mine now!”</span>
+
+<span class="namid">“What’s all this noise?”</span>
+
+Your mother stands in the bedroom doorway, silhouetted by the hallway light behind her. Her long black hair is wrapped carefully around her head in a braided bun. She’s wearing a shimmery silk nightgown. Despite its looseness it does little to hide her large pregnant belly.
+
+<span class="arthur">[[“Mom, Winny’s not supposed to be in here!” -> Ch0Pg3]]</span>
 </span>
 \<</type>>
+

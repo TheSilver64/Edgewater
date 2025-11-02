@@ -1,16 +1,12 @@
 :: Ch0Pg3
 <<type 30ms>>\
 <span class="dialogue">
-Winona spots a gap between the comforter and sheets. She wiggles in and nestles against the pillows. She sighs in satisfaction.
+You protest, gesturing at your sister. She grins triumphantly from the middle of your bed.
 
-<span class="winona">“Mom said I could stay up for your story!” </span> She says.
+Your mother makes her way across the room, one hand cupping her belly as she sways awkwardly. She lowers herself carefully onto the edge of your bed, sighing with the effort. She looks tired. But she smiles as she looks between you and Winona.
 
-<span class="arthur">“What?!”</span> You leap out of bed. <span class="arthur">“That’s not fair, you’ve already had your bedtime story! It’s time for mine now!”</span>
+<span class="namid">“Actually, we’re doing something different tonight.”</span>
 
-<span class="namid">“What’s all this noise?”</span>
-
-Your mother stands in the bedroom doorway, silhouetted by the hallway light behind her. Her long black hair is wrapped carefully around her head in a braided bun. She’s wearing a shimmery silk nightgown. Despite its looseness it does little to hide her large pregnant belly.
-
-<span class="arthur">[[“Mom, Winny’s not supposed to be in here!” -> Ch0Pg4]]</span>
+Your frustration deflates into curiousity. <span class="arthur">[[“What do you mean?” -> Ch0Pg4]]</span>
 </span>
 \<</type>>

@@ -188,14 +188,15 @@ body {
 #story-title {
     font-family: "Scary Font", sans-serif;   /* or "Super Scary Font" if you want */
     color: white;
-    font-size: 2em;                          /* match your fade-in title */
+    font-size: 2em;
+    font-weight: normal;                          
     line-height: 1;
     white-space: nowrap;
 
     display: flex;            /* flex to center like buttons */
     justify-content: center;  /* horizontal centering */
     align-items: center;      /* vertical centering if needed */
-    width: 270px;             /* same width as thumbnail */
+    width: 100%;             /* same width as thumbnail */
     margin: 0 auto;           /* center the block itself */
 
     padding: 0;
@@ -350,7 +351,7 @@ body {
 
 /* === Additional text colors === */
 .goldText {
-    color: darkgoldenrod;
+    color: goldenrod;
 }
 .redText {
     color: darkred;
@@ -388,6 +389,37 @@ body {
 .scary.supernatural-glow,
 .super-scary.supernatural-glow {
     animation: supernatural 1.5s infinite ease-in-out;
+}
+
+/* === Global Link Style (Arthur's Colors) === */
+
+/* Normal state */
+a.link-internal, 
+a.link-external {
+	color: #2B7FAF;          /* Arthur’s base color */
+	text-decoration: none;
+	transition: color 0.3s ease;
+}
+
+/* Hover + active state */
+a.link-internal:hover, 
+a.link-external:hover,
+a.link-internal:active,
+a.link-external:active {
+	color: #4AC1CFA6;        /* Arthur’s hover color */
+	text-decoration: underline;
+}
+
+/* Visited links (optional — keep same tone for consistency) */
+a.link-internal:visited,
+a.link-external:visited {
+	color: #2B7FAF;
+}
+
+/* === Global Passage Font Size === */
+.passage {
+    font-size: 1.5em; 
+    line-height: 1.5;  
 }
 
 /* === Character colors / hover === */

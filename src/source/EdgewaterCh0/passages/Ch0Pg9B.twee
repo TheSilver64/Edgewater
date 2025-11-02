@@ -1,17 +1,18 @@
 :: Ch0Pg9B
-<<type 60ms>>\
+<<type 30ms>>\
 <span class="dialogue">
-The silver floats in the water. It's a nightgown - your mother's nightgown! She drifts, her back turned to you. Her hair fans outwards in the water.
+Your mother shakes her head, laughing. <span class="namid">“Always the skeptic, aren’t you? What if I told you if you listen real carefully, on a night just like this, you can still hear the beat?”</span>
 
-You finally reach her.
+Your mother taps Winona's shoulder. Her hair is now braided. Winona leaps to her feet and rushes over to the window. She pulls at the latch, but her little fingers are too weak.
 
-<span class="scary"><span class="arthur">“Mom!”</span></span> your words garble.
+<span class="winona">“C’mon stupid window, move-!”</span> Winona grits her teeth.
 
-You grab her shoulders and turn her around. 
+<span class="namid">“Here, let me help you.”</span> Your mother gets up slowly, holding her belly as she does so. She undoes the latch and the window slides open. A cool breeze fills the room and the curtains sway.
 
+<span class="namid">“Now listen,”</span> she says.
 
-<<type 80ms>>\The bloated face of a <span class="super-scary">corpse</span> stares back at you. Her eyes are milky white, unseeing.\<</type>>
+You strain your ears. The sounds of the night filter back to you: gentle water lapping, bird warbles, crickets and cicadas. Far in the distance, a lone wolf howls. 
 
-[[You scream. -> Ch1Pg0]]
+<span class="arthur">[[“I don’t hear anything.”->Ch0Pg10B]]</span> You say.
 </span>
-\<</type>>
+<</type>>
