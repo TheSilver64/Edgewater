@@ -2,27 +2,23 @@
 <<audio "pianoA" stop>>
 <<type 30ms>>
 <span class="dialogue">
-You've always preferred drawing these by removing from a filled surface rather than coloring it in. You recall the black scratchboard paper of your youth–paper which you snuck away from Winona’s craft supplies.  You would meticulously scrape away at the surface, revealing the iridescent pattern like carving a statue from stone. Even here, in condensation, you can work backwards.
+A simple pattern. You start with a single vertical line, then split it at the top into two branches. Each branch splits again. And again.
 
-You drag your palm across a section of tile, cutting a broad triangle out of the fog. Then, this time with more care, you wipe away a smaller inverted triangle at its center. Within each of the three remaining triangles, you remove another inverted triangle. And again. Refinement after refinement.
+<span class="arthur"><span class="supernatural-glow">Split ends upon split ends upon split ends.</span></span>
 
-Triangles within triangles within triangles
+You draw quickly, your finger steadied and sure against the condensation, The pattern grows upward, branching, multiplying, fanning across the geometric cross-sections of the tile. But you can always trace it back through the divisions and bifurcations… back to the first stem before it splits into two, as if the pattern is going down into a funnel of one pure line rather than branching out infinitely.
 
-Your hand moves with mechanical precision. Your lines are impressively straight for your medium, molding an unmistakable pattern. The repetition is soothing. Predictable. Each iteration follows inevitably from the last, emerging from one, which emerged from nothing. 
+There. The chaos collapses into singularity. The infinite becomes finite. Your breathing slows.
 
-Order built from chaos. Your breathing slows.
-
-You step back and watch as the shower's steam slowly erases your work. The smallest triangles fill in first, smoothing out like a headstone against time. The pattern collapses against the condensation’s entropy… growing fuzzy and faint, until it’s just one triangle. 
-
-Then nothing. 
+You lean back and watch as the shower's steam slowly erases your work, the branches disappearing from the smallest twigs inward, folding back down to nothing. 
 
 Your canvas is empty again. 
 
 Which pattern will create order out of your mind’s chaos?
 
-[[Fractal trees. -> Ch1Pg2B1]]
-[[Sierpinski triangles. -> Ch1Pg2B2]]
-[[Dragon curves. -> Ch1Pg2B3]]
-[[Let the condesnation consume. -> Ch1Pg2BEnd]]
+<span class="supernatural-glow">
+[[Sierpinski triangles. -> Ch1Pg2B3]]
+[[Dragon curves. -> Ch1Pg2B4]]
+[[Let the condensation consume. -> Ch1Pg2B5]]</span>
 </span>
 <</type>>

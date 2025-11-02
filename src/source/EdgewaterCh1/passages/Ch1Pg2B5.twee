@@ -1,4 +1,4 @@
-:: Ch1Pg2BEnd
+:: Ch1Pg2B5
 <<audio "pianoA" stop>>
 <<type 30ms>>
 <span class="dialogue">
@@ -9,8 +9,6 @@ Your tapestry of fractals has been unraveled.
 The tiles are just tiles again. The patterns are gone. But your breathing has steadied. Your hands no longer shake.
 
 That's better.
-</span><</type>>
-<<type 30ms>><span class="dialogue">
 
 You finish washing, turn off the water, and reach for your towel.
 

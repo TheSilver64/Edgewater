@@ -40,6 +40,8 @@ Edgewater
 <<cacheaudio "ambiencePrologue" "src/source/sound/prologue_ambi.mp3">>
 <<cacheaudio "nightmareA" "src/source/sound/nightmare_a.mp3">>
 <<cacheaudio "nightmareB" "src/source/sound/nightmare_b.mp3">>
+<<cacheaudio "drippingBlood" "src/source/sound/dripping_blood.mp3">>
+<<cacheaudio "bloodSplatter" "src/source/sound/blood_splatter.mp3">>
 
 /* chapter 1 */
 <<cacheaudio "morning" "src/source/sound/ch1_morning.mp3">>
@@ -49,6 +51,7 @@ Edgewater
 <<cacheaudio "pianoA" "src/source/sound/piano_a.mp3">>
 <<cacheaudio "classroom" "src/source/sound/ch1_classroom.mp3">>
 /*<<cacheaudio "nightmareB" "source/sound/nightmare_b.mp3">>*/
+<<cacheaudio "cellRing" "src/source/sound/cell_ring.mp3">>
 
 /* chapter 2 */
 <<cacheaudio "pianoB" "src/source/sound/piano_b.mp3">>

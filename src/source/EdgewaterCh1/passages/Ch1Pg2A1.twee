@@ -1,31 +1,22 @@
 :: Ch1Pg2A1
 <<type 30ms>>
+<div class=chStart>Forest Hill Cemetery</div>
 <span class="dialogue">
-The pages fall open to a section you've read a hundred times.
+<<audio "walking" stop>><<audio "cemetery" play loop volume 1.75>>
+The headstones of the newest graves almost sparkle in the dew, still sharp-faced and legible in their inscriptions and in the minds of the living. But you prefer the older sections, where the names have worn into abstraction by weather and time, the monuments reclaimed by moss and lichen. 
 
-Humulus lupulus. Hops.
+Beneath you, the dead slumber. Above you, ancient gnarled oak trees line the walkways. Their branches reach across to form tunnels of red, orange, and gold leaves–their colors of decay muted by the hazy gray and blue shards of the sky. It’s as if the cemetery is holding its breath, waiting for the sun to bring color back to the world. Your breath mists in the air, betraying the life in your lungs.
 
-Your mother's sketch shows the plant in meticulous detail. The cone-like flowers, the consuming vines, the serrated leaves–all fractal in their shape. 
+You walk deeper into the grounds.
 
-<span class="arthur">"A medicine for poor sleep,"</span> you read aloud. It would have been very helpful last night.
+There's a particular spot you always return to: a small hill crowned with a mausoleum, its walls overtaken by ivy, as if being clawed down into the earth. In front of it is a simple granite ledge, positioned so that whoever sits there can watch the sun rise over the city beyond the cemetery walls.
 
-Your finger traces the annotation. Your mother always said it stopped you from dreaming the night you took it, and if you used it too much, you stopped dreaming even when you didn’t use it. Maybe never dream again. 
+You settle onto the cold stone and open the notebook in your lap. The familiar sketches ground you. Detailed botanical illustrations rendered with scientific precision. Your mother's handwriting flows across the pages in neat annotations. Her notes are written in two columns: traditional uses on the left, scientific properties on the right. Always bridging both worlds.
 
-You close your eyes. <span class="arthur">Maybe that wouldn't be so bad.</span>
+What herb calls to you on this lonesome morning?
 
-But then you open them again, looking at the careful diagrams. The ingredients don't grow here. They're not unique to Edgewater, but they certainly won't be in this city.
-
-You turn the page.
+[[A medicine for poor sleep. -> Ch1Pg2A2]]
+[[A medicine for treating coughs and stomach problems. -> Ch1Pg2A3]]
+[[A poison. -> Ch1Pg2A4]]
 </span>
 <</type>>
-<<run window.update_flag("herb1", 1)>>
-<<if window.get_flag("herb2") == 0>>
-<<type 30ms>><span class="dialogue"> [[A medicine for treating coughs and stomach problems. -> Ch1Pg2A2]] </span><</type>>
-<</if>>
-<<if window.get_flag("herb3") == 0>>
-<<type 30ms>> <span class="dialogue">[[A poison. -> Ch1Pg2A3]] </span><</type>>
-<</if>>
-<<if window.get_flag("herb1") == 1 && window.get_flag("herb2") == 1 && window.get_flag("herb3") == 1>>
-<<type 30ms>> <span class="dialogue">[[The last breath of a nightly gale runs through the trees, ruffling the pages of the notebook until it flips it entirely shut. -> Ch1Pg2A4]] </span><</type>>
-<</if>>
-

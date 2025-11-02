@@ -1,7 +1,7 @@
 :: Ch1Pg3
+<<audio cemetery stop>><<audio "classroom" play loop volume 1.75>>
 <<type 30ms>>
 <div class=chStart>Mathematics Classroom, 8:05 AM.</div>
-<<audio "classroom" play loop>>
 <span class="dialogue">
 Class is in session. The lecture hall is amphitheater-style, tiered seating rising up from the front where Professor Chen stands before a massive chalkboard. She's mid-sentence, discussing the historical context of fractal mathematics, when you enter through the side door and take your place at the board.
 
@@ -17,74 +17,7 @@ Zn+1 = Zn2 + C
 
 The Mandelbrot equation. Simple. Elegant. Infinite.
 
-As she launches into the history of Benoît Mandelbrot's struggles with primitive computing technology–the helpful printer technician who enhanced the contrast of early printouts, the moment when the full complexity of the set was first revealed–you start to draw.
-
-History bores you. It gets in the way of the math.
-
-You choose one particular bulb of the Mandelbrot set and begin to zoom in, drawing the self-similar patterns that emerge at every scale. You started with a large outline, giving yourself room to work. Now you add smaller and smaller iterations, stacking them like Russian nesting dolls that never end.
-
-Your hand is steady. The pattern flows from some deep place inside you, bypassing conscious thought. This is where you're comfortable. 
-
-This is where the nightmares can't reach you.
-
-Some students watch your drawing instead of listening to Professor Chen. You notice their eyes tracking your chalk, mesmerized by the repeating shapes. But she doesn't mind–she sees distractions as a challenge. At least the students are paying attention to the front of the room. 
-
-Your cellphone vibrates in your pocket. Uncommon among college students, who relied upon pagers. But you’re an early adopter. 
-
-You pause, chalk hovering. You don't get many calls. Your hand snakes to your pocket, pulling out the phone while Professor Chen continues her lecture about Mandelbrot's time at IBM.
-
-The screen lights up: Winona - 3 missed calls, 1 text message <</type>>
-<<type 30ms>><span class="dialogue"><<audio "classroom" stop>><<audio "nightmareB" play loop>>
-Your heart drops into your stomach. The preview of her text is visible: <span class="winona">Arty, I need to talk to you. It's urgent. Please call me back.</span>
-
-Your sister. Winona. You haven't spoken to her in years–not since you left Edgewater. Even if your brain wants to delay responding to her, it would have to confront the pit in your gut.
-
-Every instinct in your body screams at you to call her back immediately.
-
-You tap Professor Chen's shoulder gently. She turns, raising an eyebrow mid-sentence.
-
-<span class="arthur">"Excuse me, professor,"</span> you whisper. She turns, arching an eyebrow mid-sentence. 
-
-<span class="arthur">"I need to step out for a few minutes. It's an urgent family matter."</span>
-
-The words feel foreign in your mouth. Family. Matter. Urgent.
-
-Professor Chen knows you well enough by now. Arthur Hepburn doesn't step away from mathematics without good reason. She nods, holding her palm out expectantly. You give her chalk and she dismisses you with a small gesture. 
-
-As you leave, you see her turn back to the board. She continues writing around your drawing of the Mandelbrot set, preserving the pattern you've created.
-
-The door closes behind you with a soft click.
-</span>
-<</type>><<type 30ms>>
-
-<div class=chStart>The Bench.</div>
-<span class="dialogue"><<audio "nightmareB" stop>>
-
-The air carries the scent of woodsmoke and crisp leaves. The morning has warmed slightly, but you barely notice. Your feet carry you unconsciously, back to your favorite familiar spot. The metal bench beneath the oak and maple trees. The location is somewhat secluded, off the main pathways between dormitories and academic buildings. Quiet enough for privacy, but still within sight of the campus if you look through the trees. 
-
-The blanket of leaves crunch underfoot as you clear a path. You sit down.
-
-Your phone is in your hand, screen illuminated, showing Winona's contact information.
-
-Your thumb hovers over the callback button.
-
-Why now? Why after all this time?
-
-You think of her as you last saw her. Dove, too. Your other sister. The baby who wasn't a baby anymore when you left.
-
-Your thumb presses down.
-
-The phone rings once against your ear. The artificial sound is sacrilege against the quiet morning.
-
-She answers immediately.
-
-<span class="winona">"Hey,"</span> she says. Her voice is exactly as you remember it, but threaded with something else. Something strained.
-
-<span class="arthur">"Hey,"</span> you reply.
-
-There's a pause. You search for words. What’s the right thing to say after years of silence?
-
-<span class="arthur">[[“How have you been, Winnie?” -> Ch1Pg3A]]</span>
-[[Say nothing. -> Ch1Pg3B]]
+As she launches into the history of Benoît Mandelbrot's struggles with primitive computing technology–the helpful printer technician who enhanced the contrast of early printouts, the moment when the full complexity of the set was first revealed–[[you start to draw.->Ch1Pg4]]
 </span>
 <</type>>
+

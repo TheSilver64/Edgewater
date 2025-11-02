@@ -5,9 +5,9 @@ Lightning flashes, illuminating everything. You realize now why you didn’t rec
 
 She stares at you with wide, bloodshot eyes. Like she’s a deer staring down the barrel of a rifle.
 
-Her silver nightgown is drenched in <</type>>
+Her silver nightgown is drenched in <</type>><<type 100ms>><<audio "bloodSplatter" play>>
 
-<<type 100ms>><span class="super scary">BLOOD.</span><</type>>
+<span class="super-scary">BLOOD.</span>\<</type>>
 
 <<type 80ms>>Thunder shakes the house–the door slams–
 

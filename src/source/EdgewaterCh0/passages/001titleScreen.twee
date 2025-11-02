@@ -12,14 +12,14 @@
 :: TitleScreen
 <<audio "pianoC" play loop>>
 
-<<timed 5s>>
+<<timed 5.5s>>
 <span class="fade-in" style="animation-duration:5s; display: flex; justify-content: center;">
   <div class="title" style="margin:20px 0 0 0; padding:0; text-align:center; position:relative; z-index:2; font-family: 'Super Scary Font'">Edgewater</div>
 </span>
 <</timed>>
 
-<<timed 10s>>
+<<timed 12.5s>>
 <span class="fade-in">
-  <div class="chStart" style="margin:-10px auto 0 auto; text-align:center;">[[Start->002chapterHead]]</div>
+  <div class="chStart" style="margin:-10px auto 0 auto; text-align:center;">[[Start->Ch0Pg0]]</div>
 </span>
 <</timed>>

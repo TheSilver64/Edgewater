@@ -1,0 +1,18 @@
+:: Ch1Pg7
+<<audio "cellRing" play>>
+<<type 50ms>>
+<span class="dialogue">
+The phone rings once against your ear. The artificial sound is sacrilege against the quiet morning.
+
+She answers immediately.
+
+<span class="winona">"Hey,"</span> she says. Her voice is exactly as you remember it, but threaded with something else. Something strained.
+
+<span class="arthur">"Hey,"</span> you reply.
+
+There's a pause. You search for words. What’s the right thing to say after years of silence?
+
+[[“How have you been, Winnie?” -> Ch1Pg7A]]
+[[Say nothing. -> Ch1Pg7B]]
+</span>
+<</type>>

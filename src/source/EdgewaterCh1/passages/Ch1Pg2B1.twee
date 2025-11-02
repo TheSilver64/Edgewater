@@ -1,24 +1,25 @@
 :: Ch1Pg2B1
-<<audio "pianoA" stop>>
-<<type 30ms>>
+<<audio "shower" stop>>
+<<audio "pianoA" play>>
+<<type 50ms>>
 <span class="dialogue">
-A simple pattern. You start with a single vertical line, then split it at the top into two branches. Each branch splits again. And again.
+Then a dribble. <span class="scary">a choking, rattling dribble.</span>
 
-Split ends upon split ends upon split ends. 
+Your stomach lurches. You gag, stumbling forward, your hand slamming against the tile wall. The water pours down the ends of your hair as you dry heave, shaking. 
 
-You draw quickly, your finger steadied and sure against the condensation, The pattern grows upward, branching, multiplying, fanning across the geometric cross-sections of the tile. But you can always trace it back through the divisions and bifurcations… back to the first stem before it splits into two, as if the pattern is going down into a funnel of one pure line rather than branching out infinitely.
+The tiles are cold against your palm. Solid. Real. 
 
-There. The chaos collapses into singularity. The infinite becomes finite. Your breathing slows.
+You steady yourself against the wall, pressing your forehead to the slick surface. The tremors leave your body through the tile, draining into the grout, into the drywall, into the very foundation of the building to the earth below. 
 
-You lean back and watch as the shower's steam slowly erases your work, the branches disappearing from the smallest twigs inward, folding back down to nothing. 
+You straighten and study the tiles. The condensation has left a thick film, turning the whole wall into a single canvas. 
 
-Your canvas is empty again. 
+With your index finger, you begin to draw.
 
 Which pattern will create order out of your mind’s chaos?
 
-[[Fractal trees. -> Ch1Pg2B1]]
-[[Sierpinski triangles. -> Ch1Pg2B2]]
-[[Dragon curves. -> Ch1Pg2B3]]
-[[Let the condesnation consume. -> Ch1Pg2BEnd]]
+<span class="supernatural-glow">
+[[Fractal trees. -> Ch1Pg2B2]]
+[[Sierpinski triangles. -> Ch1Pg2B3]]
+[[Dragon curves. -> Ch1Pg2B4]]</span>
 </span>
 <</type>>

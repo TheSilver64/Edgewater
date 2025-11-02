@@ -3,22 +3,16 @@
 <span class="dialogue">
 The pages fall open to a section you've read a hundred times.
 
-Apocynum cannabinum. Indian hemp.
+<span class="namid"><span class="supernatural-glow">Asarum canadense. Canadian Snakeroot.</span></span>
 
-This one gives you pause. Your mother's notes are more cautious here.
+The root system spreads across the page, branching and dividing–all fractal in their shape. Comforting in their familiarity, in their repeating, infinitesimal pattern.
 
-<span class="arthur">“A medicine, unless you prepare it wrong. Or right, depending on your point of view.”</span> Good for rats and other pests. Your campus does a good job of keeping this campus clean though. You shouldn’t need that unless you ever decide to move back…
+<span class="arthur">“A medicine for treating coughs and stomach problems,”</span> you read aloud. You’re not sure if this is what you need right now. You’re in excellent health, minus your sleep deprivation.
 
-You flip to another page.
+Another page.
 </span>
 <</type>>
-<<run window.update_flag("herb3", 1)>>
-<<if window.get_flag("herb1") == 0>>
-<<type 30ms>><span class="dialogue"> [[A medicine for poor sleep. -> Ch1Pg2A1]] </span><</type>>
-<</if>>
-<<if window.get_flag("herb2") == 0>>
-<<type 30ms>><span class="dialogue"> [[A medicine for treating coughs and stomach problems. -> Ch1Pg2A2]] </span><</type>>
-<</if>>
-<<if window.get_flag("herb1") == 1 && window.get_flag("herb2") == 1 && window.get_flag("herb3") == 1>>
-<<type 30ms>><span class="dialogue"> [[The last breath of a nightly gale runs through the trees, ruffling the pages of the notebook until it flips it entirely shut. -> Ch1Pg2A4]] </span><</type>>
-<</if>>
+<<run window.update_flag("herb2", 1)>>
+<<if window.get_flag("herb1") == 0>><<type 30ms>><span class="dialogue">[[A medicine for poor sleep. -> Ch1Pg2A2]] </span><</type>><</if>>
+<<if window.get_flag("herb3") == 0>><<type 30ms>><span class="dialogue">[[A poison. -> Ch1Pg2A4]] </span><</type>><</if>>
+<<if window.get_flag("herb1") == 1 && window.get_flag("herb2") == 1 && window.get_flag("herb3") == 1>><<type 30ms>><span class="dialogue">[[The last breath of a nightly gale runs through the trees, ruffling the pages of the notebook until it flips it entirely shut. -> Ch1Pg2A5]] </span><</type>><</if>>

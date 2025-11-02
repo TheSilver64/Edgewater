@@ -1,7 +1,7 @@
 :: Ch0Pg12A
 <span class="dialogue">
 <<type 80ms>>\
-The door opens. A figure shuffles through, bent over. It gasps with each movement.\<</type>><<type 300ms>><span class="super scary">
+The door opens. A figure shuffles through, bent over. It gasps with each movement.\<</type>><<type 300ms>><span class="super-scary"><<audio "drippingBlood" play>>
 .
 ..
 ...

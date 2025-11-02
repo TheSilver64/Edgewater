@@ -1,18 +1,18 @@
 :: Ch1Pg2A4
 <<type 30ms>>
 <span class="dialogue">
-You lean back against the granite bench, the notebook resting in your lap. The stone is cold enough to seep through your jacket, but you don't mind. 
+The pages fall open to a section you've read a hundred times.
 
-Most of your mother’s stories did not withstand scrutiny. How are you supposed to reason them out? <span class="arthur"> "Where are the proofs?" you whisper to the stone, watching your breath dissipate in the air. 
+<span class="namid"><span class="supernatural-glow">Apocynum cannabinum. Indian hemp.</span></span>
 
-The stone does not answer.
+This one gives you pause. Your mother's notes are more cautious here.
 
-You open the notebook once more. Every vein in a leaf, every curve in a petal is rendered in detail finer than most anatomy textbooks. Their scientific accuracy makes them feel concrete. Real, tangible. As solid as the monument upon which you rest. Even just thumbing through the pages settles your mind and grounds you in the waking world, even if the world surrounding you now will never wake. 
+<span class="arthur">“A medicine, unless you prepare it wrong. Or right, depending on your point of view.”</span> Good for rats and other pests. Your campus does a good job of keeping this campus clean though. You shouldn’t need that unless you ever decide to move back…
 
-The sun breaks over the horizon, spilling its golden light across the cemetery. Like a dam bursting, it flows over the cemetery walls, touching the tops of the headstones first before racing down the hillside. Inevitably the light reaches you too.
-
-Standing, you close the notebook and tuck it into its protective pocket. 
-
-[[You head back to your apartment to get ready for class.->Ch1Pg3]]
+You flip to another page.
 </span>
 <</type>>
+<<run window.update_flag("herb3", 1)>>
+<<if window.get_flag("herb1") == 0>><<type 30ms>><span class="dialogue"> [[A medicine for poor sleep. -> Ch1Pg2A2]] </span><</type>><</if>>
+<<if window.get_flag("herb2") == 0>><<type 30ms>><span class="dialogue"> [[A medicine for treating coughs and stomach problems. -> Ch1Pg2A3]] </span><</type>><</if>>
+<<if window.get_flag("herb1") == 1 && window.get_flag("herb2") == 1 && window.get_flag("herb3") == 1>><<type 30ms>><span class="dialogue"> [[The last breath of a nightly gale runs through the trees, ruffling the pages of the notebook until it flips it entirely shut. -> Ch1Pg2A5]] </span><</type>><</if>>

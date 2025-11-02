@@ -1,0 +1,24 @@
+:: Ch1Pg7A
+<<type 50ms>>
+<span class="dialogue">
+The old nickname comes easily, muscle memory of childhood.
+
+<span class="winona">"Fine."</span> Her voice cracks slightly. <span class="winona">"Miss you."</span>
+
+Your throat tightens. <span class="arthur">"How's... how's Dove?"</span>
+
+<span class="winona">"She's fine too."</span> Another pause. 
+
+<span class="arthur">“How’s Dad doing?”</span><</type>><<type 80ms>><<audio "nightmareB" play loop>>
+
+You hear her take a shaky breath. <span class="winona">"Listen, Arty, I..."</span>
+
+She trails off.
+
+You grip the phone tighter. <span class="arthur">"What is it?"</span>
+
+The silence stretches. You can hear her breathing on the other end. 
+
+<span class="winona">“Come back home.”</span>
+
+<center><<timed 5s>><span class="fade-in"><span class="scary">[["He's dead."->Ch2Pg0]]</span></span><</timed>></center><</type>>
