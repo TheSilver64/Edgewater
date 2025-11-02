@@ -194,13 +194,24 @@ body {
     background-color: rgba(255, 255, 255, 0.1) !important;
 }
 
-/* === Sidebar title positioning === */
-.story-sidebar-title {
-    margin-top: 30px;     /* closer to the thumbnail */
-    margin-bottom: 6px;
-    text-align: center;
-    font-size: 8em;
-    font-family: "Story Font Bold", sans-serif;
+/* Center the title text exactly like menu buttons */
+#story-title {
+    font-family: "Scary Font", sans-serif;   /* or "Super Scary Font" if you want */
+    color: white;
+    font-size: 2em;                          /* match your fade-in title */
+    line-height: 1;
+    white-space: nowrap;
+
+    display: flex;            /* flex to center like buttons */
+    justify-content: center;  /* horizontal centering */
+    align-items: center;      /* vertical centering if needed */
+    width: 270px;             /* same width as thumbnail */
+    margin: 0 auto;           /* center the block itself */
+
+    padding: 0;
+    box-sizing: border-box;
+
+    text-align: center;       /* fallback in case flex fails */
 }
 
 /* Container for story caption + menu */
@@ -208,7 +219,21 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 0px; /* spacing between thumbnail and menu */
+    gap: 0;           /* removes spacing between children */
+    margin: 0;        /* removes any top/bottom margin */
+    padding: 0;       /* removes any padding */
+}
+
+/* Remove extra spacing from story-caption */
+#story-caption {
+    margin: 0 !important;
+    padding: 0 !important;
+    height: auto !important;
+}
+
+#ui-bar-body {
+    margin-top: 0em;
+    padding-top: 4em;
 }
 
 /* Thumbnail */
@@ -218,8 +243,18 @@ body {
     object-fit: cover;
     border: 1px solid white;
     box-sizing: border-box;
+    margin-bottom: 0; /* same as title’s bottom margin to match caption height spacing */
 }
 
+/* Remove the story author section */
+#story-author {
+    display: none !important;
+}
+
+/* Space between UI bar tray and UI bar body equal to thumbnail→menu gap */
+#ui-bar-tray {
+    margin-bottom: 4em; /* same as .story-thumb bottom margin */
+}
 
 /* Story Fonts */
 @font-face {
@@ -305,13 +340,13 @@ body {
 
 /* === Titles & Chapter Headers === */
 .title {
-    font-family: "witchwoode";
+    font-family: "Title Font";
     color: white;
     font-size: 200px;
     text-align: center;
 }
 .chTitle {
-    font-family: "witchwoode";
+    font-family: "Title Font";
     color: white;
     font-size: 100px;
     text-align: center;
@@ -574,8 +609,8 @@ window.textCrawl = async function (id, text) {
 &lt;&lt;/timed&gt;&gt;</tw-passagedata><tw-passagedata pid="2" name="TitleScreen" tags="" position="225,100" size="100,100">&lt;&lt;audio &quot;pianoC&quot; play loop&gt;&gt;
 
 &lt;&lt;timed 5s&gt;&gt;
-&lt;span class=&quot;fade-in&quot; style=&quot;animation-duration:5s&quot;&gt;
-  &lt;div class=&quot;title&quot; style=&quot;margin:20px 0 0 0; padding:0; text-align:center; position:relative; z-index:2;&quot;&gt;Edgewater&lt;/div&gt;
+&lt;span class=&quot;fade-in&quot; style=&quot;animation-duration:5s; display: flex; justify-content: center;&quot;&gt;
+  &lt;div class=&quot;title&quot; style=&quot;margin:20px 0 0 0; padding:0; text-align:center; position:relative; z-index:2; font-family: &#39;Super Scary Font&#39;&quot;&gt;Edgewater&lt;/div&gt;
 &lt;/span&gt;
 &lt;&lt;/timed&gt;&gt;
 
