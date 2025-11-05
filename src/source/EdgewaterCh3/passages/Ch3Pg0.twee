@@ -1,11 +1,6 @@
 :: Ch3Pg0
 <<audio "ambiencePositive" stop>>
-<span class="dialogue">
-<div class=chTitle>Chapter Three</div>
-<center>
-<img src="Images/ch3.png" height="432px" width="540px">
-</center>
-<<type 20ms>>\
-<div class=chStart>[[The Lake House->Ch3Pg1]]</div>
-\<</type>>
-</span>
+<<audio "ambienceNeg" play loop volume 0.5>>
+<<timed 1s>><span class="fade-in"><span class="dialogue"><div class="chTitle">Chapter Three</div></span></span><</timed>>
+<<timed 3s>><span class="fade-in"><center><img src="Images/ch3.png" height="432px" width="540px"></center></span><</timed>>
+<<timed 5s>><span class="fade-in"><div class="chStart">[[The Lake House->Ch3Pg1]]</div></span><</timed>>

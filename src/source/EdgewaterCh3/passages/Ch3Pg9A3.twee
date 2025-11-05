@@ -1,0 +1,12 @@
+:: Ch3Pg9A3
+<<audio "ambienceNeg" volume 0 play>>
+<<audio "ambienceNeg" fadeoverto 30 0.5>>
+<<type 60ms>>
+<span class="dialogue">
+<span class="winona">“Maybe you would know, if you had ever called! You couldn’t even bother to check in!”</span> The control in her voice finally cracks. <span class="winona">“He was a shell, Arty! Barely talking, barely eating. He stopped being a dad. He was obsessed. Every waking moment in that fucking basement. We could have used you. He missed you–but it’s clear you don’t need us.”</span>
+
+She stubs out the cigarette against the arm of the chair, grinding it into a pulp. The words tumble out like the tears streaking her cheeks. <span class="winona">“He’d locked himself up for days. Wouldn’t respond to anything. My hands bled from pounding so hard. I finally broke in…”</span> her voice breaks.
+
+Your stomach clenches and nausea rises. But you have to ask. You have to know. 
+
+<span class="arthur">[[“...and when you found him… ?”->Ch3Pg9A4]]</span><</type>>

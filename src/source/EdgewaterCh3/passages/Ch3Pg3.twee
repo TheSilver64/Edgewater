@@ -1,37 +1,14 @@
 :: Ch3Pg3
-<<type 20ms>>
+<<type 40ms>>
 <span class="dialogue">
-Dove pulls you by the hand. <span class="dove">“Want to see my rock collection?”</span> she jabbers, <span class="dove">“I found some really cool spec-i-mens by the lake!”</span>
+She's so much bigger than you remember. Not the little girl you left behind, but ten years old now, tall and gangly in that pre-adolescent way. Her hair is the same black as your mother's, cut bluntly across her forehead in bangs and tucked behind her in two messy braids. Her eyes are bright with excitement. 
 
-<span class="arthur">“Oh, yeah, sure–”</span> you begin.
+<span class="dove">"Arty! Arty! Arty! You're back! You're back! You're back!"</span>
 
-<span class="winona">“Later Dove,”</span> Winona cuts in. <span class="winona">“Your brother and I need to talk.”</span> 
+She gasps, collecting her energy, before using the last of her momentum to launch herself at you. She collides with you before you’ve fully crossed the threshold, tumbling forward. You stand frozen for a moment. Then your arms moved of their own accord, grasping her back and steadying her small frame. She wraps her thin arms around your waist–she’s tall enough to reach that high–and squeezes weakly. 
 
-<span class="dove">“But Winny–”</span> 
+<span class="arthur">“Hey, Dove,”</span> you say softly. She smells like kid shampoo.
 
-<span class="winona">“Go take your medication. Now.”</span> Her gaze softens. <span class="winona">“I’ll call you when I’m done.”</span>
+She wiggles in your embrace. <span class="dove">“You’re back you’re back you’re back!”</span> 
 
-Dove’s enthusiasm deflates. She looks between you and Winona, her smile fading. The adults are talking. 
-
-Dove slumps, but she obeys. <span class="dove">“Okay,”</span> she says quietly, stepping behind Winona and trudging up the stairs. She stops before the last steps, turning back to you with renewed hope: <span class="dove">“But Arty, you’ll come to see my room after, won’t you?”</span>
-
-The pleading in her voice is almost too much to bear.
-
-<span class="arthur">"Of course,"</span> you say, plastering a smile onto your face. <span class="arthur">"I can't wait."</span>
-
-Dove grins and dashes out of sight. Her footsteps fade, leaving you alone with Winona.
-
-Your sister descends the last two steps slowly, deliberately. Tap, tap. Each footfall is measured. When she reaches the landing she doesn't approach you. Just stands there, arms crossed. Her eyes flit across every detail of your face, studying you like you would a difficult problem. 
-
-<span class="arthur">"Hey, Winnie,"</span> you try weakly.
-
-She doesn't respond to the nickname. Doesn't even flinch. You notice the dark circles beneath her eyes. Her mouth opens, and yet the words don’t come. Her breath hangs.
-
-The silence stretches between you, taut with the tension and the length of the years you’ve been gone. 
-
-What do you do?
-
-[[Ask Winona to talk outside.->Ch3Pg3A]]
-[[Spend more time with Dove first.->Ch3Pg3B]] 
-</span>
-<</type>>
+<span class="arthur">“Yeah,”</span> you manage, voice thick. [[“I’m back.”->Ch3Pg4]]</span><</type>>

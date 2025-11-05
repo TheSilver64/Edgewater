@@ -1,6 +1,6 @@
-:: Ch3Pg3B
+:: Ch3Pg9B
 <<run window.update_flag("sibling_convo", 2)>>
-<<type 20ms>>
+<<type 40ms>>
 <span class="dialogue">
 You look between Winona and the stairs. You know the conversation between her and you will be difficult. And you’re not sure you’re ready for it. But Dove is waiting, innocent in a way that won’t last if you keep disappointing her.
 
@@ -18,10 +18,8 @@ You turn to the stairwell. <span class="arthur">"Dove?"</span> you call. <span c
 
 You climb the stairs slowly, clutching the banister until you reach the first floor landing. A set of smaller steps lead up into a converted loft referred to as the “the attic”. When you were young, the space was you and your sister’s playroom. The way the ceiling sloped made it feel like a cave in the mountains, a secret hiding place removed from everything below. You wonder if Dove feels the same way. If she claimed this room as hers as a means to escape. 
 
-You ascend the attic steps, the stairs creaking under your weight. 
-
 At the top Dove waits, practically vibrating with excitement.
 
-[[Smile.->Ch3Pg3B2]]
+The stairs creaking under your weight, [[you ascend the attic steps.->Ch3Pg9B1]]
 </span>
 <</type>>

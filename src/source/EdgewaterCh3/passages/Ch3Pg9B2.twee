@@ -1,24 +1,6 @@
-:: Ch3Pg3B2
-<<audio "chimes" stop>>
-<<audio "chimes" play>>
-<<repeat 86s>>
-<<audio "chimes" stop>>
-<<audio "chimes" play>>
-<</repeat>>
-<<type 20ms>>
+:: Ch3Pg9B2
+<<type 40ms>>
 <span class="dialogue">
-The attic has been painted a robin’s egg blue–like a clear sky, though the effect is somewhat faded by the afternoon light filtering through the two circular windows on either side of the room. But it’s what hangs from the ceiling that stops you in your tracks. 
-
-Dreamcatchers. Dozens of them, suspended at different heights on fishing line. They range from crude attempts—bent wire wrapped in loose yarn—to more elaborate designs with intricate webbing and feathers dangling from the hoops. 
-
-And among them: Shells. Stones. Beach glass in smooth, glowing shades of green, blue and amber. Sticks twisted into strange shapes. Broken wind chimes of wood, bamboo, clay, and metal. Small bones from birds and frogs, delicate as eggshell. All of them hang, turning slowly in the breeze from the open windows, creating a percussive harmony that teems with texture. A chorus as ephemeral as the wind. The dream catchers wave in the wind, casting lace-like shadows that dance to the music across the walls. Other curios catch the light as they rotate, casting a dazzling array of jeweled colors across the floor like stained glass. 
-
-It’s beautiful, like a chaotic ecosystem. 
-
-<span class="dove">"It's totallly different now, huh?"</span> Dove spins around, arms outstretched. <span class="dove">"I grew up, so now my room shows alllll my hobbies!"</span>
-
-<span class="arthur">"Did you put all these up yourself?"</span> you ask.
-
 <span class="dove">"I found them!"</span> Dove says proudly. <span class="dove">"Well, everything but the dreamcatchers. Winny made those.”</span> her voice takes on a matter-of-fact tone. <span class="dove">“They catch my nightmares so they can’t get to me.”</span>
 
 The dreamcatchers dangle–years of Winona’s patient work displayed like years of Christmas ornaments.
@@ -37,6 +19,6 @@ She holds out a large gray stone. It’s smooth, water-worn, and roughly the siz
 
 <span class="dove">"Really?"</span> Her eyes widen. <span class="dove">"Tell me about them!"</span>
 
-[[Tell her.->Ch3Pg3B3]]
+[[Tell her.->Ch3Pg9B3]]
 </span>
 <</type>>

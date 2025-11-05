@@ -1,0 +1,21 @@
+:: Ch3Pg9A 
+<<run window.update_flag("sibling_convo", 1)>>
+<<type 40ms>>
+<span class="dialogue">
+<span class="arthur">"Let's step outside for a second,"</span> you say. Not a question. You need fresh air. The weight of dust and memories in this house is asphyxiating. 
+
+Winona considers you for a moment, blinking slowly. Then nods once. She turns, striding out the back door leading to the sunroom. She doesn’t look back to see if you follow.</span>
+
+<div class=chStart>The Sunroom</div><span class="dialogue">
+
+The glass door opens onto a screened porch overlooking the lake. The wooden planks of the floor are uneven, some boards soft with rot. The mesh screens are ridden with holes. A breeze wafts through, the warm draft skimming the surface of the lake for fragments of summer heat before carrying it across to shore. You close your eyes and take a deep breath, taking in the golden air. 
+
+On either side of the door, paintings lean against the house to dry. They’re abstract–swirls, blotches, swatches–each stroke a different hue. Almost like dapples of light on a landscape. As your gaze unfocuses, you realize. The lake. She’s been painting the lake over and over, reducing it to the language of symbols and wavelengths.
+
+Winona settles into a wicker lounge chair. You sit in the chair across from her. The glass-topped bistro chair fills the space between you two. 
+
+Winona reaches into her pocket. She pulls out a crumpled pack of menthol cigarettes and a silver butane lighter. With practiced fingers she extracts a cigarette, pinching it between her index finger and thumb before placing it between her teeth. The grace of the motion suggests habit. 
+
+<span class="arthur">[[“Are you serious? Since when do you smoke?”->Ch3Pg9A1]]</span> the question escapes your lips before you can stop it. 
+</span>
+<</type>>

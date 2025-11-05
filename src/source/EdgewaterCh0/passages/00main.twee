@@ -58,6 +58,7 @@ Edgewater
 <<cacheaudio "ambiencePositive" "src/source/sound/ambi_pos.mp3">>
 
 /* chapter 3 */
+/*<<cacheaudio "ambienceNeg" "src/source/sound/ambi_neg.mp3">>*/
 <<cacheaudio "doorbell" "src/source/sound/doorbell.mp3">>
 <<cacheaudio "chimes" "src/source/sound/chimes.mp3">>
 <<cacheaudio "lighter" "src/source/sound/lighting_cig.mp3">>
@@ -388,11 +389,41 @@ body {
     50% { text-shadow: 0 0 12px var(--hover), 0 0 24px var(--hover); }
     100% { text-shadow: 0 0 6px var(--hover), 0 0 12px var(--hover); }
 }
+
+/* === Static flicker glow Animation === */
+@keyframes supernatural-flicker {
+    0%   { text-shadow: 0 0 2px var(--hover), 0 0 4px var(--hover); }
+    5%   { text-shadow: 0 0 8px var(--hover), 0 0 16px var(--hover); }
+    8%   { text-shadow: none; }
+    12%  { text-shadow: 0 0 3px var(--hover), 0 0 6px var(--hover); }
+    20%  { text-shadow: 0 0 10px var(--hover), 0 0 20px var(--hover); }
+    25%  { text-shadow: none; }
+    35%  { text-shadow: 0 0 4px var(--hover), 0 0 8px var(--hover); }
+    50%  { text-shadow: 0 0 12px var(--hover), 0 0 26px var(--hover); }
+    65%  { text-shadow: none; }
+    80%  { text-shadow: 0 0 6px var(--hover), 0 0 14px var(--hover); }
+    100% { text-shadow: 0 0 3px var(--hover), 0 0 6px var(--hover); }
+}
+
 .supernatural-glow,
 .scary.supernatural-glow,
 .super-scary.supernatural-glow {
     animation: supernatural 1.5s infinite ease-in-out;
+    --hover: currentColor;
 }
+
+/* Darker, horror glow for SCARY */
+.scary.supernatural-glow {
+    color: #b31010; /* slightly deeper red text */
+    --hover: #7a0000; /* deep dried blood glow */
+}
+
+/* Even heavier glow for SUPER-SCARY */
+.super-scary.supernatural-glow {
+    color: #c40000;
+    --hover: #3b0000; /* nearly black-red hellglow */
+}
+
 .supernatural-glow a {
     animation: supernatural 1.5s infinite ease-in-out;
     text-shadow: 0 0 6px var(--hover), 0 0 12px var(--hover);
@@ -416,6 +447,36 @@ a.link-external:hover {
         transform: scale(1.12);  /* bigger pulse */
         opacity: 0.75;           /* stronger glow fade */
     }
+}
+
+.scary-link a {
+    color: #c40000 !important; /* blood red */
+    text-shadow:
+        0 0 3px #3b0000,
+        0 0 8px #3b0000,
+        0 0 12px #3b0000;
+    animation: scary-static 1.4s infinite steps(4);
+}
+
+/* Make sure hover stays red, not blue */
+.scary-link a:hover,
+.scary-link a:active,
+.scary-link a:focus {
+    color: #8a0000 !important; /* darker red on hover */
+    text-shadow:
+        0 0 4px #3b0000,
+        0 0 10px #3b0000,
+        0 0 18px #3b0000;
+}
+
+/* flicker animation */
+@keyframes scary-static {
+    0% { opacity: 1; }
+    20% { opacity: .85; }
+    40% { opacity: 1; }
+    60% { opacity: .9; }
+    80% { opacity: 1; }
+    100% { opacity: .95; }
 }
 
 /* === Global Link Style (Arthur's Colors) === */
