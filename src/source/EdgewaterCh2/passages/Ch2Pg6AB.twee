@@ -1,0 +1,26 @@
+:: Ch2Pg6AB
+<<run window.update_flag("learned_executor", window.get_flag("learned_executor")+1)>>
+<<type 40ms>>
+<span class="dialogue">
+<span class="olivia">“Right now, the plan is to hold the reading tomorrow night, after the mayoral debate.”</span> 
+
+Colin nods, interjecting smoothly, <span class="colin">"I'm one of the candidates. Hope I can count on your support."</span>
+
+You manage something like a smirk. <span class="arthur">"I think I saw your name on a sign while driving in.”</span> You don’t actually remember him at all. <span class="arthur">“I'll see what I can do."</span>
+
+It's an empty promise. You have no intention of staying in Edgewater longer than necessary. But Colin seems satisfied with the response.
+
+Before you can ask them anything else, Harold's voice booms across the cemetery: <span class="harold">"Olivia! We're leaving!"</span>
+
+Olivia grimaces, then reaches out and gives your arm a gentle squeeze, pressing a business card into your hand.
+
+<span class="olivia">"Here's my number. If you need an ally, or even just a shoulder to cry on..."</span> She holds your gaze. <span class="olivia">"Please don't hesitate to reach out. I mean it."</span>
+
+Then she's gone, swept away by family obligation. Colin gives you a final nod before following.
+
+You stand there, business card in hand, watching them go. The cardstock is heavy, professional. Sheriff Olivia Hepburn. A phone number and address. </span><</type>>
+<<if window.get_flag("learned_executor") > 0 && window.get_flag("learned_executor") < 3>><<type 40ms>><span class="dialogue">Around you, the funeral crowd continues to thin. But there are still more who you could still approach. That’s if you can stomach more conversation.</span><</type>><</if>>
+<<if window.get_flag("ashford_convo_funeral") == 0>><<type 40ms>><span class="dialogue">[[Talk to Mr. Ashford and the woman. -> Ch2Pg6B]]</span><</type>><</if>><<nobr>>
+<<if window.get_flag("wyatt_convo_funeral") == 0>><<type 40ms>><span class="dialogue">[[Talk to the older woman by herself. -> Ch2Pg6C]]</span><</type>><</if>><</nobr>><<nobr>>
+<<if window.get_flag("learned_executor") == 3>><<type 40ms>><span class="dialogue">[[Leave the funeral. -> Ch2Pg7]]</span><</type>><</if>><</nobr>>
+

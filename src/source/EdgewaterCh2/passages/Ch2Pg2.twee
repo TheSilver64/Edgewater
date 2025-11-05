@@ -1,55 +1,35 @@
 :: Ch2Pg2
-<<audio "pianoB" stop>>
-<<audio "ambiencePositive" stop>>
-<<audio "ambiencePositive" play>>
-<<repeat 448s>>
-<<audio "ambiencePositive" stop>>
-<<audio "ambiencePositive" play>>
-<</repeat>>
-<<type 20ms>>
+<<type 40ms>>
 <span class="dialogue">
-The funeral
+Even the thought of the word weighs like a rotten berry on your tongue. You had refused to utter it in school, preferring vague references to anything concrete about your hometown. 
 
-The back road to the cemetery winds through scattered houses, each set back from the pavement with enough distance respectable of rural privacy. Yard signs sprout from the grass, obnoxious in their bold reds and blues. For a moment the outside world shines through: election season.
-But the names are familiar, seared into your mind like the memories of nightmares: 
-<span class="scary"> Hepburn. Ashford. </span>
+You never wanted to go back. And yet, as you drive closer and closer, you feel the pull of familiar sights like the gravitational force of a black hole. 
 
-The names are familiar in the way bad dreams are familiar: Hepburn. Ashford. Your father's side and... others. You don't follow local politics. You don't follow anything about Edgewater if you can help it.
-The cemetery appears as a break in the tree line–a clearing that feels like a scar upon the land. Cars are already parked along the shoulder. You pull in behind them and sit for a moment, engine idling. You stare at the gathering of dark-clothed figures through your tinted windshield.
-Your chest feels tight. You make yourself breathe slowly, counting the seconds. 
-Four in.
-Hold for seven.
-Eight out. 
-You breathe, listening to the exhale against the well-maintained purr of the engine. The sound hushes the climbing panic in your throat. 
-You turn off the engine. The silence rushes in.
+The scenery whips by you as you navigate through the dense forest, their trunks obscured by morning mists rising into the cold air. <span class="namid">Red oaks. White pines. Black cherry.</span> The names come automatically, muscle memory from childhood lessons you thought you had buried. 
 
-Edgewater Cemetery
-Your toes curl in your dress shoes as you walk towards the gathering. You feel too stiff in your suit, like you’re a dressed-up marionette, made to act in someone’s play. The morning air carries the scent of freshly turned dirt. 
-You scan the assembled mourners, looking for Winona's dark hair, for Dove's–but they're not here. Instead, strangers stare back at you. Or not quite strangers. You recognize a few faces the way you recognize formulas rarely revisited. If you recall correctly, they’re from some of the more prominent families of Edgewater, adorned in the expensive fabrics of performative grief. 
-It doesn’t take long before the pastor arrives. He opens his Bible, and the funeral begins in earnest. 
-You stand at the front as the sole family representative. Your jaw aches from clenching it. Around you, the others shift and murmur. You catch fragments of conversation, whispers at just the right volume to betray their lack of private intent:
+Your mother’s voice echoes: <span class="namid"><span class="supernatural-glow">“Always know what surrounds you, Arthur. Know their names like you know mine.”</span></span>
 
-<span class="scary"> "—alcoholic–" </span>
-<span class="scary"> "—always was weak—" </span>
-<span class="scary"> "—coward's way out—" </span>
+But you don't want to name anything right now.
 
-Your fingernails dig into your palms.
-The pastor's voice drones on: <span class="npc">"...and so we commit Silas Hepburn to the earth, returning dust to dust."</span>
-Dust to dust. Ashes to ashes. The energy of life breaking down into matter. The conservation of mass. Nothing is truly destroyed, only transformed.
-Morbidly, you wonder what your father has transformed into. Are the signs of death branded on his body? Or is he drained and marinated in preservatives, their poison eventually seeping from his casket into the barren earth? 
-Behind you, an old man's voice cuts through your thoughts: <span class="npc">"Fitting end for a drunk, wouldn't you say?"</span>
-You whip around. A trio of well-dressed elderly people stand off to the side, watching the pastor’s speech with disdain. 
-An old woman from the group sniffs. <span class="npc">“In the end, dying like the weak failure of a son he was,”</span> her reedy voice drips with satisfaction. 
-Behind the two of them, a second man, middle-aged instead of elderly, shifts in place uncomfortably. 
-Unbelievable. 
-The service ends. People disperse, forming small clusters. Maybe one of these attendees knows what the rest of your family is up to. But the thought of approaching anyone makes your skin crawl.
-Three groups catch your eye:
-The first is a woman about your age in a pencil skirt whose red hair is cut into a severe bob, talking with an older man. You don’t recognize the man, but something about the woman seems familiar. 
-The second group is another younger woman with an older man. You think you remember seeing the man’s face on a local election sign as you were driving into town–the cheery sign was memorable. Ashford for Edgewater!
-The third is a middle-aged woman standing alone, slightly apart from the crowd. She has the look of someone who’d rather not be here. Something you can relate to. 
-Who do you approach?
-[[Talk to the familiar woman and the older man -> Ch2Pg2A]]
-[[Talk to Mr. Ashford and the woman. -> Ch2Pg2B]]
-[[Talk to the older woman by herself. -> Ch2Pg2C]]
-</span>
+You crack the windows to rouse your thoughts. Air hisses in–wind carrying that particular northern Michigan chill, the kind that bites at any exposed piece of flesh and freezes your lungs. The kind that makes you feel awake even when you haven’t slept. Like now. 
+
+But who can blame you? You haven’t slept well since the phone call.
+
+<span class="scary"><span class="winona"> “He's dead.” </span></span>
+
+Two words. Simple. Finite. There’s no room for infinite complexity–they just end.
+
+You never considered the end until it was too late.
+
+Hours pass, the miles accumulate, and the trees eventually thin, giving way to cattails and wild rice. And beyond–Lake Michigan spreads across the horizon, its waters catching the pastels of the brightening sky, glittering into the distance. 
+
+A lovely day for a funeral, at least. 
+
+A sign appears on the roadside. The white font is worn:
+
+<span class="super-scary" style="color: white">EDGEWATER: 2 MILES.</span>
+
+You swallow. You’re crossing the event horizon.
+
+[[There’s no going back now. -> Ch2Pg3]]
 <</type>>

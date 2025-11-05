@@ -393,6 +393,30 @@ body {
 .super-scary.supernatural-glow {
     animation: supernatural 1.5s infinite ease-in-out;
 }
+.supernatural-glow a {
+    animation: supernatural 1.5s infinite ease-in-out;
+    text-shadow: 0 0 6px var(--hover), 0 0 12px var(--hover);
+}
+a.link-internal,
+a.link-external {
+    --hover: #4AC1CFA6; /* same as your hover */
+}
+/* Stronger pulse hover animation */
+a.link-internal:hover,
+a.link-external:hover {
+    animation: strong-pulse 0.6s ease-in-out infinite alternate;
+}
+
+@keyframes strong-pulse {
+    0% {
+        transform: scale(1);
+        opacity: 1;
+    }
+    100% {
+        transform: scale(1.12);  /* bigger pulse */
+        opacity: 0.75;           /* stronger glow fade */
+    }
+}
 
 /* === Global Link Style (Arthur's Colors) === */
 

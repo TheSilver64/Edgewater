@@ -1,22 +1,31 @@
 :: Ch2Pg3
-<<repeat 448s>>
-<<audio "ambiencePositive" stop>>
-<<audio "ambiencePositive" play>>
-<</repeat>>
-<<type 20ms>>
+<<audio "pianoA" stop>>
+<<audio "ambiencePositive" fadein loop volume 0.5>>
+<<type 40ms>>
+<div class=chStart>Edgewater Cemetery</div>
 <span class="dialogue">
-The funeral has dissolved into small clusters of people you don't know, speaking in low voices about things that don't concern you. Or maybe they do concern you, but you can't stand to find out. Nevermind that you never found out where your sisters are–they’re likely back at the house.
+The back road to the cemetery winds through scattered houses, each set back from the pavement with enough distance respectable of rural privacy. Yard signs sprout from the grass, obnoxious in their bold reds and blues. For a moment the outside world shines through: election season.
 
-Either way, it's time to go.
+But the names are familiar, seared into your mind like the memories of nightmares: 
 
-You shuffle back to the car, doing your best not to meet anyone’s gaze. The door opens with a solid click, and you slide into the driver's seat.
+<span class="scary"> Hepburn. Ashford. </span>
 
-Your hands find the steering wheel. Ten and two. Precise. Controlled.
+Your father's side and... others. You don't follow local politics. You don't follow anything about Edgewater if you can help it.
 
-But they're shaking.
+The cemetery appears as a break in the tree line–a clearing that feels like a scar upon the land. Cars are already parked along the shoulder. You pull in behind them and sit for a moment, engine idling. You stare at the gathering of dark-clothed figures through your tinted windshield.
 
-You pull out onto the road. The cemetery recedes in your rearview mirror until the trees swallow it completely.
+Your chest feels tight. You make yourself breathe slowly, counting the seconds. 
 
-[[Leave the funeral.->Ch3Pg0]]
+Four in.
+
+Hold for seven.
+
+Eight out. 
+
+You breathe, listening to the exhale against the well-maintained purr of the engine. The sound hushes the climbing panic in your throat. 
+
+You turn off the engine. The silence rushes in.
+
+[[Go to the funeral.->Ch2Pg4]]
 </span>
 <</type>>

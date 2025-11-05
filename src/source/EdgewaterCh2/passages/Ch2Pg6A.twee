@@ -1,0 +1,34 @@
+:: Ch2Pg6A
+<<nobr>>
+<<run window.update_flag("hepburn_convo_funeral", 1)>>
+<</nobr>>
+<<type 40ms>>
+<span class="dialogue">
+Your feet carry you across the grass toward the red-haired woman and her companion.
+
+She notices you approaching and her expression shifts into recognition, followed by a sad smile. 
+
+<span class="olivia">"Arthur?"</span> Her voice is gentle. <span class="olivia">"I'm Olivia Hepburn. You probably don't remember me. The last time we met was under... similar unfortunate circumstances."</span>
+
+You swallow hard as you suddenly remember where you’ve seen her before.
+
+<span class="arthur">“My mother's funeral,”</span> you say, words like sludge in your mouth. <span class="arthur">“I remember you. You played with my sister. Thank you for distracting her during…”</span> you trail off. During what? During one of the worst days of your life? <span class="arthur">“Thank you for that.”</span>
+
+Olivia's expression softens further. <span class="olivia">"It was the least I could do."</span> She glances back at the departing elderly couple hobbling across the lawn. Disgust flickers across her face. <span class="olivia">"And I'm so sorry about Harold and Martha. There's no excuse for what they said. We're family, for Christ's sake. They should behave themselves."</span>
+
+She lets out a frustrated sigh. 
+
+<span class="olivia">"Even convincing them to come took some effort,"</span> she continues. <span class="olivia">“If it weren’t for their reputation… I really am truly sorry for your loss, Arthur. I wish I'd known him better, wish they hadn't kept me from knowing you all."</span> She pauses, then gestures to the man beside her. <span class="olivia">"Right, I don't believe you've met my father?"</span>
+
+The older man extends his hand. <span class="colin">"Colin Hepburn. Good to meet you, Arthur… even if the circumstances aren’t the best.”</span>
+
+You take his hand and shake it, noting his firm, practiced grip. <span class="arthur">“Likewise,”</span> you manage. The word feels hollow. 
+
+Olivia's demeanor shifts slightly. She holds her shoulders back with seriousness, the posture of someone with official business to conduct. <span class="olivia">"There's actually something important I need to discuss with you, Arthur. I'm the sheriff here in Edgewater now, and I'm the one handling your father's case."</span>
+
+Sheriff. You remember her as barely older than you, playing paper dolls with your sister. Now she wears authority like a second skin.
+
+<span class="olivia">"When we examined the scene," she continues carefully, "we found his will in the same room as... as his body. You were designated as the executor."</span></span><</type>>
+<<if window.get_flag("learned_executor") == 0>><<type 40ms>><span class="dialogue">The words take a moment to land. Executor. You.</span><</type>><<type 40ms>><span class="dialogue">
+[[“Me? I didn't think we were that close. Not since I moved away.”->Ch2Pg6AA]]</span><</type>>
+<<elseif window.get_flag("learned_executor") == 1 || window.get_flag("learned_executor") == 2>><<type 40ms>><span class="dialogue">[[“So I’ve heard. Any idea when we’ll be reading the will?”->Ch2Pg6AB]]</span><</type>><</if>>

@@ -1,0 +1,28 @@
+:: Ch2Pg6BB
+<<run window.update_flag("learned_executor", window.get_flag("learned_executor")+1)>>
+<<type 40ms>>
+<span class="dialogue">
+
+Isaac nods sympathetically. <span class="isaac">"I know it's a lot to take on. These things are never simple, and with the mayoral election happening..."</span> He glances at Rhona, something unspoken passing between them. <span class="isaac">"Well. Let's just say emotions are running high in Edgewater right now. The Hepburns and Ashfords have always had their tensions, but politics has a way of making everything more complicated."</span>
+
+<span class="isaac">"Anyway,"</span> Isaac continues, <span class="isaac">"I hate to cut this short, but we need to get back and prepare for tomorrow's debate. I'd love to see you there—and afterward, we're holding a small fundraising gathering. Nothing too formal. It would give us a chance to catch up properly, talk about your father when he was young. Before everything got so..."</span>
+
+<span class="arthur">"Complicated?"</span> you offer.
+
+<span class="isaac">"Yes. Exactly."</span> Isaac's smile is rueful. <span class="isaac">"Will you come?"</span>
+
+You find yourself nodding. <span class="arthur">"I'll see what I can do."</span>
+
+It's noncommittal, but Isaac seems satisfied. He beams, clapping you on the shoulder. <span class="isaac">"Great. I'll see you then. And Arthur?”</span> his expression turns serious. <span class="isaac">“I know you and your father had your difficulties. But he was a good man once. Try to remember that, when the will reading gets messy. And it will get messy."</span>
+
+There's a warning in those words. Is it out of kindness? 
+
+Isaac reaches into his suit jacket and produces a business card, pressing it into your hand. Gold embossed letters read: ISAAC ASFORD–Edgewater Mayor Candidate and Public Servant. 
+
+<span class="isaac">"Here's my number. Give me a call if you need anything—or just come to the debate. And the fundraiser. We'll talk more then."
+
+Then the Ashfords are moving away, leaving you standing on the cemetery grass.</span><</type>>
+<<if window.get_flag("learned_executor") > 0 && window.get_flag("learned_executor") < 3>><<type 40ms>><span class="dialogue">Around you, the funeral crowd continues to thin. But there are still more who you could approach. That’s if you can stomach more conversation.</span><</type>><</if>>
+<<if window.get_flag("hepburn_convo_funeral") == 0>><<type 40ms>><span class="dialogue">[[Talk to the familiar woman and the older man.-> Ch2Pg6A]] </span><</type>><</if>><<nobr>>
+<<if window.get_flag("wyatt_convo_funeral") == 0>><<type 40ms>><span class="dialogue">[[Talk to the older woman by herself. -> Ch2Pg6C]]</span><</type>><</if>><</nobr>><<nobr>>
+<<if window.get_flag("learned_executor") == 3>><<type 40ms>><span class="dialogue">[[Leave the funeral. -> Ch2Pg7]]</span><</type>><</if>><</nobr>>

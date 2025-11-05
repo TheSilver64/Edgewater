@@ -1,10 +1,6 @@
 :: Ch2Pg0
-<span class="dialogue">
-<div class=chTitle>Chapter Two</div>
-<center>
-<img src="Images/ch2.png" height="432px" width="540px">
-</center>
-<<type 20ms>>\
-<div class=chStart>[[A Lonely Ride->Ch2Pg1]]</div>
-\<</type>>
-</span>
+<<audio "nightmareB" stop>>
+<<audio "pianoA" play loop>>
+<<timed 2.5s>><span class="fade-in"><span class="dialogue"><div class="chTitle">Chapter Two</div></span></span><</timed>>
+<<timed 5.5s>><span class="fade-in"><center><img src="Images/ch2.png" height="432px" width="540px"></center></span><</timed>>
+<<timed 8.5s>><span class="fade-in"><div class="chStart">[[Three Days Later->Ch2Pg1]]</div></span><</timed>>

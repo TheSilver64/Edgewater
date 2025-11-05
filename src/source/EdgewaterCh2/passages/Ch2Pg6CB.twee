@@ -1,0 +1,17 @@
+:: Ch2Pg6CB
+<<run window.update_flag("learned_executor", window.get_flag("learned_executor")+1)>>
+<<type 40ms>>
+<span class="dialogue">
+<span class="rachel">"The whole process will likely be a huge mess, especially with the mayoral election happening. Politics really has a way of bringing out the worst in people, and I see plenty of it.
+
+The Ashfords and Hepburns have been at each other's throats for weeks, and your father's estate is going to become a political football whether you like it or not. If you need one, I can provide you with a private attorney to help you with sorting out your father’s estate.”</span>
+
+She pulls a business card from her purse and hands it to you. The cardstock is expensive, embossed. Professional.
+
+<span class="arthur">"Thanks,"</span> you say. <span class="arthur">"I'll let you know if I need one."</span>
+
+You step away, unsure how to feel. Part of you appreciates her honesty. Part of you resents hearing your father spoken about like he was a problem to be managed… even if it was true.</span><</type>>
+<<if window.get_flag("learned_executor") > 0 && window.get_flag("learned_executor") < 3>><<type 40ms>><span class="dialogue">Around you, the funeral crowd continues to thin. But there are still more who you could approach. That’s if you can stomach more conversation.</span><</type>><</if>>
+<<if window.get_flag("hepburn_convo_funeral") == 0>><<type 40ms>><span class="dialogue">[[Talk to the familiar woman and the older man.-> Ch2Pg6A]] </span><</type>><</if>><<nobr>>
+<<if window.get_flag("ashford_convo_funeral") == 0>><<type 40ms>><span class="dialogue">[[Talk to Mr. Ashford and the woman. -> Ch2Pg6B]]</span><</type>><</if>><</nobr>><<nobr>>
+<<if window.get_flag("learned_executor") == 3>><<type 40ms>><span class="dialogue">[[Leave the funeral. -> Ch2Pg7]]</span><</type>><</if>><</nobr>>

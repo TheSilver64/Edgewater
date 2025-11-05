@@ -1,0 +1,23 @@
+:: Ch2Pg6C
+<<nobr>>
+<<run window.update_flag("wyatt_convo_funeral", 1)>>
+<</nobr>>
+<<type 40ms>>
+<span class="dialogue">
+You drift toward the solitary figure at the edge of the gathering. She stands just far enough from everyone else to make a statement. I'm here because I have to be, not because I want to be.
+
+You understand that feeling intimately.
+
+She notices you approaching and turns, assessing you with sharp, intelligent eyes. <span class="rachel">"Arthur Hepburn, right?"</span>
+
+You nod, slightly taken aback that she knows your name.
+
+<span class="rachel">"Rachel Wyatt,"</span> she says, extending her hand. Her shake is businesslike, efficient. <span class="rachel">"City manager. I knew your mother growing up. We did everything together, actually. Namid was…”</span> she pauses, and fondness flicks across her professional demeanor. <span class="rachel">“She was special. I still don’t understand what she saw in Silas, though. He was always fickle even before she died. And then she just fell apart. Always jumping at shadows and hiding in his basement with those old books of his–”</span> she stops abruptly, realizing the venom in her words.
+
+<span class="rachel">“I’m sorry. I shouldn’t say that at his funeral. I’m sorry for your loss.”</span>
+
+The bluntness startles you. Most people dance around the topic of your parents’ marriage. Rachel doesn’t seem interested in dancing. It’s refreshing.
+
+<span class="rachel">"You must have a lot on your plate right now,"</span> Rachel continues, smoothly transitioning back to business. <span class="rachel">"Being named executor of the will and all."</span></span><</type>>
+<<if window.get_flag("learned_executor") == 0>><<type 40ms>><span class="dialogue">[[“I am? This is the first time I’m hearing about this.”->Ch2Pg6CA]]</span><</type>>
+<<elseif window.get_flag("learned_executor") == 1 || window.get_flag("learned_executor") == 2>><<type 40ms>><span class="dialogue">[[“I only just found out,”-> Ch2Pg6CB]] you admit.</span><</type>><</if>>

@@ -1,0 +1,27 @@
+:: Ch2Pg6B
+<<nobr>>
+<<run window.update_flag("ashford_convo_funeral", 1)>>
+<</nobr>>
+<<type 40ms>>
+<span class="dialogue">
+You angle toward the man you recognize from the campaign signs. Better to face the political machinery head-on. 
+
+The man notices your approach and offers a beaming smile. His brilliant white teeth gleam with the calibration of a man used to being in front of the camera. 
+
+<span class="isaac">"You must be Silas's son, right?"</span> he says, shaking your hand eagerly. <span class="isaac">"I’m Isaac. Isaac Ashford. And this is my daughter, Rhona."</span>
+
+The woman beside him steps forward. Her dull brown hair is pulled back into a low ponytail but her eyes scan him sharply, cataloging everything. <span class="rhona">“Good to meet you, Arthur,”</span> she says, shaking your hand.
+
+<span class="arthur">"Not the greatest of circumstances,"</span> you reply, <span class="arthur">"but likewise."</span>
+
+Isaac's expression becomes somber. <span class="isaac">"I'm terribly sorry about what happened with your father. We used to be close when we were boys, running around and getting into trouble. The usual kid stuff."</span> His eyes grow distant for a moment, reaching into the past. <span class="isaac">"And while we had our differences, I still considered him a friend. Even with how he’d been recently, I never thought he’d…”</span>
+
+The sentence dies in the air between you. Words no one wants to utter at a funeral. As if not naming it makes it less real. 
+
+<span class="namid"><span class="supernatural-glow">“Know their names.”</span></span>
+
+You say nothing, letting the uncomfortable silence acknowledge what your words fail to. Suddenly you feel as cowardly as your father. 
+
+Isaac clears his throat, <span class="isaac">"As much as I wish we had more time to mourn properly, there's plenty of work that needs doing. Between my campaign and your responsibilities with the will—"</span></span><</type>>
+<<if window.get_flag("learned_executor") == 0>><<type 40ms>><span class="dialogue"><span class="arthur">"The will?"</span> The question escapes before you can stop it. [[“What about the will?”->Ch2Pg6BA]]</span><</type>>
+<<elseif window.get_flag("learned_executor") == 1 || window.get_flag("learned_executor") == 2>><<type 40ms>><span class="dialogue">[[“Right. Being the eldest means I’m the one to handle the will.”->Ch2Pg6BB]]</span><</type>><</if>>

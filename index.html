@@ -400,6 +400,30 @@ body {
 .super-scary.supernatural-glow {
     animation: supernatural 1.5s infinite ease-in-out;
 }
+.supernatural-glow a {
+    animation: supernatural 1.5s infinite ease-in-out;
+    text-shadow: 0 0 6px var(--hover), 0 0 12px var(--hover);
+}
+a.link-internal,
+a.link-external {
+    --hover: #4AC1CFA6; /* same as your hover */
+}
+/* Stronger pulse hover animation */
+a.link-internal:hover,
+a.link-external:hover {
+    animation: strong-pulse 0.6s ease-in-out infinite alternate;
+}
+
+@keyframes strong-pulse {
+    0% {
+        transform: scale(1);
+        opacity: 1;
+    }
+    100% {
+        transform: scale(1.12);  /* bigger pulse */
+        opacity: 0.75;           /* stronger glow fade */
+    }
+}
 
 /* === Global Link Style (Arthur's Colors) === */
 
@@ -1293,7 +1317,7 @@ You strain your ears. The sounds of the night filter back to you: gentle water l
 &lt;&lt;audio &quot;morning&quot; play loop volume 1.75&gt;&gt;
 &lt;&lt;timed 1s&gt;&gt;&lt;span class=&quot;fade-in&quot;&gt;&lt;span class=&quot;dialogue&quot;&gt;&lt;div class=&quot;chTitle&quot;&gt;Chapter One&lt;/div&gt;&lt;/span&gt;&lt;/span&gt;&lt;&lt;/timed&gt;&gt;
 &lt;&lt;timed 3s&gt;&gt;&lt;span class=&quot;fade-in&quot;&gt;&lt;center&gt;&lt;img src=&quot;Images/ch1.png&quot; height=&quot;432px&quot; width=&quot;540px&quot;&gt;&lt;/center&gt;&lt;/span&gt;&lt;&lt;/timed&gt;&gt;
-&lt;&lt;timed 5s&gt;&gt;&lt;span class=&quot;fade-in&quot;&gt;&lt;div class=&quot;chStart&quot;&gt;[[Autumn, 2001. Morning.-&gt;Ch1Pg1]]&lt;/div&gt;&lt;/span&gt;&lt;&lt;/timed&gt;&gt;</tw-passagedata><tw-passagedata pid="31" name="Ch1Pg1" tags="" position="100,475" size="100,100">&lt;&lt;type 30ms&gt;&gt;
+&lt;&lt;timed 5s&gt;&gt;&lt;span class=&quot;fade-in&quot;&gt;&lt;div class=&quot;chStart&quot;&gt;[[Autumn 2001. Morning.-&gt;Ch1Pg1]]&lt;/div&gt;&lt;/span&gt;&lt;&lt;/timed&gt;&gt;</tw-passagedata><tw-passagedata pid="31" name="Ch1Pg1" tags="" position="100,475" size="100,100">&lt;&lt;type 30ms&gt;&gt;
 &lt;span class=&quot;dialogue&quot;&gt;
 You wake just before dawn. Your breath comes in sharp, quick gasps. You stop thrashing once you realize where you are. 
 
@@ -1704,110 +1728,138 @@ Another pause. Another shaky breath.
 
 Then, in a voice barely above a whisper:
 
-&lt;center&gt;&lt;&lt;timed 5s&gt;&gt;&lt;span class=&quot;fade-in&quot;&gt;&lt;span class=&quot;scary&quot;&gt;[[&quot;He&#39;s dead.&quot;-&gt;Ch2Pg0]]&lt;/span&gt;&lt;/span&gt;&lt;&lt;/timed&gt;&gt;&lt;/center&gt;&lt;&lt;/type&gt;&gt;</tw-passagedata><tw-passagedata pid="52" name="Ch2Pg0" tags="" position="225,725" size="100,100">&lt;span class=&quot;dialogue&quot;&gt;
-&lt;div class=chTitle&gt;Chapter Two&lt;/div&gt;
-&lt;center&gt;
-&lt;img src=&quot;Images/ch2.png&quot; height=&quot;432px&quot; width=&quot;540px&quot;&gt;
-&lt;/center&gt;
-&lt;&lt;type 20ms&gt;&gt;\
-&lt;div class=chStart&gt;[[A Lonely Ride-&gt;Ch2Pg1]]&lt;/div&gt;
-\&lt;&lt;/type&gt;&gt;
-&lt;/span&gt;</tw-passagedata><tw-passagedata pid="53" name="Ch2Pg1" tags="" position="350,725" size="100,100">&lt;&lt;audio &quot;ambiencePositive&quot; stop&gt;&gt;
-&lt;&lt;audio &quot;pianoB&quot; stop&gt;&gt;
-&lt;&lt;audio &quot;pianoB&quot; play&gt;&gt;
-&lt;&lt;repeat 120s&gt;&gt;
-&lt;&lt;audio &quot;pianoB&quot; stop&gt;&gt;
-&lt;&lt;audio &quot;pianoB&quot; play&gt;&gt;
-&lt;&lt;/repeat&gt;&gt;
-&lt;&lt;type 20ms&gt;&gt;
+&lt;center&gt;&lt;&lt;timed 5s&gt;&gt;&lt;span class=&quot;fade-in&quot;&gt;&lt;span class=&quot;scary&quot;&gt;[[&quot;He&#39;s dead.&quot;-&gt;Ch2Pg0]]&lt;/span&gt;&lt;/span&gt;&lt;&lt;/timed&gt;&gt;&lt;/center&gt;&lt;&lt;/type&gt;&gt;</tw-passagedata><tw-passagedata pid="52" name="Ch2Pg0" tags="" position="225,725" size="100,100">&lt;&lt;audio &quot;nightmareB&quot; stop&gt;&gt;
+&lt;&lt;audio &quot;pianoA&quot; play loop&gt;&gt;
+&lt;&lt;timed 2.5s&gt;&gt;&lt;span class=&quot;fade-in&quot;&gt;&lt;span class=&quot;dialogue&quot;&gt;&lt;div class=&quot;chTitle&quot;&gt;Chapter Two&lt;/div&gt;&lt;/span&gt;&lt;/span&gt;&lt;&lt;/timed&gt;&gt;
+&lt;&lt;timed 5.5s&gt;&gt;&lt;span class=&quot;fade-in&quot;&gt;&lt;center&gt;&lt;img src=&quot;Images/ch2.png&quot; height=&quot;432px&quot; width=&quot;540px&quot;&gt;&lt;/center&gt;&lt;/span&gt;&lt;&lt;/timed&gt;&gt;
+&lt;&lt;timed 8.5s&gt;&gt;&lt;span class=&quot;fade-in&quot;&gt;&lt;div class=&quot;chStart&quot;&gt;[[Three Days Later-&gt;Ch2Pg1]]&lt;/div&gt;&lt;/span&gt;&lt;&lt;/timed&gt;&gt;</tw-passagedata><tw-passagedata pid="53" name="Ch2Pg1" tags="" position="350,725" size="100,100">&lt;&lt;type 40ms&gt;&gt;
 &lt;span class=&quot;dialogue&quot;&gt;
 The winding highway stretches before you. You hold the steering wheel at ten and two, your grip so tight your knuckles blanch white. 
+
 The rental car smells of industrial air freshener, its interior impeccable save for your duffle bag slumped in the passenger seat. You packed it methodically–a few changes of clothes, toiletries, and your laptop. As for your funeral attire, you’re already wearing it: a pressed black suit slightly too large for your frame. The suit from the last funeral you attended no longer fits anymore. 
+
 You drove through the night, across Wisconsin, up into the little neck of the woods you used to call home.
-&lt;span class=&quot;scary&quot;&gt; Edgewater. &lt;/span&gt;
+
+&lt;span class=&quot;supernatural-glow&quot;&gt;[[Edgewater.-&gt;Ch2Pg2]]&lt;/span&gt;&lt;/span&gt;&lt;&lt;/type&gt;&gt;</tw-passagedata><tw-passagedata pid="54" name="Ch2Pg2" tags="" position="475,725" size="100,100">&lt;&lt;type 40ms&gt;&gt;
+&lt;span class=&quot;dialogue&quot;&gt;
 Even the thought of the word weighs like a rotten berry on your tongue. You had refused to utter it in school, preferring vague references to anything concrete about your hometown. 
+
 You never wanted to go back. And yet, as you drive closer and closer, you feel the pull of familiar sights like the gravitational force of a black hole. 
-The scenery whips by you as you navigate through the dense forest, their trunks obscured by morning mists rising into the cold air. Red oaks. White pines. Black cherry. The names come automatically, muscle memory from childhood lessons you thought you had buried. 
-Your mother’s voice echoes: &lt;span class=&quot;namid&quot;&gt;“Always know what surrounds you, Arthur. Know their names like you know mine.”&lt;/span&gt;
+
+The scenery whips by you as you navigate through the dense forest, their trunks obscured by morning mists rising into the cold air. &lt;span class=&quot;namid&quot;&gt;Red oaks. White pines. Black cherry.&lt;/span&gt; The names come automatically, muscle memory from childhood lessons you thought you had buried. 
+
+Your mother’s voice echoes: &lt;span class=&quot;namid&quot;&gt;&lt;span class=&quot;supernatural-glow&quot;&gt;“Always know what surrounds you, Arthur. Know their names like you know mine.”&lt;/span&gt;&lt;/span&gt;
 
 But you don&#39;t want to name anything right now.
+
 You crack the windows to rouse your thoughts. Air hisses in–wind carrying that particular northern Michigan chill, the kind that bites at any exposed piece of flesh and freezes your lungs. The kind that makes you feel awake even when you haven’t slept. Like now. 
+
 But who can blame you? You haven’t slept well since the phone call.
 
-&lt;span class=&quot;scary&quot;&gt; “He&#39;s dead.” &lt;/span&gt;
+&lt;span class=&quot;scary&quot;&gt;&lt;span class=&quot;winona&quot;&gt; “He&#39;s dead.” &lt;/span&gt;&lt;/span&gt;
 
 Two words. Simple. Finite. There’s no room for infinite complexity–they just end.
+
 You never considered the end until it was too late.
+
 Hours pass, the miles accumulate, and the trees eventually thin, giving way to cattails and wild rice. And beyond–Lake Michigan spreads across the horizon, its waters catching the pastels of the brightening sky, glittering into the distance. 
+
 A lovely day for a funeral, at least. 
+
 A sign appears on the roadside. The white font is worn:
 
-EDGEWATER: 2 MILES.
+&lt;span class=&quot;super-scary&quot; style=&quot;color: white&quot;&gt;EDGEWATER: 2 MILES.&lt;/span&gt;
 
-You swallow. You’re crossing the event horizon. 
-[[There’s no going back now. -&gt; Ch2Pg2]]
-&lt;/span&gt;
-&lt;&lt;/type&gt;&gt;</tw-passagedata><tw-passagedata pid="54" name="Ch2Pg2" tags="" position="475,725" size="100,100">&lt;&lt;audio &quot;pianoB&quot; stop&gt;&gt;
-&lt;&lt;audio &quot;ambiencePositive&quot; stop&gt;&gt;
-&lt;&lt;audio &quot;ambiencePositive&quot; play&gt;&gt;
-&lt;&lt;repeat 448s&gt;&gt;
-&lt;&lt;audio &quot;ambiencePositive&quot; stop&gt;&gt;
-&lt;&lt;audio &quot;ambiencePositive&quot; play&gt;&gt;
-&lt;&lt;/repeat&gt;&gt;
-&lt;&lt;type 20ms&gt;&gt;
+You swallow. You’re crossing the event horizon.
+
+[[There’s no going back now. -&gt; Ch2Pg3]]
+&lt;&lt;/type&gt;&gt;</tw-passagedata><tw-passagedata pid="55" name="Ch2Pg3" tags="" position="600,725" size="100,100">&lt;&lt;audio &quot;pianoA&quot; stop&gt;&gt;
+&lt;&lt;audio &quot;ambiencePositive&quot; fadein loop volume 0.5&gt;&gt;
+&lt;&lt;type 40ms&gt;&gt;
+&lt;div class=chStart&gt;Edgewater Cemetery&lt;/div&gt;
 &lt;span class=&quot;dialogue&quot;&gt;
-The funeral
-
 The back road to the cemetery winds through scattered houses, each set back from the pavement with enough distance respectable of rural privacy. Yard signs sprout from the grass, obnoxious in their bold reds and blues. For a moment the outside world shines through: election season.
+
 But the names are familiar, seared into your mind like the memories of nightmares: 
+
 &lt;span class=&quot;scary&quot;&gt; Hepburn. Ashford. &lt;/span&gt;
 
-The names are familiar in the way bad dreams are familiar: Hepburn. Ashford. Your father&#39;s side and... others. You don&#39;t follow local politics. You don&#39;t follow anything about Edgewater if you can help it.
+Your father&#39;s side and... others. You don&#39;t follow local politics. You don&#39;t follow anything about Edgewater if you can help it.
+
 The cemetery appears as a break in the tree line–a clearing that feels like a scar upon the land. Cars are already parked along the shoulder. You pull in behind them and sit for a moment, engine idling. You stare at the gathering of dark-clothed figures through your tinted windshield.
+
 Your chest feels tight. You make yourself breathe slowly, counting the seconds. 
+
 Four in.
+
 Hold for seven.
+
 Eight out. 
+
 You breathe, listening to the exhale against the well-maintained purr of the engine. The sound hushes the climbing panic in your throat. 
+
 You turn off the engine. The silence rushes in.
 
-Edgewater Cemetery
+[[Go to the funeral.-&gt;Ch2Pg4]]
+&lt;/span&gt;
+&lt;&lt;/type&gt;&gt;</tw-passagedata><tw-passagedata pid="56" name="Ch2Pg4" tags="" position="725,725" size="100,100">&lt;&lt;type 40ms&gt;&gt;
+&lt;span class=&quot;dialogue&quot;&gt;
 Your toes curl in your dress shoes as you walk towards the gathering. You feel too stiff in your suit, like you’re a dressed-up marionette, made to act in someone’s play. The morning air carries the scent of freshly turned dirt. 
+
 You scan the assembled mourners, looking for Winona&#39;s dark hair, for Dove&#39;s–but they&#39;re not here. Instead, strangers stare back at you. Or not quite strangers. You recognize a few faces the way you recognize formulas rarely revisited. If you recall correctly, they’re from some of the more prominent families of Edgewater, adorned in the expensive fabrics of performative grief. 
+
 It doesn’t take long before the pastor arrives. He opens his Bible, and the funeral begins in earnest. 
+
 You stand at the front as the sole family representative. Your jaw aches from clenching it. Around you, the others shift and murmur. You catch fragments of conversation, whispers at just the right volume to betray their lack of private intent:
 
-&lt;span class=&quot;scary&quot;&gt; &quot;—alcoholic–&quot; &lt;/span&gt;
-&lt;span class=&quot;scary&quot;&gt; &quot;—always was weak—&quot; &lt;/span&gt;
-&lt;span class=&quot;scary&quot;&gt; &quot;—coward&#39;s way out—&quot; &lt;/span&gt;
+&lt;span class=&quot;scary&quot;&gt;&lt;span class=&quot;npc&quot;&gt;—alcoholic–&quot;&lt;/span&gt;&lt;/span&gt;
+
+&lt;span class=&quot;scary&quot;&gt;&lt;span class=&quot;npc&quot;&gt;&quot;—always was weak—&quot;&lt;/span&gt;&lt;/span&gt;
+
+&lt;span class=&quot;scary&quot;&gt;&lt;span class=&quot;npc&quot;&gt;—coward&#39;s way out—&quot;&lt;/span&gt;&lt;/span&gt;
 
 Your fingernails dig into your palms.
+
 The pastor&#39;s voice drones on: &lt;span class=&quot;npc&quot;&gt;&quot;...and so we commit Silas Hepburn to the earth, returning dust to dust.&quot;&lt;/span&gt;
+
 Dust to dust. Ashes to ashes. The energy of life breaking down into matter. The conservation of mass. Nothing is truly destroyed, only transformed.
+
 Morbidly, you wonder what your father has transformed into. Are the signs of death branded on his body? Or is he drained and marinated in preservatives, their poison eventually seeping from his casket into the barren earth? 
-Behind you, an old man&#39;s voice cuts through your thoughts: &lt;span class=&quot;npc&quot;&gt;&quot;Fitting end for a drunk, wouldn&#39;t you say?&quot;&lt;/span&gt;
-You whip around. A trio of well-dressed elderly people stand off to the side, watching the pastor’s speech with disdain. 
-An old woman from the group sniffs. &lt;span class=&quot;npc&quot;&gt;“In the end, dying like the weak failure of a son he was,”&lt;/span&gt; her reedy voice drips with satisfaction. 
-Behind the two of them, a second man, middle-aged instead of elderly, shifts in place uncomfortably. 
-Unbelievable. 
-The service ends. People disperse, forming small clusters. Maybe one of these attendees knows what the rest of your family is up to. But the thought of approaching anyone makes your skin crawl.
-Three groups catch your eye:
-The first is a woman about your age in a pencil skirt whose red hair is cut into a severe bob, talking with an older man. You don’t recognize the man, but something about the woman seems familiar. 
-The second group is another younger woman with an older man. You think you remember seeing the man’s face on a local election sign as you were driving into town–the cheery sign was memorable. Ashford for Edgewater!
-The third is a middle-aged woman standing alone, slightly apart from the crowd. She has the look of someone who’d rather not be here. Something you can relate to. 
-Who do you approach?
-[[Talk to the familiar woman and the older man -&gt; Ch2Pg2A]]
-[[Talk to Mr. Ashford and the woman. -&gt; Ch2Pg2B]]
-[[Talk to the older woman by herself. -&gt; Ch2Pg2C]]
+
+Behind you, an old man&#39;s voice cuts through your thoughts: &lt;span class=&quot;harold&quot;&gt;&quot;Fitting end for a drunk, wouldn&#39;t you say?&quot;&lt;/span&gt;
+
+[[You whip around.-&gt;Ch2Pg5]]
 &lt;/span&gt;
-&lt;&lt;/type&gt;&gt;</tw-passagedata><tw-passagedata pid="55" name="Ch2Pg2A" tags="" position="600,725" size="100,100">&lt;&lt;nobr&gt;&gt;
-&lt;&lt;repeat 448s&gt;&gt;
-&lt;&lt;audio &quot;ambiencePositive&quot; stop&gt;&gt;
-&lt;&lt;audio &quot;ambiencePositive&quot; play&gt;&gt;
-&lt;&lt;/repeat&gt;&gt;
+&lt;&lt;/type&gt;&gt;</tw-passagedata><tw-passagedata pid="57" name="Ch2Pg5" tags="" position="850,725" size="100,100">&lt;&lt;type 40ms&gt;&gt;
+&lt;span class=&quot;dialogue&quot;&gt;
+A trio of well-dressed elderly people stand off to the side, watching the pastor’s speech with disdain. 
+
+An old woman from the group sniffs. &lt;span class=&quot;martha&quot;&gt;“In the end, dying like the weak failure of a son he was,”&lt;/span&gt; her reedy voice drips with satisfaction. 
+
+Behind the two of them, a second man, middle-aged instead of elderly, shifts in place uncomfortably. 
+
+Unbelievable. 
+
+The service ends. People disperse, forming small clusters. Maybe one of these attendees knows what the rest of your family is up to. But the thought of approaching anyone makes your skin crawl.
+
+Three groups catch your eye:
+
+The first is a woman about your age in a pencil skirt whose red hair is cut into a severe bob, talking with an older man. You don’t recognize the man, but something about the woman seems familiar. 
+
+The second group is another younger woman with an older man. You think you remember seeing the man’s face on a local election sign as you were driving into town–the cheery sign was memorable: Ashford for Edgewater!
+
+The third is a middle-aged woman standing alone, slightly apart from the crowd. She has the look of someone who’d rather not be here. Something you can relate to. 
+
+Who do you approach?
+
+[[Talk to the familiar woman and the older man. -&gt; Ch2Pg6A]]
+[[Talk to Mr. Ashford and the woman. -&gt; Ch2Pg6B]]
+[[Talk to the older woman by herself. -&gt; Ch2Pg6C]]
+&lt;/span&gt;
+&lt;&lt;/type&gt;&gt;</tw-passagedata><tw-passagedata pid="58" name="Ch2Pg6A" tags="" position="975,725" size="100,100">&lt;&lt;nobr&gt;&gt;
 &lt;&lt;run window.update_flag(&quot;hepburn_convo_funeral&quot;, 1)&gt;&gt;
 &lt;&lt;/nobr&gt;&gt;
-&lt;&lt;type 20ms&gt;&gt;
+&lt;&lt;type 40ms&gt;&gt;
 &lt;span class=&quot;dialogue&quot;&gt;
 Your feet carry you across the grass toward the red-haired woman and her companion.
 
@@ -1824,21 +1876,21 @@ Olivia&#39;s expression softens further. &lt;span class=&quot;olivia&quot;&gt;&q
 She lets out a frustrated sigh. 
 
 &lt;span class=&quot;olivia&quot;&gt;&quot;Even convincing them to come took some effort,&quot;&lt;/span&gt; she continues. &lt;span class=&quot;olivia&quot;&gt;“If it weren’t for their reputation… I really am truly sorry for your loss, Arthur. I wish I&#39;d known him better, wish they hadn&#39;t kept me from knowing you all.&quot;&lt;/span&gt; She pauses, then gestures to the man beside her. &lt;span class=&quot;olivia&quot;&gt;&quot;Right, I don&#39;t believe you&#39;ve met my father?&quot;&lt;/span&gt;
+
 The older man extends his hand. &lt;span class=&quot;colin&quot;&gt;&quot;Colin Hepburn. Good to meet you, Arthur… even if the circumstances aren’t the best.”&lt;/span&gt;
 
 You take his hand and shake it, noting his firm, practiced grip. &lt;span class=&quot;arthur&quot;&gt;“Likewise,”&lt;/span&gt; you manage. The word feels hollow. 
 
 Olivia&#39;s demeanor shifts slightly. She holds her shoulders back with seriousness, the posture of someone with official business to conduct. &lt;span class=&quot;olivia&quot;&gt;&quot;There&#39;s actually something important I need to discuss with you, Arthur. I&#39;m the sheriff here in Edgewater now, and I&#39;m the one handling your father&#39;s case.&quot;&lt;/span&gt;
+
 Sheriff. You remember her as barely older than you, playing paper dolls with your sister. Now she wears authority like a second skin.
 
-&lt;span class=&quot;olivia&quot;&gt;&quot;When we examined the scene,&quot; she continues carefully, &quot;we found his will in the same room as... as his body. You were designated as the executor.&quot;&lt;/span&gt;
-&lt;/span&gt;&lt;&lt;/type&gt;&gt;
-&lt;&lt;if window.get_flag(&quot;learned_executor&quot;) == 0&gt;&gt;
-&lt;&lt;run window.update_flag(&quot;learned_executor&quot;, window.get_flag(&quot;learned_executor&quot;)+1)&gt;&gt;&lt;&lt;type 20ms&gt;&gt;&lt;span class=&quot;dialogue&quot;&gt;
-The words take a moment to land. Executor. You.
-
-&lt;span class=&quot;arthur&quot;&gt;&quot;Me? I didn&#39;t think we were that close. Not since I moved away.”&lt;/span&gt;
-
+&lt;span class=&quot;olivia&quot;&gt;&quot;When we examined the scene,&quot; she continues carefully, &quot;we found his will in the same room as... as his body. You were designated as the executor.&quot;&lt;/span&gt;&lt;/span&gt;&lt;&lt;/type&gt;&gt;
+&lt;&lt;if window.get_flag(&quot;learned_executor&quot;) == 0&gt;&gt;&lt;&lt;type 40ms&gt;&gt;&lt;span class=&quot;dialogue&quot;&gt;The words take a moment to land. Executor. You.&lt;/span&gt;&lt;&lt;/type&gt;&gt;&lt;&lt;type 40ms&gt;&gt;&lt;span class=&quot;dialogue&quot;&gt;
+[[“Me? I didn&#39;t think we were that close. Not since I moved away.”-&gt;Ch2Pg6AA]]&lt;/span&gt;&lt;&lt;/type&gt;&gt;
+&lt;&lt;elseif window.get_flag(&quot;learned_executor&quot;) == 1 || window.get_flag(&quot;learned_executor&quot;) == 2&gt;&gt;&lt;&lt;type 40ms&gt;&gt;&lt;span class=&quot;dialogue&quot;&gt;[[“So I’ve heard. Any idea when we’ll be reading the will?”-&gt;Ch2Pg6AB]]&lt;/span&gt;&lt;&lt;/type&gt;&gt;&lt;&lt;/if&gt;&gt;</tw-passagedata><tw-passagedata pid="59" name="Ch2Pg6AA" tags="" position="1100,725" size="100,100">&lt;&lt;run window.update_flag(&quot;learned_executor&quot;, window.get_flag(&quot;learned_executor&quot;)+1)&gt;&gt;
+&lt;&lt;type 40ms&gt;&gt;
+&lt;span class=&quot;dialogue&quot;&gt;
 Olivia shrugs. &lt;span class=&quot;olivia&quot;&gt;&quot;I suppose since you&#39;re the oldest son, he figured you&#39;d be the best choice for it. If he had other reasons...&quot;&lt;/span&gt; She pauses. &lt;span class=&quot;olivia&quot;&gt;&quot;Well. We can&#39;t ask him now.&quot;&lt;/span&gt;
 
 Why you? Why not Winona?
@@ -1861,12 +1913,12 @@ Then she&#39;s gone, swept away by family obligation. Colin gives you a final no
 
 You stand there, business card in hand, watching them go. The cardstock is heavy, professional. Sheriff Olivia Hepburn. A phone number and address. 
 
-Around you, the funeral crowd continues to thin. But there are still more who you could still approach. That’s if you can stomach more conversation.
-&lt;/span&gt;&lt;&lt;/type&gt;&gt;
-&lt;&lt;elseif window.get_flag(&quot;learned_executor&quot;) == 1 || window.get_flag(&quot;learned_executor&quot;) == 2&gt;&gt;
-&lt;&lt;run window.update_flag(&quot;learned_executor&quot;, window.get_flag(&quot;learned_executor&quot;)+1)&gt;&gt;&lt;&lt;type 20ms&gt;&gt;&lt;span class=&quot;dialogue&quot;&gt;
-&lt;span class=&quot;arthur&quot;&gt;“So I’ve heard. Any idea when we’ll be reading the will?”&lt;/span&gt;
-
+Around you, the funeral crowd continues to thin. But there are still more who you could still approach. That’s if you can stomach more conversation.&lt;/span&gt;&lt;&lt;/type&gt;&gt;
+&lt;&lt;if window.get_flag(&quot;ashford_convo_funeral&quot;) == 0&gt;&gt;&lt;&lt;type 40ms&gt;&gt;&lt;span class=&quot;dialogue&quot;&gt;[[Talk to Mr. Ashford and the woman. -&gt; Ch2Pg6B]]&lt;/span&gt;&lt;&lt;/type&gt;&gt;&lt;&lt;/if&gt;&gt;&lt;&lt;nobr&gt;&gt;
+&lt;&lt;if window.get_flag(&quot;wyatt_convo_funeral&quot;) == 0&gt;&gt;&lt;&lt;type 40ms&gt;&gt;&lt;span class=&quot;dialogue&quot;&gt;[[Talk to the older woman by herself. -&gt; Ch2Pg6C]]&lt;/span&gt;&lt;&lt;/type&gt;&gt;&lt;&lt;/if&gt;&gt;&lt;&lt;/nobr&gt;&gt;&lt;&lt;nobr&gt;&gt;
+&lt;&lt;if window.get_flag(&quot;learned_executor&quot;) == 3&gt;&gt;&lt;&lt;type 40ms&gt;&gt;&lt;span class=&quot;dialogue&quot;&gt;[[Leave the funeral.-&gt; Ch2Pg7]]&lt;/span&gt;&lt;&lt;/type&gt;&gt;&lt;&lt;/if&gt;&gt;&lt;&lt;/nobr&gt;&gt;</tw-passagedata><tw-passagedata pid="60" name="Ch2Pg6AB" tags="" position="1225,725" size="100,100">&lt;&lt;run window.update_flag(&quot;learned_executor&quot;, window.get_flag(&quot;learned_executor&quot;)+1)&gt;&gt;
+&lt;&lt;type 40ms&gt;&gt;
+&lt;span class=&quot;dialogue&quot;&gt;
 &lt;span class=&quot;olivia&quot;&gt;“Right now, the plan is to hold the reading tomorrow night, after the mayoral debate.”&lt;/span&gt; 
 
 Colin nods, interjecting smoothly, &lt;span class=&quot;colin&quot;&gt;&quot;I&#39;m one of the candidates. Hope I can count on your support.&quot;&lt;/span&gt;
@@ -1883,47 +1935,14 @@ Olivia grimaces, then reaches out and gives your arm a gentle squeeze, pressing 
 
 Then she&#39;s gone, swept away by family obligation. Colin gives you a final nod before following.
 
-You stand there, business card in hand, watching them go. The cardstock is heavy, professional. Sheriff Olivia Hepburn. A phone number and address. 
-&lt;/span&gt;&lt;&lt;/type&gt;&gt;&lt;&lt;/if&gt;&gt;&lt;&lt;nobr&gt;&gt;
-&lt;&lt;if window.get_flag(&quot;learned_executor&quot;) == 2&gt;&gt;
-&lt;&lt;type 20ms&gt;&gt;
-&lt;span class=&quot;dialogue&quot;&gt;
-Around you, the funeral crowd continues to thin. But there are still more who you could still approach. That’s if you can stomach more conversation.
-&lt;/span&gt;
-&lt;&lt;/type&gt;&gt;
-&lt;&lt;/if&gt;&gt;
-
-&lt;&lt;if window.get_flag(&quot;ashford_convo_funeral&quot;) == 0&gt;&gt;
-&lt;&lt;type 20ms&gt;&gt;
-&lt;span class=&quot;dialogue&quot;&gt;
-[[Talk to Mr. Ashford and the woman. -&gt; Ch2Pg2B]]
-&lt;/span&gt;
-&lt;&lt;/type&gt;&gt;
-&lt;&lt;/if&gt;&gt;
-
-&lt;&lt;if window.get_flag(&quot;wyatt_convo_funeral&quot;) == 0&gt;&gt;
-&lt;&lt;type 20ms&gt;&gt;
-&lt;span class=&quot;dialogue&quot;&gt;
-[[Talk to the older woman by herself. -&gt; Ch2Pg2C]]
-&lt;/span&gt;
-&lt;&lt;/type&gt;&gt;
-&lt;&lt;/if&gt;&gt;
-
-&lt;&lt;if window.get_flag(&quot;learned_executor&quot;) == 3&gt;&gt;
-&lt;&lt;type 20ms&gt;&gt;
-&lt;span class=&quot;dialogue&quot;&gt;
-[[Departure -&gt; Ch2Pg3]]
-&lt;/span&gt;
-&lt;&lt;/type&gt;&gt;
-&lt;&lt;/if&gt;&gt;
-&lt;&lt;/nobr&gt;&gt;</tw-passagedata><tw-passagedata pid="56" name="Ch2Pg2B" tags="" position="725,725" size="100,100">&lt;&lt;nobr&gt;&gt;
-&lt;&lt;repeat 448s&gt;&gt;
-&lt;&lt;audio &quot;ambiencePositive&quot; stop&gt;&gt;
-&lt;&lt;audio &quot;ambiencePositive&quot; play&gt;&gt;
-&lt;&lt;/repeat&gt;&gt;
+You stand there, business card in hand, watching them go. The cardstock is heavy, professional. Sheriff Olivia Hepburn. A phone number and address. &lt;/span&gt;&lt;&lt;/type&gt;&gt;
+&lt;&lt;if window.get_flag(&quot;learned_executor&quot;) &gt; 0 &amp;&amp; window.get_flag(&quot;learned_executor&quot;) &lt; 3&gt;&gt;&lt;&lt;type 40ms&gt;&gt;&lt;span class=&quot;dialogue&quot;&gt;Around you, the funeral crowd continues to thin. But there are still more who you could still approach. That’s if you can stomach more conversation.&lt;/span&gt;&lt;&lt;/type&gt;&gt;&lt;&lt;/if&gt;&gt;
+&lt;&lt;if window.get_flag(&quot;ashford_convo_funeral&quot;) == 0&gt;&gt;&lt;&lt;type 40ms&gt;&gt;&lt;span class=&quot;dialogue&quot;&gt;[[Talk to Mr. Ashford and the woman. -&gt; Ch2Pg6B]]&lt;/span&gt;&lt;&lt;/type&gt;&gt;&lt;&lt;/if&gt;&gt;&lt;&lt;nobr&gt;&gt;
+&lt;&lt;if window.get_flag(&quot;wyatt_convo_funeral&quot;) == 0&gt;&gt;&lt;&lt;type 40ms&gt;&gt;&lt;span class=&quot;dialogue&quot;&gt;[[Talk to the older woman by herself. -&gt; Ch2Pg6C]]&lt;/span&gt;&lt;&lt;/type&gt;&gt;&lt;&lt;/if&gt;&gt;&lt;&lt;/nobr&gt;&gt;&lt;&lt;nobr&gt;&gt;
+&lt;&lt;if window.get_flag(&quot;learned_executor&quot;) == 3&gt;&gt;&lt;&lt;type 40ms&gt;&gt;&lt;span class=&quot;dialogue&quot;&gt;[[Leave the funeral. -&gt; Ch2Pg7]]&lt;/span&gt;&lt;&lt;/type&gt;&gt;&lt;&lt;/if&gt;&gt;&lt;&lt;/nobr&gt;&gt;</tw-passagedata><tw-passagedata pid="61" name="Ch2Pg6B" tags="" position="100,850" size="100,100">&lt;&lt;nobr&gt;&gt;
 &lt;&lt;run window.update_flag(&quot;ashford_convo_funeral&quot;, 1)&gt;&gt;
 &lt;&lt;/nobr&gt;&gt;
-&lt;&lt;type 20ms&gt;&gt;
+&lt;&lt;type 40ms&gt;&gt;
 &lt;span class=&quot;dialogue&quot;&gt;
 You angle toward the man you recognize from the campaign signs. Better to face the political machinery head-on. 
 
@@ -1939,16 +1958,15 @@ Isaac&#39;s expression becomes somber. &lt;span class=&quot;isaac&quot;&gt;&quot
 
 The sentence dies in the air between you. Words no one wants to utter at a funeral. As if not naming it makes it less real. 
 
-“Know their names.” 
+&lt;span class=&quot;namid&quot;&gt;&lt;span class=&quot;supernatural-glow&quot;&gt;“Know their names.”&lt;/span&gt;&lt;/span&gt;
 
 You say nothing, letting the uncomfortable silence acknowledge what your words fail to. Suddenly you feel as cowardly as your father. 
 
-Isaac clears his throat, &lt;span class=&quot;isaac&quot;&gt;&quot;As much as I wish we had more time to mourn properly, there&#39;s plenty of work that needs doing. Between my campaign and your responsibilities with the will—&quot;&lt;/span&gt;
-&lt;/span&gt;&lt;&lt;/type&gt;&gt;
-&lt;&lt;if window.get_flag(&quot;learned_executor&quot;) == 0&gt;&gt;
-&lt;&lt;run window.update_flag(&quot;learned_executor&quot;, window.get_flag(&quot;learned_executor&quot;)+1)&gt;&gt;&lt;&lt;type 20ms&gt;&gt;&lt;span class=&quot;dialogue&quot;&gt;
-&lt;span class=&quot;arthur&quot;&gt;&quot;The will?&quot;&lt;/span&gt; The question escapes before you can stop it. &lt;span class=&quot;arthur&quot;&gt;“What about the will?”&lt;/span&gt;
-
+Isaac clears his throat, &lt;span class=&quot;isaac&quot;&gt;&quot;As much as I wish we had more time to mourn properly, there&#39;s plenty of work that needs doing. Between my campaign and your responsibilities with the will—&quot;&lt;/span&gt;&lt;/span&gt;&lt;&lt;/type&gt;&gt;
+&lt;&lt;if window.get_flag(&quot;learned_executor&quot;) == 0&gt;&gt;&lt;&lt;type 40ms&gt;&gt;&lt;span class=&quot;dialogue&quot;&gt;&lt;span class=&quot;arthur&quot;&gt;&quot;The will?&quot;&lt;/span&gt; The question escapes before you can stop it. [[“What about the will?”-&gt;Ch2Pg6BA]]&lt;/span&gt;&lt;&lt;/type&gt;&gt;
+&lt;&lt;elseif window.get_flag(&quot;learned_executor&quot;) == 1 || window.get_flag(&quot;learned_executor&quot;) == 2&gt;&gt;&lt;&lt;type 40ms&gt;&gt;&lt;span class=&quot;dialogue&quot;&gt;[[“Right. Being the eldest means I’m the one to handle the will.”-&gt;Ch2Pg6BB]]&lt;/span&gt;&lt;&lt;/type&gt;&gt;&lt;&lt;/if&gt;&gt;</tw-passagedata><tw-passagedata pid="62" name="Ch2Pg6BA" tags="" position="225,850" size="100,100">&lt;&lt;run window.update_flag(&quot;learned_executor&quot;, window.get_flag(&quot;learned_executor&quot;)+1)&gt;&gt;
+&lt;&lt;type 40ms&gt;&gt;
+&lt;span class=&quot;dialogue&quot;&gt;
 Isaac&#39;s eyebrows raise slightly. &lt;span class=&quot;isaac&quot;&gt;&quot;No one&#39;s told you yet? It seems you’ve been designated as the executor of your father&#39;s estate.&quot;&lt;/span&gt;
 
 Rhona adds, her voice matter-of-fact, &lt;span class=&quot;rhona&quot;&gt;&quot;They found his will when they found his body. It specifically names you. Probably chose you because you&#39;re the oldest child.&quot;&lt;/span&gt;
@@ -1977,11 +1995,12 @@ Isaac reaches into his suit jacket and produces a business card, pressing it int
 
 Then the Ashfords are moving away, leaving you standing on the cemetery grass.
 
-Around you, the funeral crowd continues to thin. But there are still more who you could still approach. That’s if you can stomach more conversation.
-&lt;/span&gt;&lt;&lt;/type&gt;&gt;
-&lt;&lt;elseif window.get_flag(&quot;learned_executor&quot;) == 1 || window.get_flag(&quot;learned_executor&quot;) == 2&gt;&gt;
-&lt;&lt;run window.update_flag(&quot;learned_executor&quot;, window.get_flag(&quot;learned_executor&quot;)+1)&gt;&gt;&lt;&lt;type 20ms&gt;&gt;&lt;span class=&quot;dialogue&quot;&gt;
-&lt;span class=&quot;arthur&quot;&gt;“Right. Being the eldest means I’m the one to handle the will.”&lt;/span&gt;
+Around you, the funeral crowd continues to thin. But there are still more who you could approach. That’s if you can stomach more conversation.&lt;/span&gt;&lt;&lt;/type&gt;&gt;
+&lt;&lt;if window.get_flag(&quot;hepburn_convo_funeral&quot;) == 0&gt;&gt;&lt;&lt;type 40ms&gt;&gt;&lt;span class=&quot;dialogue&quot;&gt;[[Talk to the familiar woman and the older man.-&gt; Ch2Pg6A]]&lt;/span&gt;&lt;&lt;/type&gt;&gt;&lt;&lt;/if&gt;&gt;&lt;&lt;nobr&gt;&gt;
+&lt;&lt;if window.get_flag(&quot;wyatt_convo_funeral&quot;) == 0&gt;&gt;&lt;&lt;type 40ms&gt;&gt;&lt;span class=&quot;dialogue&quot;&gt;[[Talk to the older woman by herself. -&gt; Ch2Pg6C]]&lt;/span&gt;&lt;&lt;/type&gt;&gt;&lt;&lt;/if&gt;&gt;&lt;&lt;/nobr&gt;&gt;&lt;&lt;nobr&gt;&gt;
+&lt;&lt;if window.get_flag(&quot;learned_executor&quot;) == 3&gt;&gt;&lt;&lt;type 40ms&gt;&gt;&lt;span class=&quot;dialogue&quot;&gt;[[Leave the funeral. -&gt; Ch2Pg7]]&lt;/span&gt;&lt;&lt;/type&gt;&gt;&lt;&lt;/if&gt;&gt;&lt;&lt;/nobr&gt;&gt;</tw-passagedata><tw-passagedata pid="63" name="Ch2Pg6BB" tags="" position="350,850" size="100,100">&lt;&lt;run window.update_flag(&quot;learned_executor&quot;, window.get_flag(&quot;learned_executor&quot;)+1)&gt;&gt;
+&lt;&lt;type 40ms&gt;&gt;
+&lt;span class=&quot;dialogue&quot;&gt;
 
 Isaac nods sympathetically. &lt;span class=&quot;isaac&quot;&gt;&quot;I know it&#39;s a lot to take on. These things are never simple, and with the mayoral election happening...&quot;&lt;/span&gt; He glances at Rhona, something unspoken passing between them. &lt;span class=&quot;isaac&quot;&gt;&quot;Well. Let&#39;s just say emotions are running high in Edgewater right now. The Hepburns and Ashfords have always had their tensions, but politics has a way of making everything more complicated.&quot;&lt;/span&gt;
 
@@ -1999,49 +2018,16 @@ There&#39;s a warning in those words. Is it out of kindness?
 
 Isaac reaches into his suit jacket and produces a business card, pressing it into your hand. Gold embossed letters read: ISAAC ASFORD–Edgewater Mayor Candidate and Public Servant. 
 
-&lt;span class=&quot;isaac&quot;&gt;&quot;Here&#39;s my number. Give me a call if you need anything—or just come to the debate. And the fundraiser. We&#39;ll talk more then.&quot;&lt;/span&gt;
+&lt;span class=&quot;isaac&quot;&gt;&quot;Here&#39;s my number. Give me a call if you need anything—or just come to the debate. And the fundraiser. We&#39;ll talk more then.&quot;
 
-Then the Ashfords are moving away, leaving you standing on the cemetery grass.
-&lt;/span&gt;&lt;&lt;/type&gt;&gt;&lt;&lt;/if&gt;&gt;&lt;&lt;nobr&gt;&gt;
-&lt;&lt;if window.get_flag(&quot;learned_executor&quot;) == 2&gt;&gt;
-&lt;&lt;type 20ms&gt;&gt;
-&lt;span class=&quot;dialogue&quot;&gt;
-Around you, the funeral crowd continues to thin. But there are still more who you could still approach. That’s if you can stomach more conversation.
-&lt;/span&gt;
-&lt;&lt;/type&gt;&gt;
-&lt;&lt;/if&gt;&gt;
-
-&lt;&lt;if window.get_flag(&quot;hepburn_convo_funeral&quot;) == 0&gt;&gt;
-&lt;&lt;type 20ms&gt;&gt;
-&lt;span class=&quot;dialogue&quot;&gt;
-[[Talk to the familiar woman and the older man -&gt; Ch2Pg2A]]
-&lt;/span&gt;
-&lt;&lt;/type&gt;&gt;
-&lt;&lt;/if&gt;&gt;
-
-&lt;&lt;if window.get_flag(&quot;wyatt_convo_funeral&quot;) == 0&gt;&gt;
-&lt;&lt;type 20ms&gt;&gt;
-&lt;span class=&quot;dialogue&quot;&gt;
-[[Talk to the older woman by herself. -&gt; Ch2Pg2C]]
-&lt;/span&gt;
-&lt;&lt;/type&gt;&gt;
-&lt;&lt;/if&gt;&gt;
-
-&lt;&lt;if window.get_flag(&quot;learned_executor&quot;) == 3&gt;&gt;
-&lt;&lt;type 20ms&gt;&gt;
-&lt;span class=&quot;dialogue&quot;&gt;
-[[Departure -&gt; Ch2Pg3]]
-&lt;/span&gt;
-&lt;&lt;/type&gt;&gt;
-&lt;&lt;/if&gt;&gt;
-&lt;&lt;/nobr&gt;&gt;</tw-passagedata><tw-passagedata pid="57" name="Ch2Pg2C" tags="" position="850,725" size="100,100">&lt;&lt;nobr&gt;&gt;
-&lt;&lt;repeat 448s&gt;&gt;
-&lt;&lt;audio &quot;ambiencePositive&quot; stop&gt;&gt;
-&lt;&lt;audio &quot;ambiencePositive&quot; play&gt;&gt;
-&lt;&lt;/repeat&gt;&gt;
+Then the Ashfords are moving away, leaving you standing on the cemetery grass.&lt;/span&gt;&lt;&lt;/type&gt;&gt;
+&lt;&lt;if window.get_flag(&quot;learned_executor&quot;) &gt; 0 &amp;&amp; window.get_flag(&quot;learned_executor&quot;) &lt; 3&gt;&gt;&lt;&lt;type 40ms&gt;&gt;&lt;span class=&quot;dialogue&quot;&gt;Around you, the funeral crowd continues to thin. But there are still more who you could approach. That’s if you can stomach more conversation.&lt;/span&gt;&lt;&lt;/type&gt;&gt;&lt;&lt;/if&gt;&gt;
+&lt;&lt;if window.get_flag(&quot;hepburn_convo_funeral&quot;) == 0&gt;&gt;&lt;&lt;type 40ms&gt;&gt;&lt;span class=&quot;dialogue&quot;&gt;[[Talk to the familiar woman and the older man.-&gt; Ch2Pg6A]] &lt;/span&gt;&lt;&lt;/type&gt;&gt;&lt;&lt;/if&gt;&gt;&lt;&lt;nobr&gt;&gt;
+&lt;&lt;if window.get_flag(&quot;wyatt_convo_funeral&quot;) == 0&gt;&gt;&lt;&lt;type 40ms&gt;&gt;&lt;span class=&quot;dialogue&quot;&gt;[[Talk to the older woman by herself. -&gt; Ch2Pg6C]]&lt;/span&gt;&lt;&lt;/type&gt;&gt;&lt;&lt;/if&gt;&gt;&lt;&lt;/nobr&gt;&gt;&lt;&lt;nobr&gt;&gt;
+&lt;&lt;if window.get_flag(&quot;learned_executor&quot;) == 3&gt;&gt;&lt;&lt;type 40ms&gt;&gt;&lt;span class=&quot;dialogue&quot;&gt;[[Leave the funeral. -&gt; Ch2Pg7]]&lt;/span&gt;&lt;&lt;/type&gt;&gt;&lt;&lt;/if&gt;&gt;&lt;&lt;/nobr&gt;&gt;</tw-passagedata><tw-passagedata pid="64" name="Ch2Pg6C" tags="" position="475,850" size="100,100">&lt;&lt;nobr&gt;&gt;
 &lt;&lt;run window.update_flag(&quot;wyatt_convo_funeral&quot;, 1)&gt;&gt;
 &lt;&lt;/nobr&gt;&gt;
-&lt;&lt;type 20ms&gt;&gt;
+&lt;&lt;type 40ms&gt;&gt;
 &lt;span class=&quot;dialogue&quot;&gt;
 You drift toward the solitary figure at the edge of the gathering. She stands just far enough from everyone else to make a statement. I&#39;m here because I have to be, not because I want to be.
 
@@ -2057,13 +2043,14 @@ You nod, slightly taken aback that she knows your name.
 
 The bluntness startles you. Most people dance around the topic of your parents’ marriage. Rachel doesn’t seem interested in dancing. It’s refreshing.
 
-&lt;span class=&quot;rachel&quot;&gt;&quot;You must have a lot on your plate right now,&quot;&lt;/span&gt; Rachel continues, smoothly transitioning back to business. &lt;span class=&quot;rachel&quot;&gt;&quot;Being named executor of the will and all.&quot;&lt;/span&gt;
-&lt;/span&gt;&lt;&lt;/type&gt;&gt;
-&lt;&lt;if window.get_flag(&quot;learned_executor&quot;) == 0&gt;&gt;
-&lt;&lt;run window.update_flag(&quot;learned_executor&quot;, window.get_flag(&quot;learned_executor&quot;)+1)&gt;&gt;&lt;&lt;type 20ms&gt;&gt;&lt;span class=&quot;dialogue&quot;&gt;
-&lt;span class=&quot;arthur&quot;&gt;“I am? This is the first time I’m hearing about this.”&lt;/span&gt; 
+&lt;span class=&quot;rachel&quot;&gt;&quot;You must have a lot on your plate right now,&quot;&lt;/span&gt; Rachel continues, smoothly transitioning back to business. &lt;span class=&quot;rachel&quot;&gt;&quot;Being named executor of the will and all.&quot;&lt;/span&gt;&lt;/span&gt;&lt;&lt;/type&gt;&gt;
+&lt;&lt;if window.get_flag(&quot;learned_executor&quot;) == 0&gt;&gt;&lt;&lt;type 40ms&gt;&gt;&lt;span class=&quot;dialogue&quot;&gt;[[“I am? This is the first time I’m hearing about this.”-&gt;Ch2Pg6CA]]&lt;/span&gt;&lt;&lt;/type&gt;&gt;
+&lt;&lt;elseif window.get_flag(&quot;learned_executor&quot;) == 1 || window.get_flag(&quot;learned_executor&quot;) == 2&gt;&gt;&lt;&lt;type 40ms&gt;&gt;&lt;span class=&quot;dialogue&quot;&gt;[[“I only just found out,”-&gt; Ch2Pg6CB]] you admit.&lt;/span&gt;&lt;&lt;/type&gt;&gt;&lt;&lt;/if&gt;&gt;</tw-passagedata><tw-passagedata pid="65" name="Ch2Pg6CA" tags="" position="600,850" size="100,100">&lt;&lt;run window.update_flag(&quot;learned_executor&quot;, window.get_flag(&quot;learned_executor&quot;)+1)&gt;&gt;
+&lt;&lt;type 40ms&gt;&gt;
+&lt;span class=&quot;dialogue&quot;&gt;
+&lt;span class=&quot;rachel&quot;&gt;“They found the will with his body, and it listed you in there. The whole process will likely be a huge mess, especially with the mayoral election happening. Politics really has a way of bringing out the worst in people, and I see plenty of it.
 
-&lt;span class=&quot;rachel&quot;&gt;“They found the will with his body, and it listed you in there. The whole process will likely be a huge mess, especially with the mayoral election happening. Politics really has a way of bringing out the worst in people, and I see plenty of it. The Ashfords and Hepburns have been at each other&#39;s throats for weeks, and your father&#39;s estate is going to become a political football whether you like it or not. If you need one, I can provide you with a private attorney to help you with sorting out your father’s estate.”&lt;/span&gt;
+The Ashfords and Hepburns have been at each other&#39;s throats for weeks, and your father&#39;s estate is going to become a political football whether you like it or not. If you need one, I can provide you with a private attorney to help you with sorting out your father’s estate.”&lt;/span&gt;
 
 She pulls a business card from her purse and hands it to you. The cardstock is expensive, embossed. Professional.
 
@@ -2071,54 +2058,25 @@ She pulls a business card from her purse and hands it to you. The cardstock is e
 
 You step away, unsure how to feel. Part of you appreciates her honesty. Part of you resents hearing your father spoken about like he was a problem to be managed… even if it was true. 
 
-Around you, the funeral crowd continues to thin. But there are still more who you could still approach. That’s if you can stomach more conversation.
-&lt;/span&gt;&lt;&lt;/type&gt;&gt;
-&lt;&lt;elseif window.get_flag(&quot;learned_executor&quot;) == 1 || window.get_flag(&quot;learned_executor&quot;) == 2&gt;&gt;
-&lt;&lt;run window.update_flag(&quot;learned_executor&quot;, window.get_flag(&quot;learned_executor&quot;)+1)&gt;&gt;&lt;&lt;type 20ms&gt;&gt;&lt;span class=&quot;dialogue&quot;&gt;
-&lt;span class=&quot;arthur&quot;&gt;&quot;I only just found out,&quot;&lt;/span&gt; you admit.
+Around you, the funeral crowd continues to thin. But there are still more who you could approach. That’s if you can stomach more conversation.&lt;/span&gt;&lt;&lt;/type&gt;&gt;
+&lt;&lt;if window.get_flag(&quot;hepburn_convo_funeral&quot;) == 0&gt;&gt;&lt;&lt;type 40ms&gt;&gt;&lt;span class=&quot;dialogue&quot;&gt;[[Talk to the familiar woman and the older man.-&gt; Ch2Pg6A]]&lt;/span&gt;&lt;&lt;/type&gt;&gt;&lt;&lt;/if&gt;&gt;&lt;&lt;nobr&gt;&gt;
+&lt;&lt;if window.get_flag(&quot;ashford_convo_funeral&quot;) == 0&gt;&gt;&lt;&lt;type 40ms&gt;&gt;&lt;span class=&quot;dialogue&quot;&gt;[[Talk to Mr. Ashford and the woman. -&gt; Ch2Pg6B]]&lt;/span&gt;&lt;&lt;/type&gt;&gt;&lt;&lt;/if&gt;&gt;&lt;&lt;/nobr&gt;&gt;&lt;&lt;nobr&gt;&gt;
+&lt;&lt;if window.get_flag(&quot;learned_executor&quot;) == 3&gt;&gt;&lt;&lt;type 40ms&gt;&gt;&lt;span class=&quot;dialogue&quot;&gt;[[Leave the funeral. -&gt; Ch2Pg7]]&lt;/span&gt;&lt;&lt;/type&gt;&gt;&lt;&lt;/if&gt;&gt;&lt;&lt;/nobr&gt;&gt;</tw-passagedata><tw-passagedata pid="66" name="Ch2Pg6CB" tags="" position="725,850" size="100,100">&lt;&lt;run window.update_flag(&quot;learned_executor&quot;, window.get_flag(&quot;learned_executor&quot;)+1)&gt;&gt;
+&lt;&lt;type 40ms&gt;&gt;
+&lt;span class=&quot;dialogue&quot;&gt;
+&lt;span class=&quot;rachel&quot;&gt;&quot;The whole process will likely be a huge mess, especially with the mayoral election happening. Politics really has a way of bringing out the worst in people, and I see plenty of it.
 
-&lt;span class=&quot;rachel&quot;&gt;&quot;The whole process will likely be a huge mess, especially with the mayoral election happening. Politics really has a way of bringing out the worst in people, and I see plenty of it. The Ashfords and Hepburns have been at each other&#39;s throats for weeks, and your father&#39;s estate is going to become a political football whether you like it or not. If you need one, I can provide you with a private attorney to help you with sorting out your father’s estate.”&lt;/span&gt;
+The Ashfords and Hepburns have been at each other&#39;s throats for weeks, and your father&#39;s estate is going to become a political football whether you like it or not. If you need one, I can provide you with a private attorney to help you with sorting out your father’s estate.”&lt;/span&gt;
 
 She pulls a business card from her purse and hands it to you. The cardstock is expensive, embossed. Professional.
 
 &lt;span class=&quot;arthur&quot;&gt;&quot;Thanks,&quot;&lt;/span&gt; you say. &lt;span class=&quot;arthur&quot;&gt;&quot;I&#39;ll let you know if I need one.&quot;&lt;/span&gt;
-&lt;/span&gt;&lt;&lt;/type&gt;&gt;&lt;&lt;/if&gt;&gt;&lt;&lt;nobr&gt;&gt;
-&lt;&lt;if window.get_flag(&quot;learned_executor&quot;) == 2&gt;&gt;
-&lt;&lt;type 20ms&gt;&gt;
-&lt;span class=&quot;dialogue&quot;&gt;
-You step away, unsure how to feel. Part of you appreciates her honesty. Part of you resents hearing your father spoken about like he was a problem to be managed… even if it was true. 
-&lt;/span&gt;
-&lt;&lt;/type&gt;&gt;
-&lt;&lt;/if&gt;&gt;
 
-&lt;&lt;if window.get_flag(&quot;hepburn_convo_funeral&quot;) == 0&gt;&gt;
-&lt;&lt;type 20ms&gt;&gt;
-&lt;span class=&quot;dialogue&quot;&gt;
-[[Talk to the familiar woman and the older man -&gt; Ch2Pg2A]]
-&lt;/span&gt;
-&lt;&lt;/type&gt;&gt;
-&lt;&lt;/if&gt;&gt;
-
-&lt;&lt;if window.get_flag(&quot;ashford_convo_funeral&quot;) == 0&gt;&gt;
-&lt;&lt;type 20ms&gt;&gt;
-&lt;span class=&quot;dialogue&quot;&gt;
-[[Talk to Mr. Ashford and the woman. -&gt; Ch2Pg2B]]
-&lt;/span&gt;
-&lt;&lt;/type&gt;&gt;
-&lt;&lt;/if&gt;&gt;
-
-&lt;&lt;if window.get_flag(&quot;learned_executor&quot;) == 3&gt;&gt;
-&lt;&lt;type 20ms&gt;&gt;
-&lt;span class=&quot;dialogue&quot;&gt;
-[[Departure -&gt; Ch2Pg3]]
-&lt;/span&gt;
-&lt;&lt;/type&gt;&gt;
-&lt;&lt;/if&gt;&gt;
-&lt;&lt;/nobr&gt;&gt;</tw-passagedata><tw-passagedata pid="58" name="Ch2Pg3" tags="" position="975,725" size="100,100">&lt;&lt;repeat 448s&gt;&gt;
-&lt;&lt;audio &quot;ambiencePositive&quot; stop&gt;&gt;
-&lt;&lt;audio &quot;ambiencePositive&quot; play&gt;&gt;
-&lt;&lt;/repeat&gt;&gt;
-&lt;&lt;type 20ms&gt;&gt;
+You step away, unsure how to feel. Part of you appreciates her honesty. Part of you resents hearing your father spoken about like he was a problem to be managed… even if it was true.&lt;/span&gt;&lt;&lt;/type&gt;&gt;
+&lt;&lt;if window.get_flag(&quot;learned_executor&quot;) &gt; 0 &amp;&amp; window.get_flag(&quot;learned_executor&quot;) &lt; 3&gt;&gt;&lt;&lt;type 40ms&gt;&gt;&lt;span class=&quot;dialogue&quot;&gt;Around you, the funeral crowd continues to thin. But there are still more who you could approach. That’s if you can stomach more conversation.&lt;/span&gt;&lt;&lt;/type&gt;&gt;&lt;&lt;/if&gt;&gt;
+&lt;&lt;if window.get_flag(&quot;hepburn_convo_funeral&quot;) == 0&gt;&gt;&lt;&lt;type 40ms&gt;&gt;&lt;span class=&quot;dialogue&quot;&gt;[[Talk to the familiar woman and the older man.-&gt; Ch2Pg6A]] &lt;/span&gt;&lt;&lt;/type&gt;&gt;&lt;&lt;/if&gt;&gt;&lt;&lt;nobr&gt;&gt;
+&lt;&lt;if window.get_flag(&quot;ashford_convo_funeral&quot;) == 0&gt;&gt;&lt;&lt;type 40ms&gt;&gt;&lt;span class=&quot;dialogue&quot;&gt;[[Talk to Mr. Ashford and the woman. -&gt; Ch2Pg6B]]&lt;/span&gt;&lt;&lt;/type&gt;&gt;&lt;&lt;/if&gt;&gt;&lt;&lt;/nobr&gt;&gt;&lt;&lt;nobr&gt;&gt;
+&lt;&lt;if window.get_flag(&quot;learned_executor&quot;) == 3&gt;&gt;&lt;&lt;type 40ms&gt;&gt;&lt;span class=&quot;dialogue&quot;&gt;[[Leave the funeral. -&gt; Ch2Pg7]]&lt;/span&gt;&lt;&lt;/type&gt;&gt;&lt;&lt;/if&gt;&gt;&lt;&lt;/nobr&gt;&gt;</tw-passagedata><tw-passagedata pid="67" name="Ch2Pg7" tags="" position="850,850" size="100,100">&lt;&lt;type 40ms&gt;&gt;
 &lt;span class=&quot;dialogue&quot;&gt;
 The funeral has dissolved into small clusters of people you don&#39;t know, speaking in low voices about things that don&#39;t concern you. Or maybe they do concern you, but you can&#39;t stand to find out. Nevermind that you never found out where your sisters are–they’re likely back at the house.
 
@@ -2132,9 +2090,9 @@ But they&#39;re shaking.
 
 You pull out onto the road. The cemetery recedes in your rearview mirror until the trees swallow it completely.
 
-[[Leave the funeral.-&gt;Ch3Pg0]]
+[[Go home.-&gt;Ch3Pg0]]
 &lt;/span&gt;
-&lt;&lt;/type&gt;&gt;</tw-passagedata><tw-passagedata pid="59" name="Ch3Pg0" tags="" position="1100,725" size="100,100">&lt;&lt;audio &quot;ambiencePositive&quot; stop&gt;&gt;
+&lt;&lt;/type&gt;&gt;</tw-passagedata><tw-passagedata pid="68" name="Ch3Pg0" tags="" position="975,850" size="100,100">&lt;&lt;audio &quot;ambiencePositive&quot; stop&gt;&gt;
 &lt;span class=&quot;dialogue&quot;&gt;
 &lt;div class=chTitle&gt;Chapter Three&lt;/div&gt;
 &lt;center&gt;
@@ -2143,7 +2101,7 @@ You pull out onto the road. The cemetery recedes in your rearview mirror until t
 &lt;&lt;type 20ms&gt;&gt;\
 &lt;div class=chStart&gt;[[The Lake House-&gt;Ch3Pg1]]&lt;/div&gt;
 \&lt;&lt;/type&gt;&gt;
-&lt;/span&gt;</tw-passagedata><tw-passagedata pid="60" name="Ch3Pg1" tags="" position="1225,725" size="100,100">&lt;&lt;type 20ms&gt;&gt;
+&lt;/span&gt;</tw-passagedata><tw-passagedata pid="69" name="Ch3Pg1" tags="" position="1100,850" size="100,100">&lt;&lt;type 20ms&gt;&gt;
 &lt;span class=&quot;dialogue&quot;&gt;
 The path to the house is worse than you remember.
 
@@ -2163,7 +2121,7 @@ You make it up to the large wooden door. It stands crooked on its hinges. Your e
 
 [[Press it.-&gt;Ch3Pg2]] 
 &lt;/span&gt;
-&lt;&lt;/type&gt;&gt;</tw-passagedata><tw-passagedata pid="61" name="Ch3Pg2" tags="" position="100,850" size="100,100">&lt;&lt;audio &quot;doorbell&quot; play&gt;&gt;
+&lt;&lt;/type&gt;&gt;</tw-passagedata><tw-passagedata pid="70" name="Ch3Pg2" tags="" position="1225,850" size="100,100">&lt;&lt;audio &quot;doorbell&quot; play&gt;&gt;
 &lt;&lt;type 20ms&gt;&gt;
 &lt;span class=&quot;dialogue&quot;&gt;
 It echoes, reverberating down to the house’s foundation. 
@@ -2232,7 +2190,7 @@ Your mouth is dry. &lt;span class=&quot;arthur&quot;&gt;“Winny, I…”&lt;/sp
 
 [[Enter-&gt;Ch3Pg3]]
 &lt;/span&gt;
-&lt;&lt;/type&gt;&gt;</tw-passagedata><tw-passagedata pid="62" name="Ch3Pg3" tags="" position="225,850" size="100,100">&lt;&lt;type 20ms&gt;&gt;
+&lt;&lt;/type&gt;&gt;</tw-passagedata><tw-passagedata pid="71" name="Ch3Pg3" tags="" position="100,975" size="100,100">&lt;&lt;type 20ms&gt;&gt;
 &lt;span class=&quot;dialogue&quot;&gt;
 Dove pulls you by the hand. &lt;span class=&quot;dove&quot;&gt;“Want to see my rock collection?”&lt;/span&gt; she jabbers, &lt;span class=&quot;dove&quot;&gt;“I found some really cool spec-i-mens by the lake!”&lt;/span&gt;
 
@@ -2267,7 +2225,7 @@ What do you do?
 [[Ask Winona to talk outside.-&gt;Ch3Pg3A]]
 [[Spend more time with Dove first.-&gt;Ch3Pg3B]] 
 &lt;/span&gt;
-&lt;&lt;/type&gt;&gt;</tw-passagedata><tw-passagedata pid="63" name="Ch3Pg3A" tags="" position="350,850" size="100,100">&lt;&lt;run window.update_flag(&quot;sibling_convo&quot;, 1)&gt;&gt;
+&lt;&lt;/type&gt;&gt;</tw-passagedata><tw-passagedata pid="72" name="Ch3Pg3A" tags="" position="225,975" size="100,100">&lt;&lt;run window.update_flag(&quot;sibling_convo&quot;, 1)&gt;&gt;
 &lt;&lt;type 20ms&gt;&gt;
 &lt;span class=&quot;dialogue&quot;&gt;
 &lt;span class=&quot;arthur&quot;&gt;&quot;Let&#39;s step outside for a second,&quot;&lt;/span&gt; you say. Not a question. You need fresh air. The weight of dust and memories in this house is asphyxiating. 
@@ -2336,7 +2294,7 @@ She stands abruptly and walks back into the house, leaving you alone on the deck
 
 As soon as the door snaps closed, you keel over and [[throw up-&gt;Ch4Pg0]].
 &lt;/span&gt;
-&lt;&lt;/type&gt;&gt;</tw-passagedata><tw-passagedata pid="64" name="Ch3Pg3B" tags="" position="475,850" size="100,100">&lt;&lt;run window.update_flag(&quot;sibling_convo&quot;, 2)&gt;&gt;
+&lt;&lt;/type&gt;&gt;</tw-passagedata><tw-passagedata pid="73" name="Ch3Pg3B" tags="" position="350,975" size="100,100">&lt;&lt;run window.update_flag(&quot;sibling_convo&quot;, 2)&gt;&gt;
 &lt;&lt;type 20ms&gt;&gt;
 &lt;span class=&quot;dialogue&quot;&gt;
 You look between Winona and the stairs. You know the conversation between her and you will be difficult. And you’re not sure you’re ready for it. But Dove is waiting, innocent in a way that won’t last if you keep disappointing her.
@@ -2361,7 +2319,7 @@ At the top Dove waits, practically vibrating with excitement.
 
 [[Smile.-&gt;Ch3Pg3B2]]
 &lt;/span&gt;
-&lt;&lt;/type&gt;&gt;</tw-passagedata><tw-passagedata pid="65" name="Ch3Pg3B2" tags="" position="600,850" size="100,100">&lt;&lt;audio &quot;chimes&quot; stop&gt;&gt;
+&lt;&lt;/type&gt;&gt;</tw-passagedata><tw-passagedata pid="74" name="Ch3Pg3B2" tags="" position="475,975" size="100,100">&lt;&lt;audio &quot;chimes&quot; stop&gt;&gt;
 &lt;&lt;audio &quot;chimes&quot; play&gt;&gt;
 &lt;&lt;repeat 86s&gt;&gt;
 &lt;&lt;audio &quot;chimes&quot; stop&gt;&gt;
@@ -2401,7 +2359,7 @@ She holds out a large gray stone. It’s smooth, water-worn, and roughly the siz
 
 [[Tell her.-&gt;Ch3Pg3B3]]
 &lt;/span&gt;
-&lt;&lt;/type&gt;&gt;</tw-passagedata><tw-passagedata pid="66" name="Ch3Pg3B3" tags="" position="725,850" size="100,100">&lt;&lt;type 20ms&gt;&gt;
+&lt;&lt;/type&gt;&gt;</tw-passagedata><tw-passagedata pid="75" name="Ch3Pg3B3" tags="" position="600,975" size="100,100">&lt;&lt;type 20ms&gt;&gt;
 &lt;span class=&quot;dialogue&quot;&gt;
 And so you do. You talk about igneous and sedimentary and metamorphic rocks. About how pressure and heat transform one thing into another over millions and millions and millions of years. About crystals forming in regular, repeating patterns. About how you can read the history of the Earth through its layers of stone. 
 
@@ -2486,7 +2444,7 @@ You try not to think about your own nightmares. Water. Blood. Silver silk in the
 
 And now, your father&#39;s head dangling from a [[wolf&#39;s jaws.-&gt;Ch4Pg0]] 
 &lt;/span&gt;
-&lt;&lt;/type&gt;&gt;</tw-passagedata><tw-passagedata pid="67" name="Ch4Pg0" tags="" position="850,850" size="100,100">&lt;&lt;audio &quot;pianoA&quot; stop&gt;&gt;
+&lt;&lt;/type&gt;&gt;</tw-passagedata><tw-passagedata pid="76" name="Ch4Pg0" tags="" position="725,975" size="100,100">&lt;&lt;audio &quot;pianoA&quot; stop&gt;&gt;
 &lt;&lt;audio &quot;pianoC&quot; stop&gt;&gt;
 &lt;span class=&quot;dialogue&quot;&gt;
 &lt;div class=chTitle&gt;Chapter Four&lt;/div&gt;
@@ -2496,7 +2454,7 @@ And now, your father&#39;s head dangling from a [[wolf&#39;s jaws.-&gt;Ch4Pg0]]
 &lt;&lt;type 20ms&gt;&gt;\
 &lt;div class=chStart&gt;[[The House-&gt;Ch4Pg1]]&lt;/div&gt;
 \&lt;&lt;/type&gt;&gt;
-&lt;/span&gt;</tw-passagedata><tw-passagedata pid="68" name="Ch4Pg1" tags="" position="975,850" size="100,100">&lt;&lt;audio &quot;houseRoomTone&quot; stop&gt;&gt;
+&lt;/span&gt;</tw-passagedata><tw-passagedata pid="77" name="Ch4Pg1" tags="" position="850,975" size="100,100">&lt;&lt;audio &quot;houseRoomTone&quot; stop&gt;&gt;
 &lt;&lt;audio &quot;houseRoomTone&quot; play&gt;&gt;
 &lt;&lt;repeat 412s&gt;&gt;
 &lt;&lt;audio &quot;houseRoomTone&quot; stop&gt;&gt;
@@ -2578,7 +2536,7 @@ Where do you explore?
 &lt;/span&gt;
 &lt;&lt;/type&gt;&gt;
 &lt;&lt;/if&gt;&gt;
-&lt;&lt;/nobr&gt;&gt;</tw-passagedata><tw-passagedata pid="69" name="Ch4Pg2A" tags="" position="1100,850" size="100,100">&lt;&lt;repeat 412s&gt;&gt;
+&lt;&lt;/nobr&gt;&gt;</tw-passagedata><tw-passagedata pid="78" name="Ch4Pg2A" tags="" position="975,975" size="100,100">&lt;&lt;repeat 412s&gt;&gt;
 &lt;&lt;audio &quot;houseRoomTone&quot; stop&gt;&gt;
 &lt;&lt;audio &quot;houseRoomTone&quot; play&gt;&gt;
 &lt;&lt;/repeat&gt;&gt;
@@ -2651,7 +2609,7 @@ Where do you explore?
 &lt;/span&gt;
 &lt;&lt;/type&gt;&gt;
 &lt;&lt;/if&gt;&gt;
-&lt;&lt;/nobr&gt;&gt;</tw-passagedata><tw-passagedata pid="70" name="Ch4Pg2B" tags="" position="1225,850" size="100,100">&lt;&lt;repeat 412s&gt;&gt;
+&lt;&lt;/nobr&gt;&gt;</tw-passagedata><tw-passagedata pid="79" name="Ch4Pg2B" tags="" position="1100,975" size="100,100">&lt;&lt;repeat 412s&gt;&gt;
 &lt;&lt;audio &quot;houseRoomTone&quot; stop&gt;&gt;
 &lt;&lt;audio &quot;houseRoomTone&quot; play&gt;&gt;
 &lt;&lt;/repeat&gt;&gt;
@@ -2724,7 +2682,7 @@ Where do you explore?
 &lt;/span&gt;
 &lt;&lt;/type&gt;&gt;
 &lt;&lt;/if&gt;&gt;
-&lt;&lt;/nobr&gt;&gt;</tw-passagedata><tw-passagedata pid="71" name="Ch4Pg2C" tags="" position="100,975" size="100,100">&lt;&lt;repeat 412s&gt;&gt;
+&lt;&lt;/nobr&gt;&gt;</tw-passagedata><tw-passagedata pid="80" name="Ch4Pg2C" tags="" position="1225,975" size="100,100">&lt;&lt;repeat 412s&gt;&gt;
 &lt;&lt;audio &quot;houseRoomTone&quot; stop&gt;&gt;
 &lt;&lt;audio &quot;houseRoomTone&quot; play&gt;&gt;
 &lt;&lt;/repeat&gt;&gt;
@@ -2797,7 +2755,7 @@ Where do you explore?
 &lt;/span&gt;
 &lt;&lt;/type&gt;&gt;
 &lt;&lt;/if&gt;&gt;
-&lt;&lt;/nobr&gt;&gt;</tw-passagedata><tw-passagedata pid="72" name="Ch4Pg2D" tags="" position="225,975" size="100,100">&lt;&lt;repeat 412s&gt;&gt;
+&lt;&lt;/nobr&gt;&gt;</tw-passagedata><tw-passagedata pid="81" name="Ch4Pg2D" tags="" position="100,1100" size="100,100">&lt;&lt;repeat 412s&gt;&gt;
 &lt;&lt;audio &quot;houseRoomTone&quot; stop&gt;&gt;
 &lt;&lt;audio &quot;houseRoomTone&quot; play&gt;&gt;
 &lt;&lt;/repeat&gt;&gt;
@@ -2870,7 +2828,7 @@ Where do you explore?
 &lt;/span&gt;
 &lt;&lt;/type&gt;&gt;
 &lt;&lt;/if&gt;&gt;
-&lt;&lt;/nobr&gt;&gt;</tw-passagedata><tw-passagedata pid="73" name="Ch4Pg2E" tags="" position="350,975" size="100,100">&lt;&lt;repeat 412s&gt;&gt;
+&lt;&lt;/nobr&gt;&gt;</tw-passagedata><tw-passagedata pid="82" name="Ch4Pg2E" tags="" position="225,1100" size="100,100">&lt;&lt;repeat 412s&gt;&gt;
 &lt;&lt;audio &quot;houseRoomTone&quot; stop&gt;&gt;
 &lt;&lt;audio &quot;houseRoomTone&quot; play&gt;&gt;
 &lt;&lt;/repeat&gt;&gt;
@@ -2952,7 +2910,7 @@ Where do you explore?
 &lt;span class=&quot;dialogue&quot;&gt;
 
 &lt;/span&gt;&lt;&lt;/type&gt;&gt;
-&lt;&lt;/if&gt;&gt;</tw-passagedata><tw-passagedata pid="74" name="Ch4Pg2F" tags="" position="475,975" size="100,100">&lt;&lt;repeat 412s&gt;&gt;
+&lt;&lt;/if&gt;&gt;</tw-passagedata><tw-passagedata pid="83" name="Ch4Pg2F" tags="" position="350,1100" size="100,100">&lt;&lt;repeat 412s&gt;&gt;
 &lt;&lt;audio &quot;houseRoomTone&quot; stop&gt;&gt;
 &lt;&lt;audio &quot;houseRoomTone&quot; play&gt;&gt;
 &lt;&lt;/repeat&gt;&gt;
@@ -3025,7 +2983,7 @@ Where do you explore?
 &lt;/span&gt;
 &lt;&lt;/type&gt;&gt;
 &lt;&lt;/if&gt;&gt;
-&lt;&lt;/nobr&gt;&gt;</tw-passagedata><tw-passagedata pid="75" name="Ch4Pg2G" tags="" position="600,975" size="100,100">&lt;&lt;repeat 412s&gt;&gt;
+&lt;&lt;/nobr&gt;&gt;</tw-passagedata><tw-passagedata pid="84" name="Ch4Pg2G" tags="" position="475,1100" size="100,100">&lt;&lt;repeat 412s&gt;&gt;
 &lt;&lt;audio &quot;houseRoomTone&quot; stop&gt;&gt;
 &lt;&lt;audio &quot;houseRoomTone&quot; play&gt;&gt;
 &lt;&lt;/repeat&gt;&gt;
@@ -3098,7 +3056,7 @@ Where do you explore?
 &lt;/span&gt;
 &lt;&lt;/type&gt;&gt;
 &lt;&lt;/if&gt;&gt;
-&lt;&lt;/nobr&gt;&gt;</tw-passagedata><tw-passagedata pid="76" name="Ch4Pg2H" tags="" position="725,975" size="100,100">&lt;&lt;repeat 412s&gt;&gt;
+&lt;&lt;/nobr&gt;&gt;</tw-passagedata><tw-passagedata pid="85" name="Ch4Pg2H" tags="" position="600,1100" size="100,100">&lt;&lt;repeat 412s&gt;&gt;
 &lt;&lt;audio &quot;houseRoomTone&quot; stop&gt;&gt;
 &lt;&lt;audio &quot;houseRoomTone&quot; play&gt;&gt;
 &lt;&lt;/repeat&gt;&gt;
@@ -3171,7 +3129,7 @@ Where do you explore?
 &lt;/span&gt;
 &lt;&lt;/type&gt;&gt;
 &lt;&lt;/if&gt;&gt;
-&lt;&lt;/nobr&gt;&gt;</tw-passagedata><tw-passagedata pid="77" name="Ch4Pg2I" tags="" position="850,975" size="100,100">&lt;&lt;repeat 412s&gt;&gt;
+&lt;&lt;/nobr&gt;&gt;</tw-passagedata><tw-passagedata pid="86" name="Ch4Pg2I" tags="" position="725,1100" size="100,100">&lt;&lt;repeat 412s&gt;&gt;
 &lt;&lt;audio &quot;houseRoomTone&quot; stop&gt;&gt;
 &lt;&lt;audio &quot;houseRoomTone&quot; play&gt;&gt;
 &lt;&lt;/repeat&gt;&gt;
@@ -3252,7 +3210,7 @@ Where do you explore?
 &lt;span class=&quot;dialogue&quot;&gt;
 
 &lt;/span&gt;&lt;&lt;/type&gt;&gt;
-&lt;&lt;/if&gt;&gt;</tw-passagedata><tw-passagedata pid="78" name="Ch6Pg0" tags="" position="975,975" size="100,100">&lt;span class=&quot;dialogue&quot;&gt;
+&lt;&lt;/if&gt;&gt;</tw-passagedata><tw-passagedata pid="87" name="Ch6Pg0" tags="" position="850,1100" size="100,100">&lt;span class=&quot;dialogue&quot;&gt;
 &lt;div class=chTitle&gt;Chapter Six&lt;/div&gt;
 &lt;center&gt;
 &lt;img src=&quot;Images/ch6.png&quot; height=&quot;432px&quot; width=&quot;540px&quot;&gt;
@@ -3260,7 +3218,7 @@ Where do you explore?
 &lt;&lt;type 20ms&gt;&gt;\
 &lt;div class=chStart&gt;[[The Night Terror-&gt;Ch6Pg1]]&lt;/div&gt;
 \&lt;&lt;/type&gt;&gt;
-&lt;/span&gt;</tw-passagedata><tw-passagedata pid="79" name="Ch6Pg1" tags="" position="1100,975" size="100,100">&lt;&lt;audio &quot;nightmareA&quot; stop&gt;&gt;
+&lt;/span&gt;</tw-passagedata><tw-passagedata pid="88" name="Ch6Pg1" tags="" position="975,1100" size="100,100">&lt;&lt;audio &quot;nightmareA&quot; stop&gt;&gt;
 &lt;&lt;audio &quot;nightmareA&quot; play&gt;&gt;
 &lt;&lt;repeat 448s&gt;&gt;
 &lt;&lt;audio &quot;nightmareA&quot; stop&gt;&gt;
@@ -3289,7 +3247,7 @@ You stop cold in the doorway.
 
 [[The Sight-&gt;Ch6Pg2]]
 &lt;/span&gt;
-&lt;&lt;/type&gt;&gt;</tw-passagedata><tw-passagedata pid="80" name="Ch6Pg2" tags="" position="1225,975" size="100,100">&lt;&lt;audio &quot;seizure&quot; stop&gt;&gt;
+&lt;&lt;/type&gt;&gt;</tw-passagedata><tw-passagedata pid="89" name="Ch6Pg2" tags="" position="1100,1100" size="100,100">&lt;&lt;audio &quot;seizure&quot; stop&gt;&gt;
 &lt;&lt;audio &quot;seizure&quot; play&gt;&gt;
 &lt;&lt;repeat 152s&gt;&gt;
 &lt;&lt;audio &quot;seizure&quot; stop&gt;&gt;
@@ -3317,7 +3275,7 @@ Dove’s eyes have rolled back in her skull. Her jaw is clenched so tight you ca
 
 [[You run.-&gt;Ch6Pg3]]
 &lt;/span&gt;
-&lt;&lt;/type&gt;&gt;</tw-passagedata><tw-passagedata pid="81" name="Ch6Pg3" tags="" position="100,1100" size="100,100">&lt;&lt;repeat 152s&gt;&gt;
+&lt;&lt;/type&gt;&gt;</tw-passagedata><tw-passagedata pid="90" name="Ch6Pg3" tags="" position="1225,1100" size="100,100">&lt;&lt;repeat 152s&gt;&gt;
 &lt;&lt;audio &quot;seizure&quot; stop&gt;&gt;
 &lt;&lt;audio &quot;seizure&quot; play&gt;&gt;
 &lt;&lt;/repeat&gt;&gt;
@@ -3343,7 +3301,7 @@ You race towards the awful sounds: Dove choking, gagging. Winona’s frantic voi
 
 [[HURRY!-&gt;Ch6Pg4]]
 &lt;/span&gt;
-&lt;&lt;/type&gt;&gt;</tw-passagedata><tw-passagedata pid="82" name="Ch6Pg4" tags="" position="225,1100" size="100,100">&lt;&lt;audio &quot;seizure&quot; stop&gt;&gt;
+&lt;&lt;/type&gt;&gt;</tw-passagedata><tw-passagedata pid="91" name="Ch6Pg4" tags="" position="100,1225" size="100,100">&lt;&lt;audio &quot;seizure&quot; stop&gt;&gt;
 &lt;&lt;audio &quot;seizure&quot; play&gt;&gt;
 &lt;&lt;repeat 152s&gt;&gt;
 &lt;&lt;audio &quot;seizure&quot; stop&gt;&gt;
@@ -3367,7 +3325,7 @@ Dove’s jaw opens just wide enough–and Winona shoves two tablets past Dove’
 
 &lt;span class=&quot;winona&quot;&gt;[[“Swallow, please swallow–”-&gt;Ch6Pg5]]&lt;/span&gt;
 &lt;/span&gt;
-&lt;&lt;/type&gt;&gt;</tw-passagedata><tw-passagedata pid="83" name="Ch6Pg5" tags="" position="350,1100" size="100,100">&lt;&lt;repeat 152s&gt;&gt;
+&lt;&lt;/type&gt;&gt;</tw-passagedata><tw-passagedata pid="92" name="Ch6Pg5" tags="" position="225,1225" size="100,100">&lt;&lt;repeat 152s&gt;&gt;
 &lt;&lt;audio &quot;seizure&quot; stop&gt;&gt;
 &lt;&lt;audio &quot;seizure&quot; play&gt;&gt;
 &lt;&lt;/repeat&gt;&gt;
@@ -3409,7 +3367,7 @@ Winona grabs a towel from the floor and presses it to Dove’s mouth. &lt;span c
 
 &lt;span class=&quot;arthur&quot;&gt;[[“Dove, please calm down!”-&gt;Ch6Pg6]]&lt;/span&gt;
 &lt;/span&gt;
-&lt;&lt;/type&gt;&gt;</tw-passagedata><tw-passagedata pid="84" name="Ch6Pg6" tags="" position="475,1100" size="100,100">&lt;&lt;repeat 152s&gt;&gt;
+&lt;&lt;/type&gt;&gt;</tw-passagedata><tw-passagedata pid="93" name="Ch6Pg6" tags="" position="350,1225" size="100,100">&lt;&lt;repeat 152s&gt;&gt;
 &lt;&lt;audio &quot;seizure&quot; stop&gt;&gt;
 &lt;&lt;audio &quot;seizure&quot; play&gt;&gt;
 &lt;&lt;/repeat&gt;&gt;
@@ -3459,7 +3417,7 @@ It doesn’t work. Your hands still tremble.
 
 [[You walk back to your childhood bedroom in the dark.-&gt;Ch7Pg0]]
 &lt;/span&gt;
-&lt;&lt;/type&gt;&gt;</tw-passagedata><tw-passagedata pid="85" name="Ch7Pg0" tags="" position="600,1100" size="100,100">&lt;span class=&quot;dialogue&quot;&gt;
+&lt;&lt;/type&gt;&gt;</tw-passagedata><tw-passagedata pid="94" name="Ch7Pg0" tags="" position="475,1225" size="100,100">&lt;span class=&quot;dialogue&quot;&gt;
 &lt;div class=chTitle&gt;Chapter Seven&lt;/div&gt;
 &lt;center&gt;
 &lt;img src=&quot;Images/act1finale.png&quot; height=&quot;432px&quot; width=&quot;540px&quot;&gt;
@@ -3467,7 +3425,7 @@ It doesn’t work. Your hands still tremble.
 &lt;&lt;type 20ms&gt;&gt;\
 &lt;div class=chStart&gt;[[The Morning After-&gt;Ch7Pg1]]&lt;/div&gt;
 \&lt;&lt;/type&gt;&gt;
-&lt;/span&gt;</tw-passagedata><tw-passagedata pid="86" name="Ch7Pg1" tags="" position="725,1100" size="100,100">&lt;&lt;audio &quot;tvNeutral&quot; stop&gt;&gt;
+&lt;/span&gt;</tw-passagedata><tw-passagedata pid="95" name="Ch7Pg1" tags="" position="600,1225" size="100,100">&lt;&lt;audio &quot;tvNeutral&quot; stop&gt;&gt;
 &lt;&lt;audio &quot;tvScary&quot; stop&gt;&gt;
 &lt;&lt;audio &quot;teaserMorningAmbience&quot; stop&gt;&gt;
 &lt;&lt;audio &quot;teaserMorningAmbience&quot; play&gt;&gt;
@@ -3493,7 +3451,7 @@ The earthy, almost caramel scent of freshly brewed coffee emanates from your doo
 
 You untangle yourself from your mildewed, dust-ridden bedsheets and [[drag yourself downstairs.-&gt;Ch7Pg2]] 
 &lt;/span&gt;
-&lt;&lt;/type&gt;&gt;</tw-passagedata><tw-passagedata pid="87" name="Ch7Pg2" tags="" position="850,1100" size="100,100">&lt;&lt;audio &quot;tvNeutral&quot; stop&gt;&gt;
+&lt;&lt;/type&gt;&gt;</tw-passagedata><tw-passagedata pid="96" name="Ch7Pg2" tags="" position="725,1225" size="100,100">&lt;&lt;audio &quot;tvNeutral&quot; stop&gt;&gt;
 &lt;&lt;audio &quot;tvScary&quot; stop&gt;&gt;
 &lt;&lt;repeat 186s&gt;&gt;
 &lt;&lt;audio &quot;teaserMorningAmbience&quot; stop&gt;&gt;
@@ -3566,7 +3524,7 @@ The tap turns off. You hear the quick taps of Winona’s feet on the stairs, and
 
 [[You need air.-&gt;Ch7Pg3]]
 &lt;/span&gt;
-&lt;&lt;/type&gt;&gt;</tw-passagedata><tw-passagedata pid="88" name="Ch7Pg3" tags="" position="975,1100" size="100,100">&lt;&lt;audio &quot;tvNeutral&quot; stop&gt;&gt;
+&lt;&lt;/type&gt;&gt;</tw-passagedata><tw-passagedata pid="97" name="Ch7Pg3" tags="" position="850,1225" size="100,100">&lt;&lt;audio &quot;tvNeutral&quot; stop&gt;&gt;
 &lt;&lt;audio &quot;tvScary&quot; stop&gt;&gt;
 &lt;&lt;type 20ms&gt;&gt;
 &lt;span class=&quot;dialogue&quot;&gt;
@@ -3602,12 +3560,12 @@ Three cards. Three choices. You pull out your phone.
 
 Who do you call?
 &lt;/span&gt;
-&lt;&lt;/type&gt;&gt;</tw-passagedata><tw-passagedata pid="89" name="Ch7Pg4" tags="" position="1100,1100" size="100,100">&lt;span class=&quot;dialogue&quot;&gt;
+&lt;&lt;/type&gt;&gt;</tw-passagedata><tw-passagedata pid="98" name="Ch7Pg4" tags="" position="975,1225" size="100,100">&lt;span class=&quot;dialogue&quot;&gt;
 &lt;div class=chTitle&gt;To Be Continued...&lt;/div&gt;
 &lt;&lt;type 20ms&gt;&gt;\
 &lt;div class=chStart&gt;[[End of Act One.-&gt;creditsPg0]]&lt;/div&gt;
 \&lt;&lt;/type&gt;&gt;
-&lt;/span&gt;</tw-passagedata><tw-passagedata pid="90" name="credits" tags="" position="1225,1100" size="100,100">&lt;&lt;type 20ms&gt;&gt;
+&lt;/span&gt;</tw-passagedata><tw-passagedata pid="99" name="credits" tags="" position="1100,1225" size="100,100">&lt;&lt;type 20ms&gt;&gt;
 &lt;span class=&quot;dialogue&quot;&gt;
 &lt;&lt;audio &quot;pianoA&quot; stop&gt;&gt;&lt;&lt;audio &quot;pianoA&quot; play&gt;&gt;&lt;&lt;repeat 108s&gt;&gt;&lt;&lt;audio &quot;pianoA&quot; stop&gt;&gt;&lt;&lt;audio &quot;pianoA&quot; play&gt;&gt;&lt;&lt;/repeat&gt;&gt;
 If you enjoyed this prototype, follow our itch page for updates.
@@ -3634,7 +3592,7 @@ Elijah Jeffery: game writer
 
 &lt;div class=chStart&gt;[[Main Menu-&gt;Start]]&lt;/div&gt;
 &lt;/span&gt;
-&lt;&lt;/type&gt;&gt;</tw-passagedata><tw-passagedata pid="91" name="creditsPg0" tags="" position="100,1225" size="100,100">source/EdgewaterCh1/passages/Ch1Pg2B.twee
+&lt;&lt;/type&gt;&gt;</tw-passagedata><tw-passagedata pid="100" name="creditsPg0" tags="" position="1225,1225" size="100,100">source/EdgewaterCh1/passages/Ch1Pg2B.twee
 &lt;span class=&quot;dialogue&quot;&gt;
 &lt;div class=chTitle&gt;Thank you for playing Edgewater.&lt;/div&gt;
 &lt;center&gt;
