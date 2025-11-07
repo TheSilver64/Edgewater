@@ -1,6 +1,6 @@
 :: Ch0Pg7A
 <<= window.update_flag("prologue_choice", 1)>>
-<<type 30ms>>\
+<<type 40ms>>\
 <span class="dialogue">
 You take a deep breath and make a decision. <span class="arthur">“Tell me about the land.”</span> you say, holding your chin up high.
 

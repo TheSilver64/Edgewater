@@ -1,6 +1,6 @@
 :: Ch1Pg6
 <<audio "classroom" stop>>
-<<type 30ms>>
+<<type 40ms>>
 <div class=chStart>The Bench.</div>
 <span class="dialogue">
 

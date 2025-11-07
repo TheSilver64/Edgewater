@@ -7,7 +7,7 @@
 </span>
 <</timed>>
 
-<<timed 4s>><span class="fade-in"><div class='dialogue' style="font-size:1.25em; text-align:center">[[Acknowledge->TitleScreen]]</div></span><</timed>>
+<<timed 4s>><span class="fade-in"><div class='dialogue' style="font-size:1.25em; text-align:center">[[Acknowledge->Ch4Pg0]]</div></span><</timed>>
 
 :: TitleScreen
 <<audio "pianoC" play loop>>

@@ -1,6 +1,6 @@
 :: Ch1Pg3
 <<audio cemetery stop>><<audio "classroom" play loop volume 1.75>>
-<<type 30ms>>
+<<type 40ms>>
 <div class=chStart>Mathematics Classroom, 8:05 AM.</div>
 <span class="dialogue">
 Class is in session. The lecture hall is amphitheater-style, tiered seating rising up from the front where Professor Chen stands before a massive chalkboard. She's mid-sentence, discussing the historical context of fractal mathematics, when you enter through the side door and take your place at the board.

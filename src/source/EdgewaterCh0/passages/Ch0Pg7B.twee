@@ -1,6 +1,6 @@
 :: Ch0Pg7B
 <<= window.update_flag("prologue_choice", 2)>>
-<<type 30ms>>\
+<<type 40ms>>\
 <span class="dialogue">
 You take a deep breath and make a decision. “Tell me about our people.” you say, holding your chin up high.
 

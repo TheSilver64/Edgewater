@@ -1,5 +1,5 @@
 :: Ch1Pg2A
-<<type 30ms>>\
+<<type 40ms>>\
 <span class="dialogue">
 You reach for the leather-bound book on your desk. Your mother’s herbalism notebook. The cover is cracked and worn from years of handling. First her hands, now yours. You slip your coat over your pajamas and pocket the notebook.</span><</type>><<type 30ms>><<audio "morning" stop>><<audio "walking" play loop>>
 

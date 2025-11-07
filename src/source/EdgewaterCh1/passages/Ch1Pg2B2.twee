@@ -1,6 +1,6 @@
 :: Ch1Pg2B2
 <<audio "pianoA" stop>>
-<<type 30ms>>
+<<type 40ms>>
 <span class="dialogue">
 A simple pattern. You start with a single vertical line, then split it at the top into two branches. Each branch splits again. And again.
 
