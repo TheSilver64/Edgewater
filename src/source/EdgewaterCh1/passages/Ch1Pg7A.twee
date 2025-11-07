@@ -21,4 +21,4 @@ The silence stretches. You can hear her breathing on the other end.
 
 <span class="winona">“Come back home.”</span>
 
-<center><<timed 5s>><span class="fade-in"><span class="scary">[["He's dead."->Ch2Pg0]]</span></span><</timed>></center><</type>>
+<center><<timed 5s>><span class="fade-in"><span class="super-scary supernatural-glow" style="font-family: 'Title Font';"><span class="scary-link">[[“He's dead.”->Ch2Pg0]]</span></span></span><</timed>></center><</type>>

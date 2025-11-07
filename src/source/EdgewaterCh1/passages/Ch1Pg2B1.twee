@@ -1,7 +1,7 @@
 :: Ch1Pg2B1
 <<audio "shower" stop>>
 <<audio "pianoA" play>>
-<<type 50ms>>
+<<type 60ms>>
 <span class="dialogue">
 Then a dribble. <span class="scary">a choking, rattling dribble.</span>
 

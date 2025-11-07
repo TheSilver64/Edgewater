@@ -7,11 +7,11 @@ It seems like it’s the same case for your sister. You hear her breathing, soft
 
 <span class="winona">"We need you back home, Arty."</span>
 
-The words hit you like cold water. <span class="arthur">"...Home?"</span> The word tastes like roadkill. <span class="arthur">"Why?"</span><</type>><<type 80ms>><<audio "walking" stop>><<audio "nightmareB" play loop>>
+<span class="arthur">"...Home?"</span> The word tastes like roadkill. <span class="arthur">"Why?"</span><</type>><<type 80ms>><<audio "walking" stop>><<audio "nightmareB" play loop>>
 
 <span class="winona">"It's Dad."</span>
 
-You freeze. Your entire body goes rigid on the bench, phone pressed hard against your ear. 
+The words hit you like cold water. You freeze. Your entire body goes rigid on the bench, phone pressed hard against your ear. 
 
 <span class="arthur">"Is he okay?"</span> Your voice cracks. It’s small. Childlike. 
 
@@ -19,4 +19,4 @@ Another pause. Another shaky breath.
 
 Then, in a voice barely above a whisper:
 
-<center><<timed 5s>><span class="fade-in"><span class="scary">[["He's dead."->Ch2Pg0]]</span></span><</timed>></center><</type>>
+<center><<timed 5s>><span class="fade-in"><span class="super-scary supernatural-glow" style="font-family: 'Title Font';"><span class="scary-link">[[“He's dead.”->Ch2Pg0]]</span></span></span><</timed>></center><</type>>
