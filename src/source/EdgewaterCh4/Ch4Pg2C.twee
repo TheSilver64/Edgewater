@@ -1,5 +1,7 @@
 :: Ch4Pg2C
 <<audio "bathroomDrip" stop>>
+<<audio "houseRoomTone" stop 
+<<audio "houseRoomTone" play loop>>
 <<run window.update_flag("explored_entryway", 1)>>
 <<type 40ms>>
 <span class="dialogue">

@@ -71,7 +71,11 @@ Edgewater
 /*<<cacheaudio "chimes" "source/sound/chimes.mp3">>*/
 /*<<cacheaudio "pianoC" "source/sound/piano_combined.mp3">>*/
 <<cacheaudio "bathroomDrip" "src/source/sound/bathroom_drip.mp3">>
+<<cacheaudio "ropeCreak" "src/source/sound/door_creak.mp3">>
 <<cacheaudio "ambienceBasement" "src/source/sound/basement_ambi.mp3">>
+<<cacheaudio "stairCreak" "src/source/sound/rope_creak.mp3">>
+<<cacheaudio "staircaseDescent" "src/source/sound/staircase_descent.mp3">>
+<<cacheaudio "lightBuzz" "src/source/sound/light_buzz.mp3">>
 /*<<cacheaudio "nightmareA" "source/sound/nightmare_a.mp3">>*/
 
 /* chapter 5 */

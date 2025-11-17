@@ -1,6 +1,8 @@
 :: Ch4Pg2A
 <<audio "entrywayMemory" stop>>
 <<audio "bathroomDrip" stop>>
+<<audio "houseRoomTone" stop>>
+<<audio "houseRoomTone" play loop>>
 <<run window.update_flag("explored_livingroom", 1)>>
 <<type 40ms>>
 <span class="dialogue">

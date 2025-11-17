@@ -1,11 +1,13 @@
 :: Ch4Pg2I2
-<<type 50ms>>
+<<type 70ms>>
+<<audio "lightBuzz" play loop volume 0>>
+<<audio "lightBuzz" fadeoverto 5 0.5>>
 <span class="dialogue">
-The overturned chair. Coffee mug, contents green with mold. Ashtray overflowing, cigarette butts spilling across papers soaked with—with—
+The overturned chair. As if having been kicked down. There are scuff marks on the side. 
 
 The bulb flickers.
 
-<span class="scary supernatural-glow"> Once.</soan>
+<span class="scary supernatural-glow"> Once.</span>
 
 <span class="scary supernatural-glow">Twice.</span>
 

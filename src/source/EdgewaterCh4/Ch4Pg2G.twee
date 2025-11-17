@@ -14,63 +14,63 @@ Where do you explore?
 </span><</type>>
 <<nobr>>
 <<if window.get_flag("explored_livingroom") == 0>>
-<<type 40ms>>
+<<type 20ms>>
 <span class="dialogue">
 [[The Living Room-> Ch4Pg2A]]
 </span>
 <</type>>
 <</if>>
 <<if window.get_flag("explored_kitchen") == 0>>
-<<type 40ms>>
+<<type 20ms>>
 <span class="dialogue">
 [[The Kitchen-> Ch4Pg2B]]
 </span>
 <</type>>
 <</if>>
 <<if window.get_flag("explored_entryway") == 0>>
-<<type 40ms>>
+<<type 20ms>>
 <span class="dialogue">
 [[The Entryway-> Ch4Pg2C]]
 </span>
 <</type>>
 <</if>>
 <<if window.get_flag("explored_parents_room") == 0>>
-<<type 40ms>>
+<<type 20ms>>
 <span class="dialogue">
 [[Your Parent’s Room-> Ch4Pg2D]]
 </span>
 <</type>>
 <</if>>
 <<if window.get_flag("explored_doves_room") == 0>>
-<<type 40ms>>
+<<type 20ms>>
 <span class="dialogue">
 [[Dove’s Room-> Ch4Pg2E]]
 </span>
 <</type>>
 <</if>>
 <<if window.get_flag("explored_room") == 0>>
-<<type 40ms>>
+<<type 20ms>>
 <span class="dialogue">
 [[Your Room-> Ch4Pg2F]]
 </span>
 <</type>>
 <</if>>
 <<if window.get_flag("explored_winona_room") == 0>>
-<<type 40ms>>
+<<type 20ms>>
 <span class="dialogue">
 [[Winona’s Room-> Ch4Pg2G]]
 </span>
 <</type>>
 <</if>>
 <<if window.get_flag("explored_bathroom") == 0>>
-<<type 40ms>>
+<<type 20ms>>
 <span class="dialogue">
 [[The Bathroom-> Ch4Pg2H]]
 </span>
 <</type>>
 <</if>>
 <<if window.get_flag("explored_basement") == 0>>
-<<type 40ms>>
+<<type 20ms>>
 <span class="dialogue">
 [[The Basement-> Ch4Pg2I]]
 </span>

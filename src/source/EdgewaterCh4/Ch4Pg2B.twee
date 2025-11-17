@@ -1,4 +1,6 @@
 :: Ch4Pg2B
+<<audio "houseRoomTone" stop>>
+<<audio "houseRoomTone" play loop>>
 <<run window.update_flag("explored_kitchen", 1)>>
 <<type 40ms>>
 <span class="dialogue">

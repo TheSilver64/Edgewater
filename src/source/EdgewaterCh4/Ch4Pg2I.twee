@@ -19,13 +19,13 @@ You fumble around inside for the light switch. Click. Nothing at first, then the
 
 You squint into the void, eyes adjusting slowly. There–at the bottom of the stairs–a faint glow. A bare bulb dangles from a cord, casting just enough light to see the steps.
 
-[[You descend.->Ch4Pg2I1]]
+[[You descend.->Ch4Pg2I1]]</span><</type>>
 <<else>>
 The basement door stands jutting out from under the first floor stairs like a long shadow. It’s made of solid wood that’s thicker than your front door. The deadbolt has been smashed apart and the door hangs slightly ajar. Only darkness yawns below. 
 
 Winona’s words echo in your mind: <span class="scary">“There, hanging from the basement rafters.”</span>
 
-The image flashes in your retinas. There, through the crack–a hunched shadow. You hear a creak, a low-drawn out groan as rope fibers twist against each other.
+The image flashes in your retinas. There, through the crack–a hunched shadow. You hear a creak, a low-drawn out groan as rope fibers twist against each other.<<audio "ropeCreak" play>>
 
 <span class="super-scary">Cr-rr-rr-rr-rr-rr-rr-rr-rr-rr-rrrrrrrrrrrrrrrrrk!</span>
 
@@ -38,66 +38,66 @@ The sound is banished from your mind. You back away from the door. Your forehead
 You can’t face this today. 
 
 Where do you explore?
-</span><</type>>
+
 <<nobr>>
 <<if window.get_flag("explored_livingroom") == 0>>
-<<type 40ms>>
+<<type 20ms>>
 <span class="dialogue">
 [[The Living Room-> Ch4Pg2A]]
 </span>
 <</type>>
 <</if>>
 <<if window.get_flag("explored_kitchen") == 0>>
-<<type 40ms>>
+<<type 20ms>>
 <span class="dialogue">
 [[The Kitchen-> Ch4Pg2B]]
 </span>
 <</type>>
 <</if>>
 <<if window.get_flag("explored_entryway") == 0>>
-<<type 40ms>>
+<<type 20ms>>
 <span class="dialogue">
 [[The Entryway-> Ch4Pg2C]]
 </span>
 <</type>>
 <</if>>
 <<if window.get_flag("explored_parents_room") == 0>>
-<<type 40ms>>
+<<type 20ms>>
 <span class="dialogue">
 [[Your Parent’s Room-> Ch4Pg2D]]
 </span>
 <</type>>
 <</if>>
 <<if window.get_flag("explored_doves_room") == 0>>
-<<type 40ms>>
+<<type 20ms>>
 <span class="dialogue">
 [[Dove’s Room-> Ch4Pg2E]]
 </span>
 <</type>>
 <</if>>
 <<if window.get_flag("explored_room") == 0>>
-<<type 40ms>>
+<<type 20ms>>
 <span class="dialogue">
 [[Your Room-> Ch4Pg2F]]
 </span>
 <</type>>
 <</if>>
 <<if window.get_flag("explored_winona_room") == 0>>
-<<type 40ms>>
+<<type 20ms>>
 <span class="dialogue">
 [[Winona’s Room-> Ch4Pg2G]]
 </span>
 <</type>>
 <</if>>
 <<if window.get_flag("explored_bathroom") == 0>>
-<<type 40ms>>
+<<type 20ms>>
 <span class="dialogue">
 [[The Bathroom-> Ch4Pg2H]]
 </span>
 <</type>>
 <</if>>
 <<if window.get_flag("explored_basement") == 0>>
-<<type 40ms>>
+<<type 20ms>>
 <span class="dialogue">
 [[The Basement-> Ch4Pg2I]]
 </span>

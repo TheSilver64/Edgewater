@@ -2,7 +2,7 @@
 <<audio "nightmareA" play volume 0>>
 <<audio "nightmareA" fadeoverto 30 0.75>>
 <<audio "ambienceBasement" fadeoverto 15 0.25>>
-<<type 60ms>>
+<<type 80ms>>
 <span class="dialogue">
 It hangs there from the rafters. Cut. Frayed. It’s barely visible in the dim light, more sensed than seen, just a darker line against the darkness. 
 
