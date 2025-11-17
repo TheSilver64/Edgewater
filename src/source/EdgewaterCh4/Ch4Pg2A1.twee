@@ -1,12 +1,9 @@
-:: Ch4Pg2G
-<<audio "entrywayMemory" stop>>
-<<audio "bathroomDrip" stop>>
-<<run window.update_flag("explored_winona_room", 1)>>
+:: Ch4Pg2A1
 <<type 40ms>>
 <span class="dialogue">
-You pass by Winona’s room. The door is shut tight. A paper DO NOT DISTURB sign hangs from the handle, likely plucked from a hotel stay. 
+They sag under their burden. Your mother’s gardening guides with soil-stained pages, her paperback mystery novels, spines so cracked their titles are illegible, and her folktale collections with yellow and pink sticky tabs poking out, marking her favorite stories. Your father’s medical textbooks sit lower down, heavy tomes used more often for laying upon towels to dry up spills than for reading. 
 
-You don’t even stop to knock. You can imagine what her reaction would be to your unsolicited presence.
+All is now veiled in a layer of gray dust. 
 
 You move on. 
 

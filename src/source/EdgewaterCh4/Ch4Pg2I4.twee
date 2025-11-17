@@ -1,0 +1,23 @@
+:: Ch4Pg2I4
+<<audio "ambienceBasement" fadeoverto 30 0>>
+<<type 60ms>>
+<span class="dialogue">
+The bulb flickers again, the darkness holding for three full seconds before the light sputters back.
+
+You force your eyes to the papers. You need someone concrete, something that makes sense. 
+
+You pick up the first document. The paper rattles in your trembling hands.
+
+Newspaper clipping. 1952. 
+
+<span class="scary supernatural-glow">MINING DISASTER CLAIMS TWELVE LIVES.</span>
+
+Another. 1967. 
+
+<span class="scary supernatural-glow">THREE HUNTERS FOUND MAULED.</span>
+
+2000. Recent. 
+
+<span class="scary supernatural-glow">NORTHRIDGE MINING PROPOSAL.</span>
+
+You stare in bewilderment at the clippings. Why was he collecting articles? You glance back at your mother’s notebook pages. [[Your dad’s handwriting careens across the margins:->ChPg2I5]]</span><</type>>

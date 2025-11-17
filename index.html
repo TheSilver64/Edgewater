@@ -716,7 +716,7 @@ window.textCrawl = async function (id, text) {
 &lt;/span&gt;
 &lt;&lt;/timed&gt;&gt;
 
-&lt;&lt;timed 4s&gt;&gt;&lt;span class=&quot;fade-in&quot;&gt;&lt;div class=&#39;dialogue&#39; style=&quot;font-size:1.25em; text-align:center&quot;&gt;[[Acknowledge-&gt;TitleScreen]]&lt;/div&gt;&lt;/span&gt;&lt;&lt;/timed&gt;&gt;</tw-passagedata><tw-passagedata pid="2" name="TitleScreen" tags="" position="225,100" size="100,100">&lt;&lt;audio &quot;pianoC&quot; play loop&gt;&gt;
+&lt;&lt;timed 4s&gt;&gt;&lt;span class=&quot;fade-in&quot;&gt;&lt;div class=&#39;dialogue&#39; style=&quot;font-size:1.25em; text-align:center&quot;&gt;[[Acknowledge-&gt;Ch4Pg0]]&lt;/div&gt;&lt;/span&gt;&lt;&lt;/timed&gt;&gt;</tw-passagedata><tw-passagedata pid="2" name="TitleScreen" tags="" position="225,100" size="100,100">&lt;&lt;audio &quot;pianoC&quot; play loop&gt;&gt;
 
 &lt;&lt;timed 5.5s&gt;&gt;
 &lt;span class=&quot;fade-in&quot; style=&quot;animation-duration:5s; display: flex; justify-content: center;&quot;&gt;
@@ -2514,24 +2514,13 @@ You hold your sister close and try not to think about what kind of nightmares wo
 You try not to think about your own nightmares. Water. Blood. Silver silk in the moonlight. 
 
 And now, your father&#39;s head dangling from a &lt;span class=&quot;super-scary supernatural-glow&quot; style=&quot;font-family: &#39;Title Font&#39;;&quot;&gt;&lt;span class=&quot;scary-link&quot;&gt;[[wolf&#39;s jaws.-&gt;Ch4Pg0]]&lt;/span&gt;&lt;/span&gt;
-&lt;&lt;/type&gt;&gt;</tw-passagedata><tw-passagedata pid="89" name="Ch4Pg0" tags="" position="1100,1100" size="100,100">&lt;&lt;audio &quot;pianoA&quot; stop&gt;&gt;
-&lt;&lt;audio &quot;pianoC&quot; stop&gt;&gt;
+&lt;&lt;/type&gt;&gt;</tw-passagedata><tw-passagedata pid="89" name="Ch4Pg0" tags="" position="1100,1100" size="100,100">&lt;&lt;audio &quot;pianoB&quot; stop&gt;&gt;
+&lt;&lt;audio &quot;chimes&quot; stop&gt;&gt;
 &lt;&lt;audio &quot;ambienceNeg&quot; stop&gt;&gt;
-&lt;span class=&quot;dialogue&quot;&gt;
-&lt;div class=chTitle&gt;Chapter Four&lt;/div&gt;
-&lt;center&gt;
-&lt;img src=&quot;Images/ch4.png&quot; height=&quot;432px&quot; width=&quot;540px&quot;&gt;
-&lt;/center&gt;
-&lt;&lt;type 20ms&gt;&gt;\
-&lt;div class=chStart&gt;[[The House-&gt;Ch4Pg1]]&lt;/div&gt;
-\&lt;&lt;/type&gt;&gt;
-&lt;/span&gt;</tw-passagedata><tw-passagedata pid="90" name="Ch4Pg1" tags="" position="1225,1100" size="100,100">&lt;&lt;audio &quot;houseRoomTone&quot; stop&gt;&gt;
-&lt;&lt;audio &quot;houseRoomTone&quot; play&gt;&gt;
-&lt;&lt;repeat 412s&gt;&gt;
-&lt;&lt;audio &quot;houseRoomTone&quot; stop&gt;&gt;
-&lt;&lt;audio &quot;houseRoomTone&quot; play&gt;&gt;
-&lt;&lt;/repeat&gt;&gt;
-&lt;&lt;type 20ms&gt;&gt;
+&lt;&lt;audio &quot;houseRoomTone&quot; play loop&gt;&gt;
+&lt;&lt;timed 1s&gt;&gt;&lt;span class=&quot;fade-in&quot;&gt;&lt;span class=&quot;dialogue&quot;&gt;&lt;div class=&quot;chTitle&quot;&gt;Chapter Four&lt;/div&gt;&lt;/span&gt;&lt;/span&gt;&lt;&lt;/timed&gt;&gt;
+&lt;&lt;timed 3s&gt;&gt;&lt;span class=&quot;fade-in&quot;&gt;&lt;center&gt;&lt;img src=&quot;Images/ch4.png&quot; height=&quot;432px&quot; width=&quot;540px&quot;&gt;&lt;/center&gt;&lt;/span&gt;&lt;&lt;/timed&gt;&gt;
+&lt;&lt;timed 5s&gt;&gt;&lt;span class=&quot;fade-in&quot;&gt;&lt;div class=&quot;chStart&quot;&gt;[[The Rooms-&gt;Ch4Pg1]]&lt;/div&gt;&lt;/span&gt;&lt;&lt;/timed&gt;&gt;</tw-passagedata><tw-passagedata pid="90" name="Ch4Pg1" tags="" position="1225,1100" size="100,100">&lt;&lt;type 40ms&gt;&gt;
 &lt;span class=&quot;dialogue&quot;&gt;
 You sit half sunken on the living room couch, exhaustion boring into your bones. You wish the sagging frame could swallow you completely. You lean back and close your eyes, willing the tide of unconsciousness to wash over you. But instead the tick, tick, tick of the grandfather clock in the living room corner raps against your skull, preventing you from completely drifting off.
 
@@ -2545,743 +2534,1122 @@ Where do you explore?
 &lt;/span&gt;&lt;&lt;/type&gt;&gt;
 &lt;&lt;nobr&gt;&gt;
 &lt;&lt;if window.get_flag(&quot;explored_livingroom&quot;) == 0&gt;&gt;
-&lt;&lt;type 20ms&gt;&gt;
+&lt;&lt;type 40ms&gt;&gt;
 &lt;span class=&quot;dialogue&quot;&gt;
 [[The Living Room-&gt; Ch4Pg2A]]
 &lt;/span&gt;
 &lt;&lt;/type&gt;&gt;
 &lt;&lt;/if&gt;&gt;
 &lt;&lt;if window.get_flag(&quot;explored_kitchen&quot;) == 0&gt;&gt;
-&lt;&lt;type 20ms&gt;&gt;
+&lt;&lt;type 40ms&gt;&gt;
 &lt;span class=&quot;dialogue&quot;&gt;
 [[The Kitchen-&gt; Ch4Pg2B]]
 &lt;/span&gt;
 &lt;&lt;/type&gt;&gt;
 &lt;&lt;/if&gt;&gt;
 &lt;&lt;if window.get_flag(&quot;explored_entryway&quot;) == 0&gt;&gt;
-&lt;&lt;type 20ms&gt;&gt;
+&lt;&lt;type 40ms&gt;&gt;
 &lt;span class=&quot;dialogue&quot;&gt;
 [[The Entryway-&gt; Ch4Pg2C]]
 &lt;/span&gt;
 &lt;&lt;/type&gt;&gt;
 &lt;&lt;/if&gt;&gt;
 &lt;&lt;if window.get_flag(&quot;explored_parents_room&quot;) == 0&gt;&gt;
-&lt;&lt;type 20ms&gt;&gt;
+&lt;&lt;type 40ms&gt;&gt;
 &lt;span class=&quot;dialogue&quot;&gt;
 [[Your Parent’s Room-&gt; Ch4Pg2D]]
 &lt;/span&gt;
 &lt;&lt;/type&gt;&gt;
 &lt;&lt;/if&gt;&gt;
 &lt;&lt;if window.get_flag(&quot;explored_doves_room&quot;) == 0&gt;&gt;
-&lt;&lt;type 20ms&gt;&gt;
+&lt;&lt;type 40ms&gt;&gt;
 &lt;span class=&quot;dialogue&quot;&gt;
 [[Dove’s Room-&gt; Ch4Pg2E]]
 &lt;/span&gt;
 &lt;&lt;/type&gt;&gt;
 &lt;&lt;/if&gt;&gt;
 &lt;&lt;if window.get_flag(&quot;explored_room&quot;) == 0&gt;&gt;
-&lt;&lt;type 20ms&gt;&gt;
+&lt;&lt;type 40ms&gt;&gt;
 &lt;span class=&quot;dialogue&quot;&gt;
 [[Your Room-&gt; Ch4Pg2F]]
 &lt;/span&gt;
 &lt;&lt;/type&gt;&gt;
 &lt;&lt;/if&gt;&gt;
 &lt;&lt;if window.get_flag(&quot;explored_winona_room&quot;) == 0&gt;&gt;
-&lt;&lt;type 20ms&gt;&gt;
+&lt;&lt;type 40ms&gt;&gt;
 &lt;span class=&quot;dialogue&quot;&gt;
 [[Winona’s Room-&gt; Ch4Pg2G]]
 &lt;/span&gt;
 &lt;&lt;/type&gt;&gt;
 &lt;&lt;/if&gt;&gt;
 &lt;&lt;if window.get_flag(&quot;explored_bathroom&quot;) == 0&gt;&gt;
-&lt;&lt;type 20ms&gt;&gt;
+&lt;&lt;type 40ms&gt;&gt;
 &lt;span class=&quot;dialogue&quot;&gt;
 [[The Bathroom-&gt; Ch4Pg2H]]
 &lt;/span&gt;
 &lt;&lt;/type&gt;&gt;
 &lt;&lt;/if&gt;&gt;
 &lt;&lt;if window.get_flag(&quot;explored_basement&quot;) == 0&gt;&gt;
-&lt;&lt;type 20ms&gt;&gt;
+&lt;&lt;type 40ms&gt;&gt;
 &lt;span class=&quot;dialogue&quot;&gt;
 [[The Basement-&gt; Ch4Pg2I]]
 &lt;/span&gt;
 &lt;&lt;/type&gt;&gt;
 &lt;&lt;/if&gt;&gt;
-&lt;&lt;/nobr&gt;&gt;</tw-passagedata><tw-passagedata pid="91" name="Ch4Pg2A" tags="" position="100,1225" size="100,100">&lt;&lt;repeat 412s&gt;&gt;
-&lt;&lt;audio &quot;houseRoomTone&quot; stop&gt;&gt;
-&lt;&lt;audio &quot;houseRoomTone&quot; play&gt;&gt;
-&lt;&lt;/repeat&gt;&gt;
+&lt;&lt;/nobr&gt;&gt;</tw-passagedata><tw-passagedata pid="91" name="Ch4Pg2A" tags="" position="100,1225" size="100,100">&lt;&lt;audio &quot;entrywayMemory&quot; stop&gt;&gt;
+&lt;&lt;audio &quot;bathroomDrip&quot; stop&gt;&gt;
 &lt;&lt;run window.update_flag(&quot;explored_livingroom&quot;, 1)&gt;&gt;
-&lt;&lt;type 20ms&gt;&gt;
+&lt;&lt;type 40ms&gt;&gt;
 &lt;span class=&quot;dialogue&quot;&gt;
+You stand up and pace the living room. Despite the thick film of dust coating the bookcase and the shabby edges of the discolored rug, this room feels the most lived in. It’s almost frozen, preserved in time like an insect in amber. 
 
+The leather sofa still bears the impressions of bodies–your father’s spot is on the left, deep. He used to come home from long shifts at the hospital, sink into that spot, put his feet up on the coffee table, and flick through the late-night programs. You swear you can still hear the phantom hum of his old talk shows from the mounted TV behind you. 
+
+Your mother’s spot is on the right, shallower. After putting you and Winona to bed, she used to sit and wait up for your father, curled up with a mug of hot tea, a knitted blanket around her waist, and a good book in her hands. 
+
+The fuzzy rug beneath your feet is matted in a few places, worn down by years of footsteps. You remember lying on it as a child, staring up at the ceiling, pretending the material was the grass of an alien world. 
+
+[[You cross the room to the bookshelves.-&gt;Ch4Pg2A1]]&lt;/span&gt;
+&lt;&lt;/type&gt;&gt;</tw-passagedata><tw-passagedata pid="92" name="Ch4Pg2A1" tags="" position="225,1225" size="100,100">&lt;&lt;type 40ms&gt;&gt;
+&lt;span class=&quot;dialogue&quot;&gt;
+They sag under their burden. Your mother’s gardening guides with soil-stained pages, her paperback mystery novels, spines so cracked their titles are illegible, and her folktale collections with yellow and pink sticky tabs poking out, marking her favorite stories. Your father’s medical textbooks sit lower down, heavy tomes used more often for laying upon towels to dry up spills than for reading. 
+
+All is now veiled in a layer of gray dust. 
+
+You move on. 
+
+Where do you explore?
 &lt;/span&gt;&lt;&lt;/type&gt;&gt;
 &lt;&lt;nobr&gt;&gt;
 &lt;&lt;if window.get_flag(&quot;explored_livingroom&quot;) == 0&gt;&gt;
-&lt;&lt;type 20ms&gt;&gt;
+&lt;&lt;type 40ms&gt;&gt;
 &lt;span class=&quot;dialogue&quot;&gt;
 [[The Living Room-&gt; Ch4Pg2A]]
 &lt;/span&gt;
 &lt;&lt;/type&gt;&gt;
 &lt;&lt;/if&gt;&gt;
 &lt;&lt;if window.get_flag(&quot;explored_kitchen&quot;) == 0&gt;&gt;
-&lt;&lt;type 20ms&gt;&gt;
+&lt;&lt;type 40ms&gt;&gt;
 &lt;span class=&quot;dialogue&quot;&gt;
 [[The Kitchen-&gt; Ch4Pg2B]]
 &lt;/span&gt;
 &lt;&lt;/type&gt;&gt;
 &lt;&lt;/if&gt;&gt;
 &lt;&lt;if window.get_flag(&quot;explored_entryway&quot;) == 0&gt;&gt;
-&lt;&lt;type 20ms&gt;&gt;
+&lt;&lt;type 40ms&gt;&gt;
 &lt;span class=&quot;dialogue&quot;&gt;
 [[The Entryway-&gt; Ch4Pg2C]]
 &lt;/span&gt;
 &lt;&lt;/type&gt;&gt;
 &lt;&lt;/if&gt;&gt;
 &lt;&lt;if window.get_flag(&quot;explored_parents_room&quot;) == 0&gt;&gt;
-&lt;&lt;type 20ms&gt;&gt;
+&lt;&lt;type 40ms&gt;&gt;
 &lt;span class=&quot;dialogue&quot;&gt;
 [[Your Parent’s Room-&gt; Ch4Pg2D]]
 &lt;/span&gt;
 &lt;&lt;/type&gt;&gt;
 &lt;&lt;/if&gt;&gt;
 &lt;&lt;if window.get_flag(&quot;explored_doves_room&quot;) == 0&gt;&gt;
-&lt;&lt;type 20ms&gt;&gt;
+&lt;&lt;type 40ms&gt;&gt;
 &lt;span class=&quot;dialogue&quot;&gt;
 [[Dove’s Room-&gt; Ch4Pg2E]]
 &lt;/span&gt;
 &lt;&lt;/type&gt;&gt;
 &lt;&lt;/if&gt;&gt;
 &lt;&lt;if window.get_flag(&quot;explored_room&quot;) == 0&gt;&gt;
-&lt;&lt;type 20ms&gt;&gt;
+&lt;&lt;type 40ms&gt;&gt;
 &lt;span class=&quot;dialogue&quot;&gt;
 [[Your Room-&gt; Ch4Pg2F]]
 &lt;/span&gt;
 &lt;&lt;/type&gt;&gt;
 &lt;&lt;/if&gt;&gt;
 &lt;&lt;if window.get_flag(&quot;explored_winona_room&quot;) == 0&gt;&gt;
-&lt;&lt;type 20ms&gt;&gt;
+&lt;&lt;type 40ms&gt;&gt;
 &lt;span class=&quot;dialogue&quot;&gt;
 [[Winona’s Room-&gt; Ch4Pg2G]]
 &lt;/span&gt;
 &lt;&lt;/type&gt;&gt;
 &lt;&lt;/if&gt;&gt;
 &lt;&lt;if window.get_flag(&quot;explored_bathroom&quot;) == 0&gt;&gt;
-&lt;&lt;type 20ms&gt;&gt;
+&lt;&lt;type 40ms&gt;&gt;
 &lt;span class=&quot;dialogue&quot;&gt;
 [[The Bathroom-&gt; Ch4Pg2H]]
 &lt;/span&gt;
 &lt;&lt;/type&gt;&gt;
 &lt;&lt;/if&gt;&gt;
 &lt;&lt;if window.get_flag(&quot;explored_basement&quot;) == 0&gt;&gt;
-&lt;&lt;type 20ms&gt;&gt;
+&lt;&lt;type 40ms&gt;&gt;
 &lt;span class=&quot;dialogue&quot;&gt;
 [[The Basement-&gt; Ch4Pg2I]]
 &lt;/span&gt;
 &lt;&lt;/type&gt;&gt;
 &lt;&lt;/if&gt;&gt;
-&lt;&lt;/nobr&gt;&gt;</tw-passagedata><tw-passagedata pid="92" name="Ch4Pg2B" tags="" position="225,1225" size="100,100">&lt;&lt;repeat 412s&gt;&gt;
-&lt;&lt;audio &quot;houseRoomTone&quot; stop&gt;&gt;
-&lt;&lt;audio &quot;houseRoomTone&quot; play&gt;&gt;
-&lt;&lt;/repeat&gt;&gt;
-&lt;&lt;run window.update_flag(&quot;explored_kitchen&quot;, 1)&gt;&gt;
-&lt;&lt;type 20ms&gt;&gt;
+&lt;&lt;/nobr&gt;&gt;</tw-passagedata><tw-passagedata pid="93" name="Ch4Pg2B" tags="" position="350,1225" size="100,100">&lt;&lt;run window.update_flag(&quot;explored_kitchen&quot;, 1)&gt;&gt;
+&lt;&lt;type 40ms&gt;&gt;
 &lt;span class=&quot;dialogue&quot;&gt;
+You wander into the kitchen. It’s smaller than you remember, in the way all childhood spaces shrink when you return with an adult body. The cheap linoleum floor is cracked and yellowed, peeling up at the corners where water damage has weakened the adhesive. It’s as if your whole house has been submerged in the lake and then left out to dry, warping permanently in the process. 
 
+The appliances are old but functional. The 70s refrigerator hums loudly. Magnets hold up receipts, piled so high the entirety of the fridge door is smothered by the flimsy strips. A few have escaped the weak magnets to scatter across the floor, gathering dust along with the rest of the kitchen crumbs. 
+
+The ink’s faded on most of the receipts, but you make out a few lines on the most recent ones: Bulk pasta. Canned goods. Milk. Beer. Small, careful purchases. The mathematics of poverty. 
+
+[[You open the fridge door.-&gt;Ch4Pg2B1]]&lt;/span&gt;
+&lt;&lt;/type&gt;&gt;</tw-passagedata><tw-passagedata pid="94" name="Ch4Pg2B1" tags="" position="475,1225" size="100,100">&lt;&lt;type 40ms&gt;&gt;
+&lt;span class=&quot;dialogue&quot;&gt;
+The force of the pull sends a few more receipts flying. Inside: half-empty styrofoam leftover containers. A gallon of skim milk two days past its expiration date. An opened can of beans. A mesh bag of mandarin oranges. A six pack of beer with two missing. 
+
+Condiments crowd the door, their bottles sticky and crusted. And in the crisper drawer, wilted vegetables have decomposed into a green-brown goo. You gag at the sight and slam the fridge shut. 
+
+[[You open the pantry cupboards.-&gt;Ch4Pg2B2]]&lt;/span&gt;
+&lt;&lt;/type&gt;&gt;</tw-passagedata><tw-passagedata pid="95" name="Ch4Pg2B2" tags="" position="600,1225" size="100,100">&lt;&lt;type 40ms&gt;&gt;
+&lt;span class=&quot;dialogue&quot;&gt;
+Canned soup. Pasta. Crackers. Ramen. In the back you find your mother’s spice rack–bottles of dried herbs and powders labeled in her careful handwriting. You doubt anyone’s touched it since she died. Does your father even use spice? I, mean, did he? You mentally correct yourself. Your father in the past tense still feels foreign.
+
+You move on to the sink. It’s piled high with dishes, remnants of food long caked onto each surface. Above the sink, the window looks out onto the garden. Or, what’s left of it. It’s nothing but weeds and dead stalks.  
+
+You move on. 
+
+Where do you explore?
 &lt;/span&gt;&lt;&lt;/type&gt;&gt;
 &lt;&lt;nobr&gt;&gt;
 &lt;&lt;if window.get_flag(&quot;explored_livingroom&quot;) == 0&gt;&gt;
-&lt;&lt;type 20ms&gt;&gt;
+&lt;&lt;type 40ms&gt;&gt;
 &lt;span class=&quot;dialogue&quot;&gt;
 [[The Living Room-&gt; Ch4Pg2A]]
 &lt;/span&gt;
 &lt;&lt;/type&gt;&gt;
 &lt;&lt;/if&gt;&gt;
 &lt;&lt;if window.get_flag(&quot;explored_kitchen&quot;) == 0&gt;&gt;
-&lt;&lt;type 20ms&gt;&gt;
+&lt;&lt;type 40ms&gt;&gt;
 &lt;span class=&quot;dialogue&quot;&gt;
 [[The Kitchen-&gt; Ch4Pg2B]]
 &lt;/span&gt;
 &lt;&lt;/type&gt;&gt;
 &lt;&lt;/if&gt;&gt;
 &lt;&lt;if window.get_flag(&quot;explored_entryway&quot;) == 0&gt;&gt;
-&lt;&lt;type 20ms&gt;&gt;
+&lt;&lt;type 40ms&gt;&gt;
 &lt;span class=&quot;dialogue&quot;&gt;
 [[The Entryway-&gt; Ch4Pg2C]]
 &lt;/span&gt;
 &lt;&lt;/type&gt;&gt;
 &lt;&lt;/if&gt;&gt;
 &lt;&lt;if window.get_flag(&quot;explored_parents_room&quot;) == 0&gt;&gt;
-&lt;&lt;type 20ms&gt;&gt;
+&lt;&lt;type 40ms&gt;&gt;
 &lt;span class=&quot;dialogue&quot;&gt;
 [[Your Parent’s Room-&gt; Ch4Pg2D]]
 &lt;/span&gt;
 &lt;&lt;/type&gt;&gt;
 &lt;&lt;/if&gt;&gt;
 &lt;&lt;if window.get_flag(&quot;explored_doves_room&quot;) == 0&gt;&gt;
-&lt;&lt;type 20ms&gt;&gt;
+&lt;&lt;type 40ms&gt;&gt;
 &lt;span class=&quot;dialogue&quot;&gt;
 [[Dove’s Room-&gt; Ch4Pg2E]]
 &lt;/span&gt;
 &lt;&lt;/type&gt;&gt;
 &lt;&lt;/if&gt;&gt;
 &lt;&lt;if window.get_flag(&quot;explored_room&quot;) == 0&gt;&gt;
-&lt;&lt;type 20ms&gt;&gt;
+&lt;&lt;type 40ms&gt;&gt;
 &lt;span class=&quot;dialogue&quot;&gt;
 [[Your Room-&gt; Ch4Pg2F]]
 &lt;/span&gt;
 &lt;&lt;/type&gt;&gt;
 &lt;&lt;/if&gt;&gt;
 &lt;&lt;if window.get_flag(&quot;explored_winona_room&quot;) == 0&gt;&gt;
-&lt;&lt;type 20ms&gt;&gt;
+&lt;&lt;type 40ms&gt;&gt;
 &lt;span class=&quot;dialogue&quot;&gt;
 [[Winona’s Room-&gt; Ch4Pg2G]]
 &lt;/span&gt;
 &lt;&lt;/type&gt;&gt;
 &lt;&lt;/if&gt;&gt;
 &lt;&lt;if window.get_flag(&quot;explored_bathroom&quot;) == 0&gt;&gt;
-&lt;&lt;type 20ms&gt;&gt;
+&lt;&lt;type 40ms&gt;&gt;
 &lt;span class=&quot;dialogue&quot;&gt;
 [[The Bathroom-&gt; Ch4Pg2H]]
 &lt;/span&gt;
 &lt;&lt;/type&gt;&gt;
 &lt;&lt;/if&gt;&gt;
 &lt;&lt;if window.get_flag(&quot;explored_basement&quot;) == 0&gt;&gt;
-&lt;&lt;type 20ms&gt;&gt;
+&lt;&lt;type 40ms&gt;&gt;
 &lt;span class=&quot;dialogue&quot;&gt;
 [[The Basement-&gt; Ch4Pg2I]]
 &lt;/span&gt;
 &lt;&lt;/type&gt;&gt;
 &lt;&lt;/if&gt;&gt;
-&lt;&lt;/nobr&gt;&gt;</tw-passagedata><tw-passagedata pid="93" name="Ch4Pg2C" tags="" position="350,1225" size="100,100">&lt;&lt;repeat 412s&gt;&gt;
-&lt;&lt;audio &quot;houseRoomTone&quot; stop&gt;&gt;
-&lt;&lt;audio &quot;houseRoomTone&quot; play&gt;&gt;
-&lt;&lt;/repeat&gt;&gt;
+&lt;&lt;/nobr&gt;&gt;</tw-passagedata><tw-passagedata pid="96" name="Ch4Pg2C" tags="" position="725,1225" size="100,100">&lt;&lt;audio &quot;bathroomDrip&quot; stop&gt;&gt;
 &lt;&lt;run window.update_flag(&quot;explored_entryway&quot;, 1)&gt;&gt;
-&lt;&lt;type 20ms&gt;&gt;
+&lt;&lt;type 40ms&gt;&gt;
 &lt;span class=&quot;dialogue&quot;&gt;
+You amble into the entryway. It’s the first thing visitors see. The hardwood floor here is scratched and worn, decades of shoes having scuffed away the finish. A coat rack stands by the front door.
 
+You examine the jackets draped across. They’re rank with cigarette smoke and sweat, which has leached into the fabric over the years. Among them is your father’s work coat–the black wool trenchcoat he wore over his hospital scrubs. 
+
+The front door itself is heavy oak, but the doorbell is new. Its exposed wiring runs along the aged frame. When was it installed?
+
+[[You turn back to face the stairs.-&gt;Ch4Pg2C1]]&lt;/span&gt;
+&lt;&lt;/type&gt;&gt;</tw-passagedata><tw-passagedata pid="97" name="Ch4Pg2C1" tags="" position="850,1225" size="100,100">&lt;&lt;audio &quot;houseRoomTone&quot; stop&gt;&gt;
+&lt;&lt;audio &quot;entrywayMemory&quot; play loop&gt;&gt;
+&lt;&lt;type 40ms&gt;&gt;
+&lt;span class=&quot;dialogue&quot;&gt;
+Family photos line the wall beneath the stairs. Their frames are mismatched–a variety of cheap drugstore plastic, thrift store finds, and estate sales. You head over to examine them.
+
+The oldest photo is in black and white. It shows your parents on their wedding day. Your mother wears a simple white dress. Her long black hair is curled for the occasion, as was the style back then. Your father is clean-shaven, baby-faced. He beams, his arm wrapped tightly around his bride. Their joy is radiant.
+
+Next: you as a baby. Your face is red and wrinkled into a cry. Your mother holds you wrapped in a felt hospital blanket. She’s propped upright, her eyes lined with exhaustion. But she smiles with pride. 
+
+Another: You and Winona as children, maybe six and four. You&#39;re building a tower with blocks, each one stacked more precariously than the next. Your face is scrunched up in concentration. Winona watches with a mischievous glint, hands behind her back. You spot the outline of a rolling pin behind her.
+
+Then: Your mother, belly swollen. One hand rests on her belly. The photo is taken outside. Sun catches in her hair, which is swept up in the breeze. She’s looking off into the distance, a somber, pensive expression across her face. She’s captured in frame candidly, as if someone saw her from afar and thought to capture the moment. 
+
+[[The next frame is empty.-&gt;Ch4Pg2C2]]&lt;/span&gt;
+&lt;&lt;/type&gt;&gt;</tw-passagedata><tw-passagedata pid="98" name="Ch4Pg2C2" tags="" position="975,1225" size="100,100">&lt;&lt;type 40ms&gt;&gt;
+&lt;span class=&quot;dialogue&quot;&gt;
+You stare at the void where a photo should be. The glass is dusty. You frown, trying to remember. Did this used to have a picture, or did no one bother to fill the space? 
+
+The final photos are more recent. Dove on various elementary school picture days, grinning with missing teeth, pigtails, overalls. Watermarks overlay the glossy surfaces–nobody had even bothered to buy the print. You wonder if these are Winona’s doing. Your father was never one for decoration.
+
+Next, Winona in her high school graduation gown, unsmiling. Your father stands beside her, one hand clasped on her shoulder. His temples have grayed, and the lines on his face cut deeper. Dove stands in front of them, dressed in a cheery yellow sundress.
+
+[[You&#39;re not in this photo.-&gt;Ch4Pg2C3]]&lt;/span&gt;
+&lt;&lt;/type&gt;&gt;</tw-passagedata><tw-passagedata pid="99" name="Ch4Pg2C3" tags="" position="1100,1225" size="100,100">&lt;&lt;type 40ms&gt;&gt;
+&lt;span class=&quot;dialogue&quot;&gt;
+Your reflection stares back from the glass, superimposed over your family&#39;s faces. You look like your father. Everyone always said so. Same skin shade, pointed nose, sharp wit, even the same tendency to furrow your brow when lost in deep thought. 
+
+You step back. Behind the wallpaper, the pink floral pattern has faded into a moldy beige. You remember helping your mother choose it. She said it reminded her of the swamp rose-mallows that grew near the lakeshore of her hometown. 
+
+&lt;span class=&quot;namid&quot;&gt;“If I ever got a cold, my mother would make a tea out of its leaves and it would fix me right up.”&lt;/span&gt;
+
+Now it looks like the walls are shedding their skin.
+
+You move on.
+
+Where do you explore?
 &lt;/span&gt;&lt;&lt;/type&gt;&gt;
 &lt;&lt;nobr&gt;&gt;
 &lt;&lt;if window.get_flag(&quot;explored_livingroom&quot;) == 0&gt;&gt;
-&lt;&lt;type 20ms&gt;&gt;
+&lt;&lt;type 40ms&gt;&gt;
 &lt;span class=&quot;dialogue&quot;&gt;
 [[The Living Room-&gt; Ch4Pg2A]]
 &lt;/span&gt;
 &lt;&lt;/type&gt;&gt;
 &lt;&lt;/if&gt;&gt;
 &lt;&lt;if window.get_flag(&quot;explored_kitchen&quot;) == 0&gt;&gt;
-&lt;&lt;type 20ms&gt;&gt;
+&lt;&lt;type 40ms&gt;&gt;
 &lt;span class=&quot;dialogue&quot;&gt;
 [[The Kitchen-&gt; Ch4Pg2B]]
 &lt;/span&gt;
 &lt;&lt;/type&gt;&gt;
 &lt;&lt;/if&gt;&gt;
 &lt;&lt;if window.get_flag(&quot;explored_entryway&quot;) == 0&gt;&gt;
-&lt;&lt;type 20ms&gt;&gt;
+&lt;&lt;type 40ms&gt;&gt;
 &lt;span class=&quot;dialogue&quot;&gt;
 [[The Entryway-&gt; Ch4Pg2C]]
 &lt;/span&gt;
 &lt;&lt;/type&gt;&gt;
 &lt;&lt;/if&gt;&gt;
 &lt;&lt;if window.get_flag(&quot;explored_parents_room&quot;) == 0&gt;&gt;
-&lt;&lt;type 20ms&gt;&gt;
+&lt;&lt;type 40ms&gt;&gt;
 &lt;span class=&quot;dialogue&quot;&gt;
 [[Your Parent’s Room-&gt; Ch4Pg2D]]
 &lt;/span&gt;
 &lt;&lt;/type&gt;&gt;
 &lt;&lt;/if&gt;&gt;
 &lt;&lt;if window.get_flag(&quot;explored_doves_room&quot;) == 0&gt;&gt;
-&lt;&lt;type 20ms&gt;&gt;
+&lt;&lt;type 40ms&gt;&gt;
 &lt;span class=&quot;dialogue&quot;&gt;
 [[Dove’s Room-&gt; Ch4Pg2E]]
 &lt;/span&gt;
 &lt;&lt;/type&gt;&gt;
 &lt;&lt;/if&gt;&gt;
 &lt;&lt;if window.get_flag(&quot;explored_room&quot;) == 0&gt;&gt;
-&lt;&lt;type 20ms&gt;&gt;
+&lt;&lt;type 40ms&gt;&gt;
 &lt;span class=&quot;dialogue&quot;&gt;
 [[Your Room-&gt; Ch4Pg2F]]
 &lt;/span&gt;
 &lt;&lt;/type&gt;&gt;
 &lt;&lt;/if&gt;&gt;
 &lt;&lt;if window.get_flag(&quot;explored_winona_room&quot;) == 0&gt;&gt;
-&lt;&lt;type 20ms&gt;&gt;
+&lt;&lt;type 40ms&gt;&gt;
 &lt;span class=&quot;dialogue&quot;&gt;
 [[Winona’s Room-&gt; Ch4Pg2G]]
 &lt;/span&gt;
 &lt;&lt;/type&gt;&gt;
 &lt;&lt;/if&gt;&gt;
 &lt;&lt;if window.get_flag(&quot;explored_bathroom&quot;) == 0&gt;&gt;
-&lt;&lt;type 20ms&gt;&gt;
+&lt;&lt;type 40ms&gt;&gt;
 &lt;span class=&quot;dialogue&quot;&gt;
 [[The Bathroom-&gt; Ch4Pg2H]]
 &lt;/span&gt;
 &lt;&lt;/type&gt;&gt;
 &lt;&lt;/if&gt;&gt;
 &lt;&lt;if window.get_flag(&quot;explored_basement&quot;) == 0&gt;&gt;
-&lt;&lt;type 20ms&gt;&gt;
+&lt;&lt;type 40ms&gt;&gt;
 &lt;span class=&quot;dialogue&quot;&gt;
 [[The Basement-&gt; Ch4Pg2I]]
 &lt;/span&gt;
 &lt;&lt;/type&gt;&gt;
 &lt;&lt;/if&gt;&gt;
-&lt;&lt;/nobr&gt;&gt;</tw-passagedata><tw-passagedata pid="94" name="Ch4Pg2D" tags="" position="475,1225" size="100,100">&lt;&lt;repeat 412s&gt;&gt;
-&lt;&lt;audio &quot;houseRoomTone&quot; stop&gt;&gt;
-&lt;&lt;audio &quot;houseRoomTone&quot; play&gt;&gt;
-&lt;&lt;/repeat&gt;&gt;
+&lt;&lt;/nobr&gt;&gt;</tw-passagedata><tw-passagedata pid="100" name="Ch4Pg2D" tags="" position="1225,1225" size="100,100">&lt;&lt;audio &quot;entrywayMemory&quot; stop&gt;&gt;
+&lt;&lt;audio &quot;bathroomDrip&quot; stop&gt;&gt;
+&lt;&lt;audio &quot;houseRoomTone&quot; play loop&gt;&gt;
 &lt;&lt;run window.update_flag(&quot;explored_parents_room&quot;, 1)&gt;&gt;
-&lt;&lt;type 20ms&gt;&gt;
+&lt;&lt;type 40ms&gt;&gt;
 &lt;span class=&quot;dialogue&quot;&gt;
+Your hand tries the handle of your parent’s door. It isn’t locked. Your hand grips the cold, slightly damp metal. It would be so easy to push it open.
 
+But your hand won’t turn the handle. Even though both your parents are dead, entering still feels wrong. It was their room, their private sanctuary within your home. 
+
+Instead, you press your ear against the door. Listening… for what? A breath, a murmur, a laugh? Some sign that the room isn’t empty, that the past sixteen years were all a bad dream, that if you open this door right now your parents will be there, alive and whole, the way they were before everything fell apart? 
+
+You remember fragments: your mother brushing her hair at the vanity, humming softly in the moonlight. Your father sitting on the edge of the bed, pulling on his work boots. And then–your head throbs–the door creaking open.
+
+&lt;span class=&quot;scary&quot;&gt; A trail of blood… &lt;/span&gt;
+
+Your hand drops from the handle. You back away from the door.
+
+Where do you explore?
 &lt;/span&gt;&lt;&lt;/type&gt;&gt;
 &lt;&lt;nobr&gt;&gt;
 &lt;&lt;if window.get_flag(&quot;explored_livingroom&quot;) == 0&gt;&gt;
-&lt;&lt;type 20ms&gt;&gt;
+&lt;&lt;type 40ms&gt;&gt;
 &lt;span class=&quot;dialogue&quot;&gt;
 [[The Living Room-&gt; Ch4Pg2A]]
 &lt;/span&gt;
 &lt;&lt;/type&gt;&gt;
 &lt;&lt;/if&gt;&gt;
 &lt;&lt;if window.get_flag(&quot;explored_kitchen&quot;) == 0&gt;&gt;
-&lt;&lt;type 20ms&gt;&gt;
+&lt;&lt;type 40ms&gt;&gt;
 &lt;span class=&quot;dialogue&quot;&gt;
 [[The Kitchen-&gt; Ch4Pg2B]]
 &lt;/span&gt;
 &lt;&lt;/type&gt;&gt;
 &lt;&lt;/if&gt;&gt;
 &lt;&lt;if window.get_flag(&quot;explored_entryway&quot;) == 0&gt;&gt;
-&lt;&lt;type 20ms&gt;&gt;
+&lt;&lt;type 40ms&gt;&gt;
 &lt;span class=&quot;dialogue&quot;&gt;
 [[The Entryway-&gt; Ch4Pg2C]]
 &lt;/span&gt;
 &lt;&lt;/type&gt;&gt;
 &lt;&lt;/if&gt;&gt;
 &lt;&lt;if window.get_flag(&quot;explored_parents_room&quot;) == 0&gt;&gt;
-&lt;&lt;type 20ms&gt;&gt;
+&lt;&lt;type 40ms&gt;&gt;
 &lt;span class=&quot;dialogue&quot;&gt;
 [[Your Parent’s Room-&gt; Ch4Pg2D]]
 &lt;/span&gt;
 &lt;&lt;/type&gt;&gt;
 &lt;&lt;/if&gt;&gt;
 &lt;&lt;if window.get_flag(&quot;explored_doves_room&quot;) == 0&gt;&gt;
-&lt;&lt;type 20ms&gt;&gt;
+&lt;&lt;type 40ms&gt;&gt;
 &lt;span class=&quot;dialogue&quot;&gt;
 [[Dove’s Room-&gt; Ch4Pg2E]]
 &lt;/span&gt;
 &lt;&lt;/type&gt;&gt;
 &lt;&lt;/if&gt;&gt;
 &lt;&lt;if window.get_flag(&quot;explored_room&quot;) == 0&gt;&gt;
-&lt;&lt;type 20ms&gt;&gt;
+&lt;&lt;type 40ms&gt;&gt;
 &lt;span class=&quot;dialogue&quot;&gt;
 [[Your Room-&gt; Ch4Pg2F]]
 &lt;/span&gt;
 &lt;&lt;/type&gt;&gt;
 &lt;&lt;/if&gt;&gt;
 &lt;&lt;if window.get_flag(&quot;explored_winona_room&quot;) == 0&gt;&gt;
-&lt;&lt;type 20ms&gt;&gt;
+&lt;&lt;type 40ms&gt;&gt;
 &lt;span class=&quot;dialogue&quot;&gt;
 [[Winona’s Room-&gt; Ch4Pg2G]]
 &lt;/span&gt;
 &lt;&lt;/type&gt;&gt;
 &lt;&lt;/if&gt;&gt;
 &lt;&lt;if window.get_flag(&quot;explored_bathroom&quot;) == 0&gt;&gt;
-&lt;&lt;type 20ms&gt;&gt;
+&lt;&lt;type 40ms&gt;&gt;
 &lt;span class=&quot;dialogue&quot;&gt;
 [[The Bathroom-&gt; Ch4Pg2H]]
 &lt;/span&gt;
 &lt;&lt;/type&gt;&gt;
 &lt;&lt;/if&gt;&gt;
 &lt;&lt;if window.get_flag(&quot;explored_basement&quot;) == 0&gt;&gt;
-&lt;&lt;type 20ms&gt;&gt;
+&lt;&lt;type 40ms&gt;&gt;
 &lt;span class=&quot;dialogue&quot;&gt;
 [[The Basement-&gt; Ch4Pg2I]]
 &lt;/span&gt;
 &lt;&lt;/type&gt;&gt;
 &lt;&lt;/if&gt;&gt;
-&lt;&lt;/nobr&gt;&gt;</tw-passagedata><tw-passagedata pid="95" name="Ch4Pg2E" tags="" position="600,1225" size="100,100">&lt;&lt;repeat 412s&gt;&gt;
-&lt;&lt;audio &quot;houseRoomTone&quot; stop&gt;&gt;
-&lt;&lt;audio &quot;houseRoomTone&quot; play&gt;&gt;
-&lt;&lt;/repeat&gt;&gt;
+&lt;&lt;/nobr&gt;&gt;</tw-passagedata><tw-passagedata pid="101" name="Ch4Pg2E" tags="" position="100,1350" size="100,100">&lt;&lt;audio &quot;entrywayMemory&quot; stop&gt;&gt;
+&lt;&lt;audio &quot;bathroomDrip&quot; stop&gt;&gt;
 &lt;&lt;run window.update_flag(&quot;explored_doves_room&quot;, 1)&gt;&gt;
-
-&lt;&lt;if window.get_flag(&quot;sibling_convo&quot;) == 2&gt;&gt;
-&lt;&lt;type 20ms&gt;&gt;
-&lt;span class=&quot;dialogue&quot;&gt;
-
-&lt;/span&gt;
-&lt;&lt;/type&gt;&gt;
-    &lt;&lt;nobr&gt;&gt;
-    &lt;&lt;if window.get_flag(&quot;explored_livingroom&quot;) == 0&gt;&gt;
-    &lt;&lt;type 20ms&gt;&gt;
-    &lt;span class=&quot;dialogue&quot;&gt;
-    [[The Living Room-&gt; Ch4Pg2A]]
-    &lt;/span&gt;
-    &lt;&lt;/type&gt;&gt;
-    &lt;&lt;/if&gt;&gt;
-    &lt;&lt;if window.get_flag(&quot;explored_kitchen&quot;) == 0&gt;&gt;
-    &lt;&lt;type 20ms&gt;&gt;
-    &lt;span class=&quot;dialogue&quot;&gt;
-    [[The Kitchen-&gt; Ch4Pg2B]]
-    &lt;/span&gt;
-    &lt;&lt;/type&gt;&gt;
-    &lt;&lt;/if&gt;&gt;
-    &lt;&lt;if window.get_flag(&quot;explored_entryway&quot;) == 0&gt;&gt;
-    &lt;&lt;type 20ms&gt;&gt;
-    &lt;span class=&quot;dialogue&quot;&gt;
-    [[The Entryway-&gt; Ch4Pg2C]]
-    &lt;/span&gt;
-    &lt;&lt;/type&gt;&gt;
-    &lt;&lt;/if&gt;&gt;
-    &lt;&lt;if window.get_flag(&quot;explored_parents_room&quot;) == 0&gt;&gt;
-    &lt;&lt;type 20ms&gt;&gt;
-    &lt;span class=&quot;dialogue&quot;&gt;
-    [[Your Parent’s Room-&gt; Ch4Pg2D]]
-    &lt;/span&gt;
-    &lt;&lt;/type&gt;&gt;
-    &lt;&lt;/if&gt;&gt;
-    &lt;&lt;if window.get_flag(&quot;explored_doves_room&quot;) == 0&gt;&gt;
-    &lt;&lt;type 20ms&gt;&gt;
-    &lt;span class=&quot;dialogue&quot;&gt;
-    [[Dove’s Room-&gt; Ch4Pg2E]]
-    &lt;/span&gt;
-    &lt;&lt;/type&gt;&gt;
-    &lt;&lt;/if&gt;&gt;
-    &lt;&lt;if window.get_flag(&quot;explored_room&quot;) == 0&gt;&gt;
-    &lt;&lt;type 20ms&gt;&gt;
-    &lt;span class=&quot;dialogue&quot;&gt;
-    [[Your Room-&gt; Ch4Pg2F]]
-    &lt;/span&gt;
-    &lt;&lt;/type&gt;&gt;
-    &lt;&lt;/if&gt;&gt;
-    &lt;&lt;if window.get_flag(&quot;explored_winona_room&quot;) == 0&gt;&gt;
-    &lt;&lt;type 20ms&gt;&gt;
-    &lt;span class=&quot;dialogue&quot;&gt;
-    [[Winona’s Room-&gt; Ch4Pg2G]]
-    &lt;/span&gt;
-    &lt;&lt;/type&gt;&gt;
-    &lt;&lt;/if&gt;&gt;
-    &lt;&lt;if window.get_flag(&quot;explored_bathroom&quot;) == 0&gt;&gt;
-    &lt;&lt;type 20ms&gt;&gt;
-    &lt;span class=&quot;dialogue&quot;&gt;
-    [[The Bathroom-&gt; Ch4Pg2H]]
-    &lt;/span&gt;
-    &lt;&lt;/type&gt;&gt;
-    &lt;&lt;/if&gt;&gt;
-    &lt;&lt;if window.get_flag(&quot;explored_basement&quot;) == 0&gt;&gt;
-    &lt;&lt;type 20ms&gt;&gt;
-    &lt;span class=&quot;dialogue&quot;&gt;
-    [[The Basement-&gt; Ch4Pg2I]]
-    &lt;/span&gt;
-    &lt;&lt;/type&gt;&gt;
-    &lt;&lt;/if&gt;&gt;
-    &lt;&lt;/nobr&gt;&gt;
-&lt;&lt;else&gt;&gt;
-&lt;&lt;type 20ms&gt;&gt;
-&lt;span class=&quot;dialogue&quot;&gt;
-
-&lt;/span&gt;&lt;&lt;/type&gt;&gt;
-&lt;&lt;/if&gt;&gt;</tw-passagedata><tw-passagedata pid="96" name="Ch4Pg2F" tags="" position="725,1225" size="100,100">&lt;&lt;repeat 412s&gt;&gt;
-&lt;&lt;audio &quot;houseRoomTone&quot; stop&gt;&gt;
-&lt;&lt;audio &quot;houseRoomTone&quot; play&gt;&gt;
-&lt;&lt;/repeat&gt;&gt;
-&lt;&lt;run window.update_flag(&quot;explored_room&quot;, 1)&gt;&gt;
-&lt;&lt;type 20ms&gt;&gt;
-&lt;span class=&quot;dialogue&quot;&gt;
-
-&lt;/span&gt;&lt;&lt;/type&gt;&gt;
-&lt;&lt;nobr&gt;&gt;
-&lt;&lt;if window.get_flag(&quot;explored_livingroom&quot;) == 0&gt;&gt;
-&lt;&lt;type 20ms&gt;&gt;
-&lt;span class=&quot;dialogue&quot;&gt;
-[[The Living Room-&gt; Ch4Pg2A]]
-&lt;/span&gt;
-&lt;&lt;/type&gt;&gt;
-&lt;&lt;/if&gt;&gt;
-&lt;&lt;if window.get_flag(&quot;explored_kitchen&quot;) == 0&gt;&gt;
-&lt;&lt;type 20ms&gt;&gt;
-&lt;span class=&quot;dialogue&quot;&gt;
-[[The Kitchen-&gt; Ch4Pg2B]]
-&lt;/span&gt;
-&lt;&lt;/type&gt;&gt;
-&lt;&lt;/if&gt;&gt;
-&lt;&lt;if window.get_flag(&quot;explored_entryway&quot;) == 0&gt;&gt;
-&lt;&lt;type 20ms&gt;&gt;
-&lt;span class=&quot;dialogue&quot;&gt;
-[[The Entryway-&gt; Ch4Pg2C]]
-&lt;/span&gt;
-&lt;&lt;/type&gt;&gt;
-&lt;&lt;/if&gt;&gt;
-&lt;&lt;if window.get_flag(&quot;explored_parents_room&quot;) == 0&gt;&gt;
-&lt;&lt;type 20ms&gt;&gt;
-&lt;span class=&quot;dialogue&quot;&gt;
-[[Your Parent’s Room-&gt; Ch4Pg2D]]
-&lt;/span&gt;
-&lt;&lt;/type&gt;&gt;
-&lt;&lt;/if&gt;&gt;
-&lt;&lt;if window.get_flag(&quot;explored_doves_room&quot;) == 0&gt;&gt;
-&lt;&lt;type 20ms&gt;&gt;
-&lt;span class=&quot;dialogue&quot;&gt;
-[[Dove’s Room-&gt; Ch4Pg2E]]
-&lt;/span&gt;
-&lt;&lt;/type&gt;&gt;
-&lt;&lt;/if&gt;&gt;
-&lt;&lt;if window.get_flag(&quot;explored_room&quot;) == 0&gt;&gt;
-&lt;&lt;type 20ms&gt;&gt;
-&lt;span class=&quot;dialogue&quot;&gt;
-[[Your Room-&gt; Ch4Pg2F]]
-&lt;/span&gt;
-&lt;&lt;/type&gt;&gt;
-&lt;&lt;/if&gt;&gt;
-&lt;&lt;if window.get_flag(&quot;explored_winona_room&quot;) == 0&gt;&gt;
-&lt;&lt;type 20ms&gt;&gt;
-&lt;span class=&quot;dialogue&quot;&gt;
-[[Winona’s Room-&gt; Ch4Pg2G]]
-&lt;/span&gt;
-&lt;&lt;/type&gt;&gt;
-&lt;&lt;/if&gt;&gt;
-&lt;&lt;if window.get_flag(&quot;explored_bathroom&quot;) == 0&gt;&gt;
-&lt;&lt;type 20ms&gt;&gt;
-&lt;span class=&quot;dialogue&quot;&gt;
-[[The Bathroom-&gt; Ch4Pg2H]]
-&lt;/span&gt;
-&lt;&lt;/type&gt;&gt;
-&lt;&lt;/if&gt;&gt;
-&lt;&lt;if window.get_flag(&quot;explored_basement&quot;) == 0&gt;&gt;
-&lt;&lt;type 20ms&gt;&gt;
-&lt;span class=&quot;dialogue&quot;&gt;
-[[The Basement-&gt; Ch4Pg2I]]
-&lt;/span&gt;
-&lt;&lt;/type&gt;&gt;
-&lt;&lt;/if&gt;&gt;
-&lt;&lt;/nobr&gt;&gt;</tw-passagedata><tw-passagedata pid="97" name="Ch4Pg2G" tags="" position="850,1225" size="100,100">&lt;&lt;repeat 412s&gt;&gt;
-&lt;&lt;audio &quot;houseRoomTone&quot; stop&gt;&gt;
-&lt;&lt;audio &quot;houseRoomTone&quot; play&gt;&gt;
-&lt;&lt;/repeat&gt;&gt;
-&lt;&lt;run window.update_flag(&quot;explored_winona_room&quot;, 1)&gt;&gt;
-&lt;&lt;type 20ms&gt;&gt;
-&lt;span class=&quot;dialogue&quot;&gt;
-
-&lt;/span&gt;&lt;&lt;/type&gt;&gt;
-&lt;&lt;nobr&gt;&gt;
-&lt;&lt;if window.get_flag(&quot;explored_livingroom&quot;) == 0&gt;&gt;
-&lt;&lt;type 20ms&gt;&gt;
-&lt;span class=&quot;dialogue&quot;&gt;
-[[The Living Room-&gt; Ch4Pg2A]]
-&lt;/span&gt;
-&lt;&lt;/type&gt;&gt;
-&lt;&lt;/if&gt;&gt;
-&lt;&lt;if window.get_flag(&quot;explored_kitchen&quot;) == 0&gt;&gt;
-&lt;&lt;type 20ms&gt;&gt;
-&lt;span class=&quot;dialogue&quot;&gt;
-[[The Kitchen-&gt; Ch4Pg2B]]
-&lt;/span&gt;
-&lt;&lt;/type&gt;&gt;
-&lt;&lt;/if&gt;&gt;
-&lt;&lt;if window.get_flag(&quot;explored_entryway&quot;) == 0&gt;&gt;
-&lt;&lt;type 20ms&gt;&gt;
-&lt;span class=&quot;dialogue&quot;&gt;
-[[The Entryway-&gt; Ch4Pg2C]]
-&lt;/span&gt;
-&lt;&lt;/type&gt;&gt;
-&lt;&lt;/if&gt;&gt;
-&lt;&lt;if window.get_flag(&quot;explored_parents_room&quot;) == 0&gt;&gt;
-&lt;&lt;type 20ms&gt;&gt;
-&lt;span class=&quot;dialogue&quot;&gt;
-[[Your Parent’s Room-&gt; Ch4Pg2D]]
-&lt;/span&gt;
-&lt;&lt;/type&gt;&gt;
-&lt;&lt;/if&gt;&gt;
-&lt;&lt;if window.get_flag(&quot;explored_doves_room&quot;) == 0&gt;&gt;
-&lt;&lt;type 20ms&gt;&gt;
-&lt;span class=&quot;dialogue&quot;&gt;
-[[Dove’s Room-&gt; Ch4Pg2E]]
-&lt;/span&gt;
-&lt;&lt;/type&gt;&gt;
-&lt;&lt;/if&gt;&gt;
-&lt;&lt;if window.get_flag(&quot;explored_room&quot;) == 0&gt;&gt;
-&lt;&lt;type 20ms&gt;&gt;
-&lt;span class=&quot;dialogue&quot;&gt;
-[[Your Room-&gt; Ch4Pg2F]]
-&lt;/span&gt;
-&lt;&lt;/type&gt;&gt;
-&lt;&lt;/if&gt;&gt;
-&lt;&lt;if window.get_flag(&quot;explored_winona_room&quot;) == 0&gt;&gt;
-&lt;&lt;type 20ms&gt;&gt;
-&lt;span class=&quot;dialogue&quot;&gt;
-[[Winona’s Room-&gt; Ch4Pg2G]]
-&lt;/span&gt;
-&lt;&lt;/type&gt;&gt;
-&lt;&lt;/if&gt;&gt;
-&lt;&lt;if window.get_flag(&quot;explored_bathroom&quot;) == 0&gt;&gt;
-&lt;&lt;type 20ms&gt;&gt;
-&lt;span class=&quot;dialogue&quot;&gt;
-[[The Bathroom-&gt; Ch4Pg2H]]
-&lt;/span&gt;
-&lt;&lt;/type&gt;&gt;
-&lt;&lt;/if&gt;&gt;
-&lt;&lt;if window.get_flag(&quot;explored_basement&quot;) == 0&gt;&gt;
-&lt;&lt;type 20ms&gt;&gt;
-&lt;span class=&quot;dialogue&quot;&gt;
-[[The Basement-&gt; Ch4Pg2I]]
-&lt;/span&gt;
-&lt;&lt;/type&gt;&gt;
-&lt;&lt;/if&gt;&gt;
-&lt;&lt;/nobr&gt;&gt;</tw-passagedata><tw-passagedata pid="98" name="Ch4Pg2H" tags="" position="975,1225" size="100,100">&lt;&lt;repeat 412s&gt;&gt;
-&lt;&lt;audio &quot;houseRoomTone&quot; stop&gt;&gt;
-&lt;&lt;audio &quot;houseRoomTone&quot; play&gt;&gt;
-&lt;&lt;/repeat&gt;&gt;
-&lt;&lt;run window.update_flag(&quot;explored_bathroom&quot;, 1)&gt;&gt;
-&lt;&lt;type 20ms&gt;&gt;
-&lt;span class=&quot;dialogue&quot;&gt;
-
-&lt;/span&gt;&lt;&lt;/type&gt;&gt;
-&lt;&lt;nobr&gt;&gt;
-&lt;&lt;if window.get_flag(&quot;explored_livingroom&quot;) == 0&gt;&gt;
-&lt;&lt;type 20ms&gt;&gt;
-&lt;span class=&quot;dialogue&quot;&gt;
-[[The Living Room-&gt; Ch4Pg2A]]
-&lt;/span&gt;
-&lt;&lt;/type&gt;&gt;
-&lt;&lt;/if&gt;&gt;
-&lt;&lt;if window.get_flag(&quot;explored_kitchen&quot;) == 0&gt;&gt;
-&lt;&lt;type 20ms&gt;&gt;
-&lt;span class=&quot;dialogue&quot;&gt;
-[[The Kitchen-&gt; Ch4Pg2B]]
-&lt;/span&gt;
-&lt;&lt;/type&gt;&gt;
-&lt;&lt;/if&gt;&gt;
-&lt;&lt;if window.get_flag(&quot;explored_entryway&quot;) == 0&gt;&gt;
-&lt;&lt;type 20ms&gt;&gt;
-&lt;span class=&quot;dialogue&quot;&gt;
-[[The Entryway-&gt; Ch4Pg2C]]
-&lt;/span&gt;
-&lt;&lt;/type&gt;&gt;
-&lt;&lt;/if&gt;&gt;
-&lt;&lt;if window.get_flag(&quot;explored_parents_room&quot;) == 0&gt;&gt;
-&lt;&lt;type 20ms&gt;&gt;
-&lt;span class=&quot;dialogue&quot;&gt;
-[[Your Parent’s Room-&gt; Ch4Pg2D]]
-&lt;/span&gt;
-&lt;&lt;/type&gt;&gt;
-&lt;&lt;/if&gt;&gt;
-&lt;&lt;if window.get_flag(&quot;explored_doves_room&quot;) == 0&gt;&gt;
-&lt;&lt;type 20ms&gt;&gt;
-&lt;span class=&quot;dialogue&quot;&gt;
-[[Dove’s Room-&gt; Ch4Pg2E]]
-&lt;/span&gt;
-&lt;&lt;/type&gt;&gt;
-&lt;&lt;/if&gt;&gt;
-&lt;&lt;if window.get_flag(&quot;explored_room&quot;) == 0&gt;&gt;
-&lt;&lt;type 20ms&gt;&gt;
-&lt;span class=&quot;dialogue&quot;&gt;
-[[Your Room-&gt; Ch4Pg2F]]
-&lt;/span&gt;
-&lt;&lt;/type&gt;&gt;
-&lt;&lt;/if&gt;&gt;
-&lt;&lt;if window.get_flag(&quot;explored_winona_room&quot;) == 0&gt;&gt;
-&lt;&lt;type 20ms&gt;&gt;
-&lt;span class=&quot;dialogue&quot;&gt;
-[[Winona’s Room-&gt; Ch4Pg2G]]
-&lt;/span&gt;
-&lt;&lt;/type&gt;&gt;
-&lt;&lt;/if&gt;&gt;
-&lt;&lt;if window.get_flag(&quot;explored_bathroom&quot;) == 0&gt;&gt;
-&lt;&lt;type 20ms&gt;&gt;
-&lt;span class=&quot;dialogue&quot;&gt;
-[[The Bathroom-&gt; Ch4Pg2H]]
-&lt;/span&gt;
-&lt;&lt;/type&gt;&gt;
-&lt;&lt;/if&gt;&gt;
-&lt;&lt;if window.get_flag(&quot;explored_basement&quot;) == 0&gt;&gt;
-&lt;&lt;type 20ms&gt;&gt;
-&lt;span class=&quot;dialogue&quot;&gt;
-[[The Basement-&gt; Ch4Pg2I]]
-&lt;/span&gt;
-&lt;&lt;/type&gt;&gt;
-&lt;&lt;/if&gt;&gt;
-&lt;&lt;/nobr&gt;&gt;</tw-passagedata><tw-passagedata pid="99" name="Ch4Pg2I" tags="" position="1100,1225" size="100,100">&lt;&lt;repeat 412s&gt;&gt;
-&lt;&lt;audio &quot;houseRoomTone&quot; stop&gt;&gt;
-&lt;&lt;audio &quot;houseRoomTone&quot; play&gt;&gt;
-&lt;&lt;/repeat&gt;&gt;
-&lt;&lt;run window.update_flag(&quot;explored_basement&quot;, 1)&gt;&gt;
 &lt;&lt;if window.get_flag(&quot;sibling_convo&quot;) == 1&gt;&gt;
-&lt;&lt;type 20ms&gt;&gt;
+&lt;&lt;type 40ms&gt;&gt;
 &lt;span class=&quot;dialogue&quot;&gt;
+You’re on the first floor landing. 
 
+A set of smaller steps lead up into a converted loft referred to as the “the attic”. When you were young, the space was you and your sister’s playroom. The way the ceiling sloped made it feel like a cave in the mountains, a secret hiding place removed from everything below. You wonder if Dove feels the same way. If she claimed this room as hers as a means to escape. 
+
+At the top the door flings open. “You came to visit!” she exclaims, practically vibrating with excitement.
+
+[[The stairs creaking under your weight, you ascend the attic steps.-&gt;Ch4Pg2E1]]
+&lt;&lt;else&gt;&gt;
+You pause at the steps leading up to the attic. Tinny pop music emanates from under the door, and alongside it Dove’s singing, slightly off-tune.
+
+A smile flits to your lips. Best not to disturb her peace. 
+
+You turn around and move on. 
+
+Where do you explore?
+&lt;/span&gt;&lt;&lt;/type&gt;&gt;
+&lt;&lt;nobr&gt;&gt;
+&lt;&lt;if window.get_flag(&quot;explored_livingroom&quot;) == 0&gt;&gt;
+&lt;&lt;type 40ms&gt;&gt;
+&lt;span class=&quot;dialogue&quot;&gt;
+[[The Living Room-&gt; Ch4Pg2A]]
 &lt;/span&gt;
 &lt;&lt;/type&gt;&gt;
-    &lt;&lt;nobr&gt;&gt;
-    &lt;&lt;if window.get_flag(&quot;explored_livingroom&quot;) == 0&gt;&gt;
-    &lt;&lt;type 20ms&gt;&gt;
-    &lt;span class=&quot;dialogue&quot;&gt;
-    [[The Living Room-&gt; Ch4Pg2A]]
-    &lt;/span&gt;
-    &lt;&lt;/type&gt;&gt;
-    &lt;&lt;/if&gt;&gt;
-    &lt;&lt;if window.get_flag(&quot;explored_kitchen&quot;) == 0&gt;&gt;
-    &lt;&lt;type 20ms&gt;&gt;
-    &lt;span class=&quot;dialogue&quot;&gt;
-    [[The Kitchen-&gt; Ch4Pg2B]]
-    &lt;/span&gt;
-    &lt;&lt;/type&gt;&gt;
-    &lt;&lt;/if&gt;&gt;
-    &lt;&lt;if window.get_flag(&quot;explored_entryway&quot;) == 0&gt;&gt;
-    &lt;&lt;type 20ms&gt;&gt;
-    &lt;span class=&quot;dialogue&quot;&gt;
-    [[The Entryway-&gt; Ch4Pg2C]]
-    &lt;/span&gt;
-    &lt;&lt;/type&gt;&gt;
-    &lt;&lt;/if&gt;&gt;
-    &lt;&lt;if window.get_flag(&quot;explored_parents_room&quot;) == 0&gt;&gt;
-    &lt;&lt;type 20ms&gt;&gt;
-    &lt;span class=&quot;dialogue&quot;&gt;
-    [[Your Parent’s Room-&gt; Ch4Pg2D]]
-    &lt;/span&gt;
-    &lt;&lt;/type&gt;&gt;
-    &lt;&lt;/if&gt;&gt;
-    &lt;&lt;if window.get_flag(&quot;explored_doves_room&quot;) == 0&gt;&gt;
-    &lt;&lt;type 20ms&gt;&gt;
-    &lt;span class=&quot;dialogue&quot;&gt;
-    [[Dove’s Room-&gt; Ch4Pg2E]]
-    &lt;/span&gt;
-    &lt;&lt;/type&gt;&gt;
-    &lt;&lt;/if&gt;&gt;
-    &lt;&lt;if window.get_flag(&quot;explored_room&quot;) == 0&gt;&gt;
-    &lt;&lt;type 20ms&gt;&gt;
-    &lt;span class=&quot;dialogue&quot;&gt;
-    [[Your Room-&gt; Ch4Pg2F]]
-    &lt;/span&gt;
-    &lt;&lt;/type&gt;&gt;
-    &lt;&lt;/if&gt;&gt;
-    &lt;&lt;if window.get_flag(&quot;explored_winona_room&quot;) == 0&gt;&gt;
-    &lt;&lt;type 20ms&gt;&gt;
-    &lt;span class=&quot;dialogue&quot;&gt;
-    [[Winona’s Room-&gt; Ch4Pg2G]]
-    &lt;/span&gt;
-    &lt;&lt;/type&gt;&gt;
-    &lt;&lt;/if&gt;&gt;
-    &lt;&lt;if window.get_flag(&quot;explored_bathroom&quot;) == 0&gt;&gt;
-    &lt;&lt;type 20ms&gt;&gt;
-    &lt;span class=&quot;dialogue&quot;&gt;
-    [[The Bathroom-&gt; Ch4Pg2H]]
-    &lt;/span&gt;
-    &lt;&lt;/type&gt;&gt;
-    &lt;&lt;/if&gt;&gt;
-    &lt;&lt;if window.get_flag(&quot;explored_basement&quot;) == 0&gt;&gt;
-    &lt;&lt;type 20ms&gt;&gt;
-    &lt;span class=&quot;dialogue&quot;&gt;
-    [[The Basement-&gt; Ch4Pg2I]]
-    &lt;/span&gt;
-    &lt;&lt;/type&gt;&gt;
-    &lt;&lt;/if&gt;&gt;
-    &lt;&lt;/nobr&gt;&gt;
-&lt;&lt;else&gt;&gt;
-&lt;&lt;type 20ms&gt;&gt;
+&lt;&lt;/if&gt;&gt;
+&lt;&lt;if window.get_flag(&quot;explored_kitchen&quot;) == 0&gt;&gt;
+&lt;&lt;type 40ms&gt;&gt;
+&lt;span class=&quot;dialogue&quot;&gt;
+[[The Kitchen-&gt; Ch4Pg2B]]
+&lt;/span&gt;
+&lt;&lt;/type&gt;&gt;
+&lt;&lt;/if&gt;&gt;
+&lt;&lt;if window.get_flag(&quot;explored_entryway&quot;) == 0&gt;&gt;
+&lt;&lt;type 40ms&gt;&gt;
+&lt;span class=&quot;dialogue&quot;&gt;
+[[The Entryway-&gt; Ch4Pg2C]]
+&lt;/span&gt;
+&lt;&lt;/type&gt;&gt;
+&lt;&lt;/if&gt;&gt;
+&lt;&lt;if window.get_flag(&quot;explored_parents_room&quot;) == 0&gt;&gt;
+&lt;&lt;type 40ms&gt;&gt;
+&lt;span class=&quot;dialogue&quot;&gt;
+[[Your Parent’s Room-&gt; Ch4Pg2D]]
+&lt;/span&gt;
+&lt;&lt;/type&gt;&gt;
+&lt;&lt;/if&gt;&gt;
+&lt;&lt;if window.get_flag(&quot;explored_doves_room&quot;) == 0&gt;&gt;
+&lt;&lt;type 40ms&gt;&gt;
+&lt;span class=&quot;dialogue&quot;&gt;
+[[Dove’s Room-&gt; Ch4Pg2E]]
+&lt;/span&gt;
+&lt;&lt;/type&gt;&gt;
+&lt;&lt;/if&gt;&gt;
+&lt;&lt;if window.get_flag(&quot;explored_room&quot;) == 0&gt;&gt;
+&lt;&lt;type 40ms&gt;&gt;
+&lt;span class=&quot;dialogue&quot;&gt;
+[[Your Room-&gt; Ch4Pg2F]]
+&lt;/span&gt;
+&lt;&lt;/type&gt;&gt;
+&lt;&lt;/if&gt;&gt;
+&lt;&lt;if window.get_flag(&quot;explored_winona_room&quot;) == 0&gt;&gt;
+&lt;&lt;type 40ms&gt;&gt;
+&lt;span class=&quot;dialogue&quot;&gt;
+[[Winona’s Room-&gt; Ch4Pg2G]]
+&lt;/span&gt;
+&lt;&lt;/type&gt;&gt;
+&lt;&lt;/if&gt;&gt;
+&lt;&lt;if window.get_flag(&quot;explored_bathroom&quot;) == 0&gt;&gt;
+&lt;&lt;type 40ms&gt;&gt;
+&lt;span class=&quot;dialogue&quot;&gt;
+[[The Bathroom-&gt; Ch4Pg2H]]
+&lt;/span&gt;
+&lt;&lt;/type&gt;&gt;
+&lt;&lt;/if&gt;&gt;
+&lt;&lt;if window.get_flag(&quot;explored_basement&quot;) == 0&gt;&gt;
+&lt;&lt;type 40ms&gt;&gt;
+&lt;span class=&quot;dialogue&quot;&gt;
+[[The Basement-&gt; Ch4Pg2I]]
+&lt;/span&gt;
+&lt;&lt;/type&gt;&gt;
+&lt;&lt;/if&gt;&gt;
+&lt;&lt;/nobr&gt;&gt;
+&lt;&lt;/if&gt;&gt;</tw-passagedata><tw-passagedata pid="102" name="Ch4Pg2E1" tags="" position="225,1350" size="100,100">&lt;&lt;audio &quot;houseRoomTone&quot; stop&gt;&gt;
+&lt;&lt;audio &quot;chimes&quot; play loop&gt;&gt;
+&lt;&lt;type 40ms&gt;&gt;
+&lt;div class=chStart&gt;The Attic&lt;/div&gt;
+&lt;span class=&quot;dialogue&quot;&gt;
+The attic has been painted a robin’s egg blue–like a clear sky, though the effect is somewhat faded by the afternoon light filtering through the two circular windows on either side of the room. But it’s what hangs from the ceiling that stops you in your tracks. 
+
+Dreamcatchers. Dozens of them, suspended at different heights on fishing line. They range from crude attempts—bent wire wrapped in loose yarn—to more elaborate designs with intricate webbing and feathers dangling from the hoops. 
+
+And among them: Shells. Stones. Beach glass in smooth, glowing shades of green, blue and amber. Sticks twisted into strange shapes. Broken wind chimes of wood, bamboo, clay, and metal. Small bones from birds and frogs, delicate as eggshell. All of them hang, turning slowly in the breeze from the open windows, creating a percussive harmony that teems with texture. A chorus as ephemeral as the wind. The dream catchers wave in the wind, casting lace-like shadows that dance to the music across the walls. Other curios catch the light as they rotate, casting a dazzling array of jeweled colors across the floor like stained glass. 
+
+It’s beautiful, like a chaotic ecosystem. 
+
+&lt;span class=&quot;dove&quot;&gt;&quot;It&#39;s totallly different now, huh?&quot;&lt;/span&gt; Dove spins around, arms outstretched. &lt;span class=&quot;dove&quot;&gt;&quot;I grew up, so now my room shows alllll my hobbies!&quot;&lt;/span&gt;
+
+[[“Did you put all these up yourself?”-&gt; Ch4Pg2E2]]
+&lt;/span&gt;
+&lt;&lt;/type&gt;&gt;</tw-passagedata><tw-passagedata pid="103" name="Ch4Pg2E2" tags="" position="350,1350" size="100,100">&lt;&lt;type 40ms&gt;&gt;
+&lt;span class=&quot;dialogue&quot;&gt;
+&lt;span class=&quot;dove&quot;&gt;&quot;I found them!&quot;&lt;/span&gt; Dove says proudly. &lt;span class=&quot;dove&quot;&gt;&quot;Well, everything but the dreamcatchers. Winny made those.”&lt;/span&gt; her voice takes on a matter-of-fact tone. &lt;span class=&quot;dove&quot;&gt;“They catch my nightmares so they can’t get to me.”&lt;/span&gt;
+
+The dreamcatchers dangle–years of Winona’s patient work displayed like years of Christmas ornaments.
+
+&lt;span class=&quot;dove&quot;&gt;“Winny helps me hang everything. She takes me to the lake and the woods. We go almost everyday when it’s nice out.”&lt;/span&gt;
+
+The lake. Of course. Don’t think about the water, about what might be lurking in it, turning slowly in invisible currents.
+
+&lt;span class=&quot;arthur&quot;&gt;&quot;Are you trying to collect every bit of trash off the beach?&quot;&lt;/span&gt; you tease gently.
+
+&lt;span class=&quot;dove&quot;&gt;&quot;They&#39;re not trash!”&lt;/span&gt; Dove sniffs, &lt;span class=&quot;dove&quot;&gt;“They&#39;re treasures. Each one is special. See?&quot;&lt;/span&gt; She moves to a low shelf and carefully removes something. &lt;span class=&quot;dove&quot;&gt;&quot;This is Marcus. He&#39;s my favorite.&quot;&lt;/span&gt;
+
+She holds out a large gray stone. It’s smooth, water-worn, and roughly the size of her fist. Two googly eyes have been glued to it. A simple smile has been drawn beneath them in permanent marker.
+
+&lt;span class=&quot;arthur&quot;&gt;&quot;Wow,&quot;&lt;/span&gt; you say, cradling the rock in your palms. It&#39;s heavier than it looks, dense and cold. &lt;span class=&quot;arthur&quot;&gt;&quot;This is an impressive specimen, Dove. You know, at my school we have a whole geology department. They study rocks like these.&quot;&lt;/span&gt;
+
+&lt;span class=&quot;dove&quot;&gt;&quot;Really?&quot;&lt;/span&gt; Her eyes widen. &lt;span class=&quot;dove&quot;&gt;&quot;Tell me about them!&quot;&lt;/span&gt;
+
+[[Tell her.-&gt;Ch4Pg2E3]]
+&lt;/span&gt;
+&lt;&lt;/type&gt;&gt;</tw-passagedata><tw-passagedata pid="104" name="Ch4Pg2E3" tags="" position="475,1350" size="100,100">&lt;&lt;type 40ms&gt;&gt;
+&lt;span class=&quot;dialogue&quot;&gt;
+You talk about igneous and sedimentary and metamorphic rocks. About how pressure and heat transform one thing into another over millions and millions and millions of years. About crystals forming in regular, repeating patterns. About how you can read the history of the Earth through its layers of stone. 
+
+Dove listens with rapt attention, even though you suspect she doesn&#39;t understand half of what you&#39;re saying. She just sits, cross-legged on the floor, Marcus in her lap, staring doe-eyed up at you. Every once in a while she shakes away her dreamy gaze to nod at appropriate moments.  
+
+It feels good to talk about something concrete. Something that makes sense. That follows rules.
+
+As you speak, your eyes wander across the walls. They&#39;re covered in drawings—large sheets of A4 poster paper tacked up with thumbtacks, overlapping in places like scales. You hadn’t noticed them before–the ceiling was too distracting. 
+
+On the left side, crayon drawings in a younger style: four stick figures holding hands. Two boys and two girls: Dad, you, Winona, and Dove. Smiling suns and flowers frame them.
+
+On the right side, the drawings are more recent. Only three figures, rendered with more skill but less joy. The colors are darker. The lines are more careful, more controlled.
+
+And scattered among them—maybe a dozen in total—drawings of a wolf.
+
+&lt;span class=&quot;scary&quot;&gt;&lt;span class=&quot;supernatural-glow&quot;&gt;[[A black wolf.-&gt;Ch4Pg2E4]]&lt;/span&gt;&lt;/span&gt;&lt;&lt;/type&gt;&gt;</tw-passagedata><tw-passagedata pid="105" name="Ch4Pg2E4" tags="" position="600,1350" size="100,100">&lt;&lt;audio &quot;pianoB&quot; play volume 0&gt;&gt;
+&lt;&lt;audio &quot;pianoB&quot; fadeoverto 30 0.75&gt;&gt;
+&lt;&lt;audio &quot;chimes&quot; fadeoverto 15 0.25&gt;&gt;
+&lt;&lt;type 50ms&gt;&gt;
+&lt;span class=&quot;dialogue&quot;&gt;
+Your voice trails off mid-sentence about sedimentary layers. The wolf is rendered in black crayon, pressed so hard the wax has built up in thick, waxy ridges. Red eyes. Fangs bared in every image, left white against the black. In some drawings it&#39;s standing. In others, crouched. Ready to pounce.
+
+But in one drawing near the window, the wolf sits peacefully beside another figure—a boy, rendered in softer strokes. Brown hair. Smiling. They&#39;re sitting side by side like companions. The boy has his arm around the wolf&#39;s neck.
+
+&lt;span class=&quot;arthur&quot;&gt;&quot;...so that&#39;s how you can tell the age of different rock formations,&quot;&lt;/span&gt; you finish weakly, still transfixed by the image.
+
+Dove senses the shift in your attention. She follows your gaze to the wall.
+
+&lt;span class=&quot;arthur&quot;&gt;&quot;Hey,&quot;&lt;/span&gt; you say carefully, keeping your tone light. &lt;span class=&quot;arthur&quot;&gt;&quot;I&#39;m looking at your pictures. Who&#39;s that boy? The one with the wolf?&quot;&lt;/span&gt;
+
+&lt;span class=&quot;dove&quot;&gt;&quot;Oh, that&#39;s my friend!&quot;&lt;/span&gt; Dove says brightly, as if it&#39;s the most natural thing in the world. &lt;span class=&quot;dove&quot;&gt;&quot;He plays with me sometimes. He&#39;s really nice. He&#39;s not scared of the wolf at all—he can tame him, actually.&quot;&lt;/span&gt;
+
+A chill runs down your spine, but you keep your voice casual. Does Winona know about these delusions?
+
+ &lt;span class=&quot;arthur&quot;&gt;“Does your friend have a name?&quot;&lt;/span&gt;
+
+Dove shrugs. &lt;span class=&quot;dove&quot;&gt;&quot;I just call him Friend,&quot;&lt;/span&gt; she says. &lt;span class=&quot;dove&quot;&gt;“He doesn&#39;t talk much, but he&#39;s good at games. Hide and seek, mostly. He protects me from the wolf during the day.&quot;&lt;/span&gt; Then her expression darkens. &lt;span class=&quot;dove&quot;&gt;&quot;But at night, the wolf... he&#39;s different in my dreams. He&#39;s not nice like in the picture.&quot;&lt;/span&gt;
+
+&lt;span class=&quot;arthur&quot;&gt;&quot;Dreams?&quot;&lt;/span&gt; You crouch down to her level. &lt;span class=&quot;arthur&quot;&gt;&quot;What kind of dreams?&quot;&lt;/span&gt;
+
+Dove&#39;s hands tighten around Marcus. Her voice becomes small, younger than her ten years.
+
+&lt;span class=&quot;dove&quot;&gt;&quot;At first he had a rabbit in his mouth.&quot;&lt;/span&gt; She&#39;s staring down at the stone now, not meeting your eyes. &lt;span class=&quot;dove&quot;&gt;&quot;Just a little baby rabbit. But then...&quot;&lt;/span&gt; Her voice drops to barely a whisper. &lt;span class=&quot;dove&quot;&gt;&quot;Then it was…&lt;/span&gt;
+
+&lt;span class=&quot;scary supernatural-glow&quot;&gt;Daddy&#39;s head.&quot;&lt;/span&gt;
+
+[[Your blood turns to ice.-&gt;Ch4Pg2E5]]
+&lt;/span&gt;
+&lt;&lt;/type&gt;&gt;</tw-passagedata><tw-passagedata pid="106" name="Ch4Pg2E5" tags="" position="725,1350" size="100,100">&lt;&lt;audio &quot;chimes&quot; fadeoverto 30 0&gt;&gt;
+&lt;&lt;type 50ms&gt;&gt;
+&lt;span class=&quot;dialogue&quot;&gt;
+&lt;span class=&quot;dove&quot;&gt;&quot;I was so scared,&quot;&lt;/span&gt; Dove continues. &lt;span class=&quot;dove&quot;&gt;&quot;I told Winona, but she just said they&#39;re nightmares. That they&#39;re not real. But they feel real, Arty. They always feel real. That&#39;s why she keeps making me more dreamcatchers.&quot;&lt;/span&gt; She glances up at the ceiling, at the web of protection Winona has woven for her. 
+
+&lt;span class=&quot;dove&quot;&gt;&quot;Sometimes they work. This time they didn’t, because then–”&lt;/span&gt; her hands tremble around the stone, &lt;span class=&quot;dove&quot;&gt;&lt;span class=&quot;scary&quot;&gt;“then Daddy died-!”&lt;/span&gt;&lt;/span&gt;
+
+You place your hand on her shoulder. &lt;span class=&quot;arthur&quot;&gt;&quot;Hey. Look at me.&quot;&lt;/span&gt;
+
+She looks up, and you can see the fear in her wide eyes.
+
+&lt;span class=&quot;arthur&quot;&gt;&quot;Don&#39;t worry,&quot;&lt;/span&gt; you say, forcing confidence into your voice. &lt;span class=&quot;arthur&quot;&gt;&quot;I&#39;m like King Arthur. You know him?&quot;&lt;/span&gt;
+
+She shakes her head, confused. &lt;span class=&quot;dove&quot;&gt;&quot;No?&quot;&lt;/span&gt;
+
+&lt;span class=&quot;arthur&quot;&gt;&quot;Well, he&#39;s a brave guy from the stories.&quot;&lt;/span&gt; You sit down fully, crossing your legs. &lt;span class=&quot;arthur&quot;&gt;&quot;He rode around on a horse—well, actually, he pretended to ride a horse while his servant banged coconuts together. And he fought a terrible rabbit that could kill people with its fangs.&lt;/span&gt; 
+
+[[“And he went searching for a holy grail that—”-&gt;Ch4Pg2E6]]
+&lt;/span&gt;
+&lt;&lt;/type&gt;&gt;</tw-passagedata><tw-passagedata pid="107" name="Ch4Pg2E6" tags="" position="850,1350" size="100,100">&lt;&lt;type 40ms&gt;&gt;
 &lt;span class=&quot;dialogue&quot;&gt;
 
+You tell her the plot of Monty Python and the Holy Grail, making it as silly and absurd as possible. By the time you get to the part about the Knights who say “Ni,” Dove is giggling.
+
+&lt;span class=&quot;dove&quot;&gt;&quot;Wow!&quot;&lt;/span&gt; She jumps to her feet. &lt;span class=&quot;dove&quot;&gt;&quot;Tell me another story!&quot;&lt;/span&gt;
+
+&lt;span class=&quot;arthur&quot;&gt;&quot;Another time,&quot;&lt;/span&gt; you promise. &lt;span class=&quot;arthur&quot;&gt;&quot;Why don&#39;t you show me the rest of your collection?&quot;&lt;/span&gt;
+
+The afternoon light is beginning to fade when you finally stand, your legs stiff from sitting on the floor. The dreamcatchers cast increasingly deep, overlapping shadows across the walls as they turn.
+
+&lt;span class=&quot;arthur&quot;&gt;&quot;I should probably go check on Winona,&quot;&lt;/span&gt; you say reluctantly.
+
+Dove&#39;s face falls. &lt;span class=&quot;dove&quot;&gt;&quot;Already? But you just got here!&quot;&lt;/span&gt;
+
+&lt;span class=&quot;arthur&quot;&gt;&quot;I&#39;ll be back later,”&lt;/span&gt; you promise. &lt;span class=&quot;arthur&quot;&gt;&quot;And maybe tomorrow, we can go collect more treasures, if the weather&#39;s nice.&quot;&lt;/span&gt;
+
+Her face brightens immediately. &lt;span class=&quot;dove&quot;&gt;&quot;Really? You promise? Will you meet Friend? He&#39;d like you, I think.&quot;&lt;/span&gt;
+
+The casual way she says it makes your skin prickle. &lt;span class=&quot;arthur&quot;&gt;&quot;...Maybe,&quot;&lt;/span&gt; you say. 
+
+She throws her arms around you again. Over her head, you can see the black wolf drawings on the wall. Their red eyes seem to follow you in the dimming light.
+
+You hold your sister close and try not to think about what kind of nightmares would make a ten-year-old draw the same monster over and over again.
+
+You try not to think about your own nightmares. Water. Blood. Silver silk in the moonlight. 
+
+And now, your father&#39;s head dangling from a &lt;span class=&quot;super-scary supernatural-glow&quot; style=&quot;font-family: &#39;Title Font&#39;;&quot;&gt;&lt;span class=&quot;scary-link&quot;&gt;[[wolf&#39;s jaws.-&gt;Ch5Pg0]]&lt;/span&gt;&lt;/span&gt;
+&lt;&lt;/type&gt;&gt;</tw-passagedata><tw-passagedata pid="108" name="Ch4Pg2F" tags="" position="975,1350" size="100,100">&lt;&lt;audio &quot;entrywayMemory&quot; stop&gt;&gt;
+&lt;&lt;audio &quot;bathroomDrip&quot; stop&gt;&gt;
+&lt;&lt;run window.update_flag(&quot;explored_room&quot;, 1)&gt;&gt;
+&lt;&lt;type 40ms&gt;&gt;
+&lt;span class=&quot;dialogue&quot;&gt;
+You open the door to your room. It’s cozy, the faint scent of pine carrying over years of accumulated dust. Everything’s exactly as you left it. Even as a teenager, you hadn’t bothered to shed the boyish decor–you never cared much for interior design anyway. The glow-in-the-dark stars on the ceiling still glow faintly, their phosphorescence recharged by the afternoon sun streaming through the windows. The walls are still crowded with science posters, their edges curling with age. The periodic table. The solar system. A cross-section of Earth&#39;s layers. A diagram of the Mandelbrot set. You smile fondly at your childhood obsessions. 
+
+&lt;span class=&quot;arthur&quot;&gt; Six-year-old Arthur would have loved what I do now. &lt;/span&gt;
+
+The bookshelf holds your strange taxonomy. The first shelf: model planes with balsa frames in various stages of construction. 
+
+The second shelf–small bones. Bird skulls, fish spines, and the tiny ribcage of a mouse–you’d found that in a basement mousetrap. Your father helped you clean the skeletons, boiling the rotting flesh in a pot, degreasing the bones with ammonia, and finally whitening them in a hydrogen peroxide bath. You’d arranged them together with the careful guidance of his anatomy textbooks. 
+
+Third shelf: rocks sorted by type: igneous, sedimentary, metamorphic. Even back then, you were obsessed with ordering, arranging and classifying until everything made sense. 
+
+[[You cross the room to your desk.-&gt;Ch4Pg2F1]]
+&lt;/span&gt;&lt;&lt;/type&gt;&gt;</tw-passagedata><tw-passagedata pid="109" name="Ch4Pg2F1" tags="" position="1100,1350" size="100,100">&lt;&lt;type 40ms&gt;&gt;
+&lt;span class=&quot;dialogue&quot;&gt;
+Your desk sits next to the bay window overlooking the lake. It’s layered with articles from the past: college acceptance letters, old exam notes, even a grade report. You stare at the column of perfect As. Hunched over this desk night after night, pouring over admission essays, practice standardized tests, calculus homework–all to get to where you are now. 
+
+And now you’re back in this same room. The cozyness morphs into claustrophobia. The space feels less like a comforting relic of the past, and more like a prison cell. 
+
+You leave the room. 
+
+Where do you explore?
 &lt;/span&gt;&lt;&lt;/type&gt;&gt;
-&lt;&lt;/if&gt;&gt;</tw-passagedata><tw-passagedata pid="100" name="Ch6Pg0" tags="" position="1225,1225" size="100,100">&lt;span class=&quot;dialogue&quot;&gt;
+&lt;&lt;nobr&gt;&gt;
+&lt;&lt;if window.get_flag(&quot;explored_livingroom&quot;) == 0&gt;&gt;
+&lt;&lt;type 40ms&gt;&gt;
+&lt;span class=&quot;dialogue&quot;&gt;
+[[The Living Room-&gt; Ch4Pg2A]]
+&lt;/span&gt;
+&lt;&lt;/type&gt;&gt;
+&lt;&lt;/if&gt;&gt;
+&lt;&lt;if window.get_flag(&quot;explored_kitchen&quot;) == 0&gt;&gt;
+&lt;&lt;type 40ms&gt;&gt;
+&lt;span class=&quot;dialogue&quot;&gt;
+[[The Kitchen-&gt; Ch4Pg2B]]
+&lt;/span&gt;
+&lt;&lt;/type&gt;&gt;
+&lt;&lt;/if&gt;&gt;
+&lt;&lt;if window.get_flag(&quot;explored_entryway&quot;) == 0&gt;&gt;
+&lt;&lt;type 40ms&gt;&gt;
+&lt;span class=&quot;dialogue&quot;&gt;
+[[The Entryway-&gt; Ch4Pg2C]]
+&lt;/span&gt;
+&lt;&lt;/type&gt;&gt;
+&lt;&lt;/if&gt;&gt;
+&lt;&lt;if window.get_flag(&quot;explored_parents_room&quot;) == 0&gt;&gt;
+&lt;&lt;type 40ms&gt;&gt;
+&lt;span class=&quot;dialogue&quot;&gt;
+[[Your Parent’s Room-&gt; Ch4Pg2D]]
+&lt;/span&gt;
+&lt;&lt;/type&gt;&gt;
+&lt;&lt;/if&gt;&gt;
+&lt;&lt;if window.get_flag(&quot;explored_doves_room&quot;) == 0&gt;&gt;
+&lt;&lt;type 40ms&gt;&gt;
+&lt;span class=&quot;dialogue&quot;&gt;
+[[Dove’s Room-&gt; Ch4Pg2E]]
+&lt;/span&gt;
+&lt;&lt;/type&gt;&gt;
+&lt;&lt;/if&gt;&gt;
+&lt;&lt;if window.get_flag(&quot;explored_room&quot;) == 0&gt;&gt;
+&lt;&lt;type 40ms&gt;&gt;
+&lt;span class=&quot;dialogue&quot;&gt;
+[[Your Room-&gt; Ch4Pg2F]]
+&lt;/span&gt;
+&lt;&lt;/type&gt;&gt;
+&lt;&lt;/if&gt;&gt;
+&lt;&lt;if window.get_flag(&quot;explored_winona_room&quot;) == 0&gt;&gt;
+&lt;&lt;type 40ms&gt;&gt;
+&lt;span class=&quot;dialogue&quot;&gt;
+[[Winona’s Room-&gt; Ch4Pg2G]]
+&lt;/span&gt;
+&lt;&lt;/type&gt;&gt;
+&lt;&lt;/if&gt;&gt;
+&lt;&lt;if window.get_flag(&quot;explored_bathroom&quot;) == 0&gt;&gt;
+&lt;&lt;type 40ms&gt;&gt;
+&lt;span class=&quot;dialogue&quot;&gt;
+[[The Bathroom-&gt; Ch4Pg2H]]
+&lt;/span&gt;
+&lt;&lt;/type&gt;&gt;
+&lt;&lt;/if&gt;&gt;
+&lt;&lt;if window.get_flag(&quot;explored_basement&quot;) == 0&gt;&gt;
+&lt;&lt;type 40ms&gt;&gt;
+&lt;span class=&quot;dialogue&quot;&gt;
+[[The Basement-&gt; Ch4Pg2I]]
+&lt;/span&gt;
+&lt;&lt;/type&gt;&gt;
+&lt;&lt;/if&gt;&gt;
+&lt;&lt;/nobr&gt;&gt;</tw-passagedata><tw-passagedata pid="110" name="Ch4Pg2G" tags="" position="1225,1350" size="100,100">&lt;&lt;audio &quot;entrywayMemory&quot; stop&gt;&gt;
+&lt;&lt;audio &quot;bathroomDrip&quot; stop&gt;&gt;
+&lt;&lt;run window.update_flag(&quot;explored_winona_room&quot;, 1)&gt;&gt;
+&lt;&lt;type 40ms&gt;&gt;
+&lt;span class=&quot;dialogue&quot;&gt;
+You pass by Winona’s room. The door is shut tight. A paper DO NOT DISTURB sign hangs from the handle, likely plucked from a hotel stay. 
+
+You don’t even stop to knock. You can imagine what her reaction would be to your unsolicited presence.
+
+You move on. 
+
+Where do you explore?
+&lt;/span&gt;&lt;&lt;/type&gt;&gt;
+&lt;&lt;nobr&gt;&gt;
+&lt;&lt;if window.get_flag(&quot;explored_livingroom&quot;) == 0&gt;&gt;
+&lt;&lt;type 40ms&gt;&gt;
+&lt;span class=&quot;dialogue&quot;&gt;
+[[The Living Room-&gt; Ch4Pg2A]]
+&lt;/span&gt;
+&lt;&lt;/type&gt;&gt;
+&lt;&lt;/if&gt;&gt;
+&lt;&lt;if window.get_flag(&quot;explored_kitchen&quot;) == 0&gt;&gt;
+&lt;&lt;type 40ms&gt;&gt;
+&lt;span class=&quot;dialogue&quot;&gt;
+[[The Kitchen-&gt; Ch4Pg2B]]
+&lt;/span&gt;
+&lt;&lt;/type&gt;&gt;
+&lt;&lt;/if&gt;&gt;
+&lt;&lt;if window.get_flag(&quot;explored_entryway&quot;) == 0&gt;&gt;
+&lt;&lt;type 40ms&gt;&gt;
+&lt;span class=&quot;dialogue&quot;&gt;
+[[The Entryway-&gt; Ch4Pg2C]]
+&lt;/span&gt;
+&lt;&lt;/type&gt;&gt;
+&lt;&lt;/if&gt;&gt;
+&lt;&lt;if window.get_flag(&quot;explored_parents_room&quot;) == 0&gt;&gt;
+&lt;&lt;type 40ms&gt;&gt;
+&lt;span class=&quot;dialogue&quot;&gt;
+[[Your Parent’s Room-&gt; Ch4Pg2D]]
+&lt;/span&gt;
+&lt;&lt;/type&gt;&gt;
+&lt;&lt;/if&gt;&gt;
+&lt;&lt;if window.get_flag(&quot;explored_doves_room&quot;) == 0&gt;&gt;
+&lt;&lt;type 40ms&gt;&gt;
+&lt;span class=&quot;dialogue&quot;&gt;
+[[Dove’s Room-&gt; Ch4Pg2E]]
+&lt;/span&gt;
+&lt;&lt;/type&gt;&gt;
+&lt;&lt;/if&gt;&gt;
+&lt;&lt;if window.get_flag(&quot;explored_room&quot;) == 0&gt;&gt;
+&lt;&lt;type 40ms&gt;&gt;
+&lt;span class=&quot;dialogue&quot;&gt;
+[[Your Room-&gt; Ch4Pg2F]]
+&lt;/span&gt;
+&lt;&lt;/type&gt;&gt;
+&lt;&lt;/if&gt;&gt;
+&lt;&lt;if window.get_flag(&quot;explored_winona_room&quot;) == 0&gt;&gt;
+&lt;&lt;type 40ms&gt;&gt;
+&lt;span class=&quot;dialogue&quot;&gt;
+[[Winona’s Room-&gt; Ch4Pg2G]]
+&lt;/span&gt;
+&lt;&lt;/type&gt;&gt;
+&lt;&lt;/if&gt;&gt;
+&lt;&lt;if window.get_flag(&quot;explored_bathroom&quot;) == 0&gt;&gt;
+&lt;&lt;type 40ms&gt;&gt;
+&lt;span class=&quot;dialogue&quot;&gt;
+[[The Bathroom-&gt; Ch4Pg2H]]
+&lt;/span&gt;
+&lt;&lt;/type&gt;&gt;
+&lt;&lt;/if&gt;&gt;
+&lt;&lt;if window.get_flag(&quot;explored_basement&quot;) == 0&gt;&gt;
+&lt;&lt;type 40ms&gt;&gt;
+&lt;span class=&quot;dialogue&quot;&gt;
+[[The Basement-&gt; Ch4Pg2I]]
+&lt;/span&gt;
+&lt;&lt;/type&gt;&gt;
+&lt;&lt;/if&gt;&gt;
+&lt;&lt;/nobr&gt;&gt;</tw-passagedata><tw-passagedata pid="111" name="Ch4Pg2H" tags="" position="100,1475" size="100,100">&lt;&lt;audio &quot;entrywayMemory&quot; stop&gt;&gt;
+&lt;&lt;run window.update_flag(&quot;explored_bathroom&quot;, 1)&gt;&gt;
+&lt;&lt;type 40ms&gt;&gt;
+&lt;span class=&quot;dialogue&quot;&gt;
+The bathroom is small, cramped, and surprisingly barren. There are no makeup cases, brushes, or bows, as you’d expect from a bathroom shared by two girls. The only sign of its two occupants are the purple and yellow toothbrushes in the glass by the sink and the two towels hanging above the toilet. A “W” and a “D” is embroidered on each. 
+
+You smile. &lt;span class=&quot;arthur&quot;&gt;I wonder whose is whose?&lt;/span&gt;
+
+You’re not about to go rifling through the cupboards for your sisters’ toiletries, but the shower curtain is pulled partially open. [[It wouldn’t hurt to take a peek.-&gt;Ch4Pg2H1]]&lt;/span&gt;&lt;&lt;/type&gt;&gt;</tw-passagedata><tw-passagedata pid="112" name="Ch4Pg2H1" tags="" position="225,1475" size="100,100">&lt;&lt;audio &quot;houseRoomTone&quot; stop&gt;&gt;
+&lt;&lt;audio &quot;bathroomDrip&quot; play loop&gt;&gt;
+&lt;&lt;type 40ms&gt;&gt;
+&lt;span class=&quot;dialogue&quot;&gt;
+You peer around the curtain. Bottles line the tub edge: dollar-store shampoo and conditioner, both nearly empty. Bright pink strawberry-scented body wash with cartoon characters on the label–presumably Dove’s. Baby shampoo for sensitive skin. A bar of soap worn down to a thin sliver. A loofah that’s seen better days. 
+
+The porcelain still has scum rings. Hair clogs the drain–long auburn strands tangled with finer black ones. The faucet drips with a rhythmic plink, plink, plink!
+
+You reach to turn off the dripping faucet. It shudders, then resumes its drip, albeit at a smaller volume. 
+
+Plink!...plink!...plink!...
+
+You leave before the sound drives you insane. 
+
+Where do you explore?
+&lt;/span&gt;&lt;&lt;/type&gt;&gt;
+&lt;&lt;nobr&gt;&gt;
+&lt;&lt;if window.get_flag(&quot;explored_livingroom&quot;) == 0&gt;&gt;
+&lt;&lt;type 40ms&gt;&gt;
+&lt;span class=&quot;dialogue&quot;&gt;
+[[The Living Room-&gt; Ch4Pg2A]]
+&lt;/span&gt;
+&lt;&lt;/type&gt;&gt;
+&lt;&lt;/if&gt;&gt;
+&lt;&lt;if window.get_flag(&quot;explored_kitchen&quot;) == 0&gt;&gt;
+&lt;&lt;type 40ms&gt;&gt;
+&lt;span class=&quot;dialogue&quot;&gt;
+[[The Kitchen-&gt; Ch4Pg2B]]
+&lt;/span&gt;
+&lt;&lt;/type&gt;&gt;
+&lt;&lt;/if&gt;&gt;
+&lt;&lt;if window.get_flag(&quot;explored_entryway&quot;) == 0&gt;&gt;
+&lt;&lt;type 40ms&gt;&gt;
+&lt;span class=&quot;dialogue&quot;&gt;
+[[The Entryway-&gt; Ch4Pg2C]]
+&lt;/span&gt;
+&lt;&lt;/type&gt;&gt;
+&lt;&lt;/if&gt;&gt;
+&lt;&lt;if window.get_flag(&quot;explored_parents_room&quot;) == 0&gt;&gt;
+&lt;&lt;type 40ms&gt;&gt;
+&lt;span class=&quot;dialogue&quot;&gt;
+[[Your Parent’s Room-&gt; Ch4Pg2D]]
+&lt;/span&gt;
+&lt;&lt;/type&gt;&gt;
+&lt;&lt;/if&gt;&gt;
+&lt;&lt;if window.get_flag(&quot;explored_doves_room&quot;) == 0&gt;&gt;
+&lt;&lt;type 40ms&gt;&gt;
+&lt;span class=&quot;dialogue&quot;&gt;
+[[Dove’s Room-&gt; Ch4Pg2E]]
+&lt;/span&gt;
+&lt;&lt;/type&gt;&gt;
+&lt;&lt;/if&gt;&gt;
+&lt;&lt;if window.get_flag(&quot;explored_room&quot;) == 0&gt;&gt;
+&lt;&lt;type 40ms&gt;&gt;
+&lt;span class=&quot;dialogue&quot;&gt;
+[[Your Room-&gt; Ch4Pg2F]]
+&lt;/span&gt;
+&lt;&lt;/type&gt;&gt;
+&lt;&lt;/if&gt;&gt;
+&lt;&lt;if window.get_flag(&quot;explored_winona_room&quot;) == 0&gt;&gt;
+&lt;&lt;type 40ms&gt;&gt;
+&lt;span class=&quot;dialogue&quot;&gt;
+[[Winona’s Room-&gt; Ch4Pg2G]]
+&lt;/span&gt;
+&lt;&lt;/type&gt;&gt;
+&lt;&lt;/if&gt;&gt;
+&lt;&lt;if window.get_flag(&quot;explored_bathroom&quot;) == 0&gt;&gt;
+&lt;&lt;type 40ms&gt;&gt;
+&lt;span class=&quot;dialogue&quot;&gt;
+[[The Bathroom-&gt; Ch4Pg2H]]
+&lt;/span&gt;
+&lt;&lt;/type&gt;&gt;
+&lt;&lt;/if&gt;&gt;
+&lt;&lt;if window.get_flag(&quot;explored_basement&quot;) == 0&gt;&gt;
+&lt;&lt;type 40ms&gt;&gt;
+&lt;span class=&quot;dialogue&quot;&gt;
+[[The Basement-&gt; Ch4Pg2I]]
+&lt;/span&gt;
+&lt;&lt;/type&gt;&gt;
+&lt;&lt;/if&gt;&gt;
+&lt;&lt;/nobr&gt;&gt;</tw-passagedata><tw-passagedata pid="113" name="Ch4Pg2I" tags="" position="350,1475" size="100,100">&lt;&lt;audio &quot;entrywayMemory&quot; stop&gt;&gt;
+&lt;&lt;audio &quot;bathroomDrip&quot; stop&gt;&gt;
+&lt;&lt;run window.update_flag(&quot;explored_basement&quot;, 1)&gt;&gt;
+&lt;&lt;if window.get_flag(&quot;sibling_convo&quot;) == 2&gt;&gt;
+&lt;&lt;type 40ms&gt;&gt;
+&lt;span class=&quot;dialogue&quot;&gt;
+The basement door stands jutting out from under the first floor stairs like a long shadow. It’s made of solid wood that’s thicker than your front door. You’d never been allowed down here, but the deadbolt has been smashed apart. For the first time in your recent memory, the door hangs slightly ajar. Only darkness yawns below. 
+
+You grasp the door and pull. The door swings open smoothly, moving without a sound despite its weight. In a wooden house made of creaks and groans, the silence unnerves you. 
+
+&lt;span class=&quot;scary&quot;&gt;Darkness.&lt;/span&gt;
+
+No, even denser. Within it is a singularity, where not even light can escape. 
+
+You cross the threshold, and your fate is sealed. 
+
+You fumble around inside for the light switch. Click. Nothing at first, then the clink of electricity. 
+
+You squint into the void, eyes adjusting slowly. There–at the bottom of the stairs–a faint glow. A bare bulb dangles from a cord, casting just enough light to see the steps.
+
+[[You descend.-&gt;Ch4Pg2I1]]
+&lt;&lt;else&gt;&gt;
+The basement door stands jutting out from under the first floor stairs like a long shadow. It’s made of solid wood that’s thicker than your front door. The deadbolt has been smashed apart and the door hangs slightly ajar. Only darkness yawns below. 
+
+Winona’s words echo in your mind: &lt;span class=&quot;scary&quot;&gt;“There, hanging from the basement rafters.”&lt;/span&gt;
+
+The image flashes in your retinas. There, through the crack–a hunched shadow. You hear a creak, a low-drawn out groan as rope fibers twist against each other.
+
+&lt;span class=&quot;super-scary&quot;&gt;Cr-rr-rr-rr-rr-rr-rr-rr-rr-rr-rrrrrrrrrrrrrrrrrk!&lt;/span&gt;
+
+The body rotates towards you in the dark. 
+
+You slam the door shut.
+
+The sound is banished from your mind. You back away from the door. Your forehead is drenched in sweat.
+
+You can’t face this today. 
+
+Where do you explore?
+&lt;/span&gt;&lt;&lt;/type&gt;&gt;
+&lt;&lt;nobr&gt;&gt;
+&lt;&lt;if window.get_flag(&quot;explored_livingroom&quot;) == 0&gt;&gt;
+&lt;&lt;type 40ms&gt;&gt;
+&lt;span class=&quot;dialogue&quot;&gt;
+[[The Living Room-&gt; Ch4Pg2A]]
+&lt;/span&gt;
+&lt;&lt;/type&gt;&gt;
+&lt;&lt;/if&gt;&gt;
+&lt;&lt;if window.get_flag(&quot;explored_kitchen&quot;) == 0&gt;&gt;
+&lt;&lt;type 40ms&gt;&gt;
+&lt;span class=&quot;dialogue&quot;&gt;
+[[The Kitchen-&gt; Ch4Pg2B]]
+&lt;/span&gt;
+&lt;&lt;/type&gt;&gt;
+&lt;&lt;/if&gt;&gt;
+&lt;&lt;if window.get_flag(&quot;explored_entryway&quot;) == 0&gt;&gt;
+&lt;&lt;type 40ms&gt;&gt;
+&lt;span class=&quot;dialogue&quot;&gt;
+[[The Entryway-&gt; Ch4Pg2C]]
+&lt;/span&gt;
+&lt;&lt;/type&gt;&gt;
+&lt;&lt;/if&gt;&gt;
+&lt;&lt;if window.get_flag(&quot;explored_parents_room&quot;) == 0&gt;&gt;
+&lt;&lt;type 40ms&gt;&gt;
+&lt;span class=&quot;dialogue&quot;&gt;
+[[Your Parent’s Room-&gt; Ch4Pg2D]]
+&lt;/span&gt;
+&lt;&lt;/type&gt;&gt;
+&lt;&lt;/if&gt;&gt;
+&lt;&lt;if window.get_flag(&quot;explored_doves_room&quot;) == 0&gt;&gt;
+&lt;&lt;type 40ms&gt;&gt;
+&lt;span class=&quot;dialogue&quot;&gt;
+[[Dove’s Room-&gt; Ch4Pg2E]]
+&lt;/span&gt;
+&lt;&lt;/type&gt;&gt;
+&lt;&lt;/if&gt;&gt;
+&lt;&lt;if window.get_flag(&quot;explored_room&quot;) == 0&gt;&gt;
+&lt;&lt;type 40ms&gt;&gt;
+&lt;span class=&quot;dialogue&quot;&gt;
+[[Your Room-&gt; Ch4Pg2F]]
+&lt;/span&gt;
+&lt;&lt;/type&gt;&gt;
+&lt;&lt;/if&gt;&gt;
+&lt;&lt;if window.get_flag(&quot;explored_winona_room&quot;) == 0&gt;&gt;
+&lt;&lt;type 40ms&gt;&gt;
+&lt;span class=&quot;dialogue&quot;&gt;
+[[Winona’s Room-&gt; Ch4Pg2G]]
+&lt;/span&gt;
+&lt;&lt;/type&gt;&gt;
+&lt;&lt;/if&gt;&gt;
+&lt;&lt;if window.get_flag(&quot;explored_bathroom&quot;) == 0&gt;&gt;
+&lt;&lt;type 40ms&gt;&gt;
+&lt;span class=&quot;dialogue&quot;&gt;
+[[The Bathroom-&gt; Ch4Pg2H]]
+&lt;/span&gt;
+&lt;&lt;/type&gt;&gt;
+&lt;&lt;/if&gt;&gt;
+&lt;&lt;if window.get_flag(&quot;explored_basement&quot;) == 0&gt;&gt;
+&lt;&lt;type 40ms&gt;&gt;
+&lt;span class=&quot;dialogue&quot;&gt;
+[[The Basement-&gt; Ch4Pg2I]]
+&lt;/span&gt;
+&lt;&lt;/type&gt;&gt;
+&lt;&lt;/if&gt;&gt;
+&lt;&lt;/nobr&gt;&gt;
+&lt;&lt;/if&gt;&gt;</tw-passagedata><tw-passagedata pid="114" name="Ch4Pg2I1" tags="" position="475,1475" size="100,100">&lt;&lt;audio &quot;houseRoomTone&quot; stop&gt;&gt;
+&lt;&lt;audio &quot;ambienceBasement&quot; play loop&gt;&gt;
+&lt;&lt;type 40ms&gt;&gt;
+&lt;span class=&quot;dialogue&quot;&gt;
+&lt;span class=&quot;scary&quot;&gt;CREAK.&lt;/span&gt;
+
+Your weight on the first step. The sound echoes and multiples against the concrete walls of the unfinished space. 
+
+The stairs groan, the ceiling dropping with each step until you have to duck.
+
+The basement opens before you. The bare bulb’s light barely finds the far wall. You should’ve brought a flashlight. 
+
+A large stately office desk dominates the center of the room. It’s surrounded by shelves and boxes, which line the concrete walls. And everywhere–papers.
+
+They cover every surface, are pinned to boxes, scattered on the floor. Even in the dim light, you can make out what’s on most of them. 
+
+Your father&#39;s handwriting. Spiraling. Frantic. The letters grow larger and more desperate, until some words fill up entire pages. 
+
+You step closer to the desk. On it is a coffee mug, contents long gone cold. An overflowing ashtray, cigarettes spilling across the hundreds of pages Amongst them all, a few of your mother’s notebook lie open, their contents dissected. Their torn out pages are filled with his annotations. 
+
+Your foot hits something. [[You look down.-&gt;Ch4Pg2I2]]&lt;/span&gt;&lt;&lt;/type&gt;&gt;</tw-passagedata><tw-passagedata pid="115" name="Ch4Pg2I2" tags="" position="600,1475" size="100,100">&lt;&lt;type 50ms&gt;&gt;
+&lt;span class=&quot;dialogue&quot;&gt;
+The overturned chair. Coffee mug, contents green with mold. Ashtray overflowing, cigarette butts spilling across papers soaked with—with—
+
+The bulb flickers.
+
+&lt;span class=&quot;scary supernatural-glow&quot;&gt; Once.&lt;/soan&gt;
+
+&lt;span class=&quot;scary supernatural-glow&quot;&gt;Twice.&lt;/span&gt;
+
+The darkness rushes in during those split-second gaps. You see shapes in it. A shadow. &lt;span class=&quot;scary supernatural-glow&quot;&gt;Swaying.&lt;/span&gt;
+
+You look up.
+
+&lt;span class=&quot;super-scary supernatural-glow&quot; style=&quot;font-family: &#39;Title Font&#39;;&quot;&gt;&lt;span class=&quot;scary-link&quot;&gt;[[The rope.-&gt;Ch4Pg2I3]]&lt;/span&gt;&lt;/span&gt;
+&lt;&lt;/type&gt;&gt;</tw-passagedata><tw-passagedata pid="116" name="Ch4Pg2I3" tags="" position="725,1475" size="100,100">&lt;&lt;audio &quot;nightmareA&quot; play volume 0&gt;&gt;
+&lt;&lt;audio &quot;nightmareA&quot; fadeoverto 30 0.75&gt;&gt;
+&lt;&lt;audio &quot;ambienceBasement&quot; fadeoverto 15 0.25&gt;&gt;
+&lt;&lt;type 60ms&gt;&gt;
+&lt;span class=&quot;dialogue&quot;&gt;
+It hangs there from the rafters. Cut. Frayed. It’s barely visible in the dim light, more sensed than seen, just a darker line against the darkness. 
+
+But you see it anyway. Your mind fills in what the light can&#39;t reach:
+
+&lt;span class=&quot;scary supernatural-glow&quot;&gt;Suspended.
+
+Eyes bulging from their sockets.
+
+Tongue protruding, swollen.
+
+Hands clawed at his throat.&lt;/span&gt;
+
+[[You can&#39;t breathe.-&gt;Ch4Pg2I4]]&lt;/span&gt;&lt;&lt;/type&gt;&gt;</tw-passagedata><tw-passagedata pid="117" name="Ch4Pg2I4" tags="" position="850,1475" size="100,100">&lt;&lt;audio &quot;ambienceBasement&quot; fadeoverto 30 0&gt;&gt;
+&lt;&lt;type 60ms&gt;&gt;
+&lt;span class=&quot;dialogue&quot;&gt;
+The bulb flickers again, the darkness holding for three full seconds before the light sputters back.
+
+You force your eyes to the papers. You need someone concrete, something that makes sense. 
+
+You pick up the first document. The paper rattles in your trembling hands.
+
+Newspaper clipping. 1952. 
+
+&lt;span class=&quot;scary supernatural-glow&quot;&gt;MINING DISASTER CLAIMS TWELVE LIVES.&lt;/span&gt;
+
+Another. 1967. 
+
+&lt;span class=&quot;scary supernatural-glow&quot;&gt;THREE HUNTERS FOUND MAULED.&lt;/span&gt;
+
+2000. Recent. 
+
+&lt;span class=&quot;scary supernatural-glow&quot;&gt;NORTHRIDGE MINING PROPOSAL.&lt;/span&gt;
+
+You stare in bewilderment at the clippings. Why was he collecting articles? You glance back at your mother’s notebook pages. [[Your dad’s handwriting careens across the margins:-&gt;ChPg2I5]]&lt;/span&gt;&lt;&lt;/type&gt;&gt;</tw-passagedata><tw-passagedata pid="118" name="Ch4Pg2I5" tags="" position="975,1475" size="100,100">&lt;&lt;type 60ms&gt;&gt;
+&lt;span class=&quot;dialogue&quot;&gt;
+&lt;span class=&quot;scary supernatural-glow&quot;&gt;&lt;span class=&quot;silas&quot;&gt;THEY WON&#39;T LISTEN&lt;/span&gt;&lt;/span&gt;
+
+THE ISLAND REMEMBERS&lt;/span&gt;&lt;/span&gt;
+
+The letters get bigger. Darker. Pressed so hard the pen tore through the paper
+
+&lt;span class=&quot;scary supernatural-glow&quot;&gt;&lt;span class=&quot;silas&quot;&gt;PROTECT THE GIRLS
+
+&lt;span class=&quot;scary supernatural-glow&quot;&gt;&lt;span class=&quot;silas&quot;&gt;PROTECT THE GIRLS
+
+&lt;span class=&quot;scary supernatural-glow&quot;&gt;&lt;span class=&quot;silas&quot;&gt;PROTECT THE GIRLS&lt;/span&gt;&lt;/span&gt;
+
+The bulb flickers, dims, and brightens again–but not as bright as before. 
+
+The shadows creep closer, threatening to enclose you. Bury you alive.
+
+The bulb flickers again. This time it stays dark for five full seconds.
+
+The light returns.
+
+[[You run.-&gt;Ch5Pg0]]&lt;/span&gt;&lt;&lt;/type&gt;&gt;</tw-passagedata><tw-passagedata pid="119" name="Ch6Pg0" tags="" position="1100,1475" size="100,100">&lt;span class=&quot;dialogue&quot;&gt;
 &lt;div class=chTitle&gt;Chapter Six&lt;/div&gt;
 &lt;center&gt;
 &lt;img src=&quot;Images/ch6.png&quot; height=&quot;432px&quot; width=&quot;540px&quot;&gt;
@@ -3289,7 +3657,7 @@ Where do you explore?
 &lt;&lt;type 20ms&gt;&gt;\
 &lt;div class=chStart&gt;[[The Night Terror-&gt;Ch6Pg1]]&lt;/div&gt;
 \&lt;&lt;/type&gt;&gt;
-&lt;/span&gt;</tw-passagedata><tw-passagedata pid="101" name="Ch6Pg1" tags="" position="100,1350" size="100,100">&lt;&lt;audio &quot;nightmareA&quot; stop&gt;&gt;
+&lt;/span&gt;</tw-passagedata><tw-passagedata pid="120" name="Ch6Pg1" tags="" position="1225,1475" size="100,100">&lt;&lt;audio &quot;nightmareA&quot; stop&gt;&gt;
 &lt;&lt;audio &quot;nightmareA&quot; play&gt;&gt;
 &lt;&lt;repeat 448s&gt;&gt;
 &lt;&lt;audio &quot;nightmareA&quot; stop&gt;&gt;
@@ -3318,7 +3686,7 @@ You stop cold in the doorway.
 
 [[The Sight-&gt;Ch6Pg2]]
 &lt;/span&gt;
-&lt;&lt;/type&gt;&gt;</tw-passagedata><tw-passagedata pid="102" name="Ch6Pg2" tags="" position="225,1350" size="100,100">&lt;&lt;audio &quot;seizure&quot; stop&gt;&gt;
+&lt;&lt;/type&gt;&gt;</tw-passagedata><tw-passagedata pid="121" name="Ch6Pg2" tags="" position="100,1600" size="100,100">&lt;&lt;audio &quot;seizure&quot; stop&gt;&gt;
 &lt;&lt;audio &quot;seizure&quot; play&gt;&gt;
 &lt;&lt;repeat 152s&gt;&gt;
 &lt;&lt;audio &quot;seizure&quot; stop&gt;&gt;
@@ -3346,7 +3714,7 @@ Dove’s eyes have rolled back in her skull. Her jaw is clenched so tight you ca
 
 [[You run.-&gt;Ch6Pg3]]
 &lt;/span&gt;
-&lt;&lt;/type&gt;&gt;</tw-passagedata><tw-passagedata pid="103" name="Ch6Pg3" tags="" position="350,1350" size="100,100">&lt;&lt;repeat 152s&gt;&gt;
+&lt;&lt;/type&gt;&gt;</tw-passagedata><tw-passagedata pid="122" name="Ch6Pg3" tags="" position="225,1600" size="100,100">&lt;&lt;repeat 152s&gt;&gt;
 &lt;&lt;audio &quot;seizure&quot; stop&gt;&gt;
 &lt;&lt;audio &quot;seizure&quot; play&gt;&gt;
 &lt;&lt;/repeat&gt;&gt;
@@ -3372,7 +3740,7 @@ You race towards the awful sounds: Dove choking, gagging. Winona’s frantic voi
 
 [[HURRY!-&gt;Ch6Pg4]]
 &lt;/span&gt;
-&lt;&lt;/type&gt;&gt;</tw-passagedata><tw-passagedata pid="104" name="Ch6Pg4" tags="" position="475,1350" size="100,100">&lt;&lt;audio &quot;seizure&quot; stop&gt;&gt;
+&lt;&lt;/type&gt;&gt;</tw-passagedata><tw-passagedata pid="123" name="Ch6Pg4" tags="" position="350,1600" size="100,100">&lt;&lt;audio &quot;seizure&quot; stop&gt;&gt;
 &lt;&lt;audio &quot;seizure&quot; play&gt;&gt;
 &lt;&lt;repeat 152s&gt;&gt;
 &lt;&lt;audio &quot;seizure&quot; stop&gt;&gt;
@@ -3396,7 +3764,7 @@ Dove’s jaw opens just wide enough–and Winona shoves two tablets past Dove’
 
 &lt;span class=&quot;winona&quot;&gt;[[“Swallow, please swallow–”-&gt;Ch6Pg5]]&lt;/span&gt;
 &lt;/span&gt;
-&lt;&lt;/type&gt;&gt;</tw-passagedata><tw-passagedata pid="105" name="Ch6Pg5" tags="" position="600,1350" size="100,100">&lt;&lt;repeat 152s&gt;&gt;
+&lt;&lt;/type&gt;&gt;</tw-passagedata><tw-passagedata pid="124" name="Ch6Pg5" tags="" position="475,1600" size="100,100">&lt;&lt;repeat 152s&gt;&gt;
 &lt;&lt;audio &quot;seizure&quot; stop&gt;&gt;
 &lt;&lt;audio &quot;seizure&quot; play&gt;&gt;
 &lt;&lt;/repeat&gt;&gt;
@@ -3438,7 +3806,7 @@ Winona grabs a towel from the floor and presses it to Dove’s mouth. &lt;span c
 
 &lt;span class=&quot;arthur&quot;&gt;[[“Dove, please calm down!”-&gt;Ch6Pg6]]&lt;/span&gt;
 &lt;/span&gt;
-&lt;&lt;/type&gt;&gt;</tw-passagedata><tw-passagedata pid="106" name="Ch6Pg6" tags="" position="725,1350" size="100,100">&lt;&lt;repeat 152s&gt;&gt;
+&lt;&lt;/type&gt;&gt;</tw-passagedata><tw-passagedata pid="125" name="Ch6Pg6" tags="" position="600,1600" size="100,100">&lt;&lt;repeat 152s&gt;&gt;
 &lt;&lt;audio &quot;seizure&quot; stop&gt;&gt;
 &lt;&lt;audio &quot;seizure&quot; play&gt;&gt;
 &lt;&lt;/repeat&gt;&gt;
@@ -3488,7 +3856,7 @@ It doesn’t work. Your hands still tremble.
 
 [[You walk back to your childhood bedroom in the dark.-&gt;Ch7Pg0]]
 &lt;/span&gt;
-&lt;&lt;/type&gt;&gt;</tw-passagedata><tw-passagedata pid="107" name="Ch7Pg0" tags="" position="850,1350" size="100,100">&lt;span class=&quot;dialogue&quot;&gt;
+&lt;&lt;/type&gt;&gt;</tw-passagedata><tw-passagedata pid="126" name="Ch7Pg0" tags="" position="725,1600" size="100,100">&lt;span class=&quot;dialogue&quot;&gt;
 &lt;div class=chTitle&gt;Chapter Seven&lt;/div&gt;
 &lt;center&gt;
 &lt;img src=&quot;Images/act1finale.png&quot; height=&quot;432px&quot; width=&quot;540px&quot;&gt;
@@ -3496,7 +3864,7 @@ It doesn’t work. Your hands still tremble.
 &lt;&lt;type 20ms&gt;&gt;\
 &lt;div class=chStart&gt;[[The Morning After-&gt;Ch7Pg1]]&lt;/div&gt;
 \&lt;&lt;/type&gt;&gt;
-&lt;/span&gt;</tw-passagedata><tw-passagedata pid="108" name="Ch7Pg1" tags="" position="975,1350" size="100,100">&lt;&lt;audio &quot;tvNeutral&quot; stop&gt;&gt;
+&lt;/span&gt;</tw-passagedata><tw-passagedata pid="127" name="Ch7Pg1" tags="" position="850,1600" size="100,100">&lt;&lt;audio &quot;tvNeutral&quot; stop&gt;&gt;
 &lt;&lt;audio &quot;tvScary&quot; stop&gt;&gt;
 &lt;&lt;audio &quot;teaserMorningAmbience&quot; stop&gt;&gt;
 &lt;&lt;audio &quot;teaserMorningAmbience&quot; play&gt;&gt;
@@ -3522,7 +3890,7 @@ The earthy, almost caramel scent of freshly brewed coffee emanates from your doo
 
 You untangle yourself from your mildewed, dust-ridden bedsheets and [[drag yourself downstairs.-&gt;Ch7Pg2]] 
 &lt;/span&gt;
-&lt;&lt;/type&gt;&gt;</tw-passagedata><tw-passagedata pid="109" name="Ch7Pg2" tags="" position="1100,1350" size="100,100">&lt;&lt;audio &quot;tvNeutral&quot; stop&gt;&gt;
+&lt;&lt;/type&gt;&gt;</tw-passagedata><tw-passagedata pid="128" name="Ch7Pg2" tags="" position="975,1600" size="100,100">&lt;&lt;audio &quot;tvNeutral&quot; stop&gt;&gt;
 &lt;&lt;audio &quot;tvScary&quot; stop&gt;&gt;
 &lt;&lt;repeat 186s&gt;&gt;
 &lt;&lt;audio &quot;teaserMorningAmbience&quot; stop&gt;&gt;
@@ -3595,7 +3963,7 @@ The tap turns off. You hear the quick taps of Winona’s feet on the stairs, and
 
 [[You need air.-&gt;Ch7Pg3]]
 &lt;/span&gt;
-&lt;&lt;/type&gt;&gt;</tw-passagedata><tw-passagedata pid="110" name="Ch7Pg3" tags="" position="1225,1350" size="100,100">&lt;&lt;audio &quot;tvNeutral&quot; stop&gt;&gt;
+&lt;&lt;/type&gt;&gt;</tw-passagedata><tw-passagedata pid="129" name="Ch7Pg3" tags="" position="1100,1600" size="100,100">&lt;&lt;audio &quot;tvNeutral&quot; stop&gt;&gt;
 &lt;&lt;audio &quot;tvScary&quot; stop&gt;&gt;
 &lt;&lt;type 20ms&gt;&gt;
 &lt;span class=&quot;dialogue&quot;&gt;
@@ -3631,12 +3999,12 @@ Three cards. Three choices. You pull out your phone.
 
 Who do you call?
 &lt;/span&gt;
-&lt;&lt;/type&gt;&gt;</tw-passagedata><tw-passagedata pid="111" name="Ch7Pg4" tags="" position="100,1475" size="100,100">&lt;span class=&quot;dialogue&quot;&gt;
+&lt;&lt;/type&gt;&gt;</tw-passagedata><tw-passagedata pid="130" name="Ch7Pg4" tags="" position="1225,1600" size="100,100">&lt;span class=&quot;dialogue&quot;&gt;
 &lt;div class=chTitle&gt;To Be Continued...&lt;/div&gt;
 &lt;&lt;type 20ms&gt;&gt;\
 &lt;div class=chStart&gt;[[End of Act One.-&gt;creditsPg0]]&lt;/div&gt;
 \&lt;&lt;/type&gt;&gt;
-&lt;/span&gt;</tw-passagedata><tw-passagedata pid="112" name="credits" tags="" position="225,1475" size="100,100">&lt;&lt;type 20ms&gt;&gt;
+&lt;/span&gt;</tw-passagedata><tw-passagedata pid="131" name="credits" tags="" position="100,1725" size="100,100">&lt;&lt;type 20ms&gt;&gt;
 &lt;span class=&quot;dialogue&quot;&gt;
 &lt;&lt;audio &quot;pianoA&quot; stop&gt;&gt;&lt;&lt;audio &quot;pianoA&quot; play&gt;&gt;&lt;&lt;repeat 108s&gt;&gt;&lt;&lt;audio &quot;pianoA&quot; stop&gt;&gt;&lt;&lt;audio &quot;pianoA&quot; play&gt;&gt;&lt;&lt;/repeat&gt;&gt;
 If you enjoyed this prototype, follow our itch page for updates.
@@ -3663,7 +4031,7 @@ Elijah Jeffery: game writer
 
 &lt;div class=chStart&gt;[[Main Menu-&gt;Start]]&lt;/div&gt;
 &lt;/span&gt;
-&lt;&lt;/type&gt;&gt;</tw-passagedata><tw-passagedata pid="113" name="creditsPg0" tags="" position="350,1475" size="100,100">source/EdgewaterCh1/passages/Ch1Pg2B.twee
+&lt;&lt;/type&gt;&gt;</tw-passagedata><tw-passagedata pid="132" name="creditsPg0" tags="" position="225,1725" size="100,100">source/EdgewaterCh1/passages/Ch1Pg2B.twee
 &lt;span class=&quot;dialogue&quot;&gt;
 &lt;div class=chTitle&gt;Thank you for playing Edgewater.&lt;/div&gt;
 &lt;center&gt;

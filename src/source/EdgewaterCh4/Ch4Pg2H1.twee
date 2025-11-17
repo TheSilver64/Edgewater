@@ -1,14 +1,17 @@
-:: Ch4Pg2G
-<<audio "entrywayMemory" stop>>
-<<audio "bathroomDrip" stop>>
-<<run window.update_flag("explored_winona_room", 1)>>
+:: Ch4Pg2H1
+<<audio "houseRoomTone" stop>>
+<<audio "bathroomDrip" play loop>>
 <<type 40ms>>
 <span class="dialogue">
-You pass by Winona’s room. The door is shut tight. A paper DO NOT DISTURB sign hangs from the handle, likely plucked from a hotel stay. 
+You peer around the curtain. Bottles line the tub edge: dollar-store shampoo and conditioner, both nearly empty. Bright pink strawberry-scented body wash with cartoon characters on the label–presumably Dove’s. Baby shampoo for sensitive skin. A bar of soap worn down to a thin sliver. A loofah that’s seen better days. 
 
-You don’t even stop to knock. You can imagine what her reaction would be to your unsolicited presence.
+The porcelain still has scum rings. Hair clogs the drain–long auburn strands tangled with finer black ones. The faucet drips with a rhythmic plink, plink, plink!
 
-You move on. 
+You reach to turn off the dripping faucet. It shudders, then resumes its drip, albeit at a smaller volume. 
+
+Plink!...plink!...plink!...
+
+You leave before the sound drives you insane. 
 
 Where do you explore?
 </span><</type>>

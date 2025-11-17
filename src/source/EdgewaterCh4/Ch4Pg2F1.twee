@@ -1,14 +1,11 @@
-:: Ch4Pg2G
-<<audio "entrywayMemory" stop>>
-<<audio "bathroomDrip" stop>>
-<<run window.update_flag("explored_winona_room", 1)>>
+:: Ch4Pg2F1
 <<type 40ms>>
 <span class="dialogue">
-You pass by Winona’s room. The door is shut tight. A paper DO NOT DISTURB sign hangs from the handle, likely plucked from a hotel stay. 
+Your desk sits next to the bay window overlooking the lake. It’s layered with articles from the past: college acceptance letters, old exam notes, even a grade report. You stare at the column of perfect As. Hunched over this desk night after night, pouring over admission essays, practice standardized tests, calculus homework–all to get to where you are now. 
 
-You don’t even stop to knock. You can imagine what her reaction would be to your unsolicited presence.
+And now you’re back in this same room. The cozyness morphs into claustrophobia. The space feels less like a comforting relic of the past, and more like a prison cell. 
 
-You move on. 
+You leave the room. 
 
 Where do you explore?
 </span><</type>>

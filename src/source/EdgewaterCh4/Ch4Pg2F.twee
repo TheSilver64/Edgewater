@@ -1,75 +1,18 @@
 :: Ch4Pg2F
-<<repeat 412s>>
-<<audio "houseRoomTone" stop>>
-<<audio "houseRoomTone" play>>
-<</repeat>>
+<<audio "entrywayMemory" stop>>
+<<audio "bathroomDrip" stop>>
 <<run window.update_flag("explored_room", 1)>>
-<<type 20ms>>
+<<type 40ms>>
 <span class="dialogue">
+You open the door to your room. It’s cozy, the faint scent of pine carrying over years of accumulated dust. Everything’s exactly as you left it. Even as a teenager, you hadn’t bothered to shed the boyish decor–you never cared much for interior design anyway. The glow-in-the-dark stars on the ceiling still glow faintly, their phosphorescence recharged by the afternoon sun streaming through the windows. The walls are still crowded with science posters, their edges curling with age. The periodic table. The solar system. A cross-section of Earth's layers. A diagram of the Mandelbrot set. You smile fondly at your childhood obsessions. 
 
+<span class="arthur"> Six-year-old Arthur would have loved what I do now. </span>
+
+The bookshelf holds your strange taxonomy. The first shelf: model planes with balsa frames in various stages of construction. 
+
+The second shelf–small bones. Bird skulls, fish spines, and the tiny ribcage of a mouse–you’d found that in a basement mousetrap. Your father helped you clean the skeletons, boiling the rotting flesh in a pot, degreasing the bones with ammonia, and finally whitening them in a hydrogen peroxide bath. You’d arranged them together with the careful guidance of his anatomy textbooks. 
+
+Third shelf: rocks sorted by type: igneous, sedimentary, metamorphic. Even back then, you were obsessed with ordering, arranging and classifying until everything made sense. 
+
+[[You cross the room to your desk.->Ch4Pg2F1]]
 </span><</type>>
-<<nobr>>
-<<if window.get_flag("explored_livingroom") == 0>>
-<<type 20ms>>
-<span class="dialogue">
-[[The Living Room-> Ch4Pg2A]]
-</span>
-<</type>>
-<</if>>
-<<if window.get_flag("explored_kitchen") == 0>>
-<<type 20ms>>
-<span class="dialogue">
-[[The Kitchen-> Ch4Pg2B]]
-</span>
-<</type>>
-<</if>>
-<<if window.get_flag("explored_entryway") == 0>>
-<<type 20ms>>
-<span class="dialogue">
-[[The Entryway-> Ch4Pg2C]]
-</span>
-<</type>>
-<</if>>
-<<if window.get_flag("explored_parents_room") == 0>>
-<<type 20ms>>
-<span class="dialogue">
-[[Your Parent’s Room-> Ch4Pg2D]]
-</span>
-<</type>>
-<</if>>
-<<if window.get_flag("explored_doves_room") == 0>>
-<<type 20ms>>
-<span class="dialogue">
-[[Dove’s Room-> Ch4Pg2E]]
-</span>
-<</type>>
-<</if>>
-<<if window.get_flag("explored_room") == 0>>
-<<type 20ms>>
-<span class="dialogue">
-[[Your Room-> Ch4Pg2F]]
-</span>
-<</type>>
-<</if>>
-<<if window.get_flag("explored_winona_room") == 0>>
-<<type 20ms>>
-<span class="dialogue">
-[[Winona’s Room-> Ch4Pg2G]]
-</span>
-<</type>>
-<</if>>
-<<if window.get_flag("explored_bathroom") == 0>>
-<<type 20ms>>
-<span class="dialogue">
-[[The Bathroom-> Ch4Pg2H]]
-</span>
-<</type>>
-<</if>>
-<<if window.get_flag("explored_basement") == 0>>
-<<type 20ms>>
-<span class="dialogue">
-[[The Basement-> Ch4Pg2I]]
-</span>
-<</type>>
-<</if>>
-<</nobr>>

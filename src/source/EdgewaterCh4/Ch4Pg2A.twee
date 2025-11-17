@@ -1,75 +1,16 @@
 :: Ch4Pg2A
-<<repeat 412s>>
-<<audio "houseRoomTone" stop>>
-<<audio "houseRoomTone" play>>
-<</repeat>>
+<<audio "entrywayMemory" stop>>
+<<audio "bathroomDrip" stop>>
 <<run window.update_flag("explored_livingroom", 1)>>
-<<type 20ms>>
+<<type 40ms>>
 <span class="dialogue">
+You stand up and pace the living room. Despite the thick film of dust coating the bookcase and the shabby edges of the discolored rug, this room feels the most lived in. It’s almost frozen, preserved in time like an insect in amber. 
 
-</span><</type>>
-<<nobr>>
-<<if window.get_flag("explored_livingroom") == 0>>
-<<type 20ms>>
-<span class="dialogue">
-[[The Living Room-> Ch4Pg2A]]
-</span>
+The leather sofa still bears the impressions of bodies–your father’s spot is on the left, deep. He used to come home from long shifts at the hospital, sink into that spot, put his feet up on the coffee table, and flick through the late-night programs. You swear you can still hear the phantom hum of his old talk shows from the mounted TV behind you. 
+
+Your mother’s spot is on the right, shallower. After putting you and Winona to bed, she used to sit and wait up for your father, curled up with a mug of hot tea, a knitted blanket around her waist, and a good book in her hands. 
+
+The fuzzy rug beneath your feet is matted in a few places, worn down by years of footsteps. You remember lying on it as a child, staring up at the ceiling, pretending the material was the grass of an alien world. 
+
+[[You cross the room to the bookshelves.->Ch4Pg2A1]]</span>
 <</type>>
-<</if>>
-<<if window.get_flag("explored_kitchen") == 0>>
-<<type 20ms>>
-<span class="dialogue">
-[[The Kitchen-> Ch4Pg2B]]
-</span>
-<</type>>
-<</if>>
-<<if window.get_flag("explored_entryway") == 0>>
-<<type 20ms>>
-<span class="dialogue">
-[[The Entryway-> Ch4Pg2C]]
-</span>
-<</type>>
-<</if>>
-<<if window.get_flag("explored_parents_room") == 0>>
-<<type 20ms>>
-<span class="dialogue">
-[[Your Parent’s Room-> Ch4Pg2D]]
-</span>
-<</type>>
-<</if>>
-<<if window.get_flag("explored_doves_room") == 0>>
-<<type 20ms>>
-<span class="dialogue">
-[[Dove’s Room-> Ch4Pg2E]]
-</span>
-<</type>>
-<</if>>
-<<if window.get_flag("explored_room") == 0>>
-<<type 20ms>>
-<span class="dialogue">
-[[Your Room-> Ch4Pg2F]]
-</span>
-<</type>>
-<</if>>
-<<if window.get_flag("explored_winona_room") == 0>>
-<<type 20ms>>
-<span class="dialogue">
-[[Winona’s Room-> Ch4Pg2G]]
-</span>
-<</type>>
-<</if>>
-<<if window.get_flag("explored_bathroom") == 0>>
-<<type 20ms>>
-<span class="dialogue">
-[[The Bathroom-> Ch4Pg2H]]
-</span>
-<</type>>
-<</if>>
-<<if window.get_flag("explored_basement") == 0>>
-<<type 20ms>>
-<span class="dialogue">
-[[The Basement-> Ch4Pg2I]]
-</span>
-<</type>>
-<</if>>
-<</nobr>>

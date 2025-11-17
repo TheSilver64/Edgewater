@@ -1,0 +1,17 @@
+:: Ch4Pg2C1
+<<audio "houseRoomTone" stop>>
+<<audio "entrywayMemory" play loop>>
+<<type 40ms>>
+<span class="dialogue">
+Family photos line the wall beneath the stairs. Their frames are mismatched–a variety of cheap drugstore plastic, thrift store finds, and estate sales. You head over to examine them.
+
+The oldest photo is in black and white. It shows your parents on their wedding day. Your mother wears a simple white dress. Her long black hair is curled for the occasion, as was the style back then. Your father is clean-shaven, baby-faced. He beams, his arm wrapped tightly around his bride. Their joy is radiant.
+
+Next: you as a baby. Your face is red and wrinkled into a cry. Your mother holds you wrapped in a felt hospital blanket. She’s propped upright, her eyes lined with exhaustion. But she smiles with pride. 
+
+Another: You and Winona as children, maybe six and four. You're building a tower with blocks, each one stacked more precariously than the next. Your face is scrunched up in concentration. Winona watches with a mischievous glint, hands behind her back. You spot the outline of a rolling pin behind her.
+
+Then: Your mother, belly swollen. One hand rests on her belly. The photo is taken outside. Sun catches in her hair, which is swept up in the breeze. She’s looking off into the distance, a somber, pensive expression across her face. She’s captured in frame candidly, as if someone saw her from afar and thought to capture the moment. 
+
+[[The next frame is empty.->Ch4Pg2C2]]</span>
+<</type>>

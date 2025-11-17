@@ -1,12 +1,9 @@
-:: Ch4Pg2G
-<<audio "entrywayMemory" stop>>
-<<audio "bathroomDrip" stop>>
-<<run window.update_flag("explored_winona_room", 1)>>
+:: Ch4Pg2B2
 <<type 40ms>>
 <span class="dialogue">
-You pass by Winona’s room. The door is shut tight. A paper DO NOT DISTURB sign hangs from the handle, likely plucked from a hotel stay. 
+Canned soup. Pasta. Crackers. Ramen. In the back you find your mother’s spice rack–bottles of dried herbs and powders labeled in her careful handwriting. You doubt anyone’s touched it since she died. Does your father even use spice? I, mean, did he? You mentally correct yourself. Your father in the past tense still feels foreign.
 
-You don’t even stop to knock. You can imagine what her reaction would be to your unsolicited presence.
+You move on to the sink. It’s piled high with dishes, remnants of food long caked onto each surface. Above the sink, the window looks out onto the garden. Or, what’s left of it. It’s nothing but weeds and dead stalks.  
 
 You move on. 
 

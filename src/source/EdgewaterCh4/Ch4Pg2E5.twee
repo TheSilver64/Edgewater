@@ -1,0 +1,21 @@
+:: Ch4Pg2E5
+<<audio "chimes" fadeoverto 30 0>>
+<<type 50ms>>
+<span class="dialogue">
+<span class="dove">"I was so scared,"</span> Dove continues. <span class="dove">"I told Winona, but she just said they're nightmares. That they're not real. But they feel real, Arty. They always feel real. That's why she keeps making me more dreamcatchers."</span> She glances up at the ceiling, at the web of protection Winona has woven for her. 
+
+<span class="dove">"Sometimes they work. This time they didn’t, because then–”</span> her hands tremble around the stone, <span class="dove"><span class="scary">“then Daddy died-!”</span></span>
+
+You place your hand on her shoulder. <span class="arthur">"Hey. Look at me."</span>
+
+She looks up, and you can see the fear in her wide eyes.
+
+<span class="arthur">"Don't worry,"</span> you say, forcing confidence into your voice. <span class="arthur">"I'm like King Arthur. You know him?"</span>
+
+She shakes her head, confused. <span class="dove">"No?"</span>
+
+<span class="arthur">"Well, he's a brave guy from the stories."</span> You sit down fully, crossing your legs. <span class="arthur">"He rode around on a horse—well, actually, he pretended to ride a horse while his servant banged coconuts together. And he fought a terrible rabbit that could kill people with its fangs.</span> 
+
+[[“And he went searching for a holy grail that—”->Ch4Pg2E6]]
+</span>
+<</type>>

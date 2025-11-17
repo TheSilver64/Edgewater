@@ -1,0 +1,22 @@
+:: Ch4Pg2I1
+<<audio "houseRoomTone" stop>>
+<<audio "ambienceBasement" play loop>>
+<<type 40ms>>
+<span class="dialogue">
+<span class="scary">CREAK.</span>
+
+Your weight on the first step. The sound echoes and multiples against the concrete walls of the unfinished space. 
+
+The stairs groan, the ceiling dropping with each step until you have to duck.
+
+The basement opens before you. The bare bulb’s light barely finds the far wall. You should’ve brought a flashlight. 
+
+A large stately office desk dominates the center of the room. It’s surrounded by shelves and boxes, which line the concrete walls. And everywhere–papers.
+
+They cover every surface, are pinned to boxes, scattered on the floor. Even in the dim light, you can make out what’s on most of them. 
+
+Your father's handwriting. Spiraling. Frantic. The letters grow larger and more desperate, until some words fill up entire pages. 
+
+You step closer to the desk. On it is a coffee mug, contents long gone cold. An overflowing ashtray, cigarettes spilling across the hundreds of pages Amongst them all, a few of your mother’s notebook lie open, their contents dissected. Their torn out pages are filled with his annotations. 
+
+Your foot hits something. [[You look down.->Ch4Pg2I2]]</span><</type>>

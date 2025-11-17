@@ -1,14 +1,15 @@
-:: Ch4Pg2G
-<<audio "entrywayMemory" stop>>
-<<audio "bathroomDrip" stop>>
-<<run window.update_flag("explored_winona_room", 1)>>
+:: Ch4Pg2C3
 <<type 40ms>>
 <span class="dialogue">
-You pass by Winona’s room. The door is shut tight. A paper DO NOT DISTURB sign hangs from the handle, likely plucked from a hotel stay. 
+Your reflection stares back from the glass, superimposed over your family's faces. You look like your father. Everyone always said so. Same skin shade, pointed nose, sharp wit, even the same tendency to furrow your brow when lost in deep thought. 
 
-You don’t even stop to knock. You can imagine what her reaction would be to your unsolicited presence.
+You step back. Behind the wallpaper, the pink floral pattern has faded into a moldy beige. You remember helping your mother choose it. She said it reminded her of the swamp rose-mallows that grew near the lakeshore of her hometown. 
 
-You move on. 
+<span class="namid">“If I ever got a cold, my mother would make a tea out of its leaves and it would fix me right up.”</span>
+
+Now it looks like the walls are shedding their skin.
+
+You move on.
 
 Where do you explore?
 </span><</type>>

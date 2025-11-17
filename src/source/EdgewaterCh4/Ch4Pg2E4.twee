@@ -1,0 +1,35 @@
+:: Ch4Pg2E4
+<<audio "pianoB" play volume 0>>
+<<audio "pianoB" fadeoverto 30 0.75>>
+<<audio "chimes" fadeoverto 15 0.25>>
+<<type 50ms>>
+<span class="dialogue">
+Your voice trails off mid-sentence about sedimentary layers. The wolf is rendered in black crayon, pressed so hard the wax has built up in thick, waxy ridges. Red eyes. Fangs bared in every image, left white against the black. In some drawings it's standing. In others, crouched. Ready to pounce.
+
+But in one drawing near the window, the wolf sits peacefully beside another figure—a boy, rendered in softer strokes. Brown hair. Smiling. They're sitting side by side like companions. The boy has his arm around the wolf's neck.
+
+<span class="arthur">"...so that's how you can tell the age of different rock formations,"</span> you finish weakly, still transfixed by the image.
+
+Dove senses the shift in your attention. She follows your gaze to the wall.
+
+<span class="arthur">"Hey,"</span> you say carefully, keeping your tone light. <span class="arthur">"I'm looking at your pictures. Who's that boy? The one with the wolf?"</span>
+
+<span class="dove">"Oh, that's my friend!"</span> Dove says brightly, as if it's the most natural thing in the world. <span class="dove">"He plays with me sometimes. He's really nice. He's not scared of the wolf at all—he can tame him, actually."</span>
+
+A chill runs down your spine, but you keep your voice casual. Does Winona know about these delusions?
+
+ <span class="arthur">“Does your friend have a name?"</span>
+
+Dove shrugs. <span class="dove">"I just call him Friend,"</span> she says. <span class="dove">“He doesn't talk much, but he's good at games. Hide and seek, mostly. He protects me from the wolf during the day."</span> Then her expression darkens. <span class="dove">"But at night, the wolf... he's different in my dreams. He's not nice like in the picture."</span>
+
+<span class="arthur">"Dreams?"</span> You crouch down to her level. <span class="arthur">"What kind of dreams?"</span>
+
+Dove's hands tighten around Marcus. Her voice becomes small, younger than her ten years.
+
+<span class="dove">"At first he had a rabbit in his mouth."</span> She's staring down at the stone now, not meeting your eyes. <span class="dove">"Just a little baby rabbit. But then..."</span> Her voice drops to barely a whisper. <span class="dove">"Then it was…</span>
+
+<span class="scary supernatural-glow">Daddy's head."</span>
+
+[[Your blood turns to ice.->Ch4Pg2E5]]
+</span>
+<</type>>

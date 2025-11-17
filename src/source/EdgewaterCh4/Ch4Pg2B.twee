@@ -1,75 +1,12 @@
 :: Ch4Pg2B
-<<repeat 412s>>
-<<audio "houseRoomTone" stop>>
-<<audio "houseRoomTone" play>>
-<</repeat>>
 <<run window.update_flag("explored_kitchen", 1)>>
-<<type 20ms>>
+<<type 40ms>>
 <span class="dialogue">
+You wander into the kitchen. It’s smaller than you remember, in the way all childhood spaces shrink when you return with an adult body. The cheap linoleum floor is cracked and yellowed, peeling up at the corners where water damage has weakened the adhesive. It’s as if your whole house has been submerged in the lake and then left out to dry, warping permanently in the process. 
 
-</span><</type>>
-<<nobr>>
-<<if window.get_flag("explored_livingroom") == 0>>
-<<type 20ms>>
-<span class="dialogue">
-[[The Living Room-> Ch4Pg2A]]
-</span>
+The appliances are old but functional. The 70s refrigerator hums loudly. Magnets hold up receipts, piled so high the entirety of the fridge door is smothered by the flimsy strips. A few have escaped the weak magnets to scatter across the floor, gathering dust along with the rest of the kitchen crumbs. 
+
+The ink’s faded on most of the receipts, but you make out a few lines on the most recent ones: Bulk pasta. Canned goods. Milk. Beer. Small, careful purchases. The mathematics of poverty. 
+
+[[You open the fridge door.->Ch4Pg2B1]]</span>
 <</type>>
-<</if>>
-<<if window.get_flag("explored_kitchen") == 0>>
-<<type 20ms>>
-<span class="dialogue">
-[[The Kitchen-> Ch4Pg2B]]
-</span>
-<</type>>
-<</if>>
-<<if window.get_flag("explored_entryway") == 0>>
-<<type 20ms>>
-<span class="dialogue">
-[[The Entryway-> Ch4Pg2C]]
-</span>
-<</type>>
-<</if>>
-<<if window.get_flag("explored_parents_room") == 0>>
-<<type 20ms>>
-<span class="dialogue">
-[[Your Parent’s Room-> Ch4Pg2D]]
-</span>
-<</type>>
-<</if>>
-<<if window.get_flag("explored_doves_room") == 0>>
-<<type 20ms>>
-<span class="dialogue">
-[[Dove’s Room-> Ch4Pg2E]]
-</span>
-<</type>>
-<</if>>
-<<if window.get_flag("explored_room") == 0>>
-<<type 20ms>>
-<span class="dialogue">
-[[Your Room-> Ch4Pg2F]]
-</span>
-<</type>>
-<</if>>
-<<if window.get_flag("explored_winona_room") == 0>>
-<<type 20ms>>
-<span class="dialogue">
-[[Winona’s Room-> Ch4Pg2G]]
-</span>
-<</type>>
-<</if>>
-<<if window.get_flag("explored_bathroom") == 0>>
-<<type 20ms>>
-<span class="dialogue">
-[[The Bathroom-> Ch4Pg2H]]
-</span>
-<</type>>
-<</if>>
-<<if window.get_flag("explored_basement") == 0>>
-<<type 20ms>>
-<span class="dialogue">
-[[The Basement-> Ch4Pg2I]]
-</span>
-<</type>>
-<</if>>
-<</nobr>>

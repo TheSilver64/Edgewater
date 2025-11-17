@@ -1,75 +1,15 @@
 :: Ch4Pg2C
-<<repeat 412s>>
-<<audio "houseRoomTone" stop>>
-<<audio "houseRoomTone" play>>
-<</repeat>>
+<<audio "bathroomDrip" stop>>
 <<run window.update_flag("explored_entryway", 1)>>
-<<type 20ms>>
+<<type 40ms>>
 <span class="dialogue">
+You amble into the entryway. It’s the first thing visitors see. The hardwood floor here is scratched and worn, decades of shoes having scuffed away the finish. A coat rack stands by the front door.
 
-</span><</type>>
-<<nobr>>
-<<if window.get_flag("explored_livingroom") == 0>>
-<<type 20ms>>
-<span class="dialogue">
-[[The Living Room-> Ch4Pg2A]]
-</span>
+You examine the jackets draped across. They’re rank with cigarette smoke and sweat, which has leached into the fabric over the years. Among them is your father’s work coat–the black wool trenchcoat he wore over his hospital scrubs. 
+
+The front door itself is heavy oak, but the doorbell is new. Its exposed wiring runs along the aged frame. When was it installed?
+
+[[You turn back to face the stairs.->Ch4Pg2C1]]</span>
 <</type>>
-<</if>>
-<<if window.get_flag("explored_kitchen") == 0>>
-<<type 20ms>>
-<span class="dialogue">
-[[The Kitchen-> Ch4Pg2B]]
-</span>
-<</type>>
-<</if>>
-<<if window.get_flag("explored_entryway") == 0>>
-<<type 20ms>>
-<span class="dialogue">
-[[The Entryway-> Ch4Pg2C]]
-</span>
-<</type>>
-<</if>>
-<<if window.get_flag("explored_parents_room") == 0>>
-<<type 20ms>>
-<span class="dialogue">
-[[Your Parent’s Room-> Ch4Pg2D]]
-</span>
-<</type>>
-<</if>>
-<<if window.get_flag("explored_doves_room") == 0>>
-<<type 20ms>>
-<span class="dialogue">
-[[Dove’s Room-> Ch4Pg2E]]
-</span>
-<</type>>
-<</if>>
-<<if window.get_flag("explored_room") == 0>>
-<<type 20ms>>
-<span class="dialogue">
-[[Your Room-> Ch4Pg2F]]
-</span>
-<</type>>
-<</if>>
-<<if window.get_flag("explored_winona_room") == 0>>
-<<type 20ms>>
-<span class="dialogue">
-[[Winona’s Room-> Ch4Pg2G]]
-</span>
-<</type>>
-<</if>>
-<<if window.get_flag("explored_bathroom") == 0>>
-<<type 20ms>>
-<span class="dialogue">
-[[The Bathroom-> Ch4Pg2H]]
-</span>
-<</type>>
-<</if>>
-<<if window.get_flag("explored_basement") == 0>>
-<<type 20ms>>
-<span class="dialogue">
-[[The Basement-> Ch4Pg2I]]
-</span>
-<</type>>
-<</if>>
-<</nobr>>
+
+
