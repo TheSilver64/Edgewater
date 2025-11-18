@@ -5,7 +5,8 @@
 <<audio "seizure" stop>>
 <<audio "seizure" play>>
 <</repeat>>
-<<type 20ms>>
+<div class=chStart>The Sight</div>
+<<type 40ms>>
 <span class="dialogue">
 Dove writhes on the bed. Her small body convulses with violent, erratic jerks–as if she’s been electrocuted. Her back arches, spine bending like a drawn bow. She twitches back, back, back–then snaps inward, arms drawn in. Her fingers curl in rigid claws. Her legs kick and spasm, tangled in the twisted sheets.
 

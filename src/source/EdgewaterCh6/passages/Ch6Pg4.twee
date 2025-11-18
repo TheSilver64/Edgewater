@@ -5,9 +5,9 @@
 <<audio "seizure" stop>>
 <<audio "seizure" play>>
 <</repeat>>
-<<type 20ms>>
+<<type 40ms>>
 <span class="dialogue">
-You reach the attic. The convulsions have worsened–her small body is jackknifing so violently that Winona can barely keep her from falling off the bed. Foam flecks the corners of Dove’s mouth, mixing with the blood into a gurgling, frothy flood. It’s drenching the front of her nightgown, dyeing it deep, sticky black.
+The convulsions have worsened–her small body is jackknifing so violently that Winona can barely keep her from falling off the bed. Foam flecks the corners of Dove’s mouth, mixing with the blood into a gurgling, frothy flood. It’s drenching the front of her nightgown, dyeing it deep, sticky black.
 
 Her lips have turned <span class="scary">blue.</span>
 
@@ -21,6 +21,26 @@ Dove’s jaw clenches, and her teeth sink into Winona’s thumb.
 
 Dove’s jaw opens just wide enough–and Winona shoves two tablets past Dove’s teeth. She tips water after them. Most of the water dribbles down Dove’s chin, but some goes down with the pills. 
 
-<span class="winona">[[“Swallow, please swallow–”->Ch6Pg5]]</span>
+<span class="winona">“Swallow, please swallow–”</span>
+
+The convulsions continue. <span class="scary">THUMP THUMP THUMP</span>
+
+The seconds stretch like an eternity.
+
+Then, gradually, the jerks slow. bThe rigid arc of Dove’s spine softens. Her gnarled fingers uncurl. The terrible thumping stops.
+
+And, like a marionette whose strings were severed, Dove goes limp.
+
+Silence. For a moment you don’t even hear her breath.
+
+<span class="winona">“Dove?”</span> Winona’s voice breaks. <span class="winona">“Dove, baby?”</span>
+
+A rattling gasp. Then another. Dove’s chest rises and falls in ragged, hitching breaths. 
+
+Hey eyes flutter. The whites recede as her eyes rivet back into place, revealing pupils in warm rings of amber brown. Her eyes focus. She’s back. 
+
+Winona exhales, her words tumbling out in breathy relief. <span class="winona">“Oh Dove, you’re back–”</span>
+
+<span class="super-scary">[[“The wolf.”->Ch6Pg5]]</span>
 </span>
 <</type>>

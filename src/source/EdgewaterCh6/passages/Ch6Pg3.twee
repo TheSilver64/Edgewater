@@ -4,6 +4,7 @@
 <<audio "seizure" play>>
 <</repeat>>
 <<type 20ms>>
+<div class=chStart>The Medicine Cabinet</div>
 <span class="dialogue">
 You burst through the bathroom door and slam your palm against the light switch. The medicine cabinet is behind the side mirror. Your hands are shaking so badly you can barely grip the mirror’s edge. You pry it open and rifle through the bottles. They rattle and one tips over, crashing into the sink basin.
 
@@ -23,6 +24,6 @@ You snatch the glass on the sink edge and fill it at the tap. Water splashes ove
 
 You race towards the awful sounds: Dove choking, gagging. Winona’s frantic voice: <span class="winona">“On her side–shit, shit, SHIT–”</span>
 
-[[HURRY!->Ch6Pg4]]
+[[You reach the attic.->Ch6Pg4]]
 </span>
 <</type>>

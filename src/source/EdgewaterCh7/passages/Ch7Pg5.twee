@@ -1,0 +1,38 @@
+:: Ch7Pg5
+<<audio "tvNeutral" stop>>
+<<audio "tvScary" stop>>
+<<type 20ms>>
+<span class="dialogue">
+Despite its name, the sunroom’s ample light does little to warm your skin. You set the letter down on the glass table. Next to it is your father’s lighter–the one your sister claimed. And beside that–a half-full pack of cigarettes. 
+
+You’d shared a couple drunk cigarettes at college parties, but nothing more. Smoking was a disgusting habit. Your mother always hated the way your dad’s breath reeked of cigarettes.
+
+And yet you find yourself reaching for the pack with shaky hands.
+</span><</type>><<type 20ms>><span class="dialogue"><<audio "lighter" play>>
+It takes you a few tries to light it, but the tip finally catches. You inhale. The acrid flavor coats your mouth. You exhale. But the nicotine steadies you. You can see why your father was addicted. This is better than your breathing exercises. 
+
+The lake stretches out before you. Chapel Island rises in the distance, a dark shadow across the water. And somewhere beyond, deep in the woods, police are still processing a crime scene. An animal attack. 
+
+<span class="super-scary">A body with a red backpack.</span>
+
+You’d been planning to leave tomorrow. Back to the university, to your dorm and sets of proofs–a life where sacred islands and strangely prophetic dreams were just embarrassing family stories. You trace the engraving on the lighter. It gleams like moonlight. 
+
+You’d stayed away for four years. Four years of making excuses.
+
+Dove’s voice rings in your ear like a bell. “You’re back for good?”–then you see her face twisted in a scream, her delicate neck crushed in the jaws of a wolf. 
+
+You crumple the cigarette pack. You’ve made up your mind. 
+
+You can’t just leave them here. 
+
+Your wallet is in your hand before you realize you’ve reached for it. Your fingers find three business cards–three people who might have answers. You spread them out across the table.
+
+[[Olivia Hepburn.->Ch7Pg6]]
+[[Isaac Ashford.->Ch7Pg6]]
+[[Rachel Wyatt.->Ch7Pg6]] 
+
+Three cards. Three choices. You pull out your phone.
+
+Who do you call?
+</span>
+<</type>>

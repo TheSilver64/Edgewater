@@ -1,6 +1,6 @@
 :: 002chapterHead
 <<audio "pianoC" stop>>
-<<audio "ambiencePrologue" play loop volume 1.25>>
+<<audio "ambiencePrologue" play loop volume 1>>
 <<timed 1s>><span class="fade-in"><span class="dialogue"><div class="chTitle">Prologue</div></span></span><</timed>>
 <<timed 3s>><span class="fade-in"><center><img src="Images/intro.png" height="432px" width="540px"></center></span><</timed>>
 <<timed 5s>><span class="fade-in"><div class="chStart">[[Summer 1990->Ch0Pg0]]</div></span><</timed>>

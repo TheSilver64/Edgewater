@@ -3,18 +3,7 @@
 <<audio "seizure" stop>>
 <<audio "seizure" play>>
 <</repeat>>
-<<type 20ms>>
-<span class="dialogue">
-<span class="dove">“You have to believe me!”</span> She’s sobbing now, her small frame wracked with tremors. <span class="dove">“You have to! His eyes–and his teeth–”</span>
-
-Her breath hitches and she dissolves into incoherent crying.
-
-Winona pulls her into an embrace, rocking her gently. <span class="winona">“Shhhh, shhhhh,”</span> she cooes, <span class="winona">“I believe you. I believe you.”</span>
-
-Doves bawls into her shoulder. 
-
-You stand frozen in the doorway. The words drop from your lips, <span class="arthur">“I can stay here too,”</span> you offer helplessly, <span class="arthur">“In case it happens again. I can sleep on the floor, keep watch–”</span>
-
+<<type 40ms>>
 <span class="winona">“NO.”</span> the word cracks like an ice sheet across the lake in winter. Winona glares at you, her red-rimmed eyes blazing with contempt. 
 
 <span class="winona">“You think you can just waltz in here and play hero?”</span> her voice drips with derision. 

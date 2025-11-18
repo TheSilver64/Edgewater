@@ -677,6 +677,168 @@ window.story_flags_pro = new Map([
     ["Story", 0]
 ]);
 
+/* for character flags */
+window.character_categories = {
+    hepburn: {
+        label: "Hepburn Family",
+        css_class: "hepburn"
+    },
+    ashford: {
+        label: "Ashford Family",
+        css_class: "ashford"
+    },
+    wyatt: {
+        label: "Wyatt Family",
+        css_class: "wyatt"
+    }
+};
+
+/* characters map */
+window.characters = new Map([
+
+    /*=== HEPBURN FAMILY ===*/
+
+    ["winona", {
+        category: "hepburn",
+        css_class: "winona",
+
+        base_description: "Your strong-willed and outspoken younger sister.",
+        flags: { met: true, ch3_convo: false },
+        description_fragments: {
+            ch3_convo:
+                "."
+        }
+    }],
+
+    ["dove", {
+        category: "hepburn",
+        css_class: "dove",
+
+        base_description: "Your bubbly baby sister.",
+        flags: { met: false, learned_secret: false },
+        description_fragments: {
+            met: ".",
+            learned_secret: "."
+        }
+    }],
+
+    ["namid", {
+        category: "hepburn",
+        css_class: "namid",
+
+        base_description: ".",
+        flags: { met: false },
+        description_fragments: {}
+    }],
+
+    ["silas", {
+        category: "hepburn",
+        css_class: "silas",
+
+        base_description: ".",
+        flags: { met: false },
+        description_fragments: {}
+    }],
+
+    ["olivia", {
+        category: "hepburn",
+        css_class: "olivia",
+
+        base_description: ".",
+        flags: { met: false },
+        description_fragments: {}
+    }],
+
+    ["colin", {
+        category: "hepburn",
+        css_class: "colin",
+
+        base_description: ".",
+        flags: { met: false },
+        description_fragments: {}
+    }],
+
+    ["harold", {
+        category: "hepburn",
+        css_class: "harold",
+
+        base_description: ".",
+        flags: { met: false },
+        description_fragments: {}
+    }],
+
+    ["martha", {
+        category: "hepburn",
+        css_class: "martha",
+
+        base_description: ".",
+        flags: { met: false },
+        description_fragments: {}
+    }],
+
+
+    /* ======================
+       === ASHFORD FAMILY ===
+       ====================== */
+
+    ["rhona", {
+        category: "ashford",
+        css_class: "rhona",
+
+        base_description: ".",
+        flags: { met: false },
+        description_fragments: {}
+    }],
+
+    ["isaac", {
+        category: "ashford",
+        css_class: "isaac",
+
+        base_description: ".",
+        flags: { met: false, shared_memory: false },
+        description_fragments: {
+            shared_memory: "."
+        }
+    }],
+
+
+    /* ====================
+       === WYATT FAMILY ===
+       ==================== */
+
+    ["alexander", {
+        category: "wyatt",
+        css_class: "alexander",
+
+        base_description: "Charismatic and commanding, with an easy charm that hides deeper motives.",
+        flags: { met: false },
+        description_fragments: {}
+    }],
+
+    ["rachel", {
+        category: "wyatt",
+        css_class: "rachel",
+
+        base_description: "Confident, quick-witted, and effortlessly magnetic.",
+        flags: { met: false, opened_up: false },
+        description_fragments: {
+            opened_up: "Beneath her shine, there's a fear of being forgotten."
+        }
+    }]
+
+]);
+
+
+
+// setters/getters
+window.update_character_flag = function (character, key, value) {
+    character_flags[character].set(key, value);
+};
+
+window.get_character_flag = function (character, key) {
+    return character_flags[character].get(key);
+};
+
 /* === Text Crawl Functions === */
 window.textWaitTime = 20;
 window.urgentTextWaitTime = 5;
