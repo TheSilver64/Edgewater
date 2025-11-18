@@ -1,12 +1,34 @@
 :: creditsPg0
+<<audio "pianoB" stop>>
+<<audio "chimes" stop>>
+<<audio "ambienceNeg" stop>>
+<<audio "nightmareA" stop>>
+<<timed 1s>><span class="fade-in"><span class="dialogue"><div class="chTitle">Thank you for playing Edgewater.</div></span></span><</timed>>
+<<timed 3s>><span class="fade-in"><div class="chStart">Credits:</div></span><</timed>>
 
-source/EdgewaterCh1/passages/Ch1Pg2B.twee
+<<type 40ms>>
 <span class="dialogue">
-<div class=chTitle>Thank you for playing Edgewater.</div>
-<center>
-<img src="Images/ch2.png" height="432px" width="540px">
-</center>
-<<type 20ms>>\
-<div class=chStart>[[CREDITS->credits]]</div>
-\<</type>>
+<<audio "pianoA" stop>><<audio "pianoA" play>><<repeat 108s>><<audio "pianoA" stop>><<audio "pianoA" play>><</repeat>>
+Ruben Reynoso (@ruben): creator; lead narrative designer, sound designer & programmer
+
+Virginia Carrion (mess.a.lina): composer; lead sound designer
+
+Raincloud: lead programmer
+
+Brittany Hale (@TheSilver64): lead programmer
+
+thatguynm: illustrator
+
+scooter: illustrator
+
+Trent Hutchinson: game writer
+
+Brain ‘MKCyborg’ Renadette: game writer
+
+Gumbo Masterer: game writer
+
+Elijah Jeffery: game writer
+
+If you enjoyed this prototype, follow our itch page for updates.
 </span>
+<</type>>
