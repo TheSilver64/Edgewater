@@ -1,31 +1,34 @@
 :: Ch5Pg2A4
+<<audio "forest" stop>>
+<<audio "treehouseMemory" play loop volume 0.7>>
 <<type 40ms>>
 <span class="dialogue">
+<div class="flashback">
 Bright summer day. Sunlight streaming through the treehouse windows. You're sketching in your notebook—Koch snowflakes. They multiply across the ruled notebook. 
 
 The ladder rattles. Winona's head appears through the opening. Her auburn hair is electric with humidity.
 
-"There you are! I've been looking everywhere!" 
+<span class="winona">"There you are! I've been looking everywhere!"</span>
 
-You don't look up. "You're not supposed to be here. This is my hideout."
+You don't look up. <span class="arthur">"You're not supposed to be here. This is my hideout."</span>
 
 She climbs in anyway, ignoring your protestations. She's holding something knotted and circular. The olive green feathers of a heron hang from the bottom. A freshly woven dreamcatcher.
 
-"Finally finished!" she declares, settling cross-legged across from you. "This one's for Dove. The nightmares have been getting worse."
+<span class="winona">"Finally finished!"</span> she declares, settling cross-legged across from you. <span class="winona">"This one's for Dove. The nightmares have been getting worse."</span>
 
-You keep drawing, adding smaller and smaller triangles to your pattern. "It's just string and feathers, Winny. It's not going to do anything."
+You keep drawing, adding smaller and smaller triangles to your pattern. <span class="arthur">"It's just string and feathers, Winny. It's not going to do anything."</span>
 
-"And what are you doing to help?" The words come out shrill. She snatches your notebook from your hands. "All you do is draw and do math! You don't go swimming. You don't play sports. You barely even talk to us anymore! The least you could do is help with baby Dove!"
+<span class="winona">"And what are you doing to help?"</span> The words come out shrill. She snatches your notebook from your hands. <span class="winona">"All you do is draw and do math! You don't go swimming. You don't play sports. You barely even talk to us anymore! The least you could do is help with baby Dove!"</span>
 
-"Give it back—"
+<span class="arthur">"Give it back—"</span>
 
-"No!" She's standing now. Fury radiates from her small frame. "I'm sick of this! I'm sick of you acting like you're better than us! You’re not that smart!"
+<span class="winona">"No!"</span> She's standing now. Fury radiates from her small frame. <span class="winona">"I'm sick of this! I'm sick of you acting like you're better than us! You’re not that smart!"</span>
 
 She raises the notebook above her head like a sacrifice. For a moment you think she's going to tear it. Instead she throws it at you—hard enough that the metal spine catches you across the cheek, leaving red spiral indentations. 
 
-"I hate you!" she screams. And then she's gone, scrambling down the ladder so fast that you wouldn’t dare try to follow. 
+<span class="winona">"I hate you!"</span> she screams. And then she's gone, scrambling down the ladder so fast that you wouldn’t dare try to follow. 
 
 You sit alone in the treehouse, cheek stinging, notebook on the floor. Through the window you can see her running back toward the house, her dreamcatcher clutched against her chest.
 
-[[A sound pulls you back to the present.->Ch5Pg2A5]]
+[[A sound pulls you back to the present.->Ch5Pg2A5]]</div>
 </span><</type>>

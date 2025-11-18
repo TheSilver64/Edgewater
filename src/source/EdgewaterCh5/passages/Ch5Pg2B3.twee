@@ -1,4 +1,6 @@
 :: Ch5Pg2B3
+<<audio "motherMemory" stop>>
+<<audio "ambienceChap5" play loop>>
 <<type 40ms>>
 <span class="dialogue">
 You find that same watering can now, overturned behind the tool shed. The paint is faded, some of the dancers worn to cracked outlines, but it's still intact.
@@ -15,6 +17,6 @@ You don’t look back when you leave. If you did, you might see the way the rose
 
 But you don't look back.
 
-Dove's voice carries across the yard: "Arty! Dinner's ready!"
+Dove's voice carries across the yard: <span class="dove">"Arty! Dinner's ready!"</span>
 
 [[You close the gate behind you.->Ch6Pg0]] It groans on its broken hinge, and in the air of the enclosing night, the sound rumbles like a stone slab sliding over a tomb.</span><</type>>

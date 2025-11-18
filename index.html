@@ -257,6 +257,14 @@ body {
     margin-bottom: 4em; /* same as .story-thumb bottom margin */
 }
 
+/* Font Stylization for Flashbacks */
+.flashback {
+    letter-spacing: 0.5px;
+    opacity: 0.75;
+    filter: blur(0.25px);
+
+}
+
 /* Story Fonts */
 @font-face {
   font-family: "Story Font";
@@ -716,7 +724,7 @@ window.textCrawl = async function (id, text) {
 &lt;/span&gt;
 &lt;&lt;/timed&gt;&gt;
 
-&lt;&lt;timed 4s&gt;&gt;&lt;span class=&quot;fade-in&quot;&gt;&lt;div class=&#39;dialogue&#39; style=&quot;font-size:1.25em; text-align:center&quot;&gt;[[Acknowledge-&gt;TitleScreen]]&lt;/div&gt;&lt;/span&gt;&lt;&lt;/timed&gt;&gt;</tw-passagedata><tw-passagedata pid="2" name="TitleScreen" tags="" position="225,100" size="100,100">&lt;&lt;audio &quot;pianoC&quot; play loop&gt;&gt;
+&lt;&lt;timed 4s&gt;&gt;&lt;span class=&quot;fade-in&quot;&gt;&lt;div class=&#39;dialogue&#39; style=&quot;font-size:1.25em; text-align:center&quot;&gt;[[Acknowledge-&gt;Ch5Pg0]]&lt;/div&gt;&lt;/span&gt;&lt;&lt;/timed&gt;&gt;</tw-passagedata><tw-passagedata pid="2" name="TitleScreen" tags="" position="225,100" size="100,100">&lt;&lt;audio &quot;pianoC&quot; play loop&gt;&gt;
 
 &lt;&lt;timed 5.5s&gt;&gt;
 &lt;span class=&quot;fade-in&quot; style=&quot;animation-duration:5s; display: flex; justify-content: center;&quot;&gt;
@@ -801,7 +809,7 @@ window.textCrawl = async function (id, text) {
 &lt;&lt;cacheaudio &quot;forest&quot; &quot;src/source/sound/forest.mp3&quot;&gt;&gt;
 &lt;&lt;cacheaudio &quot;treehouseMemory&quot; &quot;src/source/sound/treehouse_memory.mp3&quot;&gt;&gt;
 &lt;&lt;cacheaudio &quot;wolfHowl&quot; &quot;src/source/sound/wolf_howl.mp3&quot;&gt;&gt;
-&lt;&lt;cacheaudio &quot;motherMemory&quot; &quot;src/source/sound/treehouseMemory.mp3&quot;&gt;&gt;
+&lt;&lt;cacheaudio &quot;motherMemory&quot; &quot;src/source/sound/mother_memory.mp3&quot;&gt;&gt;
 &lt;&lt;cacheaudio &quot;ambienceNeg&quot; &quot;src/source/sound/ambi_neg.mp3&quot;&gt;&gt;
 
 /* chapter 6 */
@@ -947,6 +955,168 @@ window.story_flags_pro = new Map([
     [&quot;Main_Chapter_Branch&quot;, 0],
     [&quot;Story&quot;, 0]
 ]);
+
+/* for character flags */
+window.character_categories = {
+    hepburn: {
+        label: &quot;Hepburn Family&quot;,
+        css_class: &quot;hepburn&quot;
+    },
+    ashford: {
+        label: &quot;Ashford Family&quot;,
+        css_class: &quot;ashford&quot;
+    },
+    wyatt: {
+        label: &quot;Wyatt Family&quot;,
+        css_class: &quot;wyatt&quot;
+    }
+};
+
+/* characters map */
+window.characters = new Map([
+
+    /*=== HEPBURN FAMILY ===*/
+
+    [&quot;winona&quot;, {
+        category: &quot;hepburn&quot;,
+        css_class: &quot;winona&quot;,
+
+        base_description: &quot;Your strong-willed and outspoken younger sister.&quot;,
+        flags: { met: true, ch3_convo: false },
+        description_fragments: {
+            ch3_convo:
+                &quot;.&quot;
+        }
+    }],
+
+    [&quot;dove&quot;, {
+        category: &quot;hepburn&quot;,
+        css_class: &quot;dove&quot;,
+
+        base_description: &quot;Your bubbly baby sister.&quot;,
+        flags: { met: false, learned_secret: false },
+        description_fragments: {
+            met: &quot;.&quot;,
+            learned_secret: &quot;.&quot;
+        }
+    }],
+
+    [&quot;namid&quot;, {
+        category: &quot;hepburn&quot;,
+        css_class: &quot;namid&quot;,
+
+        base_description: &quot;.&quot;,
+        flags: { met: false },
+        description_fragments: {}
+    }],
+
+    [&quot;silas&quot;, {
+        category: &quot;hepburn&quot;,
+        css_class: &quot;silas&quot;,
+
+        base_description: &quot;.&quot;,
+        flags: { met: false },
+        description_fragments: {}
+    }],
+
+    [&quot;olivia&quot;, {
+        category: &quot;hepburn&quot;,
+        css_class: &quot;olivia&quot;,
+
+        base_description: &quot;.&quot;,
+        flags: { met: false },
+        description_fragments: {}
+    }],
+
+    [&quot;colin&quot;, {
+        category: &quot;hepburn&quot;,
+        css_class: &quot;colin&quot;,
+
+        base_description: &quot;.&quot;,
+        flags: { met: false },
+        description_fragments: {}
+    }],
+
+    [&quot;harold&quot;, {
+        category: &quot;hepburn&quot;,
+        css_class: &quot;harold&quot;,
+
+        base_description: &quot;.&quot;,
+        flags: { met: false },
+        description_fragments: {}
+    }],
+
+    [&quot;martha&quot;, {
+        category: &quot;hepburn&quot;,
+        css_class: &quot;martha&quot;,
+
+        base_description: &quot;.&quot;,
+        flags: { met: false },
+        description_fragments: {}
+    }],
+
+
+    /* ======================
+       === ASHFORD FAMILY ===
+       ====================== */
+
+    [&quot;rhona&quot;, {
+        category: &quot;ashford&quot;,
+        css_class: &quot;rhona&quot;,
+
+        base_description: &quot;.&quot;,
+        flags: { met: false },
+        description_fragments: {}
+    }],
+
+    [&quot;isaac&quot;, {
+        category: &quot;ashford&quot;,
+        css_class: &quot;isaac&quot;,
+
+        base_description: &quot;.&quot;,
+        flags: { met: false, shared_memory: false },
+        description_fragments: {
+            shared_memory: &quot;.&quot;
+        }
+    }],
+
+
+    /* ====================
+       === WYATT FAMILY ===
+       ==================== */
+
+    [&quot;alexander&quot;, {
+        category: &quot;wyatt&quot;,
+        css_class: &quot;alexander&quot;,
+
+        base_description: &quot;Charismatic and commanding, with an easy charm that hides deeper motives.&quot;,
+        flags: { met: false },
+        description_fragments: {}
+    }],
+
+    [&quot;rachel&quot;, {
+        category: &quot;wyatt&quot;,
+        css_class: &quot;rachel&quot;,
+
+        base_description: &quot;Confident, quick-witted, and effortlessly magnetic.&quot;,
+        flags: { met: false, opened_up: false },
+        description_fragments: {
+            opened_up: &quot;Beneath her shine, there&#39;s a fear of being forgotten.&quot;
+        }
+    }]
+
+]);
+
+
+
+// setters/getters
+window.update_character_flag = function (character, key, value) {
+    character_flags[character].set(key, value);
+};
+
+window.get_character_flag = function (character, key) {
+    return character_flags[character].get(key);
+};
 
 /* === Text Crawl Functions === */
 window.textWaitTime = 20;
@@ -3667,9 +3837,10 @@ The light returns.
 &lt;&lt;audio &quot;chimes&quot; stop&gt;&gt;
 &lt;&lt;audio &quot;ambienceNeg&quot; stop&gt;&gt;
 &lt;&lt;audio &quot;nightmareA&quot; stop&gt;&gt;
+&lt;&lt;audio &quot;ambienceChap5&quot; play loop&gt;&gt;
 &lt;&lt;timed 1s&gt;&gt;&lt;span class=&quot;fade-in&quot;&gt;&lt;span class=&quot;dialogue&quot;&gt;&lt;div class=&quot;chTitle&quot;&gt;Chapter Five&lt;/div&gt;&lt;/span&gt;&lt;/span&gt;&lt;&lt;/timed&gt;&gt;
 &lt;&lt;timed 3s&gt;&gt;&lt;span class=&quot;fade-in&quot;&gt;&lt;center&gt;&lt;img src=&quot;Images/ch5.png&quot; height=&quot;432px&quot; width=&quot;540px&quot;&gt;&lt;/center&gt;&lt;/span&gt;&lt;&lt;/timed&gt;&gt;
-&lt;&lt;timed 5s&gt;&gt;&lt;span class=&quot;fade-in&quot;&gt;&lt;div class=&quot;chStart&quot;&gt;[[Dusk-&gt;Ch4Pg1]]&lt;/div&gt;&lt;/span&gt;&lt;&lt;/timed&gt;&gt;</tw-passagedata><tw-passagedata pid="120" name="Ch5Pg1" tags="" position="1225,1475" size="100,100">&lt;&lt;type 40ms&gt;&gt;
+&lt;&lt;timed 5s&gt;&gt;&lt;span class=&quot;fade-in&quot;&gt;&lt;div class=&quot;chStart&quot;&gt;[[Dusk-&gt;Ch5Pg1]]&lt;/div&gt;&lt;/span&gt;&lt;&lt;/timed&gt;&gt;</tw-passagedata><tw-passagedata pid="120" name="Ch5Pg1" tags="" position="1225,1475" size="100,100">&lt;&lt;type 40ms&gt;&gt;
 &lt;span class=&quot;dialogue&quot;&gt;
 The house presses in around you, its rancid dust settling into your lungs, heavy with the weight of death. You’ve only spent a few hours inside, and you’re already claustrophobic. 
 
@@ -3684,14 +3855,16 @@ Where do you go?
 [[The forest.-&gt;Ch5Pg2A]]
 [[The garden.-&gt;Ch5Pg2B]]
 [[The lakeside.-&gt;Ch5Pg2C]]
-&lt;/span&gt;&lt;&lt;/type&gt;&gt;</tw-passagedata><tw-passagedata pid="121" name="Ch5Pg2A" tags="" position="100,1600" size="100,100">&lt;&lt;type 40ms&gt;&gt;
+&lt;/span&gt;&lt;&lt;/type&gt;&gt;</tw-passagedata><tw-passagedata pid="121" name="Ch5Pg2A" tags="" position="100,1600" size="100,100">&lt;&lt;audio &quot;ambienceChap5&quot; stop&gt;&gt;
+&lt;&lt;audio &quot;forest&quot; play loop&gt;&gt;
+&lt;&lt;type 40ms&gt;&gt;
 &lt;div class=chStart&gt;The Forest&lt;/div&gt;
 &lt;span class=&quot;dialogue&quot;&gt;
 Your feet carry you towards the treeline. The forest has always been there, a dark margin at the edge of childhood. 
 
 Your mother used to tell you stories about these woods. How her ancestors spoke to the spirits that lived in the bark and stone. How the Menominee knew these trees before the first European axes bit into their trunks. 
 
-“The forest does not forget,” your mother used to say. Every footstep, every prayer, every drop of blood soaked into its soil was encoded in its deep taproots like memories in neurons. 
+&lt;span class=&quot;namid&quot;&gt;&lt;span class=&quot;supernatural-glow&quot;&gt;“The forest does not forget,”&lt;/span&gt;&lt;/span&gt; your mother used to say. Every footstep, every prayer, every drop of blood soaked into its soil was encoded in its deep taproots like memories in neurons. 
 
 You would roll your eyes at the mysticism. Trees are cellulose and chlorophyll. Forests are ecosystems, not some ancient being whose breath moves with the pines. 
 
@@ -3703,7 +3876,7 @@ The air changes immediately. Cooler, denser–the scent of cedar and wet stone f
 &lt;span class=&quot;dialogue&quot;&gt;
 The forest floor transitions to exposed roots that twist across the path like arthritic fingers. Above, small offerings hang from low branches—faded ribbons, glass beads, rusted bells, bundles of dried herbs wrapped in twine. Some look recent. Others have been here so long they&#39;ve begun to merge with the bark, swallowed by the wood itself.
 
-The spirits do not forget.
+&lt;span class=&quot;namid&quot;&gt;&lt;span class=&quot;supernatural-glow&quot;&gt;The spirits do not forget.&lt;/span&gt;&lt;/span&gt;
 
 A shape materializes through the trees ahead. [[You stop.-&gt;Ch5Pg2A2]]
 &lt;/span&gt;&lt;&lt;/type&gt;&gt;</tw-passagedata><tw-passagedata pid="123" name="Ch5Pg2A2" tags="" position="350,1600" size="100,100">&lt;&lt;type 40ms&gt;&gt;
@@ -3736,11 +3909,44 @@ A toy. Your toy. A small wooden plane you&#39;d assembled from balsa wood, paint
 You pick it up. The wood is gray with age, splintered in places. But its weight in your hands is familiar. You can never forget the satisfaction of constructing something tangible that occupies three-dimensional space alongside you.
 
 [[The memory surfaces like something dredged from the murky silt of the lakefloor:-&gt;Ch5Pg2A4]]
-&lt;/span&gt;&lt;&lt;/type&gt;&gt;</tw-passagedata><tw-passagedata pid="125" name="Ch5Pg2A4" tags="" position="600,1600" size="100,100">&lt;&lt;type 40ms&gt;&gt;
+&lt;/span&gt;&lt;&lt;/type&gt;&gt;</tw-passagedata><tw-passagedata pid="125" name="Ch5Pg2A4" tags="" position="600,1600" size="100,100">&lt;&lt;audio &quot;forest&quot; stop&gt;&gt;
+&lt;&lt;audio &quot;treehouseMemory&quot; play loop volume 0.7&gt;&gt;
+&lt;&lt;type 40ms&gt;&gt;
+&lt;span class=&quot;dialogue&quot;&gt;
+&lt;div class=&quot;flashback&quot;&gt;
+Bright summer day. Sunlight streaming through the treehouse windows. You&#39;re sketching in your notebook—Koch snowflakes. They multiply across the ruled notebook. 
+
+The ladder rattles. Winona&#39;s head appears through the opening. Her auburn hair is electric with humidity.
+
+&lt;span class=&quot;winona&quot;&gt;&quot;There you are! I&#39;ve been looking everywhere!&quot;&lt;/span&gt;
+
+You don&#39;t look up. &lt;span class=&quot;arthur&quot;&gt;&quot;You&#39;re not supposed to be here. This is my hideout.&quot;&lt;/span&gt;
+
+She climbs in anyway, ignoring your protestations. She&#39;s holding something knotted and circular. The olive green feathers of a heron hang from the bottom. A freshly woven dreamcatcher.
+
+&lt;span class=&quot;winona&quot;&gt;&quot;Finally finished!&quot;&lt;/span&gt; she declares, settling cross-legged across from you. &lt;span class=&quot;winona&quot;&gt;&quot;This one&#39;s for Dove. The nightmares have been getting worse.&quot;&lt;/span&gt;
+
+You keep drawing, adding smaller and smaller triangles to your pattern. &lt;span class=&quot;arthur&quot;&gt;&quot;It&#39;s just string and feathers, Winny. It&#39;s not going to do anything.&quot;&lt;/span&gt;
+
+&lt;span class=&quot;winona&quot;&gt;&quot;And what are you doing to help?&quot;&lt;/span&gt; The words come out shrill. She snatches your notebook from your hands. &lt;span class=&quot;winona&quot;&gt;&quot;All you do is draw and do math! You don&#39;t go swimming. You don&#39;t play sports. You barely even talk to us anymore! The least you could do is help with baby Dove!&quot;&lt;/span&gt;
+
+&lt;span class=&quot;arthur&quot;&gt;&quot;Give it back—&quot;&lt;/span&gt;
+
+&lt;span class=&quot;winona&quot;&gt;&quot;No!&quot;&lt;/span&gt; She&#39;s standing now. Fury radiates from her small frame. &lt;span class=&quot;winona&quot;&gt;&quot;I&#39;m sick of this! I&#39;m sick of you acting like you&#39;re better than us! You’re not that smart!&quot;&lt;/span&gt;
+
+She raises the notebook above her head like a sacrifice. For a moment you think she&#39;s going to tear it. Instead she throws it at you—hard enough that the metal spine catches you across the cheek, leaving red spiral indentations. 
+
+&lt;span class=&quot;winona&quot;&gt;&quot;I hate you!&quot;&lt;/span&gt; she screams. And then she&#39;s gone, scrambling down the ladder so fast that you wouldn’t dare try to follow. 
+
+You sit alone in the treehouse, cheek stinging, notebook on the floor. Through the window you can see her running back toward the house, her dreamcatcher clutched against her chest.
+
+[[A sound pulls you back to the present.-&gt;Ch5Pg2A5]]&lt;/div&gt;
+&lt;/span&gt;&lt;&lt;/type&gt;&gt;</tw-passagedata><tw-passagedata pid="126" name="Ch5Pg2A5" tags="" position="725,1600" size="100,100">&lt;&lt;audio &quot;wolfHowl&quot; play&gt;&gt;
+&lt;&lt;type 40ms&gt;&gt;
 &lt;span class=&quot;dialogue&quot;&gt;
 It&#39;s low and distant. An animal&#39;s howl carried on the wind.
 
-A wolf.
+&lt;span class=&quot;arthur&quot;&gt;&lt;span class=&quot;supernatural-glow&quot;&gt;A wolf.&lt;/span&gt;&lt;/span&gt;
 
 Your hand tightens around the wooden plane. It’s getting late. You scramble down from the treehouse. The forest suddenly feels different. The trees press closer, as if they’re watching you through the whorls in their bark. The shadows between them seem to move with purpose.
 
@@ -3750,11 +3956,11 @@ Finally, through the trees, you can make out faded blue siding, a sagging porch.
 
 You burst from the treeline just as Dove&#39;s voice carries across the yard:
 
-&quot;Arty! Dinner&#39;s ready!&quot;
+&lt;span class=&quot;dove&quot;&gt;&quot;Arty! Dinner&#39;s ready!&quot;&lt;/span&gt;
 
 You stop, hands on your knees, gulping air. When you look back at the forest, all sinister energy has dissipated. It&#39;s just trees again. Just wood and shadow and the ordinary dangers of the natural world.
 
-[[But you can still hear the echo of that howl in your bones.-&gt;Ch6Pg0]]&lt;/span&gt;&lt;&lt;/type&gt;&gt;</tw-passagedata><tw-passagedata pid="126" name="Ch5Pg2B" tags="" position="725,1600" size="100,100">&lt;&lt;type 40ms&gt;&gt;
+[[But you can still hear the echo of that howl in your bones.-&gt;Ch6Pg0]]&lt;/span&gt;&lt;&lt;/type&gt;&gt;</tw-passagedata><tw-passagedata pid="127" name="Ch5Pg2B" tags="" position="850,1600" size="100,100">&lt;&lt;type 40ms&gt;&gt;
 &lt;div class=chStart&gt;The Garden&lt;/div&gt;
 &lt;span class=&quot;dialogue&quot;&gt;
 You take the path to the garden, or what’s left of it, that is. 
@@ -3769,7 +3975,7 @@ Even the air here smells wrong. Not of rain or earth, but of something that stop
 
 You walk the rows that once existed, your boots cracking on dead stems. The sound is sacrilege in the stillness. 
 
-[[At the garden&#39;s center, you stop.-&gt;Ch5Pg2B1]]&lt;/span&gt;&lt;&lt;/type&gt;&gt;</tw-passagedata><tw-passagedata pid="127" name="Ch5Pg2B1" tags="" position="850,1600" size="100,100">&lt;&lt;type 40ms&gt;&gt;
+[[At the garden&#39;s center, you stop.-&gt;Ch5Pg2B1]]&lt;/span&gt;&lt;&lt;/type&gt;&gt;</tw-passagedata><tw-passagedata pid="128" name="Ch5Pg2B1" tags="" position="975,1600" size="100,100">&lt;&lt;type 40ms&gt;&gt;
 &lt;span class=&quot;dialogue&quot;&gt;
 A single rose bush remains standing. It&#39;s not blooming–wrong season–but it&#39;s not fully dead, either. The stems are gray, the thorns like claws, but somewhere, deep in its core, a thread of life persists.You can see it in the faint red sheen beneath the bark, in the way the branches haven&#39;t yet become brittle enough to snap.
 
@@ -3777,39 +3983,38 @@ Your mother&#39;s rose. The one she planted.
 
 How long ago was it?
 
-[[The memory crystallizes like night frost on window panes:-&gt;Ch5Pg2B2]]&lt;/span&gt;&lt;&lt;/type&gt;&gt;</tw-passagedata><tw-passagedata pid="128" name="Ch5Pg2B2" tags="" position="975,1600" size="100,100">&lt;&lt;type 40ms&gt;&gt;
+[[The memory crystallizes like night frost on window panes:-&gt;Ch5Pg2B2]]&lt;/span&gt;&lt;&lt;/type&gt;&gt;</tw-passagedata><tw-passagedata pid="129" name="Ch5Pg2B2" tags="" position="1100,1600" size="100,100">&lt;&lt;audio &quot;ambienceChap5&quot; stop&gt;&gt;
+&lt;&lt;audio &quot;motherMemory&quot; play loop volume 0.5&gt;&gt;
+&lt;&lt;type 40ms&gt;&gt;
 &lt;span class=&quot;dialogue&quot;&gt;
+&lt;div class=&quot;flashback&quot;&gt;
 Early morning. You&#39;re young enough that your mother seems gigantic, towering over you even as she kneels beside you in the garden. The sun is just rising. Dew clings to the garden leaves in perfect spheres.
 
-&quot;Look, this one&#39;s special,&quot; she says, settling a small rose bush into the hole she&#39;s dug. Her hands are already dirty, nails caked with soil. She never wore gloves. She preferred to feel “the embrace of the earth.”
+&lt;span class=&quot;namid&quot;&gt;&quot;Look, this one&#39;s special,&quot;&lt;/span&gt; she says, settling a small rose bush into the hole she&#39;s dug. Her hands are already dirty, nails caked with soil. She never wore gloves. She preferred to feel “the embrace of the earth.”
 
-&quot;Roses are very hardy. They survive winters that would kill other plants, because they remember the warmth of the spring.”
+&lt;span class=&quot;namid&quot;&gt;&quot;Roses are very hardy. They survive winters that would kill other plants, because they remember the warmth of the spring.”&lt;/span&gt;
 
-“WAIT–stop!” you plop a bucket onto your head and wave your pudgy toddler arms. “I’m here to ‘tect you!” you announce, your little voice echoing inside the metal.
+&lt;span class=&quot;arthur&quot;&gt;“WAIT–stop!”&lt;/span&gt; you plop a bucket onto your head and wave your pudgy toddler arms. &lt;span class=&quot;arthur&quot;&gt;“I’m here to ‘tect you!”&lt;/span&gt; you announce, your little voice echoing inside the metal.
 
-Your mother laughs, the sound like a bubbling brook over mossy stones. “Oh, are you now?”
+Your mother laughs, the sound like a bubbling brook over mossy stones. &lt;span class=&quot;namid&quot;&gt;“Oh, are you now? What, pray tell, will you protect me from, o knight in shining armor?”&lt;/span&gt;
 
-“From the beeeees!” You chase one that’s investigating the nearby lavender, your arms windmilling around.
+&lt;span class=&quot;arthur&quot;&gt;“From the beeeees!”&lt;/span&gt; You chase one that’s investigating the nearby lavender, your arms windmilling around. &lt;span class=&quot;arthur&quot;&gt;“Buzzzzzzzzz…”&lt;/span&gt; you hum.
 
-You&#39;re wearing a bucket on your head—some game you&#39;ve invented, some imaginary armor. &quot;I&#39;m here to protect you!&quot; you announce, your voice echoing inside the metal.
+Your mother catches you and pulls you close. &lt;span class=&quot;namid&quot;&gt;“You’re not afraid of anything, are you! My little busy bee!”&lt;/span&gt; she tackles you and tickles your tummy. The bucket tumbles off as you giggle uncontrollably. You laugh together, both dizzy with the simple joy of a cool summer morning.
 
-She laughs, the sound like water over stones. &quot;Are you now? What, pray tell, will you protect me from, o knight in shining armor?&quot;
+&lt;span class=&quot;namid&quot;&gt;&quot;Listen to me,&quot;&lt;/span&gt; she says, suddenly serious. She cups your face in her soil-warm hands. &lt;span class=&quot;namid&quot;&gt;“You’re too young to be my knight. You’re still my baby. And as your mother, I will always protect you. Even when you’re all grown-up, even when I’m gone–my love will always remain. Just like the roses, you understand? Some things endure.”&lt;/span&gt;
 
-&quot;From the bees!&quot; You chase one that&#39;s investigating the nearby lavender, arms windmilling. “Buzzzzzzzzz…” you hum.
+You squirm, embarrassed by the intensity. &lt;span class=&quot;arthur&quot;&gt;&quot;But, Mommy, I am grown up. I’m a big boy now!”&lt;/span&gt; 
 
-Your mother catches you and pulls you close. “You’re not afraid of anything, are you! My little busy bee!” she tackles you and tickles your tummy. The bucket tumbles off as you giggle uncontrollably. You laugh together, both dizzy with the simple joy of a cool summer morning.
-
-&quot;Listen to me,&quot; she says, suddenly serious. She cups your face in her soil-warm hands. “You’re too young to be my knight. You’re still my baby. And as your mother, I will always protect you. Even when you’re all grown-up, even when I’m gone–my love will always remain. Just like the roses, you understand? Some things endure.” 
-
-You squirm, embarrassed by the intensity. &quot;But, Mommy, I am grown up. I’m a big boy now!” 
-
-Her smile returns. &quot;Oh, of course. My mistake.&quot; She releases you and turns back to the rose bush. &quot;Now help me water this. When we work in the garden, we must honor the land. For what we take and what we give back.&quot;
+Her smile returns. &lt;span class=&quot;namid&quot;&gt;&quot;Oh, of course. My mistake.&quot;&lt;/span&gt; She releases you and turns back to the rose bush. &lt;span class=&quot;namid&quot;&gt;&quot;Now help me water this. When we work in the garden, we must honor the land. For what we take and what we give back.&quot;&lt;/span&gt;
 
 You don&#39;t understand then. But you help anyway, your mother holding the can’s handle with a steady grip while your grubby hands grasp the showerhead. The stream rains down on the newly rooted plant.
 
-“This is called the rose of the watering can–” your mothers one hand over yours, “isn’t that funny? We’re watering a rose with a rose!” 
+&lt;span class=&quot;namid&quot;&gt;“This is called the rose of the watering can–”&lt;/span&gt; your mothers one hand over yours, &lt;span class=&quot;namid&quot;&gt;“isn’t that funny? We’re watering a rose with a rose!”&lt;/span&gt;
 
-But you hardly pay attention. [[You stare at the can’s rim, watching the painted musical notes dance with the drummers in a circle.-&gt;Ch5Pg2B3]]&lt;/span&gt;&lt;&lt;/type&gt;&gt;</tw-passagedata><tw-passagedata pid="129" name="Ch5Pg2B3" tags="" position="1100,1600" size="100,100">&lt;&lt;type 40ms&gt;&gt;
+But you hardly pay attention. [[You stare at the can’s rim, watching the painted musical notes dance with the drummers in a circle.-&gt;Ch5Pg2B3]]&lt;/div&gt;&lt;/span&gt;&lt;&lt;/type&gt;&gt;</tw-passagedata><tw-passagedata pid="130" name="Ch5Pg2B3" tags="" position="1225,1600" size="100,100">&lt;&lt;audio &quot;motherMemory&quot; stop&gt;&gt;
+&lt;&lt;audio &quot;ambienceChap5&quot; play loop&gt;&gt;
+&lt;&lt;type 40ms&gt;&gt;
 &lt;span class=&quot;dialogue&quot;&gt;
 You find that same watering can now, overturned behind the tool shed. The paint is faded, some of the dancers worn to cracked outlines, but it&#39;s still intact.
 
@@ -3825,9 +4030,10 @@ You don’t look back when you leave. If you did, you might see the way the rose
 
 But you don&#39;t look back.
 
-Dove&#39;s voice carries across the yard: &quot;Arty! Dinner&#39;s ready!&quot;
+Dove&#39;s voice carries across the yard: &lt;span class=&quot;dove&quot;&gt;&quot;Arty! Dinner&#39;s ready!&quot;&lt;/span&gt;
 
-[[You close the gate behind you.-&gt;Ch6Pg0]] It groans on its broken hinge, and in the air of the enclosing night, the sound rumbles like a stone slab sliding over a tomb.&lt;/span&gt;&lt;&lt;/type&gt;&gt;</tw-passagedata><tw-passagedata pid="130" name="Ch5Pg2C" tags="" position="1225,1600" size="100,100">&lt;&lt;type 40ms&gt;&gt;
+[[You close the gate behind you.-&gt;Ch6Pg0]] It groans on its broken hinge, and in the air of the enclosing night, the sound rumbles like a stone slab sliding over a tomb.&lt;/span&gt;&lt;&lt;/type&gt;&gt;</tw-passagedata><tw-passagedata pid="131" name="Ch5Pg2C" tags="" position="100,1725" size="100,100">&lt;&lt;audio &quot;ambienceChap5&quot; play loop&gt;&gt;
+&lt;&lt;type 40ms&gt;&gt;
 &lt;div class=chStart&gt;The Lakeside&lt;/div&gt;
 &lt;span class=&quot;dialogue&quot;&gt;
 The path to the lake is still visible, the dirt packed hard by years of footsteps. It’s not just you and your family who cannot resist the lake’s pull, but others from the town as well. Canoes lie abandoned at the shore, half-submerged in reeds. Their hulls are slick with algae. One has tipped on its side, its paddle still inside, as if whoever left it there fled in a hurry, never to return.
@@ -3844,95 +4050,96 @@ You crouch at the water&#39;s edge.
 
 The surface is so still that when you look down, your reflection is perfect. Every detail rendered in liquid mercury. You turn away. You don’t like being reminded of your existence. 
 
-[[Behind you, the sound of laughter draws your attention.-&gt;Ch5Pg2C1]]&lt;/span&gt;&lt;&lt;/type&gt;&gt;</tw-passagedata><tw-passagedata pid="131" name="Ch5Pg2C1" tags="" position="100,1725" size="100,100">&lt;&lt;type 40ms&gt;&gt;
+[[Behind you, the sound of laughter draws your attention.-&gt;Ch5Pg2C1]]&lt;/span&gt;&lt;&lt;/type&gt;&gt;</tw-passagedata><tw-passagedata pid="132" name="Ch5Pg2C1" tags="" position="225,1725" size="100,100">&lt;&lt;type 40ms&gt;&gt;
 &lt;span class=&quot;dialogue&quot;&gt;
 A group of teenagers carry canoes out of a small boathouse nearby, guided by a young Black man in his twenties. As the teens head onto the water, their instructor notices you and waves. He jogs over.
 
-&quot;Hey there. You must be Arthur Hepburn.&quot; his voice carries the distinctive Yooper accent that marks someone born and raised in Michigan&#39;s Upper Peninsula. His hat is bleached almost white from sun and lake water, its brim frayed. 
+&lt;span class=&quot;alexander&quot;&gt;&quot;Hey there. You must be Arthur Hepburn.&quot;&lt;/span&gt; his voice carries the distinctive Yooper accent that marks someone born and raised in Michigan&#39;s Upper Peninsula. His hat is bleached almost white from sun and lake water, its brim frayed. 
 
-He extends his hand. You shake it after some hesitation, caught off guard. “How’d you know?”
+He extends his hand. You shake it after some hesitation, caught off guard. &lt;span class=&quot;arthur&quot;&gt;“How’d you know?”&lt;/span&gt;
 
-&quot;Small town. News travels fast.&quot; He grins. &quot;Plus, nobody lives on this side of town but you guys. Means the water&#39;s less crowded.&quot;
+&lt;span class=&quot;alexander&quot;&gt;&quot;Small town. News travels fast.&quot;&lt;/span&gt; He grins. &lt;span class=&quot;alexander&quot;&gt;&quot;Plus, nobody lives on this side of town but you guys. Means the water&#39;s less crowded.&quot;&lt;/span&gt;
 
-He turns and yells to the group of paddling teens. &quot;Free paddle for the next half hour!&quot;
+He turns and yells to the group of paddling teens. &lt;span class=&quot;alexander&quot;&gt;&quot;Free paddle for the next half hour!&quot;&lt;/span&gt;
 
 The teens let out a cheer.
 
-&quot;Sorry, forgot about introductions. I&#39;m Alexander Wyatt. I&#39;m really sorry about your dad.&quot;
+&lt;span class=&quot;alexander&quot;&gt;&quot;Sorry, forgot about introductions. I&#39;m Alexander Wyatt. I&#39;m really sorry about your dad.&quot;&lt;/span&gt;
 
-&quot;Thanks,&quot; you manage. &quot;What&#39;s with the canoes?&quot;
+&lt;span class=&quot;arthur&quot;&gt;&quot;Thanks,&quot;&lt;/span&gt; you manage. &lt;span class=&quot;arthur&quot;&gt;&quot;What&#39;s with the canoes?&quot;&lt;/span&gt;
 
-&quot;I&#39;m a canoeing instructor, run classes for the kids. Trying to keep the recreation business alive. My family–or my mom’s family, I should say–has been on this lake for generations.&quot; He pauses, studying you. &quot;Not as long as yours, though.&quot;
+&lt;span class=&quot;alexander&quot;&gt;&quot;I&#39;m a canoeing instructor, run classes for the kids. Trying to keep the recreation business alive. My family–or my mom’s family, I should say–has been on this lake for generations.&quot;&lt;/span&gt; He pauses, studying you. &lt;span class=&quot;alexander&quot;&gt;&quot;Not as long as yours, though.&quot;&lt;/span&gt;
 
-You feel a familiar defensive instinct rise. &quot;Hepburn tradition doesn&#39;t mean much anymore.&quot;
+You feel a familiar defensive instinct rise. &lt;span class=&quot;arthur&quot;&gt;&quot;Hepburn tradition doesn&#39;t mean much anymore.&quot;&lt;/span&gt;
 
-Alexander shakes his head. &quot;I meant your mother&#39;s people. The Menominee connection to this place runs deep.&quot;
+Alexander shakes his head. &lt;span class=&quot;alexander&quot;&gt;&quot;I meant your mother&#39;s people. The Menominee connection to this place runs deep.&quot;&lt;/span&gt;
 
-The mention catches you off guard. [[“You know about that?”-&gt;Ch5Pg2C2]]&lt;/span&gt;&lt;&lt;/type&gt;&gt;</tw-passagedata><tw-passagedata pid="132" name="Ch5Pg2C2" tags="" position="225,1725" size="100,100">&lt;&lt;type 40ms&gt;&gt;
+The mention catches you off guard. [[“You know about that?”-&gt;Ch5Pg2C2]]&lt;/span&gt;&lt;&lt;/type&gt;&gt;</tw-passagedata><tw-passagedata pid="133" name="Ch5Pg2C2" tags="" position="350,1725" size="100,100">&lt;&lt;type 40ms&gt;&gt;
 &lt;span class=&quot;dialogue&quot;&gt;
-Alexander crouches. pulls a handful of flat stones from his pocket, and skips one across the water. “Growing up a Wyatt, you learn a few things here or there. We&#39;ve been guides and groundskeepers since before Edgewater was officially incorporated.&quot;
+Alexander crouches. pulls a handful of flat stones from his pocket, and skips one across the water. &lt;span class=&quot;alexander&quot;&gt;“Growing up a Wyatt, you learn a few things here or there. We&#39;ve been guides and groundskeepers since before Edgewater was officially incorporated.&quot;&lt;/span&gt;
 
-You watch the ripples spread. &quot;Must be nice. Having that kind of continuity.&quot;
+You watch the ripples spread. &lt;span class=&quot;arthur&quot;&gt;&quot;Must be nice. Having that kind of continuity.&quot;&lt;/span&gt;
 
-&quot;Sometimes.&quot; He skips another stone. &quot;Sometimes it&#39;s just too much pressure. My job might not last much longer. The industry&#39;s failing. Not enough jobs in the summer to keep mouths fed in the winter. People are moving away.&quot; He offers you a stone. &quot;Want to try?&quot;
+&lt;span class=&quot;alexander&quot;&gt;&quot;Sometimes.&quot;&lt;/span&gt; He skips another stone. &lt;span class=&quot;alexander&quot;&gt;&quot;Sometimes it&#39;s just too much pressure. My job might not last much longer. The industry&#39;s failing. Not enough jobs in the summer to keep mouths fed in the winter. People are moving away.&quot;&lt;/span&gt; He offers you a stone. &lt;span class=&quot;alexander&quot;&gt;&quot;Want to try?&quot;&lt;/span&gt;
 
 You take it. The rock is smooth and flat, perfect for skipping. You position it between your thumb and forefinger the way you remember your father teaching you, and throw.
 
 It sinks immediately.
 
-Alexander laughs warmly. &quot;You gotta flick your wrist more. Here, watch.&quot;
+Alexander laughs warmly. &lt;span class=&quot;alexander&quot;&gt;&quot;You gotta flick your wrist more. Here, watch.&quot;&lt;/span&gt;
 
-He demonstrates, the stone bouncing five times across the darkening water. &quot;See? It&#39;s all in the spin.&quot;
+He demonstrates, the stone bouncing five times across the darkening water. &lt;span class=&quot;alexander&quot;&gt;&quot;See? It&#39;s all in the spin.&quot;&lt;/span&gt;
 
 You try again. This time it skips twice before vanishing beneath the surface. Small victory.
 
-&quot;Getting there,&quot; Alexander says. He&#39;s quiet for a moment, gazing out at the water.
+&lt;span class=&quot;alexander&quot;&gt;&quot;Getting there,&quot;&lt;/span&gt; Alexander says. He&#39;s quiet for a moment, gazing out at the water.
 
-“If it’s so bad here, why don’t you move?”
+&lt;span class=&quot;arthur&quot;&gt;“If it’s so bad here, why don’t you move?”&lt;/span&gt; you ask.
 
-&quot;And do what? I can&#39;t really picture myself living anywhere else. I like the quiet. I like my little lakeside cottage and going out at night to fish under the stars.&quot; He gazes out at the water. &quot;Who knows how long that quiet will last? The families are bringing in Northridge Mining.”
+&lt;span class=&quot;alexander&quot;&gt;&quot;And do what? I can&#39;t really picture myself living anywhere else. I like the quiet. I like my little lakeside cottage and going out at night to fish under the stars.&quot;&lt;/span&gt; He gazes out at the water. &lt;span class=&quot;alexander&quot;&gt;&quot;But with the mining proposal, who knows how long that quiet will last?”&lt;/span&gt;
 
-Your attention sharpens. [[“What mining proposal?”-&gt;Ch5Pg2C3]]&lt;/span&gt;&lt;&lt;/type&gt;&gt;</tw-passagedata><tw-passagedata pid="133" name="Ch5Pg2C3" tags="" position="350,1725" size="100,100">&lt;&lt;type 40ms&gt;&gt;
+Your attention sharpens. [[“What mining proposal?”-&gt;Ch5Pg2C3]]&lt;/span&gt;&lt;&lt;/type&gt;&gt;</tw-passagedata><tw-passagedata pid="134" name="Ch5Pg2C3" tags="" position="475,1725" size="100,100">&lt;&lt;type 40ms&gt;&gt;
 &lt;span class=&quot;dialogue&quot;&gt;
-Alexander points across the water toward Chapel Island. &quot;Northridge Mining wants to start copper and gold extraction on the far side of that island. They&#39;re calling it an &#39;economic revitalization project.&#39; Lots of jobs, and hopefully money, flowing back into Edgewater. The families say it’ll ‘revitalize the town’.&quot; he lifts two fingers from the skipping stone in air quotes. 
+Alexander points across the water toward Chapel Island. &lt;span class=&quot;alexander&quot;&gt;&quot;Northridge Mining wants to start copper and gold extraction on the far side of that island. The families are calling it an &#39;economic revitalization project.&#39;&quot;&lt;/span&gt; he lifts two fingers from the skipping stone in air quotes. &lt;span class=&quot;alexander&quot;&gt;&quot;Lots of jobs, and hopefully money, flowing back into Edgewater.&quot;&lt;/span&gt;
 
-“Families?”
+&lt;span class=&quot;arthur&quot;&gt;“Families?”&lt;/span&gt;
 
-&quot;Hepburns mostly, some Ashfords and Wyatts too–y&#39;know, the big shots with all the money and names on all the buildings. They&#39;ve convinced everyone that the mine will bring back jobs, tourism. The works.&quot;
+&lt;span class=&quot;alexander&quot;&gt;&quot;Hepburns mostly, some Ashfords and Wyatts too–y&#39;know, the big shots with all the money and names on all the buildings. They&#39;ve convinced everyone that the mine will bring back jobs, tourism. The works.&quot;&lt;/span&gt;
 
-&quot;And you don&#39;t think that&#39;s a good thing?&quot;
+&lt;span class=&quot;arthur&quot;&gt;&quot;And you don&#39;t think that&#39;s a good thing?&quot;&lt;/span&gt;
 
-Alexander stares at the island, silhouetted against the fading light. “I just don’t think it’s worth the cost.”
+Alexander stares at the island, silhouetted against the fading light. &lt;span class=&quot;alexander&quot;&gt;“I just don’t think it’s worth the cost.”&lt;/span&gt;
 
-You look at that island–that goddamn island whose shape you’ve tried so hard to forget. “...what the fuck do you mean by that? What does that island have to do with anything?”
+You look at that island–that goddamn island whose shape you’ve tried so hard to forget. &lt;span class=&quot;arthur&quot;&gt;“...what the fuck do you mean by that? What does that island have to do with anything?”&lt;/span&gt;
 
-Alexander doesn&#39;t flinch at your outburst. He skips another stone, harder this time. &quot;Your dad thought the same. We shared a smoke here and there. He was one of the only people fighting it. Said the island was sacred. He knew what had happened before when the families had tried meddling in shit.&quot;
+Alexander doesn&#39;t flinch at your outburst. He skips another stone, harder this time. &lt;span class=&quot;alexander&quot;&gt;&quot;Your dad thought the same. We shared a smoke here and there. He was one of the only people fighting it. Said the island was sacred. He knew what had happened before when the families had tried meddling in shit.&quot;&lt;/span&gt;
 
 You step back, confusion hitting you like cold water to the face. Your father, always the practical, scientific half to your mother’s spirituality, fighting to protect sacred ground? The equation doesn’t add up.
 
-[[&quot;Before? What happened before?&quot;-&gt;Ch5Pg2C4]]&lt;/span&gt;&lt;&lt;/type&gt;&gt;</tw-passagedata><tw-passagedata pid="134" name="Ch5Pg2C4" tags="" position="475,1725" size="100,100">&lt;&lt;type 40ms&gt;&gt;
+[[“Before? What happened before?”-&gt;Ch5Pg2C4]]&lt;/span&gt;&lt;&lt;/type&gt;&gt;</tw-passagedata><tw-passagedata pid="135" name="Ch5Pg2C4" tags="" position="600,1725" size="100,100">&lt;&lt;audio &quot;ambienceChap5&quot; fadeoverto 5 0&gt;&gt;
+&lt;&lt;audio &quot;ambienceNeg&quot; play loop volume 0&gt;&gt;
+&lt;&lt;audio &quot;ambienceNeg&quot; fadeoverto 5 0.5&gt;&gt;
+&lt;&lt;type 40ms&gt;&gt;
 &lt;span class=&quot;dialogue&quot;&gt;
-From the house, Dove&#39;s voice carries across the water: &quot;Arty! Dinner&#39;s ready!&quot;
+From the house, Dove&#39;s voice carries across the water: &lt;span class=&quot;dove&quot;&gt;&quot;Arty! Dinner&#39;s ready!&quot;&lt;/span&gt;
 
-You ignore it. &quot;Just tell me what he told you.&quot;
+You ignore it. &lt;span class=&quot;arthur&quot;&gt;&quot;Just tell me what he told you.&quot;&lt;/span&gt;
 
-Alexander glances toward the house, then back at you. &quot;You should go. Family needs you. I’ll catch you later, I’m here most days. Usually fishing dawn and dusk,” he gives a lopsided grin, “best times for catching walleye.”
+Alexander glances toward the house, then back at you. &lt;span class=&quot;alexander&quot;&gt;&quot;You should go. Family needs you. I’ll catch you later, I’m here most days. Usually fishing dawn and dusk,”&lt;/span&gt; he gives a lopsided grin, &lt;span class=&quot;alexander&quot;&gt;“best times for catching walleye.”&lt;/span&gt;
 
 The unanswered questions well up in your throat, but you suppress them with a nod. As you walk away, Alexander calls after you.
 
-&quot;Arthur! Your dad wasn&#39;t crazy, you know. He was right to be worried.&quot;
+&lt;span class=&quot;alexander&quot;&gt;&quot;Arthur! Your dad wasn&#39;t crazy, you know. He was right to be worried.&quot;&lt;/span&gt;
 
-You pause and look back. &quot;About what?&quot;
+You pause and look back. &lt;span class=&quot;arthur&quot;&gt;&quot;About what?&quot;&lt;/span&gt;
 
-&quot;About what&#39;s really on that island.&quot;
+&lt;span class=&quot;alexander&quot;&gt;&quot;About what&#39;s really on that island.&quot;&lt;/span&gt;
 
-Your gaze shifts back to Chapel Island. For a moment, you swear you see a flicker of light among the trees. [[Your heart pounds in your chest.-&gt;Ch6Pg0]]&lt;/span&gt;&lt;&lt;/type&gt;&gt;</tw-passagedata><tw-passagedata pid="135" name="Ch6Pg0" tags="" position="600,1725" size="100,100">&lt;&lt;audio &quot;pianoB&quot; stop&gt;&gt;
-&lt;&lt;audio &quot;chimes&quot; stop&gt;&gt;
-&lt;&lt;audio &quot;ambienceNeg&quot; stop&gt;&gt;
-&lt;&lt;audio &quot;nightmareA&quot; stop&gt;&gt;
+Your gaze shifts back to Chapel Island. For a moment, you swear you see a flicker of light among the trees. [[Your heart pounds in your chest.-&gt;Ch6Pg0]]&lt;/span&gt;&lt;&lt;/type&gt;&gt;</tw-passagedata><tw-passagedata pid="136" name="Ch6Pg0" tags="" position="725,1725" size="100,100">&lt;&lt;audio &quot;treehouseMemory&quot; stop&gt;&gt;
+&lt;&lt;audio &quot;ambienceChap5&quot; stop&gt;&gt;
 &lt;&lt;timed 1s&gt;&gt;&lt;span class=&quot;fade-in&quot;&gt;&lt;span class=&quot;dialogue&quot;&gt;&lt;div class=&quot;chTitle&quot;&gt;Chapter Six&lt;/div&gt;&lt;/span&gt;&lt;/span&gt;&lt;&lt;/timed&gt;&gt;
 &lt;&lt;timed 3s&gt;&gt;&lt;span class=&quot;fade-in&quot;&gt;&lt;center&gt;&lt;img src=&quot;Images/ch6.png&quot; height=&quot;432px&quot; width=&quot;540px&quot;&gt;&lt;/center&gt;&lt;/span&gt;&lt;&lt;/timed&gt;&gt;
-&lt;&lt;timed 5s&gt;&gt;&lt;span class=&quot;fade-in&quot;&gt;&lt;div class=&quot;chStart&quot;&gt;[[The Night Terror-&gt;Ch6Pg1]]&lt;/div&gt;&lt;/span&gt;&lt;&lt;/timed&gt;&gt;</tw-passagedata><tw-passagedata pid="136" name="Ch6Pg1" tags="" position="725,1725" size="100,100">&lt;&lt;audio &quot;nightmareA&quot; stop&gt;&gt;
+&lt;&lt;timed 5s&gt;&gt;&lt;span class=&quot;fade-in&quot;&gt;&lt;div class=&quot;chStart&quot;&gt;[[The Night Terror-&gt;Ch6Pg1]]&lt;/div&gt;&lt;/span&gt;&lt;&lt;/timed&gt;&gt;</tw-passagedata><tw-passagedata pid="137" name="Ch6Pg1" tags="" position="850,1725" size="100,100">&lt;&lt;audio &quot;nightmareA&quot; stop&gt;&gt;
 &lt;&lt;audio &quot;nightmareA&quot; play&gt;&gt;
 &lt;&lt;repeat 448s&gt;&gt;
 &lt;&lt;audio &quot;nightmareA&quot; stop&gt;&gt;
@@ -3960,7 +4167,7 @@ You take the attic stairs three at a time.
 
 [[You stop cold in the doorway.-&gt;Ch6Pg2]]
 &lt;/span&gt;
-&lt;&lt;/type&gt;&gt;</tw-passagedata><tw-passagedata pid="137" name="Ch6Pg2" tags="" position="850,1725" size="100,100">&lt;&lt;audio &quot;seizure&quot; stop&gt;&gt;
+&lt;&lt;/type&gt;&gt;</tw-passagedata><tw-passagedata pid="138" name="Ch6Pg2" tags="" position="975,1725" size="100,100">&lt;&lt;audio &quot;seizure&quot; stop&gt;&gt;
 &lt;&lt;audio &quot;seizure&quot; play&gt;&gt;
 &lt;&lt;repeat 152s&gt;&gt;
 &lt;&lt;audio &quot;seizure&quot; stop&gt;&gt;
@@ -3989,7 +4196,7 @@ Dove’s eyes have rolled back in her skull. Her jaw is clenched so tight you ca
 
 [[You run.-&gt;Ch6Pg3]]
 &lt;/span&gt;
-&lt;&lt;/type&gt;&gt;</tw-passagedata><tw-passagedata pid="138" name="Ch6Pg3" tags="" position="975,1725" size="100,100">&lt;&lt;repeat 152s&gt;&gt;
+&lt;&lt;/type&gt;&gt;</tw-passagedata><tw-passagedata pid="139" name="Ch6Pg3" tags="" position="1100,1725" size="100,100">&lt;&lt;repeat 152s&gt;&gt;
 &lt;&lt;audio &quot;seizure&quot; stop&gt;&gt;
 &lt;&lt;audio &quot;seizure&quot; play&gt;&gt;
 &lt;&lt;/repeat&gt;&gt;
@@ -4016,7 +4223,7 @@ You race towards the awful sounds: Dove choking, gagging. Winona’s frantic voi
 
 [[You reach the attic.-&gt;Ch6Pg4]]
 &lt;/span&gt;
-&lt;&lt;/type&gt;&gt;</tw-passagedata><tw-passagedata pid="139" name="Ch6Pg4" tags="" position="1100,1725" size="100,100">&lt;&lt;audio &quot;seizure&quot; stop&gt;&gt;
+&lt;&lt;/type&gt;&gt;</tw-passagedata><tw-passagedata pid="140" name="Ch6Pg4" tags="" position="1225,1725" size="100,100">&lt;&lt;audio &quot;seizure&quot; stop&gt;&gt;
 &lt;&lt;audio &quot;seizure&quot; play&gt;&gt;
 &lt;&lt;repeat 152s&gt;&gt;
 &lt;&lt;audio &quot;seizure&quot; stop&gt;&gt;
@@ -4060,7 +4267,7 @@ Winona exhales, her words tumbling out in breathy relief. &lt;span class=&quot;w
 
 &lt;span class=&quot;super-scary&quot;&gt;[[“The wolf.”-&gt;Ch6Pg5]]&lt;/span&gt;
 &lt;/span&gt;
-&lt;&lt;/type&gt;&gt;</tw-passagedata><tw-passagedata pid="140" name="Ch6Pg5" tags="" position="1225,1725" size="100,100">&lt;&lt;repeat 152s&gt;&gt;
+&lt;&lt;/type&gt;&gt;</tw-passagedata><tw-passagedata pid="141" name="Ch6Pg5" tags="" position="100,1850" size="100,100">&lt;&lt;repeat 152s&gt;&gt;
 &lt;&lt;audio &quot;seizure&quot; stop&gt;&gt;
 &lt;&lt;audio &quot;seizure&quot; play&gt;&gt;
 &lt;&lt;/repeat&gt;&gt;
@@ -4092,7 +4299,7 @@ Doves bawls into her shoulder.
 
 You stand frozen in the doorway. The words drop from your lips, &lt;span class=&quot;arthur&quot;&gt;“I can stay here too,”&lt;/span&gt; you offer helplessly, &lt;span class=&quot;arthur&quot;&gt;[[“In case it happens again. I can sleep on the floor, keep watch–”-&gt;Ch6Pg6]]&lt;/span&gt;
 &lt;/span&gt;
-&lt;&lt;/type&gt;&gt;</tw-passagedata><tw-passagedata pid="141" name="Ch6Pg6" tags="" position="100,1850" size="100,100">&lt;&lt;repeat 152s&gt;&gt;
+&lt;&lt;/type&gt;&gt;</tw-passagedata><tw-passagedata pid="142" name="Ch6Pg6" tags="" position="225,1850" size="100,100">&lt;&lt;repeat 152s&gt;&gt;
 &lt;&lt;audio &quot;seizure&quot; stop&gt;&gt;
 &lt;&lt;audio &quot;seizure&quot; play&gt;&gt;
 &lt;&lt;/repeat&gt;&gt;
@@ -4131,13 +4338,13 @@ It doesn’t work. Your hands still tremble.
 
 [[You walk back to your childhood bedroom in the dark.-&gt;Ch7Pg0]]
 &lt;/span&gt;
-&lt;&lt;/type&gt;&gt;</tw-passagedata><tw-passagedata pid="142" name="Ch7Pg0" tags="" position="225,1850" size="100,100">&lt;&lt;audio &quot;pianoB&quot; stop&gt;&gt;
+&lt;&lt;/type&gt;&gt;</tw-passagedata><tw-passagedata pid="143" name="Ch7Pg0" tags="" position="350,1850" size="100,100">&lt;&lt;audio &quot;pianoB&quot; stop&gt;&gt;
 &lt;&lt;audio &quot;chimes&quot; stop&gt;&gt;
 &lt;&lt;audio &quot;ambienceNeg&quot; stop&gt;&gt;
 &lt;&lt;audio &quot;nightmareA&quot; stop&gt;&gt;
 &lt;&lt;timed 1s&gt;&gt;&lt;span class=&quot;fade-in&quot;&gt;&lt;span class=&quot;dialogue&quot;&gt;&lt;div class=&quot;chTitle&quot;&gt;Chapter Seven&lt;/div&gt;&lt;/span&gt;&lt;/span&gt;&lt;&lt;/timed&gt;&gt;
 &lt;&lt;timed 3s&gt;&gt;&lt;span class=&quot;fade-in&quot;&gt;&lt;center&gt;&lt;img src=&quot;Images/act1finale.png&quot; height=&quot;432px&quot; width=&quot;540px&quot;&gt;&lt;/center&gt;&lt;/span&gt;&lt;&lt;/timed&gt;&gt;
-&lt;&lt;timed 5s&gt;&gt;&lt;span class=&quot;fade-in&quot;&gt;&lt;div class=&quot;chStart&quot;&gt;[[The Morning After-&gt;Ch7Pg1]]&lt;/div&gt;&lt;/span&gt;&lt;&lt;/timed&gt;&gt;</tw-passagedata><tw-passagedata pid="143" name="Ch7Pg1" tags="" position="350,1850" size="100,100">&lt;&lt;audio &quot;tvNeutral&quot; stop&gt;&gt;
+&lt;&lt;timed 5s&gt;&gt;&lt;span class=&quot;fade-in&quot;&gt;&lt;div class=&quot;chStart&quot;&gt;[[The Morning After-&gt;Ch7Pg1]]&lt;/div&gt;&lt;/span&gt;&lt;&lt;/timed&gt;&gt;</tw-passagedata><tw-passagedata pid="144" name="Ch7Pg1" tags="" position="475,1850" size="100,100">&lt;&lt;audio &quot;tvNeutral&quot; stop&gt;&gt;
 &lt;&lt;audio &quot;tvScary&quot; stop&gt;&gt;
 &lt;&lt;audio &quot;teaserMorningAmbience&quot; stop&gt;&gt;
 &lt;&lt;audio &quot;teaserMorningAmbience&quot; play&gt;&gt;
@@ -4163,7 +4370,7 @@ The earthy, almost caramel scent of freshly brewed coffee emanates from your doo
 
 You untangle yourself from your mildewed, dust-ridden bedsheets and [[drag yourself downstairs.-&gt;Ch7Pg2]] 
 &lt;/span&gt;
-&lt;&lt;/type&gt;&gt;</tw-passagedata><tw-passagedata pid="144" name="Ch7Pg2" tags="" position="475,1850" size="100,100">&lt;&lt;audio &quot;tvNeutral&quot; stop&gt;&gt;
+&lt;&lt;/type&gt;&gt;</tw-passagedata><tw-passagedata pid="145" name="Ch7Pg2" tags="" position="600,1850" size="100,100">&lt;&lt;audio &quot;tvNeutral&quot; stop&gt;&gt;
 &lt;&lt;audio &quot;tvScary&quot; stop&gt;&gt;
 &lt;&lt;repeat 186s&gt;&gt;
 &lt;&lt;audio &quot;teaserMorningAmbience&quot; stop&gt;&gt;
@@ -4189,7 +4396,7 @@ On screen, the weather forecast transitions to breaking news. A red banner scrol
 
 &lt;span class=&quot;super-scary&quot;&gt;[[BREAKING–FATAL INCIDENT NEAR EDGEWATER.-&gt;Ch7Pg3]]&lt;/span&gt;
 &lt;/span&gt;
-&lt;&lt;/type&gt;&gt;</tw-passagedata><tw-passagedata pid="145" name="Ch7Pg3" tags="" position="600,1850" size="100,100">&lt;&lt;audio &quot;tvNeutral&quot; stop&gt;&gt;
+&lt;&lt;/type&gt;&gt;</tw-passagedata><tw-passagedata pid="146" name="Ch7Pg3" tags="" position="725,1850" size="100,100">&lt;&lt;audio &quot;tvNeutral&quot; stop&gt;&gt;
 &lt;&lt;audio &quot;tvScary&quot; stop&gt;&gt;
 &lt;&lt;type 40ms&gt;&gt;
 &lt;span class=&quot;dialogue&quot;&gt;
@@ -4223,7 +4430,7 @@ Winona’s spoon clatters against her bowl. Her face has gone pale. She turns sl
 
 [[The coffee suddenly feels cold in your hands.-&gt;Ch7Pg4]]
 &lt;/span&gt;
-&lt;&lt;/type&gt;&gt;</tw-passagedata><tw-passagedata pid="146" name="Ch7Pg4" tags="" position="725,1850" size="100,100">&lt;&lt;audio &quot;tvNeutral&quot; stop&gt;&gt;
+&lt;&lt;/type&gt;&gt;</tw-passagedata><tw-passagedata pid="147" name="Ch7Pg4" tags="" position="850,1850" size="100,100">&lt;&lt;audio &quot;tvNeutral&quot; stop&gt;&gt;
 &lt;&lt;audio &quot;tvScary&quot; stop&gt;&gt;
 &lt;&lt;type 40ms&gt;&gt;
 &lt;span class=&quot;dialogue&quot;&gt;
@@ -4251,7 +4458,7 @@ You stare at the letter. The red words swim before your eyes.
 
 The tap turns off. You hear the quick taps of Winona’s feet on the stairs, and then she’s gone, disappearing within the recesses of her room. 
 
-[[You need air.-&gt;Ch7Pg3]]&lt;/span&gt;&lt;&lt;/type&gt;&gt;</tw-passagedata><tw-passagedata pid="147" name="Ch7Pg5" tags="" position="850,1850" size="100,100">&lt;&lt;audio &quot;tvNeutral&quot; stop&gt;&gt;
+[[You need air.-&gt;Ch7Pg3]]&lt;/span&gt;&lt;&lt;/type&gt;&gt;</tw-passagedata><tw-passagedata pid="148" name="Ch7Pg5" tags="" position="975,1850" size="100,100">&lt;&lt;audio &quot;tvNeutral&quot; stop&gt;&gt;
 &lt;&lt;audio &quot;tvScary&quot; stop&gt;&gt;
 &lt;&lt;type 20ms&gt;&gt;
 &lt;span class=&quot;dialogue&quot;&gt;
@@ -4287,13 +4494,13 @@ Three cards. Three choices. You pull out your phone.
 
 Who do you call?
 &lt;/span&gt;
-&lt;&lt;/type&gt;&gt;</tw-passagedata><tw-passagedata pid="148" name="Ch7Pg6" tags="" position="975,1850" size="100,100">&lt;&lt;audio &quot;pianoB&quot; stop&gt;&gt;
+&lt;&lt;/type&gt;&gt;</tw-passagedata><tw-passagedata pid="149" name="Ch7Pg6" tags="" position="1100,1850" size="100,100">&lt;&lt;audio &quot;pianoB&quot; stop&gt;&gt;
 &lt;&lt;audio &quot;chimes&quot; stop&gt;&gt;
 &lt;&lt;audio &quot;ambienceNeg&quot; stop&gt;&gt;
 &lt;&lt;audio &quot;nightmareA&quot; stop&gt;&gt;
 &lt;&lt;timed 1s&gt;&gt;&lt;span class=&quot;fade-in&quot;&gt;&lt;span class=&quot;dialogue&quot;&gt;&lt;div class=&quot;chTitle&quot;&gt;End of Act One&lt;/div&gt;&lt;/span&gt;&lt;/span&gt;&lt;&lt;/timed&gt;&gt;
 &lt;&lt;timed 3s&gt;&gt;&lt;span class=&quot;fade-in&quot;&gt;&lt;center&gt;&lt;img src=&quot;Images/thmb_no_txt.png&quot; height=&quot;432px&quot; width=&quot;540px&quot;&gt;&lt;/center&gt;&lt;/span&gt;&lt;&lt;/timed&gt;&gt;
-&lt;&lt;timed 5s&gt;&gt;&lt;span class=&quot;fade-in&quot;&gt;&lt;div class=&quot;chStart&quot;&gt;[[To Be Continued...-&gt;creditsPg0]]&lt;/div&gt;&lt;/span&gt;&lt;&lt;/timed&gt;&gt;</tw-passagedata><tw-passagedata pid="149" name="creditsPg0" tags="" position="1100,1850" size="100,100">&lt;&lt;audio &quot;pianoB&quot; stop&gt;&gt;
+&lt;&lt;timed 5s&gt;&gt;&lt;span class=&quot;fade-in&quot;&gt;&lt;div class=&quot;chStart&quot;&gt;[[To Be Continued...-&gt;creditsPg0]]&lt;/div&gt;&lt;/span&gt;&lt;&lt;/timed&gt;&gt;</tw-passagedata><tw-passagedata pid="150" name="creditsPg0" tags="" position="1225,1850" size="100,100">&lt;&lt;audio &quot;pianoB&quot; stop&gt;&gt;
 &lt;&lt;audio &quot;chimes&quot; stop&gt;&gt;
 &lt;&lt;audio &quot;ambienceNeg&quot; stop&gt;&gt;
 &lt;&lt;audio &quot;nightmareA&quot; stop&gt;&gt;

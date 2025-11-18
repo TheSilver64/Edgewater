@@ -1,34 +1,31 @@
 :: Ch5Pg2B2
+<<audio "ambienceChap5" stop>>
+<<audio "motherMemory" play loop volume 0.5>>
 <<type 40ms>>
 <span class="dialogue">
+<div class="flashback">
 Early morning. You're young enough that your mother seems gigantic, towering over you even as she kneels beside you in the garden. The sun is just rising. Dew clings to the garden leaves in perfect spheres.
 
-"Look, this one's special," she says, settling a small rose bush into the hole she's dug. Her hands are already dirty, nails caked with soil. She never wore gloves. She preferred to feel “the embrace of the earth.”
+<span class="namid">"Look, this one's special,"</span> she says, settling a small rose bush into the hole she's dug. Her hands are already dirty, nails caked with soil. She never wore gloves. She preferred to feel “the embrace of the earth.”
 
-"Roses are very hardy. They survive winters that would kill other plants, because they remember the warmth of the spring.”
+<span class="namid">"Roses are very hardy. They survive winters that would kill other plants, because they remember the warmth of the spring.”</span>
 
-“WAIT–stop!” you plop a bucket onto your head and wave your pudgy toddler arms. “I’m here to ‘tect you!” you announce, your little voice echoing inside the metal.
+<span class="arthur">“WAIT–stop!”</span> you plop a bucket onto your head and wave your pudgy toddler arms. <span class="arthur">“I’m here to ‘tect you!”</span> you announce, your little voice echoing inside the metal.
 
-Your mother laughs, the sound like a bubbling brook over mossy stones. “Oh, are you now?”
+Your mother laughs, the sound like a bubbling brook over mossy stones. <span class="namid">“Oh, are you now? What, pray tell, will you protect me from, o knight in shining armor?”</span>
 
-“From the beeeees!” You chase one that’s investigating the nearby lavender, your arms windmilling around.
+<span class="arthur">“From the beeeees!”</span> You chase one that’s investigating the nearby lavender, your arms windmilling around. <span class="arthur">“Buzzzzzzzzz…”</span> you hum.
 
-You're wearing a bucket on your head—some game you've invented, some imaginary armor. "I'm here to protect you!" you announce, your voice echoing inside the metal.
+Your mother catches you and pulls you close. <span class="namid">“You’re not afraid of anything, are you! My little busy bee!”</span> she tackles you and tickles your tummy. The bucket tumbles off as you giggle uncontrollably. You laugh together, both dizzy with the simple joy of a cool summer morning.
 
-She laughs, the sound like water over stones. "Are you now? What, pray tell, will you protect me from, o knight in shining armor?"
+<span class="namid">"Listen to me,"</span> she says, suddenly serious. She cups your face in her soil-warm hands. <span class="namid">“You’re too young to be my knight. You’re still my baby. And as your mother, I will always protect you. Even when you’re all grown-up, even when I’m gone–my love will always remain. Just like the roses, you understand? Some things endure.”</span>
 
-"From the bees!" You chase one that's investigating the nearby lavender, arms windmilling. “Buzzzzzzzzz…” you hum.
+You squirm, embarrassed by the intensity. <span class="arthur">"But, Mommy, I am grown up. I’m a big boy now!”</span> 
 
-Your mother catches you and pulls you close. “You’re not afraid of anything, are you! My little busy bee!” she tackles you and tickles your tummy. The bucket tumbles off as you giggle uncontrollably. You laugh together, both dizzy with the simple joy of a cool summer morning.
-
-"Listen to me," she says, suddenly serious. She cups your face in her soil-warm hands. “You’re too young to be my knight. You’re still my baby. And as your mother, I will always protect you. Even when you’re all grown-up, even when I’m gone–my love will always remain. Just like the roses, you understand? Some things endure.” 
-
-You squirm, embarrassed by the intensity. "But, Mommy, I am grown up. I’m a big boy now!” 
-
-Her smile returns. "Oh, of course. My mistake." She releases you and turns back to the rose bush. "Now help me water this. When we work in the garden, we must honor the land. For what we take and what we give back."
+Her smile returns. <span class="namid">"Oh, of course. My mistake."</span> She releases you and turns back to the rose bush. <span class="namid">"Now help me water this. When we work in the garden, we must honor the land. For what we take and what we give back."</span>
 
 You don't understand then. But you help anyway, your mother holding the can’s handle with a steady grip while your grubby hands grasp the showerhead. The stream rains down on the newly rooted plant.
 
-“This is called the rose of the watering can–” your mothers one hand over yours, “isn’t that funny? We’re watering a rose with a rose!” 
+<span class="namid">“This is called the rose of the watering can–”</span> your mothers one hand over yours, <span class="namid">“isn’t that funny? We’re watering a rose with a rose!”</span>
 
-But you hardly pay attention. [[You stare at the can’s rim, watching the painted musical notes dance with the drummers in a circle.->Ch5Pg2B3]]</span><</type>>
+But you hardly pay attention. [[You stare at the can’s rim, watching the painted musical notes dance with the drummers in a circle.->Ch5Pg2B3]]</div></span><</type>>

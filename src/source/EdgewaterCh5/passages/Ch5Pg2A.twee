@@ -1,4 +1,6 @@
 :: Ch5Pg2A
+<<audio "ambienceChap5" stop>>
+<<audio "forest" play loop>>
 <<type 40ms>>
 <div class=chStart>The Forest</div>
 <span class="dialogue">
@@ -6,7 +8,7 @@ Your feet carry you towards the treeline. The forest has always been there, a da
 
 Your mother used to tell you stories about these woods. How her ancestors spoke to the spirits that lived in the bark and stone. How the Menominee knew these trees before the first European axes bit into their trunks. 
 
-“The forest does not forget,” your mother used to say. Every footstep, every prayer, every drop of blood soaked into its soil was encoded in its deep taproots like memories in neurons. 
+<span class="namid"><span class="supernatural-glow">“The forest does not forget,”</span></span> your mother used to say. Every footstep, every prayer, every drop of blood soaked into its soil was encoded in its deep taproots like memories in neurons. 
 
 You would roll your eyes at the mysticism. Trees are cellulose and chlorophyll. Forests are ecosystems, not some ancient being whose breath moves with the pines. 
 

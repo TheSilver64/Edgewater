@@ -1,20 +1,20 @@
 :: Ch5Pg2C3
 <<type 40ms>>
 <span class="dialogue">
-Alexander points across the water toward Chapel Island. "Northridge Mining wants to start copper and gold extraction on the far side of that island. They're calling it an 'economic revitalization project.' Lots of jobs, and hopefully money, flowing back into Edgewater. The families say it’ll ‘revitalize the town’." he lifts two fingers from the skipping stone in air quotes. 
+Alexander points across the water toward Chapel Island. <span class="alexander">"Northridge Mining wants to start copper and gold extraction on the far side of that island. The families are calling it an 'economic revitalization project.'"</span> he lifts two fingers from the skipping stone in air quotes. <span class="alexander">"Lots of jobs, and hopefully money, flowing back into Edgewater."</span>
 
-“Families?”
+<span class="arthur">“Families?”</span>
 
-"Hepburns mostly, some Ashfords and Wyatts too–y'know, the big shots with all the money and names on all the buildings. They've convinced everyone that the mine will bring back jobs, tourism. The works."
+<span class="alexander">"Hepburns mostly, some Ashfords and Wyatts too–y'know, the big shots with all the money and names on all the buildings. They've convinced everyone that the mine will bring back jobs, tourism. The works."</span>
 
-"And you don't think that's a good thing?"
+<span class="arthur">"And you don't think that's a good thing?"</span>
 
-Alexander stares at the island, silhouetted against the fading light. “I just don’t think it’s worth the cost.”
+Alexander stares at the island, silhouetted against the fading light. <span class="alexander">“I just don’t think it’s worth the cost.”</span>
 
-You look at that island–that goddamn island whose shape you’ve tried so hard to forget. “...what the fuck do you mean by that? What does that island have to do with anything?”
+You look at that island–that goddamn island whose shape you’ve tried so hard to forget. <span class="arthur">“...what the fuck do you mean by that? What does that island have to do with anything?”</span>
 
-Alexander doesn't flinch at your outburst. He skips another stone, harder this time. "Your dad thought the same. We shared a smoke here and there. He was one of the only people fighting it. Said the island was sacred. He knew what had happened before when the families had tried meddling in shit."
+Alexander doesn't flinch at your outburst. He skips another stone, harder this time. <span class="alexander">"Your dad thought the same. We shared a smoke here and there. He was one of the only people fighting it. Said the island was sacred. He knew what had happened before when the families had tried meddling in shit."</span>
 
 You step back, confusion hitting you like cold water to the face. Your father, always the practical, scientific half to your mother’s spirituality, fighting to protect sacred ground? The equation doesn’t add up.
 
-[["Before? What happened before?"->Ch5Pg2C4]]</span><</type>>
+[[“Before? What happened before?”->Ch5Pg2C4]]</span><</type>>

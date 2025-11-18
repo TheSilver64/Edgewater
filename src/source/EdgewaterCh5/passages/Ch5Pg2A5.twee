@@ -1,9 +1,10 @@
-:: Ch5Pg2A4
+:: Ch5Pg2A5
+<<audio "wolfHowl" play>>
 <<type 40ms>>
 <span class="dialogue">
 It's low and distant. An animal's howl carried on the wind.
 
-A wolf.
+<span class="arthur"><span class="supernatural-glow">A wolf.</span></span>
 
 Your hand tightens around the wooden plane. It’s getting late. You scramble down from the treehouse. The forest suddenly feels different. The trees press closer, as if they’re watching you through the whorls in their bark. The shadows between them seem to move with purpose.
 
@@ -13,7 +14,7 @@ Finally, through the trees, you can make out faded blue siding, a sagging porch.
 
 You burst from the treeline just as Dove's voice carries across the yard:
 
-"Arty! Dinner's ready!"
+<span class="dove">"Arty! Dinner's ready!"</span>
 
 You stop, hands on your knees, gulping air. When you look back at the forest, all sinister energy has dissipated. It's just trees again. Just wood and shadow and the ordinary dangers of the natural world.
 

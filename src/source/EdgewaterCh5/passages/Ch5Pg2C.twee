@@ -1,4 +1,5 @@
 :: Ch5Pg2C
+<<audio "ambienceChap5" play loop>>
 <<type 40ms>>
 <div class=chStart>The Lakeside</div>
 <span class="dialogue">

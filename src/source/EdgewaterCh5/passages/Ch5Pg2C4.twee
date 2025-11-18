@@ -1,18 +1,21 @@
 :: Ch5Pg2C4
+<<audio "ambienceChap5" fadeoverto 5 0>>
+<<audio "ambienceNeg" play loop volume 0>>
+<<audio "ambienceNeg" fadeoverto 5 0.5>>
 <<type 40ms>>
 <span class="dialogue">
-From the house, Dove's voice carries across the water: "Arty! Dinner's ready!"
+From the house, Dove's voice carries across the water: <span class="dove">"Arty! Dinner's ready!"</span>
 
-You ignore it. "Just tell me what he told you."
+You ignore it. <span class="arthur">"Just tell me what he told you."</span>
 
-Alexander glances toward the house, then back at you. "You should go. Family needs you. I’ll catch you later, I’m here most days. Usually fishing dawn and dusk,” he gives a lopsided grin, “best times for catching walleye.”
+Alexander glances toward the house, then back at you. <span class="alexander">"You should go. Family needs you. I’ll catch you later, I’m here most days. Usually fishing dawn and dusk,”</span> he gives a lopsided grin, <span class="alexander">“best times for catching walleye.”</span>
 
 The unanswered questions well up in your throat, but you suppress them with a nod. As you walk away, Alexander calls after you.
 
-"Arthur! Your dad wasn't crazy, you know. He was right to be worried."
+<span class="alexander">"Arthur! Your dad wasn't crazy, you know. He was right to be worried."</span>
 
-You pause and look back. "About what?"
+You pause and look back. <span class="arthur">"About what?"</span>
 
-"About what's really on that island."
+<span class="alexander">"About what's really on that island."</span>
 
 Your gaze shifts back to Chapel Island. For a moment, you swear you see a flicker of light among the trees. [[Your heart pounds in your chest.->Ch6Pg0]]</span><</type>>

@@ -1,26 +1,26 @@
 :: Ch5Pg2C2
 <<type 40ms>>
 <span class="dialogue">
-Alexander crouches. pulls a handful of flat stones from his pocket, and skips one across the water. “Growing up a Wyatt, you learn a few things here or there. We've been guides and groundskeepers since before Edgewater was officially incorporated."
+Alexander crouches. pulls a handful of flat stones from his pocket, and skips one across the water. <span class="alexander">“Growing up a Wyatt, you learn a few things here or there. We've been guides and groundskeepers since before Edgewater was officially incorporated."</span>
 
-You watch the ripples spread. "Must be nice. Having that kind of continuity."
+You watch the ripples spread. <span class="arthur">"Must be nice. Having that kind of continuity."</span>
 
-"Sometimes." He skips another stone. "Sometimes it's just too much pressure. My job might not last much longer. The industry's failing. Not enough jobs in the summer to keep mouths fed in the winter. People are moving away." He offers you a stone. "Want to try?"
+<span class="alexander">"Sometimes."</span> He skips another stone. <span class="alexander">"Sometimes it's just too much pressure. My job might not last much longer. The industry's failing. Not enough jobs in the summer to keep mouths fed in the winter. People are moving away."</span> He offers you a stone. <span class="alexander">"Want to try?"</span>
 
 You take it. The rock is smooth and flat, perfect for skipping. You position it between your thumb and forefinger the way you remember your father teaching you, and throw.
 
 It sinks immediately.
 
-Alexander laughs warmly. "You gotta flick your wrist more. Here, watch."
+Alexander laughs warmly. <span class="alexander">"You gotta flick your wrist more. Here, watch."</span>
 
-He demonstrates, the stone bouncing five times across the darkening water. "See? It's all in the spin."
+He demonstrates, the stone bouncing five times across the darkening water. <span class="alexander">"See? It's all in the spin."</span>
 
 You try again. This time it skips twice before vanishing beneath the surface. Small victory.
 
-"Getting there," Alexander says. He's quiet for a moment, gazing out at the water.
+<span class="alexander">"Getting there,"</span> Alexander says. He's quiet for a moment, gazing out at the water.
 
-“If it’s so bad here, why don’t you move?”
+<span class="arthur">“If it’s so bad here, why don’t you move?”</span> you ask.
 
-"And do what? I can't really picture myself living anywhere else. I like the quiet. I like my little lakeside cottage and going out at night to fish under the stars." He gazes out at the water. "Who knows how long that quiet will last? The families are bringing in Northridge Mining.”
+<span class="alexander">"And do what? I can't really picture myself living anywhere else. I like the quiet. I like my little lakeside cottage and going out at night to fish under the stars."</span> He gazes out at the water. <span class="alexander">"But with the mining proposal, who knows how long that quiet will last?”</span>
 
 Your attention sharpens. [[“What mining proposal?”->Ch5Pg2C3]]</span><</type>>

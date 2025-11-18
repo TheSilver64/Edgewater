@@ -83,7 +83,7 @@ Edgewater
 <<cacheaudio "forest" "src/source/sound/forest.mp3">>
 <<cacheaudio "treehouseMemory" "src/source/sound/treehouse_memory.mp3">>
 <<cacheaudio "wolfHowl" "src/source/sound/wolf_howl.mp3">>
-<<cacheaudio "motherMemory" "src/source/sound/treehouseMemory.mp3">>
+<<cacheaudio "motherMemory" "src/source/sound/mother_memory.mp3">>
 <<cacheaudio "ambienceNeg" "src/source/sound/ambi_neg.mp3">>
 
 /* chapter 6 */
@@ -253,6 +253,14 @@ body {
 /* Space between UI bar tray and UI bar body equal to thumbnail→menu gap */
 #ui-bar-tray {
     margin-bottom: 4em; /* same as .story-thumb bottom margin */
+}
+
+/* Font Stylization for Flashbacks */
+.flashback {
+    letter-spacing: 0.5px;
+    opacity: 0.75;
+    filter: blur(0.25px);
+
 }
 
 /* Story Fonts */
