@@ -36,6 +36,30 @@ Edgewater
 
 
 :: StoryInit
+<<set $story_flags to {
+    "prologue_choice": 0,
+    "calm_down_method": 0,
+    "learned_executor": 0, 
+    "hepburn_convo_funeral": 0, 
+    "ashford_convo_funeral": 0, 
+    "wyatt_convo_funeral": 0,
+    "sibling_convo": 0,
+    "explored_livingroom": 0,
+    "explored_kitchen": 0,
+    "explored_entryway": 0,
+    "explored_parents_room": 0,
+    "explored_doves_room": 0,
+    "explored_room": 0,
+    "explored_winona_room": 0,
+    "explored_bathroom": 0,
+    "explored_basement": 0,
+    "explore_outside": 0,
+    "who_you_call": 0,
+    "herb1": 0,
+    "herb2": 0,
+    "herb3": 0
+}>>
+
 /* prologue */
 <<cacheaudio "ambiencePrologue" "src/source/sound/prologue_ambi.mp3">>
 <<cacheaudio "nightmareA" "src/source/sound/nightmare_a.mp3">>

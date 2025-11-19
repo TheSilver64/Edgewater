@@ -76,7 +76,7 @@
 /*--code for story flags--*/
 // Map containing story flags. 0 is the default value, 
 // so flags are tripped to be 1 or 2 to avoid possible bugs
-window.story_flags = new Map([
+/*SugarCube.State.variables.story_flags = new Map([
     // prologue
     ["prologue_choice", 1],  // determines which nightmare player gets: 1 or 2 (used in ch1)
     // ch1
@@ -102,20 +102,21 @@ window.story_flags = new Map([
     ["explore_outside", 0], // 1: forest, 2: garden, 3: lakeside
     // ch6
     // Act 1 Epilogue
-    ["who_you_call", 0] // 1:Olivia, 2: Isaac, 3: Rachel
+    ["who_you_call", 0], // 1:Olivia, 2: Isaac, 3: Rachel
 
     ["herb1", 0],
     ["herb2", 0],
     ["herb3", 0]
-]);
+]);*/
 
 // Updates a specified flag key to a given value
 window.update_flag = function (key, value) {
-    story_flags.set(key, value);
+    SugarCube.State.variables.story_flags[key] = value;
+    return "";
 }
 // Gets the value of a specified flag key
 window.get_flag = function (key) {
-    return story_flags.get(key);
+    return SugarCube.State.variables.story_flags[key];
 }
 /*--end--*/
 

@@ -647,13 +647,85 @@ a.link-external:visited {
     font-size: 50px;
     text-align: center;
 }
-</style><script role="script" id="twine-user-script" type="text/twine-javascript">
-//Sugarcube js code starts here:
+</style><script role="script" id="twine-user-script" type="text/twine-javascript">/* === character dialogue macros === */
+
+/**
+ * each line of dialogue will get a <span> with the correct class and hover glow
+ * 
+ *  usage:
+ * <<arthur "I'm sorry, Winona.|I shouldn't have abandoned you.">>
+ * splits on | to create multiple lines 
+ * 
+ * supernatural glow:
+ * <<arthur-glow "I'm sorry, Winona.|I shouldn't have abandoned you.">>
+ */
+(function() {
+    const characters = [
+        "arthur","winona","dove","namid","silas","olivia","colin","harold","martha",
+        "rhona","isaac","alexander","rachel","asiniiwin","npc"
+    ];
+    characters.forEach(name => { // character macro
+        Macro.add(name, {
+            handler: function() {
+                if(this.args.length === 0) return;
+                const lines = this.args.join(" ").split("|");
+                lines.forEach(line => {
+                    const el = document.createElement("span");
+                    el.className = name;
+                    el.textContent = line.trim();
+                    this.output.appendChild(el);
+                    this.output.appendChild(document.createElement("br"));
+                });
+            }
+        });
+        Macro.add(name + "-glow", { // supernatural glow macro
+            handler: function() {
+                if(this.args.length === 0) return;
+                const lines = this.args.join(" ").split("|");
+                lines.forEach(line => {
+                    const el = document.createElement("span");
+                    el.className = name + " supernatural-glow";
+                    el.textContent = line.trim();
+                    this.output.appendChild(el);
+                    this.output.appendChild(document.createElement("br"));
+                });
+            }
+        });
+    });
+    Macro.add("scary", { // scary text macro
+        handler: function() {
+            if(this.args.length === 0) return;
+            const lines = this.args.join(" ").split("|");
+            lines.forEach(line => {
+                const el = document.createElement("span");
+                el.className = "scary";
+                el.textContent = line.trim();
+                this.output.appendChild(el);
+                this.output.appendChild(document.createElement("br"));
+            });
+        }
+    });
+    Macro.add("superScary", { // super scary text macro
+        handler: function() {
+            if(this.args.length === 0) return;
+            const lines = this.args.join(" ").split("|");
+            lines.forEach(line => {
+                const el = document.createElement("span");
+                el.className = "super-scary supernatural-glow";
+                el.textContent = line.trim();
+                this.output.appendChild(el);
+                this.output.appendChild(document.createElement("br"));
+            });
+        }
+    });
+})();
+
+//Story Flags:
 
 /*--code for story flags--*/
 // Map containing story flags. 0 is the default value, 
 // so flags are tripped to be 1 or 2 to avoid possible bugs
-window.story_flags = new Map([
+/*SugarCube.State.variables.story_flags = new Map([
     // prologue
     ["prologue_choice", 1],  // determines which nightmare player gets: 1 or 2 (used in ch1)
     // ch1
@@ -680,20 +752,20 @@ window.story_flags = new Map([
     // ch6
     // Act 1 Epilogue
     ["who_you_call", 0], // 1:Olivia, 2: Isaac, 3: Rachel
-    // Book pages
+
     ["herb1", 0],
     ["herb2", 0],
     ["herb3", 0]
-]);
+]);*/
 
 // Updates a specified flag key to a given value
 window.update_flag = function (key, value) {
-    story_flags.set(key, value);
-    return ""; // so we don't see '[undefined]' in the passages
+    SugarCube.State.variables.story_flags[key] = value;
+    return "";
 }
 // Gets the value of a specified flag key
 window.get_flag = function (key) {
-    return story_flags.get(key);
+    return SugarCube.State.variables.story_flags[key];
 }
 /*--end--*/
 
@@ -762,7 +834,31 @@ window.textCrawl = async function (id, text) {
       &lt;&lt;/button&gt;&gt;
     &lt;/li&gt;
   &lt;/ul&gt;
-&lt;/div&gt;</tw-passagedata><tw-passagedata pid="5" name="StoryInit" tags="" position="600,100" size="100,100">/* prologue */
+&lt;/div&gt;</tw-passagedata><tw-passagedata pid="5" name="StoryInit" tags="" position="600,100" size="100,100">&lt;&lt;set $story_flags to {
+    &quot;prologue_choice&quot;: 0,
+    &quot;calm_down_method&quot;: 0,
+    &quot;learned_executor&quot;: 0, 
+    &quot;hepburn_convo_funeral&quot;: 0, 
+    &quot;ashford_convo_funeral&quot;: 0, 
+    &quot;wyatt_convo_funeral&quot;: 0,
+    &quot;sibling_convo&quot;: 0,
+    &quot;explored_livingroom&quot;: 0,
+    &quot;explored_kitchen&quot;: 0,
+    &quot;explored_entryway&quot;: 0,
+    &quot;explored_parents_room&quot;: 0,
+    &quot;explored_doves_room&quot;: 0,
+    &quot;explored_room&quot;: 0,
+    &quot;explored_winona_room&quot;: 0,
+    &quot;explored_bathroom&quot;: 0,
+    &quot;explored_basement&quot;: 0,
+    &quot;explore_outside&quot;: 0,
+    &quot;who_you_call&quot;: 0,
+    &quot;herb1&quot;: 0,
+    &quot;herb2&quot;: 0,
+    &quot;herb3&quot;: 0
+}&gt;&gt;
+
+/* prologue */
 &lt;&lt;cacheaudio &quot;ambiencePrologue&quot; &quot;src/source/sound/prologue_ambi.mp3&quot;&gt;&gt;
 &lt;&lt;cacheaudio &quot;nightmareA&quot; &quot;src/source/sound/nightmare_a.mp3&quot;&gt;&gt;
 &lt;&lt;cacheaudio &quot;nightmareB&quot; &quot;src/source/sound/nightmare_b.mp3&quot;&gt;&gt;
