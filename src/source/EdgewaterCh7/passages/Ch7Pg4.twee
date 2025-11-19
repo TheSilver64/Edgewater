@@ -1,11 +1,10 @@
 :: Ch7Pg4
 <<audio "tvNeutral" stop>>
-<<audio "tvScary" stop>>
-<<type 40ms>>
+<<type 50ms>>
 <span class="dialogue">
 Your heart hammers against your ribs as your mathematician’s mind buzzes, trying to calculate probabilities, to find rational explanations. <span class="arthur">“That can’t be possible… it has to be a–”</span>
 
-<span class="winona">“Don’t.”</span> Winona’s eyes snap to yours, and the fear that once dwelled within has been burned into conviction. <span class="winona">“Don’t tell me it’s a coincidence. You heard what the reporter said. The hiker had a red backpack. Don’t tell me that dreams don’t predict things, when Mom used to say that dreams were warning, that we should listen–.”</span>
+<span class="winona">“Don’t.”</span> Winona’s eyes snap to yours, and the fear that once dwelled within has been burned into conviction. <span class="winona">“Don’t tell me it’s a coincidence. You heard what the reporter said. The hiker had a red backpack. Don’t tell me that dreams don’t predict things, when Mom used to say that dreams were warnings, that we should listen–.”</span>
 
 <span class="arthur">“Mom also said that a man turned into a rock,”</span> you interrupt roughly, skepticism clinging to every word like well-fitted armor. <span class="arthur">“It’s not proof. This is all just…”</span>
 
@@ -19,7 +18,7 @@ Dove’s shaking, convulsing body. Eyes rolled back into unseeing white. Lip bit
 
 <span class="arthur">“...it’s just a coincidence,”</span> you say, but the words crumble to ash in your mouth. 
 
-Winona opens her mouth, about to retort, but decides better against it. She takes her bowl away and stands up, her chair screeching on the tile. She tosses an envelope towards you.The front is stamped in red–CONFIDENTIAL. Your heart skips a beat. The will. You’d almost forgotten. 
+Winona opens her mouth, about to retort, but decides better against it. She takes her bowl away and stands up, her chair screeching on the tile. She tosses an envelope towards you. The front is stamped in red–CONFIDENTIAL. Your heart skips a beat. The will. You’d almost forgotten. 
 
 <span class="winona">“Better have this. The reading is tonight.”</span> Her back now turned, she dumps her cereal in the sink. Her voice is detached, numb. <span class="winona">“The least you can do is prepare. We’re gonna need all the money we can get.”</span>
 
@@ -27,4 +26,4 @@ You stare at the letter. The red words swim before your eyes.
 
 The tap turns off. You hear the quick taps of Winona’s feet on the stairs, and then she’s gone, disappearing within the recesses of her room. 
 
-[[You need air.->Ch7Pg3]]</span><</type>>
+[[You need air.->Ch7Pg5]]</span><</type>>

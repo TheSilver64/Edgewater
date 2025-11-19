@@ -94,7 +94,9 @@ Edgewater
 <<cacheaudio "teaserAmbience" "src/source/sound/teaser_ambience.mp3">>
 <<cacheaudio "tvNeutral" "src/source/sound/tv_neutral.mp3">>
 <<cacheaudio "tvScary" "src/source/sound/tv_scary.mp3">>
+<<cacheaudio "mainThemeAmbi" "src/source/sound/main_theme_ambi.mp3">>
 /*<<cacheaudio "lighter" "source/sound/lighting_cigarette.mp3">>*/
+<<cacheaudio "nightmareBeat" "src/source/sound/nightmare_beat.mp3">>
 
 :: StoryStylesheet [stylesheet]
 #menu-core {

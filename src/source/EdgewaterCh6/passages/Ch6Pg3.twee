@@ -1,10 +1,5 @@
 :: Ch6Pg3
-<<repeat 152s>>
-<<audio "seizure" stop>>
-<<audio "seizure" play>>
-<</repeat>>
-<<type 20ms>>
-<div class=chStart>The Medicine Cabinet</div>
+<<type 60ms>>
 <span class="dialogue">
 You burst through the bathroom door and slam your palm against the light switch. The medicine cabinet is behind the side mirror. Your hands are shaking so badly you can barely grip the mirror’s edge. You pry it open and rifle through the bottles. They rattle and one tips over, crashing into the sink basin.
 
@@ -14,7 +9,7 @@ Your eyes scan frantically: Ibuprofen, melatonin, benadryl–there! CARBAMAZEPIN
 
 You grab it and try to twist. Your sweaty fingers slip.
 
-<span class="scary">“ARTY–!” she’s nearly hysterical.</span>
+<span class="scary"><span class="winona">“ARTY–!”</span></span> she’s nearly hysterical.
 
 <span class="arthur">“I’m coming!”</span> you push down hard and twist. The cap pops off, tablets spilling across the countertop. How many do you need? Doesn’t matter. Just grab a handful.
 

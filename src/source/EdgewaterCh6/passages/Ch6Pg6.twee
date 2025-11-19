@@ -1,12 +1,11 @@
 :: Ch6Pg6
-<<repeat 152s>>
-<<audio "seizure" stop>>
-<<audio "seizure" play>>
-<</repeat>>
-<<type 40ms>>
-<span class="winona">“NO.”</span> the word cracks like an ice sheet across the lake in winter. Winona glares at you, her red-rimmed eyes blazing with contempt. 
+<<audio "ambienceBasement" play volume 0>>
+<<audio "ambienceBasement" fadeoverto 3 0.5>>
+<<type 60ms>>
+<span class="dialogue">
+<span class="scary"><span class="winona">“NO.”</span></span> the word cracks like an ice sheet across the lake in winter. Winona glares at you, her red-rimmed eyes blazing with contempt. 
 
-<span class="winona">“You think you can just waltz in here and play hero?”</span> her voice drips with derision. 
+<span class="scary"><span class="winona">“You think you can just waltz in here and play hero?”</span></span> her voice drips with derision. 
 
 <span class="arthur">“Winny, I just want to help–"</span>
  
@@ -22,7 +21,7 @@ Your throat tightens. <span class="arthur">“I’m here now–”</span>
 
 You open your mouth. Close it. She’s right. You don’t know anything.
 
-Dove whimpers in her arms. Winona’s voice drops to a harsh whisper, but the fury never leaves her eyes. <span class="winona">“That’s what I thought. You know what Dove needs? What she really needs right now? To be with her family. Her actual family.”</span> 
+Dove whimpers in her arms. Winona’s voice drops to a harsh whisper, but the fury never leaves her eyes. <span class="winona">“That’s what I thought. You know what Dove needs? What she really needs right now? To be with her family. </span><span class="scary"><span class="winona">Her actual family.”</span></span>
 
 You flinch. <span class="arthur">“Winny–”</span> your voice splinters.
 

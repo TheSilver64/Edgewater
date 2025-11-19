@@ -1,6 +1,9 @@
 :: Ch6Pg0
 <<audio "treehouseMemory" stop>>
 <<audio "ambienceChap5" stop>>
-<<timed 1s>><span class="fade-in"><span class="dialogue"><div class="chTitle">Chapter Six</div></span></span><</timed>>
-<<timed 3s>><span class="fade-in"><center><img src="Images/ch6.png" height="432px" width="540px"></center></span><</timed>>
-<<timed 5s>><span class="fade-in"><div class="chStart">[[The Night Terror->Ch6Pg1]]</div></span><</timed>>
+<<audio "ambienceNeg" stop>>
+<<audio "ambienceBasement" play volume 0>>
+<<audio "ambienceBasement" fadeoverto 3 1>>
+<<timed 3s>><span class="fade-in"><span class="dialogue"><div class="chTitle">Chapter Six</div></span></span><</timed>>
+<<timed 6s>><span class="fade-in"><center><img src="Images/ch6.png" height="432px" width="540px"></center></span><</timed>>
+<<timed 9s>><span class="fade-in"><div class="chStart">[[The Night Terror->Ch6Pg1]]</div></span><</timed>>

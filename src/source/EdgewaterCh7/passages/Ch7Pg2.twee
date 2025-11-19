@@ -1,11 +1,6 @@
 :: Ch7Pg2
 <<audio "tvNeutral" stop>>
 <<audio "tvScary" stop>>
-<<repeat 186s>>
-<<audio "teaserMorningAmbience" stop>>
-<<audio "teaserMorningAmbience" play>>
-<</repeat>>
-<div class=chStart>The Kitchen</div>
 <<type 40ms>>
 <span class="dialogue">
 Winona sits at the dining table. She’s pushed aside the legal documents to make room for a bowl of cereal, a coffee mug, and a plate of blackened toast. She’s already dressed, hair tied in a loose bun. She stares listlessly at her bowl of cereal, swirling its soggy mass around with a spoon. The heat rises from the coffee mug she clutches with her other hand. It refracts the morning rays of sun like the last tendrils of fog across the lake.
@@ -17,12 +12,11 @@ Winona sits at the dining table. She’s pushed aside the legal documents to mak
 <span class="winona">“Still asleep. She kept whimpering in her sleep. I had to increase her medication dose to finally knock her out.”</span> She sighs and pushes a strand of hair out of her face. The silence stretches between you, thick and heavy like the cold sludge her cereal has become. Neither of you seems to know where to start after last night’s conversation. 
 
 For a moment, the only sounds are the clink of her spoon against ceramic. Winona shifts in her seat. Take a sip of her coffee. She winces at the bitterness. As if soured by both the coffee and the silence, she sets the cup down and reaches for the remote. The television clicks on. 
-
-</span><</type>><<type 40ms>><span class="dialogue"><<audio "teaserMorningAmbience" stop>><<audio "tvNeutral" play>>
+</span><</type>><<type 40ms>><span class="dialogue"><<audio "tvNeutral" play loop>>
 The screen flickers to life. The background hum of the morning news anchor’s voice is a welcome distraction from the tension. You sip your coffee, letting the hot biting bitterness course through your veins. It’s just what you need. 
-</span><</type>><<type 40ms>><span class="dialogue"><<audio "tvNeutral" stop>><<audio "tvScary" play>><<repeat 127s>><<audio "tvScary" stop>><<audio "tvScary" play>><</repeat>>
+</span><</type>><<type 60ms>><span class="dialogue"><<audio "tvNeutral" stop>><<audio "tvScary" play>>
 On screen, the weather forecast transitions to breaking news. A red banner scrolls across the bottom:
 
-<span class="super-scary">[[BREAKING–FATAL INCIDENT NEAR EDGEWATER.->Ch7Pg3]]</span>
+<span class="super-scary supernatural-glow" style="font-family: 'Title Font';"><span class="scary-link">[[BREAKING–FATAL INCIDENT NEAR EDGEWATER.->Ch7Pg3]]</span></span>
 </span>
 <</type>>

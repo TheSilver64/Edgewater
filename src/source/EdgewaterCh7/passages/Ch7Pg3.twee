@@ -1,13 +1,10 @@
 :: Ch7Pg3
 <<audio "tvNeutral" stop>>
-<<audio "tvScary" stop>>
-<<type 40ms>>
+<<type 60ms>>
 <span class="dialogue">
 Winona looks up.  
 
-<span class="scary">Thump. Thump. Thump.</span> 
-
-Your ears flood with the sound of your own racing pulse, drowning out the anchor’s voice. You only catch snippets:
+<span class="scary">Thump. Thump. Thump.</span> Your ears flood with the sound of your own racing pulse, drowning out the anchor’s voice. You only catch snippets:
 
 <span class="scary">“–reports of a fatal animal attack early this morning–”
 

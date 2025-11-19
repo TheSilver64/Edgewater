@@ -1,8 +1,10 @@
 :: Ch7Pg6
 <<audio "pianoB" stop>>
 <<audio "chimes" stop>>
-<<audio "ambienceNeg" stop>>
-<<audio "nightmareA" stop>>
-<<timed 1s>><span class="fade-in"><span class="dialogue"><div class="chTitle">End of Act One</div></span></span><</timed>>
-<<timed 3s>><span class="fade-in"><center><img src="Images/thmb_no_txt.png" height="432px" width="540px"></center></span><</timed>>
-<<timed 5s>><span class="fade-in"><div class="chStart">[[To Be Continued...->creditsPg0]]</div></span><</timed>>
+<<audio "mainThemeAmbi" fadeoverto 15 0>>
+<<timed 14s>><<audio "nightmareBeat" play>><</timed>>
+
+<<timed 6s>><span class="fade-in"><span class="dialogue"><div class="chTitle">End of Act One</div></span></span><</timed>>
+<<timed 10s>><span class="fade-in"><center><img src="Images/thmb_no_txt.png" height="432px" width="540px"></center></span><</timed>>
+<<timed 14s>><span class="fade-in"><div class="chStart">[[To Be Continued...->creditsPg0]]</div></span><</timed>>
+<<timed 7s>><<audio "nightmareBeat" play volume 0>> <<audio "nightmareBeat" fadeoverto 7 0.5>><</timed>>

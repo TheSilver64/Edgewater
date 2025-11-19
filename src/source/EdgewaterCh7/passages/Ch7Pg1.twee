@@ -1,12 +1,6 @@
 :: Ch7Pg1
 <<audio "tvNeutral" stop>>
 <<audio "tvScary" stop>>
-<<audio "teaserMorningAmbience" stop>>
-<<audio "teaserMorningAmbience" play>>
-<<repeat 186s>>
-<<audio "teaserMorningAmbience" stop>>
-<<audio "teaserMorningAmbience" play>>
-<</repeat>>
 <<type 40ms>>
 <span class="dialogue">
 You wake to the smell of morning dew and burnt toast. Sunlight streams through your old bedroom window—you left them open, the crisp autumn air banishing all remnants of dust in the room. The curtains float and sway–you watch their dance as your mind sluggishly reboots itself.
@@ -24,5 +18,4 @@ How much sleep did you get? The throbbing headache threatening to burst from you
 The earthy, almost caramel scent of freshly brewed coffee emanates from your door, joining the sounds and smells of breakfast. Caffeine would banish your headache.
 
 You untangle yourself from your mildewed, dust-ridden bedsheets and [[drag yourself downstairs.->Ch7Pg2]] 
-</span>
 <</type>>

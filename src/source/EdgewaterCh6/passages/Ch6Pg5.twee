@@ -1,17 +1,16 @@
 :: Ch6Pg5
-<<repeat 152s>>
-<<audio "seizure" stop>>
-<<audio "seizure" play>>
-<</repeat>>
-<<type 20ms>>
+<<audio "pianoB" play volume 0>>
+<<audio "seizure" fadeoverto 5 0>>
+<<audio "pianoB" fadeoverto 5 1>>
+<<type 80ms>>
 <span class="dialogue">
 The words are raw, slurred together through her blood-slick lips. 
 
 <span class="winona">“Shh…”</span> Winona smooths Dove’s sweat-soaked hair back from her forehead. <span class="winona">“It’s alright, baby. You can rest. You’re okay now–”</span> she says in a gentle, soothing cadence. 
 
-<span class="dove">“No.”</span> She croaks. Dove’s hand shoots out and squeezes Winona’s wrist. Her eyes are dilated, boring directly into yours. <span class="scary">“No. He’s hunting.”</span> The words send a shiver down your spine. 
+<span class="dove">“No.”</span> She croaks. Dove’s hand shoots out and squeezes Winona’s wrist. Her eyes are dilated, boring directly into yours. <span class="super-scary supernatural-glow" style="font-family: 'Title Font';">“No. He’s hunting.”</span></span> The words send a shiver down your spine. 
 
-<span class="super-scary">“He smells my red backpack. Running. Running through the trees. Closer and closer until–”</span> she chokes, <span class="super-scary">“he’s right behind me–”</span>
+<span class="super-scary supernatural-glow" style="font-family: 'Title Font';"><span class="scary-link">“He smells my red backpack. Running. Running through the trees. Closer and closer until–”</span></span> she chokes, <span class="super-scary supernatural-glow" style="font-family: 'Title Font';">“he’s right behind me–”</span>
 
 She gags and vomits on herself–thin, bile-yellow liquid that reeks of stomach acid. 
 
@@ -19,7 +18,7 @@ Winona grabs a towel from the floor and presses it to Dove’s mouth. <span clas
 
 <span class="dove">“It’s NOT–!”</span> Dove’s scream strains like fingernails scraping on glass. Fresh tears cut through the layers of body fluids on her face. <span class="dove">“It’s NOT a nightmare! He’s real! The wolf is real and he’s–he’s–”</span>
 
-“Dove, please calm down!”
+<span class="winona">“Dove, please calm down!”</span>
 
 <span class="dove">“You have to believe me!”</span> She’s sobbing now, her small frame wracked with tremors. <span class="dove">“You have to! His eyes–and his teeth–”</span>
 
@@ -29,6 +28,5 @@ Winona pulls her into an embrace, rocking her gently. <span class="winona">“Sh
 
 Doves bawls into her shoulder. 
 
-You stand frozen in the doorway. The words drop from your lips, <span class="arthur">“I can stay here too,”</span> you offer helplessly, <span class="arthur">[[“In case it happens again. I can sleep on the floor, keep watch–”->Ch6Pg6]]</span>
-</span>
+You stand frozen in the doorway. The words drop from your lips, <span class="arthur">“I can stay here too,”</span> you offer helplessly, [[“In case it happens again. I can sleep on the floor, keep watch–”->Ch6Pg6]]
 <</type>>
