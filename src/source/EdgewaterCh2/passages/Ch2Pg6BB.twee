@@ -17,11 +17,11 @@ It's noncommittal, but Isaac seems satisfied. He beams, clapping you on the shou
 
 There's a warning in those words. Is it out of kindness? 
 
-Isaac reaches into his suit jacket and produces a business card, pressing it into your hand. Gold embossed letters read: <span class="isaac"><span class "supernatural-glow">ISAAC ASFORD–Edgewater Mayor Candidate and Public Servant.</span></span>
+Isaac reaches into his suit jacket and produces a business card, pressing it into your hand. Gold embossed letters read: <span class="isaac"><span class="supernatural-glow">ISAAC ASHFORD–Edgewater Mayor Candidate and Public Servant.</span></span>
 
 <span class="isaac">"Here's my number. Give me a call if you need anything—or just come to the debate. And the fundraiser. We'll talk more then."</span>
 
-Then the Ashfords are moving away, leaving you standing on the cemetery grass.</span><</type>>
+Then the Ashfords are moving away, leaving you standing on the cemetery grass.<</type>>
 <<if window.get_flag("learned_executor") > 0 && window.get_flag("learned_executor") < 3>><<type 40ms>><span class="dialogue">Around you, the funeral crowd continues to thin. But there are still more who you could approach. That’s if you can stomach more conversation.</span><</type>><</if>>
 <<if window.get_flag("hepburn_convo_funeral") == 0>><<type 40ms>><span class="dialogue">[[Talk to the familiar woman and the older man.-> Ch2Pg6A]] </span><</type>><</if>><<nobr>>
 <<if window.get_flag("wyatt_convo_funeral") == 0>><<type 40ms>><span class="dialogue">[[Talk to the older woman by herself. -> Ch2Pg6C]]</span><</type>><</if>><</nobr>><<nobr>>
